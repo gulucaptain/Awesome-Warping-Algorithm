@@ -10,8 +10,8 @@ from urllib.parse import quote, urlencode, urlparse
 ROOT = Path(__file__).resolve().parents[1]
 
 def newest_first(works):
-    """Keep catalog order within a year; undated foundations follow dated work."""
-    return sorted(works, key=lambda w: (w['year'] is None, -(w['year'] or 0)))
+    """Keep catalog order within a publication year."""
+    return sorted(works, key=lambda w: -w['year'])
 
 
 def validate_catalog(data):
@@ -22,17 +22,28 @@ def validate_catalog(data):
     areas = {a['id'] for a in data['areas']}
     topics = {t['id']: t for t in data['topics']}
     technologies = {t['id'] for t in data['technologies']}
+    titles = [re.sub(r'[\W_]+', '', (w.get('paper_title') or w['name']).casefold()) for w in data['works']]
+    assert len(titles) == len(set(titles)), 'Duplicate normalized paper titles'
+    arxiv_ids = [re.sub(r'v\d+$', '', w['arxiv'].rstrip('/').rsplit('/', 1)[-1])
+                 for w in data['works'] if w.get('arxiv')]
+    assert len(arxiv_ids) == len(set(arxiv_ids)), 'Duplicate arXiv papers'
     numbers = [t['number'] for t in data['topics']]
     assert len(numbers) == len(set(numbers)), 'Duplicate topic numbers'
     assert {t['area'] for t in data['topics']} == areas, 'Missing or unknown research area'
     for work in data['works']:
+        assert work.get('paper_title'), f'Missing specific paper title: {work["id"]}'
+        assert work.get('paper_label') != 'Reference', f'Background reference in paper catalog: {work["id"]}'
         assert work['paper'], f'Missing source: {work["id"]}'
         assert work['primary_topic'] in topics, f'Unknown primary topic: {work["id"]}'
         assert work['primary_topic'] in work['topics'], f'Primary topic missing from tags: {work["id"]}'
         assert len(work['topics']) == len(set(work['topics'])), f'Duplicate topic tags: {work["id"]}'
         assert set(work['topics']) <= topics.keys(), f'Unknown topic tag: {work["id"]}'
         assert set(work['technology']) <= technologies, f'Unknown technique: {work["id"]}'
-        assert work['year'] is None or type(work['year']) is int, f'Invalid year: {work["id"]}'
+        assert type(work['year']) is int, f'Invalid year: {work["id"]}'
+        citation = work.get('citation_snapshot')
+        if citation:
+            assert type(citation['cited_by_count']) is int and citation['cited_by_count'] >= 0, f'Invalid citation count: {work["id"]}'
+            assert citation['record_id'] and citation['source_url'] and citation['as_of'], f'Missing citation provenance: {work["id"]}'
     for topic in data['topics']:
         members = [w for w in data['works'] if w['primary_topic'] == topic['id']]
         tagged = [w for w in data['works'] if topic['id'] in w['topics']]
@@ -142,22 +153,22 @@ def render(lang, data=None):
                 catalog_parts += [('**待扩展：** 已预留方向，尚未收录论文。后续优先收录与空间对应、重投影、形变、噪声输运或时空对齐直接相关的工作。'
                                    if chinese else '**Reserved:** No papers collected yet. Future entries should directly connect to spatial correspondence, reprojection, deformation, noise transport or spatiotemporal alignment.'), '']
             else:
-                def year_label(year):
-                    return str(year) if year is not None else ('基础模型（无单一年份）' if chinese else 'Foundational models (undated)')
                 catalog_parts += ['\n---\n\n'.join(entry(w) for w in members)]
                 related = newest_first([w for w in works if tid in w['topics'] and w['primary_topic'] != tid])
                 if related:
                     label = f'关联阅读 · {len(related)} 篇其他 Topic 的论文' if chinese else f'Related reading · {len(related)} papers in other topics'
-                    refs = '\n'.join(f'- [{w["name"]}](#{w["id"]}) ({year_label(w["year"])})' for w in related)
+                    refs = '\n'.join(f'- [{w["name"]}](#{w["id"]}) ({w["year"]})' for w in related)
                     catalog_parts += ['---\n', '<details>', f'<summary>{label}</summary>', '', refs, '', '</details>', '']
             back = '↑ 返回 Topic 导航' if chinese else '↑ Back to topic navigation'
             top = f'↑ {topic["number"]} 本类开头' if chinese else f'↑ Start of {topic["number"]}'
             catalog_parts += [f'[{top}](#{tid}) · [{back}](#topics)\n\n---\n']
     name = 'README.zh-CN.template.md' if chinese else 'README.template.md'
     template = (ROOT / 'docs' / name).read_text()
+    reserved_count = sum(t['reserved'] for t in data['topics'])
+    reserved_note = (f'，其中 {reserved_count} 个待扩展' if chinese else f', including {reserved_count} reserved topics') if reserved_count else ''
     for key, value in {'STATS': stats, 'DATE': data['updated'],
                        'AREA_COUNT': str(len(data['areas'])), 'TOPIC_COUNT': str(len(data['topics'])),
-                       'RESERVED_COUNT': str(sum(t['reserved'] for t in data['topics'])),
+                       'RESERVED_NOTE': reserved_note,
                        'TECH_COUNT': str(len(data['technologies'])), 'TECHNOLOGIES': '\n'.join(tech_rows),
                        'TOPICS': '\n'.join(topic_rows), 'CATALOG': '\n'.join(catalog_parts)}.items():
         template = template.replace('{{' + key + '}}', value)

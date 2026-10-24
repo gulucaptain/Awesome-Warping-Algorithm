@@ -1,6 +1,6 @@
 # Warping 研究指南
 
-> 当前文献主目录见 [中文 README 的 Topic 导航](../README.zh-CN.md#topics)：按六个研究板块、16 个 Topic 组织，每个 Topic 内按年份倒序排列。本指南保留原有年份表和领域表，作为历史研究备注；主分类与预留方向以 README 和 `data/catalog.json` 为准。
+> 当前文献主目录见 [中文 README 的 Topic 导航](../README.zh-CN.md#topics)：按六个研究板块、16 个 Topic 组织，每个 Topic 内按年份倒序排列。本指南保留原有年份表和领域表，作为历史研究备注；主分类以 README 和 `data/catalog.json` 为准。本轮新增论文与引用快照见 [扩充核验记录](EXPANSION_AUDIT.md)。
 
 [← 中文文献主页](../README.zh-CN.md) · [English guide](RESEARCH_GUIDE.md) · 本指南保留详细原理、分类比较、方法边界与选型说明。
 
@@ -29,6 +29,13 @@
 3. **应用系统**：配准、拼接、插帧、动态重建、视角合成、扩散生成等，决定“为什么进行 warping，以及如何修复不可见区域”。
 
 下文使用 **[模型]、[估计]、[算子]、[应用]、[相关]** 标注方法角色。光流网络是对应关系估计器；NeRF/3DGS 是场景表示与渲染体系；只有其中显式的形变、重投影或采样部分属于这里讨论的 warping。Attention 关联可用于隐式对齐，但通常不等价于一个可逆的几何坐标映射。
+
+<a id="c01"></a>
+### 基础概念：刚体、相似、仿射与单应性变换
+
+这是概念资料，不是具体论文，不列入论文正文与统计。刚体、相似、仿射与投影变换以不同自由度描述全局坐标映射；单应性可描述平面场景或固定光心纯旋转下的视图关系。通用三维平移产生的视差与非刚性运动不能由单一矩阵普遍解释。
+
+[OpenCV 几何原理与代码](https://docs.opencv.org/4.x/d9/dab/tutorial_homography.html)
 
 ### Forward 与 backward 的区别
 
@@ -71,7 +78,6 @@
 
 | ID | 方法 / 年份 | 技术角色与经典贡献 | 主要限制 | 原始资料 / 实现入口 |
 | --- | --- | --- | --- | --- |
-| <a id="c01"></a>C01 | **Rigid / Similarity / Affine / Homography**，基础模型 | [模型] 从全局刚体到投影变换；单应性可描述平面场景或固定光心纯旋转下的视图关系 | 通用三维平移、视差与非刚性运动不能由单一矩阵解释 | [OpenCV 几何原理与代码](https://docs.opencv.org/4.x/d9/dab/tutorial_homography.html) |
 | <a id="c02"></a>C02 | **Lucas–Kanade**，1981；**Inverse Compositional**，统一框架 IJCV 2004 | [估计] 用图像残差优化 warp 参数；逆组合形式允许复用部分计算，是直接法对齐的重要基础 | 对初始化、光度假设和局部极小值敏感 | [Baker & Matthews 原文](https://www.ri.cmu.edu/pub_files/pub3/baker_simon_2004_1/baker_simon_2004_1.pdf) |
 | <a id="c03"></a>C03 | **Horn–Schunck**，1981 | [估计] 亮度一致性与全局平滑正则结合，建立稠密变分光流的经典范式 | 运动边界易过度平滑；基础形式不适合大位移 | [Determining Optical Flow](https://doi.org/10.1016/0004-3702(81)90024-2) |
 | <a id="c27"></a>C27 | **Brox et al. Variational Optical Flow**，ECCV 2004 | [估计] 结合亮度/梯度一致性和保边正则，为粗到细 warping 的数值求解提供理论解释 | 强光照变化与严重遮挡会破坏数据假设 | [High Accuracy Optical Flow Estimation Based on a Theory for Warping](https://www.mia.uni-saarland.de/Publications/brox-eccv04-of.pdf) |

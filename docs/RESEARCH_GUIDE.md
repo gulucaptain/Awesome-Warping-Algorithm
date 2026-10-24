@@ -22,13 +22,20 @@ An optical-flow network estimates correspondence; it is not itself an interpolat
 
 See the [OpenCV transformation documentation](https://docs.opencv.org/4.x/da/d54/group__imgproc__transform.html) for inverse sampling and [Softmax Splatting](https://arxiv.org/abs/2003.05534) for differentiable forward aggregation.
 
+<a id="c01"></a>
+## Background concepts: rigid, similarity, affine and homography transforms
+
+This is a conceptual reference, not a specific paper, and is excluded from the paper catalog and statistics. Global rigid, similarity, affine and projective maps provide compact coordinate transformations. A homography models a plane or a change of view under pure rotation about a fixed optical center. One global matrix cannot generally explain 3D translation with parallax or nonrigid motion.
+
+[OpenCV homography tutorial](https://docs.opencv.org/4.x/d9/dab/tutorial_homography.html)
+
 ## Publication and evidence policy
 
-The collection uses six research areas and 16 topics. Each work has one primary topic and may have related topic tags. Within each topic, dated entries appear newest year first, followed by undated foundations. Published work uses its representative publication year; preprints use their preprint year. Entries combining foundational methods use the publication year of the linked representative paper. Earlier preprint dates remain in the publication history. Preprints and author-reported acceptance are distinguished from formal proceedings.
+The collection uses six research areas and 16 topics. Each work has one primary topic and may have related topic tags. Within each topic, papers appear newest year first. General concepts and documentation are excluded from paper listings and counts. Published work uses its representative publication year; preprints use their preprint year. Entries combining foundational methods use the publication year of the linked representative paper. Earlier preprint dates remain in the publication history. Preprints and author-reported acceptance are distinguished from formal proceedings.
 
-Spatial reasoning, world models, interactive simulation and embodied agents are reserved topics. New entries should directly connect to spatial correspondence, reprojection, deformation, noise transport or spatiotemporal alignment. The extended Chinese guide retains its historical year-based tables as background notes; the READMEs provide the current topic hierarchy.
+Spatial reasoning, world models, interactive simulation and embodied agents now contain representative work. Spatial maps and memory belong to spatial reasoning; prediction of future environment states belongs to world models; action-driven visual simulation belongs to interactive environments; closed-loop navigation and manipulation belong to embodied agents. Foundational prediction models are identified as related foundations, not explicit warping operators. New entries must fit the stated topic scope. The extended Chinese guide retains its historical year-based tables as background notes; the READMEs provide the current topic hierarchy.
 
-Primary papers and author resources support the entries. HF Paper links identify verified paper pages, not necessarily models or demos. Code provenance is labeled; shared-framework counts describe the entire repository. This collection does not independently reproduce every performance claim.
+Primary papers and author resources support the entries. HF Paper links identify verified paper pages, not necessarily models or demos. Code provenance is labeled; shared-framework counts describe the entire repository. This collection does not independently reproduce every performance claim. The [expansion audit](EXPANSION_AUDIT.md) records this batch's topic assignments, primary sources and OpenAlex citation snapshots. Counts refer to individual matched records as queried on 2026-10-24; preprint and publication records are not summed or treated as a cross-field ranking.
 
 <a id="trends"></a>
 ## Major developments

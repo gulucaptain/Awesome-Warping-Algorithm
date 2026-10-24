@@ -36,9 +36,9 @@ Warping maps pixels, features, and noise across space and time, providing a foun
 
 The collection focuses on **spatial warping** in computer vision, graphics and medical imaging. It distinguishes transformation models, correspondence estimators, resampling operators and application pipelines. Time-series DTW and GPU execution warps are outside its scope.
 
-Entries follow **research area → topic**, with papers listed newest year first within each topic. Each topic opens with a scope and paper-count block. Papers follow a consistent sequence: full paper title (venue and year), one row of resource badges followed by technique tags, and a contribution summary. Full publication histories, code provenance and limitations remain in the bilingual catalog and research guides. Horizontal rules separate methods; classical and recent work appear together without year navigation or year groups. Published work uses its representative publication year, and preprints use their preprint year; publication histories are retained. Entries combining foundational methods use the publication year of the linked representative paper. Undated foundations appear last within their topic. Entries from the same year retain catalog order. Coverage ends on {{DATE}}. Descriptions are grounded in papers and author resources; the collection does not claim a unified reproduction of all methods.
+Entries follow **research area → topic**, with papers listed newest year first within each topic. Each topic opens with a scope and paper-count block. Papers follow a consistent sequence: full paper title (venue and year), one row of resource badges followed by technique tags, and a contribution summary. Full publication histories, code provenance and limitations remain in the bilingual catalog and research guides. Horizontal rules separate methods; classical and recent work appear together without year navigation or year groups. Published work uses its representative publication year, and preprints use their preprint year; publication histories are retained. Entries combining foundational methods use the publication year of the linked representative paper. General concepts and documentation are kept in the research guide and excluded from paper listings and counts. Entries from the same year retain catalog order. Coverage ends on {{DATE}}. Descriptions are grounded in papers and author resources; the collection does not claim a unified reproduction of all methods.
 
-Each work has one primary topic, with related tags and reading links for other directions. Spatial reasoning, world models, interactive simulation and embodied agents are reserved for future work directly connected to warping.
+Each work has one primary topic, with related tags and reading links for other directions. Extended sections distinguish spatial maps and memory, predictive world models, interactive simulators and closed-loop embodied agents. Foundational representations and prediction models are identified separately from explicit spatial warping operators. New papers must fit the stated scope of their topic.
 
 [Definitions, mapping conventions and evidence policy →](docs/RESEARCH_GUIDE.md#scope)
 
@@ -47,7 +47,7 @@ Each work has one primary topic, with related tags and reading links for other d
 <a id="topics"></a>
 ## 🗂️ Topic navigation
 
-{{AREA_COUNT}} research areas and {{TOPIC_COUNT}} topics, including {{RESERVED_COUNT}} reserved topics. Counts include primary entries only; related reading is not counted twice.
+{{AREA_COUNT}} research areas and {{TOPIC_COUNT}} topics{{RESERVED_NOTE}}. Counts include primary paper entries only; related reading is not counted twice.
 
 {{TOPICS}}
 
@@ -84,6 +84,7 @@ Methods can belong to multiple families. Follow a method name to its primary ent
 | Noise-warping statistics | [Why ordinary interpolation changes Gaussian noise](docs/RESEARCH_GUIDE.md#noise) |
 | Implementation and method selection | [Tools and practical starting points](docs/RESEARCH_GUIDE.md#practice) |
 | Extended research notes | [Detailed Chinese guide](docs/RESEARCH_GUIDE.zh-CN.md) |
+| Selection evidence and citation snapshots | [2026-10-24 expansion audit](docs/EXPANSION_AUDIT.md) |
 
 <a id="contributing"></a>
 ## 🤝 Contributing
@@ -92,7 +93,7 @@ Suggestions, corrections and verified links are welcome through [Issues](https:/
 
 Please include the **paper title, publication year/status, Paper, Project, GitHub, technique family, primary topic and related topic tags**. Leave unavailable links empty, and distinguish author implementations, third-party reimplementations and shared frameworks.
 
-Edit [the bilingual catalog](data/catalog.json) and run `python3 scripts/build_readme.py` to update both READMEs. Counts and indexes use the same data; check consistency with `python3 scripts/build_readme.py --check`. Set each work's unique home with `primary_topic`; `topics` contains that home and related directions. When adding papers to a reserved topic, set its `reserved` flag to `false`.
+Edit [the bilingual catalog](data/catalog.json) and run `python3 scripts/build_readme.py` to update both READMEs. Counts and indexes use the same data; check consistency with `python3 scripts/build_readme.py --check`. Set each work's unique home with `primary_topic`; `topics` contains that home and related directions. When adding papers to a reserved topic, set its `reserved` flag to `false`. Prioritize topic fit, verified publication records and established impact. Citation snapshots must name the provider, matched record and query date; do not add preprint and publication counts together. See the [curation audit](docs/EXPANSION_AUDIT.md) for this expansion.
 
 <details>
 <summary>Design references and acknowledgments</summary>
