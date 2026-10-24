@@ -4,47 +4,83 @@
     {
       "id": "T1",
       "name": "参数化几何变换",
-      "description": "刚体 / 相似 / 仿射 / 单应性"
+      "description": "刚体 / 相似 / 仿射 / 单应性",
+      "en": {
+        "name": "Parametric geometry",
+        "description": "Rigid / similarity / affine / homography"
+      }
     },
     {
       "id": "T2",
       "name": "控制点、样条与连续插值",
-      "description": "TPS / RBF / FFD / B-spline / MLS"
+      "description": "TPS / RBF / FFD / B-spline / MLS",
+      "en": {
+        "name": "Control points and splines",
+        "description": "TPS / RBF / FFD / B-splines / MLS"
+      }
     },
     {
       "id": "T3",
       "name": "网格与局部形状保持",
-      "description": "分片变换 / ARAP / 局部投影"
+      "description": "分片变换 / ARAP / 局部投影",
+      "en": {
+        "name": "Meshes and local shape preservation",
+        "description": "Piecewise maps / ARAP / local projective models"
+      }
     },
     {
       "id": "T4",
       "name": "稠密对应与光流",
-      "description": "稠密 flow / 相关体 / 全局匹配"
+      "description": "稠密 flow / 相关体 / 全局匹配",
+      "en": {
+        "name": "Dense correspondence and optical flow",
+        "description": "Dense flow / correlation volumes / global matching"
+      }
     },
     {
       "id": "T5",
       "name": "可逆形变与医学配准",
-      "description": "速度场 / 微分同胚 / 逆一致性"
+      "description": "速度场 / 微分同胚 / 逆一致性",
+      "en": {
+        "name": "Invertible deformation and registration",
+        "description": "Velocity fields / diffeomorphisms / inverse consistency"
+      }
     },
     {
       "id": "T6",
       "name": "深度与三维重投影",
-      "description": "深度 / 相机位姿 / 投影与可见性"
+      "description": "深度 / 相机位姿 / 投影与可见性",
+      "en": {
+        "name": "Depth and 3D reprojection",
+        "description": "Depth / camera pose / projection / visibility"
+      }
     },
     {
       "id": "T7",
       "name": "可微采样与 Splatting",
-      "description": "插值 / 核足迹 / 冲突聚合 / 伴随"
+      "description": "插值 / 核足迹 / 冲突聚合 / 伴随",
+      "en": {
+        "name": "Differentiable sampling and splatting",
+        "description": "Interpolation / footprints / aggregation / adjoints"
+      }
     },
     {
       "id": "T8",
       "name": "学习式特征与三维形变",
-      "description": "Offset / 局部仿射 / Canonical field"
+      "description": "Offset / 局部仿射 / Canonical field",
+      "en": {
+        "name": "Learned feature and 3D deformation",
+        "description": "Offsets / local affine motion / canonical fields"
+      }
     },
     {
       "id": "T9",
       "name": "生成式、频率与随机场",
-      "description": "几何生成融合 / Noise transport / 频率处理"
+      "description": "几何生成融合 / Noise transport / 频率处理",
+      "en": {
+        "name": "Generative, frequency and stochastic warping",
+        "description": "Geometry–generation fusion / noise transport / frequency handling"
+      }
     }
   ],
   "topics": [
@@ -60,7 +96,8 @@
         "c07",
         "n08",
         "n25"
-      ]
+      ],
+      "question_en": "Spatially align images"
     },
     {
       "id": "topic-02",
@@ -75,7 +112,8 @@
         "n05",
         "n06",
         "n14"
-      ]
+      ],
+      "question_en": "Align 3D anatomy across scans, contrasts or subjects"
     },
     {
       "id": "topic-03",
@@ -86,7 +124,8 @@
         "c01",
         "c12",
         "n08"
-      ]
+      ],
+      "question_en": "Align overlap while preserving non-overlap geometry"
     },
     {
       "id": "topic-04",
@@ -96,7 +135,8 @@
       "works": [
         "c29",
         "n28"
-      ]
+      ],
+      "question_en": "Suppress camera shake and temporal warp instability"
     },
     {
       "id": "topic-05",
@@ -114,7 +154,8 @@
         "n09",
         "n13",
         "n20"
-      ]
+      ],
+      "question_en": "Estimate dense correspondence for downstream warping"
     },
     {
       "id": "topic-06",
@@ -124,7 +165,8 @@
       "works": [
         "c19",
         "n04"
-      ]
+      ],
+      "question_en": "Synthesize intermediate frames with occlusion handling"
     },
     {
       "id": "topic-07",
@@ -137,7 +179,8 @@
         "c20",
         "n07",
         "n17"
-      ]
+      ],
+      "question_en": "Align and fuse information across frames"
     },
     {
       "id": "topic-08",
@@ -152,7 +195,8 @@
         "c09",
         "n21",
         "n26"
-      ]
+      ],
+      "question_en": "Control local shape using points, lines or meshes"
     },
     {
       "id": "topic-09",
@@ -163,7 +207,8 @@
         "c17",
         "n03",
         "n19"
-      ]
+      ],
+      "question_en": "Transfer motion while preserving source appearance"
     },
     {
       "id": "topic-10",
@@ -173,7 +218,8 @@
       "works": [
         "c24",
         "n18"
-      ]
+      ],
+      "question_en": "Align garments to people while retaining clothing detail"
     },
     {
       "id": "topic-11",
@@ -184,7 +230,8 @@
         "c01",
         "c16",
         "n09"
-      ]
+      ],
+      "question_en": "Establish correspondence under geometric constraints"
     },
     {
       "id": "topic-12",
@@ -199,7 +246,8 @@
         "n15",
         "n22",
         "n23"
-      ]
+      ],
+      "question_en": "Reproject visible content and generate disoccluded regions"
     },
     {
       "id": "topic-13",
@@ -212,7 +260,8 @@
         "c23",
         "n11",
         "n12"
-      ]
+      ],
+      "question_en": "Map time-varying scenes to canonical representations"
     },
     {
       "id": "topic-14",
@@ -226,7 +275,8 @@
         "n19",
         "n24",
         "n27"
-      ]
+      ],
+      "question_en": "Convey motion or geometry to a video generator"
     },
     {
       "id": "topic-15",
@@ -238,7 +288,8 @@
         "c13",
         "n10",
         "n17"
-      ]
+      ],
+      "question_en": "Include motion operators in measurement models and optimization"
     },
     {
       "id": "topic-16",
@@ -249,7 +300,8 @@
         "c06",
         "c25",
         "n21"
-      ]
+      ],
+      "question_en": "Produce different interpretations under optical transformations"
     }
   ],
   "works": [
@@ -282,7 +334,18 @@
           "url": "https://docs.opencv.org/4.x/d9/dab/tutorial_homography.html"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "Foundational models",
+        "summary": "Global rigid, similarity, affine and projective maps provide compact coordinate transformations. A homography models a plane or a change of view under pure rotation about a fixed optical center.",
+        "caveat": "One global matrix cannot generally explain 3D translation with parallax or nonrigid motion."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": null,
+      "venue": "Foundational models",
+      "title_source": "https://docs.opencv.org/4.x/d9/dab/tutorial_homography.html"
     },
     {
       "id": "c02",
@@ -313,7 +376,18 @@
           "url": "https://www.ri.cmu.edu/pub_files/pub3/baker_simon_2004_1/baker_simon_2004_1.pdf"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "1981 · IJCV 2004 unifying framework",
+        "summary": "Optimizes warp parameters using image residuals. The inverse compositional formulation reuses parts of the computation and remains a foundation of direct image alignment.",
+        "caveat": "Sensitive to initialization, photometric assumptions and local minima."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Lucas-Kanade 20 Years On: A Unifying Framework",
+      "venue": "IJCV 2004",
+      "title_source": "https://www.ri.cmu.edu/pub_files/pub3/baker_simon_2004_1/baker_simon_2004_1.pdf"
     },
     {
       "id": "c03",
@@ -342,7 +416,18 @@
           "url": "https://doi.org/10.1016/0004-3702(81)90024-2"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "1981",
+        "summary": "Combines brightness constancy with a global smoothness regularizer, establishing a classical variational formulation of dense optical flow.",
+        "caveat": "The basic formulation can oversmooth motion boundaries and struggles with large displacement."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Determining optical flow",
+      "venue": "Artificial Intelligence 1981",
+      "title_source": "https://doi.org/10.1016/0004-3702(81)90024-2"
     },
     {
       "id": "c27",
@@ -371,7 +456,18 @@
           "url": "https://www.mia.uni-saarland.de/Publications/brox-eccv04-of.pdf"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ECCV 2004",
+        "summary": "Combines brightness and gradient constancy with edge-preserving regularization, and gives a theoretical interpretation of coarse-to-fine warping in the numerical solver.",
+        "caveat": "Large illumination changes and severe occlusion violate its data assumptions."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "High Accuracy Optical Flow Estimation Based on a Theory for Warping",
+      "venue": "ECCV 2004",
+      "title_source": "https://www.mia.uni-saarland.de/Publications/brox-eccv04-of.pdf"
     },
     {
       "id": "c15",
@@ -405,7 +501,18 @@
           "url": "https://github.com/NVlabs/PWC-Net"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "CVPR 2018 · preprint 2017",
+        "summary": "Combines feature pyramids, feature warping and cost volumes to learn residual motion from coarse to fine.",
+        "caveat": "Errors can propagate between pyramid levels; occlusions require additional treatment."
+      },
+      "arxiv": "https://arxiv.org/abs/1709.02371",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+      "venue": "CVPR 2018",
+      "title_source": "https://arxiv.org/abs/1709.02371"
     },
     {
       "id": "c20",
@@ -440,7 +547,18 @@
           "url": "https://github.com/princeton-vl/RAFT"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ECCV 2020",
+        "summary": "Builds all-pairs correlation volumes and updates a dense flow field recurrently, providing an influential baseline for correspondence estimation.",
+        "caveat": "Correlation storage grows with resolution. RAFT estimates flow; it does not introduce a new image interpolation kernel."
+      },
+      "arxiv": "https://arxiv.org/abs/2003.12039",
+      "hf_paper": "https://huggingface.co/papers/2003.12039",
+      "hf_model": null,
+      "paper_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "venue": "ECCV 2020",
+      "title_source": "https://arxiv.org/abs/2003.12039"
     },
     {
       "id": "c04",
@@ -469,7 +587,18 @@
           "url": "https://www.cse.iitd.ac.in/~jatin/minor_p/papers/sederberg.pdf"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "SIGGRAPH 1986",
+        "summary": "Sederberg and Parry deform geometric objects through a control lattice and Bernstein polynomials, establishing a foundation for volumetric free-form deformation.",
+        "caveat": "Lattice resolution trades detail against complexity; the model does not automatically prevent folding."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Free-Form Deformation of Solid Geometric Models",
+      "venue": "SIGGRAPH 1986",
+      "title_source": "https://www.cse.iitd.ac.in/~jatin/minor_p/papers/sederberg.pdf"
     },
     {
       "id": "c05",
@@ -499,7 +628,18 @@
           "url": "https://doi.org/10.1109/34.24792"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "TPAMI 1989",
+        "summary": "Bookstein uses thin-plate splines for landmark-based deformation analysis, defining smooth nonrigid maps through bending energy. The underlying mathematics of TPS predates this paper.",
+        "caveat": "Global support, outlier landmarks and extrapolation can produce implausible deformation."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Principal warps: thin-plate splines and the decomposition of deformations",
+      "venue": "TPAMI 1989",
+      "title_source": "https://doi.org/10.1109/34.24792"
     },
     {
       "id": "c06",
@@ -529,7 +669,18 @@
           "url": "https://wcours.gel.ulaval.ca/GIF4105/old/h20/tps/tp3/beierneely92.pdf"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "SIGGRAPH 1992",
+        "summary": "Uses corresponding feature-line pairs to control an inverse warp, then blends image colors to produce morphing effects.",
+        "caveat": "Requires manually specified correspondences and can distort complex regions."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Feature-Based Image Metamorphosis",
+      "venue": "SIGGRAPH 1992",
+      "title_source": "https://wcours.gel.ulaval.ca/GIF4105/old/h20/tps/tp3/beierneely92.pdf"
     },
     {
       "id": "c07",
@@ -560,7 +711,18 @@
           "url": "https://doi.org/10.1109/42.796284"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "IEEE TMI 1999",
+        "summary": "Rueckert and colleagues combine global affine alignment with local B-spline free-form deformation for nonrigid breast MR registration.",
+        "caveat": "An ordinary B-spline FFD does not automatically satisfy diffeomorphic constraints."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Nonrigid registration using free-form deformations: application to breast MR images",
+      "venue": "IEEE TMI 1999",
+      "title_source": "https://doi.org/10.1109/42.796284"
     },
     {
       "id": "c08",
@@ -589,7 +751,18 @@
           "url": "https://doi.org/10.1145/1141911.1141920"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "SIGGRAPH / TOG 2006",
+        "summary": "Schaefer and colleagues construct affine, similarity and rigid image deformations through locally weighted fitting, enabling interactive point and line controls.",
+        "caveat": "Results depend on weights, landmark layout and extrapolation; local fitting does not guarantee global invertibility."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Image deformation using moving least squares",
+      "venue": "SIGGRAPH / TOG 2006",
+      "title_source": "https://doi.org/10.1145/1141911.1141920"
     },
     {
       "id": "c09",
@@ -622,7 +795,18 @@
           "url": "https://libigl.github.io/libigl/tutorial/"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "SGP 2007",
+        "summary": "Sorkine and Alexa preserve local shape through an as-rigid-as-possible energy, establishing a widely used approach to detail-preserving mesh editing.",
+        "caveat": "Requires a mesh and numerical optimization; large deformations may still self-intersect."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "As-Rigid-As-Possible Surface Modeling",
+      "venue": "SGP 2007",
+      "title_source": "https://igl.ethz.ch/projects/ARAP/arap_web.pdf"
     },
     {
       "id": "c29",
@@ -655,7 +839,18 @@
           "url": "https://pages.cs.wisc.edu/~fliu/papers/siggraph09.pdf"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "SIGGRAPH / TOG 2009",
+        "summary": "Combines reconstructed 3D camera motion with content-preserving mesh warps to stabilize video while balancing alignment and salient-region shape.",
+        "caveat": "Depends on reliable motion reconstruction, with trade-offs between cropping, depth variation and residual distortion."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Content-Preserving Warps for 3D Video Stabilization",
+      "venue": "SIGGRAPH / TOG 2009",
+      "title_source": "https://pages.cs.wisc.edu/~fliu/papers/siggraph09.pdf"
     },
     {
       "id": "c12",
@@ -684,7 +879,18 @@
           "url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Zaragoza_As-Projective-As-Possible_Image_Stitching_2013_CVPR_paper.pdf"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "CVPR 2013",
+        "summary": "Zaragoza and colleagues allow local departures from a global projective map through Moving DLT, accommodating parallax and nonplanarity in image stitching.",
+        "caveat": "Large parallax, heavy occlusion and extrapolation outside overlap remain challenging."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "As-Projective-As-Possible Image Stitching with Moving DLT",
+      "venue": "CVPR 2013",
+      "title_source": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Zaragoza_As-Projective-As-Possible_Image_Stitching_2013_CVPR_paper.pdf"
     },
     {
       "id": "c26",
@@ -717,7 +923,18 @@
           "url": "https://www.cis.jhu.edu/software/lddmm-volume/index.php"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "IJCV 2005",
+        "summary": "Beg and colleagues construct large diffeomorphic deformations through smooth velocity fields and geodesic flows, forming a foundation of computational anatomy.",
+        "caveat": "Optimization and numerical integration can be expensive; discretization and regularization scale affect results."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Computing Large Deformation Metric Mappings via Geodesic Flows of Diffeomorphisms",
+      "venue": "IJCV 2005",
+      "title_source": "https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Beg05.pdf"
     },
     {
       "id": "c10",
@@ -746,7 +963,18 @@
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2276735/"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "Medical Image Analysis 2008",
+        "summary": "Uses symmetric diffeomorphic registration with cross-correlation for anatomical alignment; SyN is a representative method in ANTs.",
+        "caveat": "Pairwise optimization can be costly, and results depend on similarity measures, regularization and discretization."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Symmetric Diffeomorphic Image Registration with Cross-Correlation: Evaluating Automated Labeling of Elderly and Neurodegenerative Brain",
+      "venue": "Medical Image Analysis 2008",
+      "title_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2276735/"
     },
     {
       "id": "c11",
@@ -779,7 +1007,18 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/19041946/"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "NeuroImage 2009",
+        "summary": "Introduces diffeomorphic updates within the Demons framework, combining efficient nonparametric registration with smooth, invertible deformation models.",
+        "caveat": "The continuous model's invertibility does not remove the need to inspect numerical Jacobians."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Diffeomorphic demons: Efficient non-parametric image registration",
+      "venue": "NeuroImage 2009",
+      "title_source": "https://doi.org/10.1016/j.neuroimage.2008.10.040"
     },
     {
       "id": "c18",
@@ -812,7 +1051,18 @@
           "url": "https://github.com/voxelmorph/voxelmorph"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "MICCAI 2018 / IEEE TMI 2019",
+        "summary": "Amortizes pairwise optimization into a network that predicts deformation fields, trained with differentiable warping and image-similarity objectives.",
+        "caveat": "Distinguish the baseline displacement-field model from diffeomorphic extensions; performance depends on the training distribution."
+      },
+      "arxiv": "https://arxiv.org/abs/1809.05231",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "VoxelMorph: A Learning Framework for Deformable Medical Image Registration",
+      "venue": "IEEE TMI 2019",
+      "title_source": "https://arxiv.org/abs/1809.05231"
     },
     {
       "id": "c25",
@@ -841,7 +1091,18 @@
           "url": "https://dash.harvard.edu/bitstream/handle/1/4138240/Zwicker_EWA.pdf"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "IEEE Visualization 2001",
+        "summary": "Uses elliptical weighted-average kernels for projected reconstruction and low-pass filtering, providing a classic reference for splat footprints and antialiasing.",
+        "caveat": "This is a volume-rendering operator, not the same operation as 2D optical-flow warping or a complete modern 3DGS system."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "EWA Volume Splatting",
+      "venue": "IEEE Visualization 2001",
+      "title_source": "https://dash.harvard.edu/bitstream/handle/1/4138240/Zwicker_EWA.pdf"
     },
     {
       "id": "c13",
@@ -870,7 +1131,18 @@
           "url": "https://arxiv.org/abs/1506.02025"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "NeurIPS 2015",
+        "summary": "Jointly trains transformation prediction, grid generation and differentiable sampling, making spatial transformation a learnable neural-network module.",
+        "caveat": "The transformation family limits expressiveness. Bilinear sampling does not itself solve occlusion completion or rigorous antialiasing."
+      },
+      "arxiv": "https://arxiv.org/abs/1506.02025",
+      "hf_paper": "https://huggingface.co/papers/1506.02025",
+      "hf_model": null,
+      "paper_title": "Spatial Transformer Networks",
+      "venue": "NeurIPS 2015",
+      "title_source": "https://arxiv.org/abs/1506.02025"
     },
     {
       "id": "c19",
@@ -904,7 +1176,18 @@
           "url": "https://github.com/sniklaus/softmax-splatting"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "CVPR 2020",
+        "summary": "Niklaus and Liu use softmax weighting to resolve many-to-one conflicts in a differentiable forward warp, supporting both image and feature splatting.",
+        "caveat": "Depends on the flow and importance metric; disocclusion holes still need synthesis or another completion mechanism."
+      },
+      "arxiv": "https://arxiv.org/abs/2003.05534",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Softmax Splatting for Video Frame Interpolation",
+      "venue": "CVPR 2020",
+      "title_source": "https://arxiv.org/abs/2003.05534"
     },
     {
       "id": "c28",
@@ -933,7 +1216,18 @@
           "url": "https://doi.org/10.1117/12.524762"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "Fehn · SPIE 2004 representative work",
+        "summary": "Synthesizes virtual views from color and depth, providing a classic route to depth reprojection, visibility reasoning and hole handling. This paper did not originate the general idea of reprojection.",
+        "caveat": "Depth discontinuities, disocclusion and projection collisions require dedicated handling."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Depth-image-based rendering (DIBR), compression, and transmission for a new approach on 3D-TV",
+      "venue": "SPIE 2004",
+      "title_source": "https://doi.org/10.1117/12.524762"
     },
     {
       "id": "c14",
@@ -962,7 +1256,18 @@
           "url": "https://arxiv.org/abs/1703.06211"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ICCV 2017",
+        "summary": "Learns offsets for convolutional sampling locations, allowing features to adapt to local geometric variation.",
+        "caveat": "Offsets are associated with individual kernel samples and are not equivalent to one physically meaningful global motion field."
+      },
+      "arxiv": "https://arxiv.org/abs/1703.06211",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Deformable Convolutional Networks",
+      "venue": "ICCV 2017",
+      "title_source": "https://arxiv.org/abs/1703.06211"
     },
     {
       "id": "c24",
@@ -992,7 +1297,18 @@
           "url": "https://arxiv.org/abs/1807.07688"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ECCV 2018",
+        "summary": "Learns a TPS with a geometric matching module to align an in-shop garment with a person, then learns a composition mask.",
+        "caveat": "TPS has limited capacity for large pose changes, complex occlusion and fine clothing details."
+      },
+      "arxiv": "https://arxiv.org/abs/1807.07688",
+      "hf_paper": "https://huggingface.co/papers/1807.07688",
+      "hf_model": null,
+      "paper_title": "Toward Characteristic-Preserving Image-based Virtual Try-On Network",
+      "venue": "ECCV 2018",
+      "title_source": "https://arxiv.org/abs/1807.07688"
     },
     {
       "id": "c16",
@@ -1026,7 +1342,18 @@
           "url": "https://github.com/nianticlabs/monodepth2"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ICCV 2019 · preprint 2018",
+        "summary": "Uses depth, pose and differentiable reprojection for self-supervised view reconstruction, introducing minimum reprojection loss and automasking.",
+        "caveat": "A depth-estimation system rather than a standalone warp operator; dynamic objects, reflections and unobserved regions remain challenges."
+      },
+      "arxiv": "https://arxiv.org/abs/1806.01260",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "Digging Into Self-Supervised Monocular Depth Estimation",
+      "venue": "ICCV 2019",
+      "title_source": "https://arxiv.org/abs/1806.01260"
     },
     {
       "id": "c17",
@@ -1060,7 +1387,18 @@
           "url": "https://github.com/AliaksandrSiarohin/first-order-model"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "NeurIPS 2019 · arXiv 2020",
+        "summary": "Learns keypoints and local first-order affine motion to construct dense feature warps and occlusion maps for image animation.",
+        "caveat": "Large identity differences, rotations and disocclusions remain difficult."
+      },
+      "arxiv": "https://arxiv.org/abs/2003.00196",
+      "hf_paper": "https://huggingface.co/papers/2003.00196",
+      "hf_model": null,
+      "paper_title": "First Order Motion Model for Image Animation",
+      "venue": "NeurIPS 2019",
+      "title_source": "https://arxiv.org/abs/2003.00196"
     },
     {
       "id": "c21",
@@ -1090,7 +1428,18 @@
           "url": "https://arxiv.org/abs/2011.13961"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "CVPR 2021 · preprint 2020",
+        "summary": "Learns time-conditioned deformation that maps dynamic-scene coordinates into a canonical radiance field.",
+        "caveat": "Monocular reconstruction is ambiguous; dynamic detail and training efficiency are limited."
+      },
+      "arxiv": "https://arxiv.org/abs/2011.13961",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "D-NeRF: Neural Radiance Fields for Dynamic Scenes",
+      "venue": "CVPR 2021",
+      "title_source": "https://arxiv.org/abs/2011.13961"
     },
     {
       "id": "c22",
@@ -1120,7 +1469,18 @@
           "url": "https://arxiv.org/abs/2011.12948"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ICCV 2021 · preprint 2020",
+        "summary": "Combines continuous 3D deformation, elastic regularization and coarse-to-fine optimization to reconstruct casually captured nonrigid scenes.",
+        "caveat": "Continuous canonical warps struggle with topology changes, and optimization may reach local minima."
+      },
+      "arxiv": "https://arxiv.org/abs/2011.12948",
+      "hf_paper": "https://huggingface.co/papers/2011.12948",
+      "hf_model": null,
+      "paper_title": "Nerfies: Deformable Neural Radiance Fields",
+      "venue": "ICCV 2021",
+      "title_source": "https://arxiv.org/abs/2011.12948"
     },
     {
       "id": "c23",
@@ -1149,7 +1509,18 @@
           "url": "https://arxiv.org/abs/2106.13228"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "SIGGRAPH Asia / TOG 2021",
+        "summary": "Lifts the representation into a higher-dimensional space and uses slices to model topology changes beyond ordinary continuous 3D warps.",
+        "caveat": "The higher-dimensional representation is not an everywhere-invertible deformation of ordinary 3D space."
+      },
+      "arxiv": "https://arxiv.org/abs/2106.13228",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields",
+      "venue": "SIGGRAPH Asia / TOG 2021",
+      "title_source": "https://arxiv.org/abs/2106.13228"
     },
     {
       "id": "n01",
@@ -1182,7 +1553,18 @@
           "url": "https://github.com/haofeixu/gmflow"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "CVPR 2022",
+        "summary": "Uses Transformer-enhanced cross-image features and global matching to estimate flow with less reliance on long sequences of iterative refinement.",
+        "caveat": "Improves correspondence estimation rather than the resampling kernel; the preprint appeared in 2021."
+      },
+      "arxiv": "https://arxiv.org/abs/2111.13680",
+      "hf_paper": "https://huggingface.co/papers/2111.13680",
+      "hf_model": null,
+      "paper_title": "GMFlow: Learning Optical Flow via Global Matching",
+      "venue": "CVPR 2022",
+      "title_source": "https://arxiv.org/abs/2111.13680"
     },
     {
       "id": "n02",
@@ -1215,7 +1597,18 @@
           "url": "https://drinkingcoder.github.io/publication/flowformer/"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ECCV 2022",
+        "summary": "Encodes a 4D cost volume with Transformers and recurrently decodes motion updates.",
+        "caveat": "The cost representation and high-resolution memory requirements need consideration."
+      },
+      "arxiv": "https://arxiv.org/abs/2203.16194",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "FlowFormer: A Transformer Architecture for Optical Flow",
+      "venue": "ECCV 2022",
+      "title_source": "https://arxiv.org/abs/2203.16194"
     },
     {
       "id": "n03",
@@ -1249,7 +1642,18 @@
           "url": "https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "CVPR 2022",
+        "summary": "Extends local affine motion representations to multiple TPS transformations, using multiscale occlusion masks for feature warping in image animation.",
+        "caveat": "A learned composition of classical TPS models, not the invention of TPS itself; extreme identity differences remain challenging."
+      },
+      "arxiv": "https://arxiv.org/abs/2203.14367",
+      "hf_paper": "https://huggingface.co/papers/2203.14367",
+      "hf_model": null,
+      "paper_title": "Thin-Plate Spline Motion Model for Image Animation",
+      "venue": "CVPR 2022",
+      "title_source": "https://arxiv.org/abs/2203.14367"
     },
     {
       "id": "n04",
@@ -1283,7 +1687,18 @@
           "url": "https://github.com/google-research/frame-interpolation"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ECCV 2022",
+        "summary": "Shares feature extraction and motion estimation across scales to improve large-motion frame interpolation using training from image frames alone.",
+        "caveat": "Large disocclusions still require synthesis; this is an interpolation system rather than one universal warp operator."
+      },
+      "arxiv": "https://arxiv.org/abs/2202.04901",
+      "hf_paper": "https://huggingface.co/papers/2202.04901",
+      "hf_model": null,
+      "paper_title": "FILM: Frame Interpolation for Large Motion",
+      "venue": "ECCV 2022",
+      "title_source": "https://arxiv.org/abs/2202.04901"
     },
     {
       "id": "n05",
@@ -1316,7 +1731,18 @@
           "url": "https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "Medical Image Analysis 2022",
+        "summary": "Uses a hybrid Transformer–ConvNet architecture to model long-range relationships in volumetric medical registration.",
+        "caveat": "The preprint appeared in 2021. Whether a variant is diffeomorphic depends on its specific formulation."
+      },
+      "arxiv": "https://arxiv.org/abs/2111.10480",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "TransMorph: Transformer for unsupervised medical image registration",
+      "venue": "Medical Image Analysis 2022",
+      "title_source": "https://arxiv.org/abs/2111.10480"
     },
     {
       "id": "n06",
@@ -1349,7 +1775,18 @@
           "url": "https://w3id.org/synthmorph"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "IEEE TMI 2022 · online publication 2021",
+        "summary": "Trains with synthetic label maps and diverse image appearances to improve deformable registration across MRI contrasts.",
+        "caveat": "The preprint appeared in 2020; the main advance concerns training strategy and generalization."
+      },
+      "arxiv": "https://arxiv.org/abs/2004.10282",
+      "hf_paper": "https://huggingface.co/papers/2004.10282",
+      "hf_model": null,
+      "paper_title": "SynthMorph: learning contrast-invariant registration without acquired images",
+      "venue": "IEEE TMI 2022",
+      "title_source": "https://arxiv.org/abs/2004.10282"
     },
     {
       "id": "n07",
@@ -1383,7 +1820,18 @@
           "url": "https://github.com/ckkelvinchan/BasicVSR_PlusPlus"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "CVPR 2022",
+        "summary": "Combines second-order propagation with flow-guided deformable alignment to integrate optical-flow priors and adaptive feature sampling for video restoration.",
+        "caveat": "The preprint appeared in 2021; the method is part of a video-restoration pipeline."
+      },
+      "arxiv": "https://arxiv.org/abs/2104.13371",
+      "hf_paper": "https://huggingface.co/papers/2104.13371",
+      "hf_model": null,
+      "paper_title": "BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment",
+      "venue": "CVPR 2022",
+      "title_source": "https://arxiv.org/abs/2104.13371"
     },
     {
       "id": "n08",
@@ -1419,7 +1867,18 @@
           "url": "https://github.com/nie-lang/UDIS2"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ICCV 2023",
+        "summary": "Combines global homography with local TPS, jointly considering overlap alignment, non-overlap shape preservation and seam composition.",
+        "caveat": "Tolerance of large parallax does not imply that all 3D visibility and occlusion problems are solved."
+      },
+      "arxiv": "https://arxiv.org/abs/2302.08207",
+      "hf_paper": "https://huggingface.co/papers/2302.08207",
+      "hf_model": null,
+      "paper_title": "Parallax-Tolerant Unsupervised Deep Image Stitching",
+      "venue": "ICCV 2023",
+      "title_source": "https://arxiv.org/abs/2302.08207"
     },
     {
       "id": "n09",
@@ -1454,7 +1913,18 @@
           "url": "https://www.cvlibs.net/publications/Xu2023PAMI.pdf"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "TPAMI 2023",
+        "summary": "Unifies optical flow, stereo disparity and depth from posed views as dense correspondence-matching problems.",
+        "caveat": "The preprint appeared in 2022; output structure, geometric constraints and refinement still depend on the task."
+      },
+      "arxiv": "https://arxiv.org/abs/2211.05783",
+      "hf_paper": "https://huggingface.co/papers/2211.05783",
+      "hf_model": null,
+      "paper_title": "Unifying Flow, Stereo and Depth Estimation",
+      "venue": "TPAMI 2023",
+      "title_source": "https://arxiv.org/abs/2211.05783"
     },
     {
       "id": "n10",
@@ -1487,7 +1957,18 @@
           "url": "https://imwip.readthedocs.io/en/latest/"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "SoftwareX 2023",
+        "summary": "Provides differentiable image-warp operators with exact discrete adjoints and derivatives for inverse-problem optimization.",
+        "caveat": "The adjoint is not an inverse warp. Exactness concerns the selected discretization, up to floating-point error."
+      },
+      "arxiv": null,
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "ImWIP: Open-source image warping toolbox with adjoints and derivatives",
+      "venue": "SoftwareX 2023",
+      "title_source": "https://doi.org/10.1016/j.softx.2023.101524"
     },
     {
       "id": "n11",
@@ -1520,7 +2001,18 @@
           "url": "https://github.com/ingra14m/Deformable-3D-Gaussians"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "CVPR 2024 · preprint 2023",
+        "summary": "Learns a deformation field over canonical Gaussians, combining dynamic reconstruction with fast splatting-based rendering.",
+        "caveat": "Deforms 3D parameters before rendering rather than simply interpolating a 2D image; requires per-scene optimization."
+      },
+      "arxiv": "https://arxiv.org/abs/2309.13101",
+      "hf_paper": "https://huggingface.co/papers/2309.13101",
+      "hf_model": null,
+      "paper_title": "Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction",
+      "venue": "CVPR 2024",
+      "title_source": "https://arxiv.org/abs/2309.13101"
     },
     {
       "id": "n12",
@@ -1549,7 +2041,18 @@
           "url": "https://arxiv.org/abs/2310.08528"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "CVPR 2024 · preprint 2023",
+        "summary": "Combines spatiotemporal features with Gaussian deformation to improve training, storage and rendering efficiency for dynamic scenes.",
+        "caveat": "This entry specifically refers to the 4D-GS method by Wu and colleagues, not every method named 4D Gaussian Splatting."
+      },
+      "arxiv": "https://arxiv.org/abs/2310.08528",
+      "hf_paper": "https://huggingface.co/papers/2310.08528",
+      "hf_model": null,
+      "paper_title": "4D Gaussian Splatting for Real-Time Dynamic Scene Rendering",
+      "venue": "CVPR 2024",
+      "title_source": "https://arxiv.org/abs/2310.08528"
     },
     {
       "id": "n28",
@@ -1583,7 +2086,18 @@
           "url": "https://github.com/nie-lang/StabStitch"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ECCV 2024",
+        "summary": "Unifies video stitching and stabilization in an unsupervised online framework, constraining spatial alignment and temporal stability to suppress warping shake.",
+        "caveat": "Good image-level alignment does not guarantee stable video; latency, distortion and dynamic-scene behavior need separate evaluation."
+      },
+      "arxiv": "https://arxiv.org/abs/2403.06378",
+      "hf_paper": "https://huggingface.co/papers/2403.06378",
+      "hf_model": null,
+      "paper_title": "Eliminating Warping Shakes for Unsupervised Online Video Stitching",
+      "venue": "ECCV 2024",
+      "title_source": "https://arxiv.org/abs/2403.06378"
     },
     {
       "id": "n13",
@@ -1612,7 +2126,18 @@
           "url": "https://github.com/princeton-vl/SEA-RAFT"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ECCV 2024",
+        "summary": "Improves RAFT's efficiency and accuracy through initial-flow regression, a mixture-of-Laplace loss and rigid-motion pretraining.",
+        "caveat": "An improvement to correspondence estimation; outcomes depend on the evaluation protocol."
+      },
+      "arxiv": "https://arxiv.org/abs/2405.14793",
+      "hf_paper": "https://huggingface.co/papers/2405.14793",
+      "hf_model": null,
+      "paper_title": "SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow",
+      "venue": "ECCV 2024",
+      "title_source": "https://arxiv.org/abs/2405.14793"
     },
     {
       "id": "n14",
@@ -1645,7 +2170,18 @@
           "url": "https://github.com/uncbiag/uniGradICON"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "MICCAI 2024",
+        "summary": "Moves learned registration toward a reusable model across datasets, anatomical regions and new tasks, including zero-shot use and initialization for adaptation.",
+        "caveat": "Generalization is not guaranteed for arbitrary modalities or anatomy."
+      },
+      "arxiv": "https://arxiv.org/abs/2403.05780",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "uniGradICON: A Foundation Model for Medical Image Registration",
+      "venue": "MICCAI 2024",
+      "title_source": "https://arxiv.org/abs/2403.05780"
     },
     {
       "id": "n15",
@@ -1679,7 +2215,18 @@
           "url": "https://github.com/sony/genwarp"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "NeurIPS 2024",
+        "summary": "Combines depth-induced coordinate information with cross-view and self-attention, learning which content to transfer and which missing regions to generate.",
+        "caveat": "Generative warping does not mean that generated regions are exact copies transported from the source image."
+      },
+      "arxiv": "https://arxiv.org/abs/2405.17251",
+      "hf_paper": "https://huggingface.co/papers/2405.17251",
+      "hf_model": null,
+      "paper_title": "GenWarp: Single Image to Novel Views with Semantic-Preserving Generative Warping",
+      "venue": "NeurIPS 2024",
+      "title_source": "https://arxiv.org/abs/2405.17251"
     },
     {
       "id": "n16",
@@ -1713,7 +2260,18 @@
           "url": "https://warpyournoise.github.io/"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ICLR 2024",
+        "summary": "Interprets pixel noise as integrals over a continuous white-noise field and designs transport for Gaussian statistics while retaining motion-induced temporal correlation.",
+        "caveat": "The goal differs from ordinary RGB interpolation. Its 2025 arXiv upload postdates the ICLR 2024 paper and should not be treated as the first publication."
+      },
+      "arxiv": "https://arxiv.org/abs/2504.03072",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "How I Warped Your Noise: a Temporally-Correlated Noise Prior for Diffusion Models",
+      "venue": "ICLR 2024",
+      "title_source": "https://arxiv.org/abs/2504.03072"
     },
     {
       "id": "n17",
@@ -1743,7 +2301,18 @@
           "url": "https://arxiv.org/abs/2410.16152"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "NeurIPS 2024",
+        "summary": "Uses continuous function spaces and transformation equivariance for video inverse problems, improving temporal consistency with test-time self-equivariance guidance.",
+        "caveat": "Not simply a one-time warp of initialization noise; the applications include video inpainting and super-resolution."
+      },
+      "arxiv": "https://arxiv.org/abs/2410.16152",
+      "hf_paper": "https://huggingface.co/papers/2410.16152",
+      "hf_model": null,
+      "paper_title": "Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models",
+      "venue": "NeurIPS 2024",
+      "title_source": "https://arxiv.org/abs/2410.16152"
     },
     {
       "id": "n18",
@@ -1772,7 +2341,18 @@
           "url": "https://arxiv.org/abs/2312.01725"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "CVPR 2024 · preprint 2023",
+        "summary": "Learns semantic garment-to-person correspondence inside a latent diffusion model, using attention for implicit alignment and detail transfer.",
+        "caveat": "Implicit semantic association should not be treated as the same operator as an explicit TPS or flow-based coordinate warp."
+      },
+      "arxiv": "https://arxiv.org/abs/2312.01725",
+      "hf_paper": "https://huggingface.co/papers/2312.01725",
+      "hf_model": null,
+      "paper_title": "StableVITON: Learning Semantic Correspondence with Latent Diffusion Model for Virtual Try-On",
+      "venue": "CVPR 2024",
+      "title_source": "https://arxiv.org/abs/2312.01725"
     },
     {
       "id": "n19",
@@ -1802,7 +2382,18 @@
           "url": "https://eyeline-labs.github.io/Go-with-the-Flow/"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "CVPR 2025",
+        "summary": "Efficiently constructs warped noise and adapts video diffusion models to use it as a motion prior for motion transfer and camera or object control.",
+        "caveat": "Requires the corresponding model adaptation; an arbitrary pretrained model does not necessarily support the same control mechanism."
+      },
+      "arxiv": "https://arxiv.org/abs/2501.08331",
+      "hf_paper": "https://huggingface.co/papers/2501.08331",
+      "hf_model": null,
+      "paper_title": "Go-with-the-Flow: Motion-Controllable Video Diffusion Models Using Real-Time Warped Noise",
+      "venue": "CVPR 2025",
+      "title_source": "https://arxiv.org/abs/2501.08331"
     },
     {
       "id": "n20",
@@ -1835,7 +2426,18 @@
           "url": "https://github.com/msu-video-group/memfof"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ICCV 2025",
+        "summary": "Combines reduced correlation representations, multiframe estimation and high-resolution training to improve memory efficiency for native FullHD optical flow.",
+        "caveat": "Not a new sampling kernel; resource figures should be reproduced under the authors' resolution, precision and hardware settings."
+      },
+      "arxiv": "https://arxiv.org/abs/2506.23151",
+      "hf_paper": "https://huggingface.co/papers/2506.23151",
+      "hf_model": null,
+      "paper_title": "MEMFOF: High-Resolution Training for Memory-Efficient Multi-Frame Optical Flow Estimation",
+      "venue": "ICCV 2025",
+      "title_source": "https://arxiv.org/abs/2506.23151"
     },
     {
       "id": "n21",
@@ -1866,7 +2468,18 @@
           "url": "https://lookingglass-lpw.github.io/"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "CVPR 2025",
+        "summary": "Uses Laplacian pyramids for frequency-aware image warping and view aggregation, enabling multiview generative anamorphoses.",
+        "caveat": "Targets detail preservation and synchronization across transformed views, not a direct guarantee of random-noise statistics."
+      },
+      "arxiv": "https://arxiv.org/abs/2504.08902",
+      "hf_paper": "https://huggingface.co/papers/2504.08902",
+      "hf_model": null,
+      "paper_title": "LookingGlass: Generative Anamorphoses via Laplacian Pyramid Warping",
+      "venue": "CVPR 2025",
+      "title_source": "https://arxiv.org/abs/2504.08902"
     },
     {
       "id": "n22",
@@ -1896,7 +2509,18 @@
           "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Park_WAVE_Warp-Based_View_Guidance_for_Consistent_Novel_View_Synthesis_Using_ICCV_2025_paper.html"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ICCV 2025",
+        "summary": "Uses view warping to guide adaptive attention and noise reinitialization, improving single-image novel-view consistency without additional training.",
+        "caveat": "Depends on the base novel-view model and geometric estimates. Distinguish it from other WAVE papers. The authors' original project URL returned 404 during verification and is omitted."
+      },
+      "arxiv": "https://arxiv.org/abs/2506.23518",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "WAVE: Warp-Based View Guidance for Consistent Novel View Synthesis Using a Single Image",
+      "venue": "ICCV 2025",
+      "title_source": "https://arxiv.org/abs/2506.23518"
     },
     {
       "id": "n23",
@@ -1931,7 +2555,18 @@
           "url": "https://studios.disneyresearch.com/2025/07/16/splatdiff/"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "SIGGRAPH 2025",
+        "summary": "Uses pixel splatting to constrain target views and combines aligned synthesis with a texture bridge to balance geometric consistency and texture fidelity.",
+        "caveat": "Depth and splatting errors can propagate; the faithfulness of generated detail requires separate verification."
+      },
+      "arxiv": "https://arxiv.org/abs/2502.12752",
+      "hf_paper": "https://huggingface.co/papers/2502.12752",
+      "hf_model": null,
+      "paper_title": "High-Fidelity Novel View Synthesis via Splatting-Guided Diffusion",
+      "venue": "SIGGRAPH 2025",
+      "title_source": "https://arxiv.org/abs/2502.12752"
     },
     {
       "id": "n24",
@@ -1965,7 +2600,18 @@
           "url": "https://github.com/gulucaptain/CameraNoise"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "ICML 2026 · formal PMLR publication",
+        "summary": "Uses geometry-guided reprojection flow and noise warping to encode camera motion into temporally correlated noise, while preserving the Gaussian prior and trajectory control.",
+        "caveat": "Depends on scene geometry and motion estimates; the results do not imply exact control of arbitrary nonrigid motion."
+      },
+      "arxiv": "https://arxiv.org/abs/2605.30774",
+      "hf_paper": null,
+      "hf_model": "https://huggingface.co/gulucaptain/CameraNoise-I2V",
+      "paper_title": "CameraNoise: Enabling Faithful Camera Control in Video Diffusion through Geometry-Flow-Guided Noise Warping",
+      "venue": "ICML 2026",
+      "title_source": "https://arxiv.org/abs/2605.30774"
     },
     {
       "id": "n25",
@@ -1994,7 +2640,18 @@
           "url": "https://arxiv.org/abs/2602.23022"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "2026 · arXiv v2 reports CVPR 2026 acceptance",
+        "summary": "Recasts image alignment as diffusion-based view synthesis, using dynamics-aware training to address occlusion and illumination variation.",
+        "caveat": "A generative alternative to some uses of explicit flow warping; visually aligned synthesis is not equivalent to recovering true pixel correspondence."
+      },
+      "arxiv": "https://arxiv.org/abs/2602.23022",
+      "hf_paper": null,
+      "hf_model": null,
+      "paper_title": "DMAligner: Enhancing Image Alignment via Diffusion Model Based View Synthesis",
+      "venue": "CVPR 2026",
+      "title_source": "https://arxiv.org/abs/2602.23022"
     },
     {
       "id": "n26",
@@ -2024,7 +2681,18 @@
           "url": "https://arxiv.org/abs/2606.31018"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "2026 · arXiv lists ECCV 2026",
+        "summary": "Uses a saliency-guided warp before encoding to allocate more spatial representation to salient regions, then unwarps the output to improve structural preservation in compact latent models.",
+        "caveat": "Uses warping to allocate representation capacity rather than primarily to estimate motion; inverse mapping remains subject to resampling error."
+      },
+      "arxiv": "https://arxiv.org/abs/2606.31018",
+      "hf_paper": "https://huggingface.co/papers/2606.31018",
+      "hf_model": null,
+      "paper_title": "WarpI2I: Image Warping for Image-to-Image Translation",
+      "venue": "ECCV 2026",
+      "title_source": "https://arxiv.org/abs/2606.31018"
     },
     {
       "id": "n27",
@@ -2054,7 +2722,18 @@
           "url": "https://arxiv.org/abs/2605.15182"
         }
       ],
-      "verified_on": "2026-10-24"
+      "verified_on": "2026-10-24",
+      "en": {
+        "publication": "2026 preprint",
+        "summary": "Turns camera-induced warps into pseudo-history aligned with target positions, selecting valid tokens to use a frozen model's visual-history pathway; also explores single-video LoRA adaptation.",
+        "caveat": "Listed as a public preprint at this update; control should be validated across datasets and camera trajectories."
+      },
+      "arxiv": "https://arxiv.org/abs/2605.15182",
+      "hf_paper": "https://huggingface.co/papers/2605.15182",
+      "hf_model": null,
+      "paper_title": "Warp-as-History: Generalizable Camera-Controlled Video Generation from One Training Video",
+      "venue": "arXiv 2026",
+      "title_source": "https://arxiv.org/abs/2605.15182"
     }
   ]
 }
