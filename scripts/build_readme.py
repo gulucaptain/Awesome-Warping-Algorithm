@@ -58,8 +58,7 @@ def repository_slug(url):
     return parsed.path.strip('/')
 
 
-def resources(work, lang):
-    unverified = '未核实' if lang == 'zh-CN' else 'Unverified'
+def resources(work):
     if work.get('arxiv'):
         items = [badge('arXiv', work['arxiv'].rsplit('/', 1)[-1], 'B31B1B', work['arxiv'], 'arxiv')]
     else:
@@ -68,11 +67,10 @@ def resources(work, lang):
         items.append(badge('Hugging Face', 'Paper', 'FFD21E', work['hf_paper'], 'huggingface', 'FFD21E'))
     if work.get('hf_model'):
         items.append(badge('Hugging Face', 'Model', 'FFD21E', work['hf_model'], 'huggingface', 'FFD21E'))
-    items.append(badge('Project', 'Page' if work['project'] else unverified,
-                       '087F8C' if work['project'] else '89939E', work['project']))
-    items.append(badge('GitHub', 'Code' if work['github'] else unverified,
-                       '181717' if work['github'] else '89939E', work['github'], 'github'))
+    if work['project']:
+        items.append(badge('Project', 'Page', '087F8C', work['project']))
     if work['github']:
+        items.append(badge('GitHub', 'Code', '181717', work['github'], 'github'))
         slug = repository_slug(work['github'])
         for metric, color in [('stars', 'C58A18'), ('forks', '64748B')]:
             src = f'https://img.shields.io/github/{metric}/{slug}?style=flat-square&label={metric}&color={color}'
@@ -89,7 +87,7 @@ def render(lang, data=None):
     chinese = lang == 'zh-CN'
     topics = {t['id']: t for t in data['topics']}
     repos = {w['github'].lower().rstrip('/') for w in works if w['github']}
-    labels = ['项工作', '个代码仓库', '个研究板块', '个 Topic（含预留）'] if chinese else ['Papers', 'Repositories', 'Research areas', 'Topics']
+    labels = ['篇论文', '个代码仓库', '个研究板块', '个主题'] if chinese else ['Papers', 'Repositories', 'Research areas', 'Topics']
     values = [len(works), len(repos), len(data['areas']), len(data['topics'])]
     stats = ' &nbsp; · &nbsp; '.join(f'<b>{n}</b> {label}' for n, label in zip(values, labels))
     tech_rows = ['| 技术族 | 核心表示 | 文献入口 |' if chinese else '| Technique family | Core representation | Works |', '| --- | --- | --- |']
@@ -135,7 +133,7 @@ def render(lang, data=None):
             topic_tags.append(f'[{topic["number"]} {topic_name}](#{tid})')
         result = [f'<a id="{work["id"]}"></a>', f'#### {title} ({work["venue"]})', '',
                   tags, '',
-                  info['summary'].rstrip('。.') + ('。' if chinese else '.'), '', resources(work, lang), '',
+                  info['summary'].rstrip('。.') + ('。' if chinese else '.'), '', resources(work), '',
                   '<details>', '<summary>' + ('论文信息、实现来源与局限' if chinese else 'Paper details, code provenance and limitations') + '</summary>', '',
                   ('**完整论文名：** ' if chinese else '**Full paper title:** ') + title, '',
                   ('**发表记录：** ' if chinese else '**Publication history:** ') + publication]

@@ -15,7 +15,7 @@
 Warping 将像素、特征与噪声在空间和时间中建立映射，是图像对齐、三维重建与可控生成的重要基础。本仓库连接经典方法与前沿进展，按六个研究板块及其 Topic 整理论文与代码，帮助研究者梳理技术脉络、比较不同思路，并在已有工作上继续探索。
 </p>
 
-<b>57</b> 项工作 &nbsp; · &nbsp; <b>37</b> 个代码仓库 &nbsp; · &nbsp; <b>6</b> 个研究板块 &nbsp; · &nbsp; <b>16</b> 个 Topic（含预留）
+<b>57</b> 篇论文 &nbsp; · &nbsp; <b>37</b> 个代码仓库 &nbsp; · &nbsp; <b>6</b> 个研究板块 &nbsp; · &nbsp; <b>16</b> 个主题
 
 </div>
 
@@ -172,7 +172,7 @@ Warping 将像素、特征与噪声在空间和时间中建立映射，是图像
 
 用 Laplacian 金字塔进行频率感知的图像 warp 与视图聚合，支持多视角生成式 anamorphosis。
 
-[![arXiv: 2504.08902](https://img.shields.io/badge/arXiv-2504.08902-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.08902) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2504.08902) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://lookingglass-lpw.github.io/) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![arXiv: 2504.08902](https://img.shields.io/badge/arXiv-2504.08902-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.08902) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2504.08902) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://lookingglass-lpw.github.io/)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -218,7 +218,7 @@ Sorkine–Alexa 以局部刚性约束保留形状细节，是网格编辑的经�
 
 Schaefer 等用局部加权拟合构造仿射、相似、刚性图像形变，支持交互控制。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1145/1141911.1141920) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1145/1141911.1141920)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -240,7 +240,7 @@ Schaefer 等用局部加权拟合构造仿射、相似、刚性图像形变，�
 
 用成对特征线段控制 inverse warp，再结合颜色混合实现 morphing。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://wcours.gel.ulaval.ca/GIF4105/old/h20/tps/tp3/beierneely92.pdf) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://wcours.gel.ulaval.ca/GIF4105/old/h20/tps/tp3/beierneely92.pdf)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -262,7 +262,7 @@ Schaefer 等用局部加权拟合构造仿射、相似、刚性图像形变，�
 
 Bookstein 将 TPS 用于地标形变分析，以弯曲能量定义平滑非刚性映射；TPS 的数学起源更早。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1109/34.24792) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1109/34.24792)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -286,7 +286,7 @@ Bookstein 将 TPS 用于地标形变分析，以弯曲能量定义平滑非刚�
 
 Sederberg–Parry 通过控制格与 Bernstein 多项式变形几何对象，奠定体积控制形变基础。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.cse.iitd.ac.in/~jatin/minor_p/papers/sederberg.pdf) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.cse.iitd.ac.in/~jatin/minor_p/papers/sederberg.pdf)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -308,7 +308,7 @@ Sederberg–Parry 通过控制格与 Bernstein 多项式变形几何对象，奠
 
 从全局刚体到投影变换；单应性可描述平面场景或固定光心纯旋转下的视图关系。
 
-[![Reference: Read](https://img.shields.io/badge/Reference-Read-2563EB?style=flat-square)](https://docs.opencv.org/4.x/d9/dab/tutorial_homography.html) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Reference: Read](https://img.shields.io/badge/Reference-Read-2563EB?style=flat-square)](https://docs.opencv.org/4.x/d9/dab/tutorial_homography.html)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -377,7 +377,7 @@ Sederberg–Parry 通过控制格与 Bernstein 多项式变形几何对象，奠
 
 参数预测、网格生成和可微采样联合训练，使空间变换可嵌入神经网络。
 
-[![arXiv: 1506.02025](https://img.shields.io/badge/arXiv-1506.02025-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1506.02025) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/1506.02025) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![arXiv: 1506.02025](https://img.shields.io/badge/arXiv-1506.02025-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1506.02025) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/1506.02025)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -399,7 +399,7 @@ Sederberg–Parry 通过控制格与 Bernstein 多项式变形几何对象，奠
 
 用椭圆加权平均核处理投影重建与低通滤波，是理解 splatting 足迹和抗混叠的经典工作。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://dash.harvard.edu/bitstream/handle/1/4138240/Zwicker_EWA.pdf) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://dash.harvard.edu/bitstream/handle/1/4138240/Zwicker_EWA.pdf)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -472,7 +472,7 @@ Sederberg–Parry 通过控制格与 Bernstein 多项式变形几何对象，奠
 
 通过初始 flow 回归、混合 Laplace 损失和刚性运动预训练，改善 RAFT 的效率与精度。
 
-[![arXiv: 2405.14793](https://img.shields.io/badge/arXiv-2405.14793-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.14793) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2405.14793) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/princeton-vl/SEA-RAFT) [![GitHub stars](https://img.shields.io/github/stars/princeton-vl/SEA-RAFT?style=flat-square&label=stars&color=C58A18)](https://github.com/princeton-vl/SEA-RAFT/stargazers) [![GitHub forks](https://img.shields.io/github/forks/princeton-vl/SEA-RAFT?style=flat-square&label=forks&color=64748B)](https://github.com/princeton-vl/SEA-RAFT/forks)
+[![arXiv: 2405.14793](https://img.shields.io/badge/arXiv-2405.14793-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.14793) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2405.14793) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/princeton-vl/SEA-RAFT) [![GitHub stars](https://img.shields.io/github/stars/princeton-vl/SEA-RAFT?style=flat-square&label=stars&color=C58A18)](https://github.com/princeton-vl/SEA-RAFT/stargazers) [![GitHub forks](https://img.shields.io/github/forks/princeton-vl/SEA-RAFT?style=flat-square&label=forks&color=64748B)](https://github.com/princeton-vl/SEA-RAFT/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -522,7 +522,7 @@ Sederberg–Parry 通过控制格与 Bernstein 多项式变形几何对象，奠
 
 Transformer 增强跨图特征，以全局匹配生成 flow，减少对大量顺序迭代的依赖。
 
-[![arXiv: 2111.13680](https://img.shields.io/badge/arXiv-2111.13680-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2111.13680) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2111.13680) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/haofeixu/gmflow) [![GitHub stars](https://img.shields.io/github/stars/haofeixu/gmflow?style=flat-square&label=stars&color=C58A18)](https://github.com/haofeixu/gmflow/stargazers) [![GitHub forks](https://img.shields.io/github/forks/haofeixu/gmflow?style=flat-square&label=forks&color=64748B)](https://github.com/haofeixu/gmflow/forks)
+[![arXiv: 2111.13680](https://img.shields.io/badge/arXiv-2111.13680-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2111.13680) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2111.13680) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/haofeixu/gmflow) [![GitHub stars](https://img.shields.io/github/stars/haofeixu/gmflow?style=flat-square&label=stars&color=C58A18)](https://github.com/haofeixu/gmflow/stargazers) [![GitHub forks](https://img.shields.io/github/forks/haofeixu/gmflow?style=flat-square&label=forks&color=64748B)](https://github.com/haofeixu/gmflow/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -570,7 +570,7 @@ Transformer 增强跨图特征，以全局匹配生成 flow，减少对大量顺
 
 全像素对相关体与循环更新，成为稠密流估计的重要基线。
 
-[![arXiv: 2003.12039](https://img.shields.io/badge/arXiv-2003.12039-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2003.12039) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2003.12039) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/princeton-vl/RAFT) [![GitHub stars](https://img.shields.io/github/stars/princeton-vl/RAFT?style=flat-square&label=stars&color=C58A18)](https://github.com/princeton-vl/RAFT/stargazers) [![GitHub forks](https://img.shields.io/github/forks/princeton-vl/RAFT?style=flat-square&label=forks&color=64748B)](https://github.com/princeton-vl/RAFT/forks)
+[![arXiv: 2003.12039](https://img.shields.io/badge/arXiv-2003.12039-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2003.12039) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2003.12039) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/princeton-vl/RAFT) [![GitHub stars](https://img.shields.io/github/stars/princeton-vl/RAFT?style=flat-square&label=stars&color=C58A18)](https://github.com/princeton-vl/RAFT/stargazers) [![GitHub forks](https://img.shields.io/github/forks/princeton-vl/RAFT?style=flat-square&label=forks&color=64748B)](https://github.com/princeton-vl/RAFT/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -596,7 +596,7 @@ Transformer 增强跨图特征，以全局匹配生成 flow，减少对大量顺
 
 金字塔 + 特征 warping + cost volume，学习粗到细残余运动。
 
-[![arXiv: 1709.02371](https://img.shields.io/badge/arXiv-1709.02371-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1709.02371) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NVlabs/PWC-Net) [![GitHub stars](https://img.shields.io/github/stars/NVlabs/PWC-Net?style=flat-square&label=stars&color=C58A18)](https://github.com/NVlabs/PWC-Net/stargazers) [![GitHub forks](https://img.shields.io/github/forks/NVlabs/PWC-Net?style=flat-square&label=forks&color=64748B)](https://github.com/NVlabs/PWC-Net/forks)
+[![arXiv: 1709.02371](https://img.shields.io/badge/arXiv-1709.02371-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1709.02371) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NVlabs/PWC-Net) [![GitHub stars](https://img.shields.io/github/stars/NVlabs/PWC-Net?style=flat-square&label=stars&color=C58A18)](https://github.com/NVlabs/PWC-Net/stargazers) [![GitHub forks](https://img.shields.io/github/forks/NVlabs/PWC-Net?style=flat-square&label=forks&color=64748B)](https://github.com/NVlabs/PWC-Net/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -622,7 +622,7 @@ Transformer 增强跨图特征，以全局匹配生成 flow，减少对大量顺
 
 用图像残差优化 warp 参数；逆组合形式允许复用部分计算，是直接法对齐的重要基础。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.ri.cmu.edu/pub_files/pub3/baker_simon_2004_1/baker_simon_2004_1.pdf) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.ri.cmu.edu/pub_files/pub3/baker_simon_2004_1/baker_simon_2004_1.pdf)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -646,7 +646,7 @@ Transformer 增强跨图特征，以全局匹配生成 flow，减少对大量顺
 
 结合亮度/梯度一致性和保边正则，为粗到细 warping 的数值求解提供理论解释。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.mia.uni-saarland.de/Publications/brox-eccv04-of.pdf) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.mia.uni-saarland.de/Publications/brox-eccv04-of.pdf)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -668,7 +668,7 @@ Transformer 增强跨图特征，以全局匹配生成 flow，减少对大量顺
 
 亮度一致性与全局平滑正则结合，建立稠密变分光流的经典范式。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1016/0004-3702(81)90024-2) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1016/0004-3702(81)90024-2)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -728,7 +728,7 @@ Transformer 增强跨图特征，以全局匹配生成 flow，减少对大量顺
 
 将视频拼接与稳像统一到无监督在线框架，约束空间对齐和时间稳定性，抑制逐帧 warp 抖动。
 
-[![arXiv: 2403.06378](https://img.shields.io/badge/arXiv-2403.06378-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.06378) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2403.06378) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nie-lang/StabStitch) [![GitHub stars](https://img.shields.io/github/stars/nie-lang/StabStitch?style=flat-square&label=stars&color=C58A18)](https://github.com/nie-lang/StabStitch/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nie-lang/StabStitch?style=flat-square&label=forks&color=64748B)](https://github.com/nie-lang/StabStitch/forks)
+[![arXiv: 2403.06378](https://img.shields.io/badge/arXiv-2403.06378-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.06378) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2403.06378) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nie-lang/StabStitch) [![GitHub stars](https://img.shields.io/github/stars/nie-lang/StabStitch?style=flat-square&label=stars&color=C58A18)](https://github.com/nie-lang/StabStitch/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nie-lang/StabStitch?style=flat-square&label=forks&color=64748B)](https://github.com/nie-lang/StabStitch/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -752,7 +752,7 @@ Transformer 增强跨图特征，以全局匹配生成 flow，减少对大量顺
 
 全局 homography + 局部 TPS，联合考虑重叠区对齐、非重叠区形状与接缝合成。
 
-[![arXiv: 2302.08207](https://img.shields.io/badge/arXiv-2302.08207-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.08207) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2302.08207) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nie-lang/UDIS2) [![GitHub stars](https://img.shields.io/github/stars/nie-lang/UDIS2?style=flat-square&label=stars&color=C58A18)](https://github.com/nie-lang/UDIS2/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nie-lang/UDIS2?style=flat-square&label=forks&color=64748B)](https://github.com/nie-lang/UDIS2/forks)
+[![arXiv: 2302.08207](https://img.shields.io/badge/arXiv-2302.08207-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.08207) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2302.08207) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nie-lang/UDIS2) [![GitHub stars](https://img.shields.io/github/stars/nie-lang/UDIS2?style=flat-square&label=stars&color=C58A18)](https://github.com/nie-lang/UDIS2/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nie-lang/UDIS2?style=flat-square&label=forks&color=64748B)](https://github.com/nie-lang/UDIS2/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -776,7 +776,7 @@ Transformer 增强跨图特征，以全局匹配生成 flow，减少对大量顺
 
 Zaragoza 等允许局部偏离全局投影变换，以适应拼接中的非平面与视差。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content_cvpr_2013/papers/Zaragoza_As-Projective-As-Possible_Image_Stitching_2013_CVPR_paper.pdf) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content_cvpr_2013/papers/Zaragoza_As-Projective-As-Possible_Image_Stitching_2013_CVPR_paper.pdf)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -798,7 +798,7 @@ Zaragoza 等允许局部偏离全局投影变换，以适应拼接中的非平�
 
 由三维相机运动与内容保持网格 warp 构造稳定视频，兼顾对齐和显著区域形状。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://pages.cs.wisc.edu/~fliu/papers/siggraph09.pdf) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://web.cecs.pdx.edu/~fliu/project/3dstab.htm) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://pages.cs.wisc.edu/~fliu/papers/siggraph09.pdf) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://web.cecs.pdx.edu/~fliu/project/3dstab.htm)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -844,7 +844,7 @@ Zaragoza 等允许局部偏离全局投影变换，以适应拼接中的非平�
 
 将学习式配准推进到多数据集、跨解剖区域和新任务的通用初始化与零样本使用。
 
-[![arXiv: 2403.05780](https://img.shields.io/badge/arXiv-2403.05780-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.05780) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/uncbiag/uniGradICON) [![GitHub stars](https://img.shields.io/github/stars/uncbiag/uniGradICON?style=flat-square&label=stars&color=C58A18)](https://github.com/uncbiag/uniGradICON/stargazers) [![GitHub forks](https://img.shields.io/github/forks/uncbiag/uniGradICON?style=flat-square&label=forks&color=64748B)](https://github.com/uncbiag/uniGradICON/forks)
+[![arXiv: 2403.05780](https://img.shields.io/badge/arXiv-2403.05780-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.05780) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/uncbiag/uniGradICON) [![GitHub stars](https://img.shields.io/github/stars/uncbiag/uniGradICON?style=flat-square&label=stars&color=C58A18)](https://github.com/uncbiag/uniGradICON/stargazers) [![GitHub forks](https://img.shields.io/github/forks/uncbiag/uniGradICON?style=flat-square&label=forks&color=64748B)](https://github.com/uncbiag/uniGradICON/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -870,7 +870,7 @@ Zaragoza 等允许局部偏离全局投影变换，以适应拼接中的非平�
 
 Transformer–ConvNet 混合模型用于三维医学配准，增强长程空间关系建模。
 
-[![arXiv: 2111.10480](https://img.shields.io/badge/arXiv-2111.10480-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2111.10480) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration) [![GitHub stars](https://img.shields.io/github/stars/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration?style=flat-square&label=stars&color=C58A18)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/stargazers) [![GitHub forks](https://img.shields.io/github/forks/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration?style=flat-square&label=forks&color=64748B)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/forks)
+[![arXiv: 2111.10480](https://img.shields.io/badge/arXiv-2111.10480-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2111.10480) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration) [![GitHub stars](https://img.shields.io/github/stars/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration?style=flat-square&label=stars&color=C58A18)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/stargazers) [![GitHub forks](https://img.shields.io/github/forks/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration?style=flat-square&label=forks&color=64748B)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -942,7 +942,7 @@ Transformer–ConvNet 混合模型用于三维医学配准，增强长程空间�
 
 在 Demons 框架中使用微分同胚更新，兼顾高效非参数配准与平滑可逆变形。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1016/j.neuroimage.2008.10.040) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1016/j.neuroimage.2008.10.040)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -964,7 +964,7 @@ Transformer–ConvNet 混合模型用于三维医学配准，增强长程空间�
 
 对称微分同胚配准，结合互相关用于解剖图像对齐，是 ANTs 的代表性方法。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2276735/) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ANTsX/ANTs) [![GitHub stars](https://img.shields.io/github/stars/ANTsX/ANTs?style=flat-square&label=stars&color=C58A18)](https://github.com/ANTsX/ANTs/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ANTsX/ANTs?style=flat-square&label=forks&color=64748B)](https://github.com/ANTsX/ANTs/forks)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2276735/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ANTsX/ANTs) [![GitHub stars](https://img.shields.io/github/stars/ANTsX/ANTs?style=flat-square&label=stars&color=C58A18)](https://github.com/ANTsX/ANTs/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ANTsX/ANTs?style=flat-square&label=forks&color=64748B)](https://github.com/ANTsX/ANTs/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -988,7 +988,7 @@ Transformer–ConvNet 混合模型用于三维医学配准，增强长程空间�
 
 Beg 等通过平滑速度场的时间积分与测地流构造大形变微分同胚映射，是计算解剖的重要基础。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Beg05.pdf) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://www.cis.jhu.edu/software/lddmm-volume/index.php) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Beg05.pdf) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://www.cis.jhu.edu/software/lddmm-volume/index.php)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -1010,7 +1010,7 @@ Beg 等通过平滑速度场的时间积分与测地流构造大形变微分同�
 
 Rueckert 等将全局仿射与局部 B-spline FFD 结合，用于乳腺 MR 非刚性配准。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1109/42.796284) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1109/42.796284)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -1050,7 +1050,7 @@ Rueckert 等将全局仿射与局部 B-spline FFD 结合，用于乳腺 MR 非�
 
 用连续函数空间和变换等变性处理视频逆问题，以测试时自等变引导提高时序一致性。
 
-[![arXiv: 2410.16152](https://img.shields.io/badge/arXiv-2410.16152-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.16152) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2410.16152) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://giannisdaras.github.io/warped_diffusion.github.io/) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![arXiv: 2410.16152](https://img.shields.io/badge/arXiv-2410.16152-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.16152) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2410.16152) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://giannisdaras.github.io/warped_diffusion.github.io/)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -1098,7 +1098,7 @@ Rueckert 等将全局仿射与局部 B-spline FFD 结合，用于乳腺 MR 非�
 
 二阶传播与 flow-guided deformable alignment，把光流先验与可形变特征采样结合。
 
-[![arXiv: 2104.13371](https://img.shields.io/badge/arXiv-2104.13371-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2104.13371) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2104.13371) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ckkelvinchan/BasicVSR_PlusPlus) [![GitHub stars](https://img.shields.io/github/stars/ckkelvinchan/BasicVSR_PlusPlus?style=flat-square&label=stars&color=C58A18)](https://github.com/ckkelvinchan/BasicVSR_PlusPlus/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ckkelvinchan/BasicVSR_PlusPlus?style=flat-square&label=forks&color=64748B)](https://github.com/ckkelvinchan/BasicVSR_PlusPlus/forks)
+[![arXiv: 2104.13371](https://img.shields.io/badge/arXiv-2104.13371-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2104.13371) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2104.13371) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ckkelvinchan/BasicVSR_PlusPlus) [![GitHub stars](https://img.shields.io/github/stars/ckkelvinchan/BasicVSR_PlusPlus?style=flat-square&label=stars&color=C58A18)](https://github.com/ckkelvinchan/BasicVSR_PlusPlus/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ckkelvinchan/BasicVSR_PlusPlus?style=flat-square&label=forks&color=64748B)](https://github.com/ckkelvinchan/BasicVSR_PlusPlus/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -1150,7 +1150,7 @@ Niklaus–Liu 用 softmax 加权处理 forward warp 的多对一冲突，并支�
 
 为卷积采样位置学习 offset，使特征支持局部几何适应。
 
-[![arXiv: 1703.06211](https://img.shields.io/badge/arXiv-1703.06211-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1703.06211) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/msracver/Deformable-ConvNets) [![GitHub stars](https://img.shields.io/github/stars/msracver/Deformable-ConvNets?style=flat-square&label=stars&color=C58A18)](https://github.com/msracver/Deformable-ConvNets/stargazers) [![GitHub forks](https://img.shields.io/github/forks/msracver/Deformable-ConvNets?style=flat-square&label=forks&color=64748B)](https://github.com/msracver/Deformable-ConvNets/forks)
+[![arXiv: 1703.06211](https://img.shields.io/badge/arXiv-1703.06211-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1703.06211) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/msracver/Deformable-ConvNets) [![GitHub stars](https://img.shields.io/github/stars/msracver/Deformable-ConvNets?style=flat-square&label=stars&color=C58A18)](https://github.com/msracver/Deformable-ConvNets/stargazers) [![GitHub forks](https://img.shields.io/github/forks/msracver/Deformable-ConvNets?style=flat-square&label=forks&color=64748B)](https://github.com/msracver/Deformable-ConvNets/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -1197,7 +1197,7 @@ Niklaus–Liu 用 softmax 加权处理 forward warp 的多对一冲突，并支�
 
 在扩散 latent 中学习服装与人体的语义对应，以 attention 实现隐式对齐与细节传递。
 
-[![arXiv: 2312.01725](https://img.shields.io/badge/arXiv-2312.01725-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.01725) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2312.01725) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rlawjdghek/StableVITON) [![GitHub stars](https://img.shields.io/github/stars/rlawjdghek/StableVITON?style=flat-square&label=stars&color=C58A18)](https://github.com/rlawjdghek/StableVITON/stargazers) [![GitHub forks](https://img.shields.io/github/forks/rlawjdghek/StableVITON?style=flat-square&label=forks&color=64748B)](https://github.com/rlawjdghek/StableVITON/forks)
+[![arXiv: 2312.01725](https://img.shields.io/badge/arXiv-2312.01725-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.01725) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2312.01725) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rlawjdghek/StableVITON) [![GitHub stars](https://img.shields.io/github/stars/rlawjdghek/StableVITON?style=flat-square&label=stars&color=C58A18)](https://github.com/rlawjdghek/StableVITON/stargazers) [![GitHub forks](https://img.shields.io/github/forks/rlawjdghek/StableVITON?style=flat-square&label=forks&color=64748B)](https://github.com/rlawjdghek/StableVITON/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -1221,7 +1221,7 @@ Niklaus–Liu 用 softmax 加权处理 forward warp 的多对一冲突，并支�
 
 从局部仿射运动扩展到多个 TPS 变换，并结合多尺度遮挡掩码进行特征形变。
 
-[![arXiv: 2203.14367](https://img.shields.io/badge/arXiv-2203.14367-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.14367) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2203.14367) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model) [![GitHub stars](https://img.shields.io/github/stars/yoyo-nb/Thin-Plate-Spline-Motion-Model?style=flat-square&label=stars&color=C58A18)](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yoyo-nb/Thin-Plate-Spline-Motion-Model?style=flat-square&label=forks&color=64748B)](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model/forks)
+[![arXiv: 2203.14367](https://img.shields.io/badge/arXiv-2203.14367-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.14367) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2203.14367) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model) [![GitHub stars](https://img.shields.io/github/stars/yoyo-nb/Thin-Plate-Spline-Motion-Model?style=flat-square&label=stars&color=C58A18)](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yoyo-nb/Thin-Plate-Spline-Motion-Model?style=flat-square&label=forks&color=64748B)](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -1273,7 +1273,7 @@ Niklaus–Liu 用 softmax 加权处理 forward warp 的多对一冲突，并支�
 
 用 Geometric Matching Module 学习 TPS，将商品服装形变到人体，再学习融合掩码。
 
-[![arXiv: 1807.07688](https://img.shields.io/badge/arXiv-1807.07688-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1807.07688) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/1807.07688) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sergeywong/cp-vton) [![GitHub stars](https://img.shields.io/github/stars/sergeywong/cp-vton?style=flat-square&label=stars&color=C58A18)](https://github.com/sergeywong/cp-vton/stargazers) [![GitHub forks](https://img.shields.io/github/forks/sergeywong/cp-vton?style=flat-square&label=forks&color=64748B)](https://github.com/sergeywong/cp-vton/forks)
+[![arXiv: 1807.07688](https://img.shields.io/badge/arXiv-1807.07688-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1807.07688) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/1807.07688) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sergeywong/cp-vton) [![GitHub stars](https://img.shields.io/github/stars/sergeywong/cp-vton?style=flat-square&label=stars&color=C58A18)](https://github.com/sergeywong/cp-vton/stargazers) [![GitHub forks](https://img.shields.io/github/forks/sergeywong/cp-vton?style=flat-square&label=forks&color=64748B)](https://github.com/sergeywong/cp-vton/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -1475,7 +1475,7 @@ Niklaus–Liu 用 softmax 加权处理 forward warp 的多对一冲突，并支�
 
 用深度、位姿和可微重投影进行自监督视图重建，引入最小重投影误差与自动掩码。
 
-[![arXiv: 1806.01260](https://img.shields.io/badge/arXiv-1806.01260-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1806.01260) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nianticlabs/monodepth2) [![GitHub stars](https://img.shields.io/github/stars/nianticlabs/monodepth2?style=flat-square&label=stars&color=C58A18)](https://github.com/nianticlabs/monodepth2/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nianticlabs/monodepth2?style=flat-square&label=forks&color=64748B)](https://github.com/nianticlabs/monodepth2/forks)
+[![arXiv: 1806.01260](https://img.shields.io/badge/arXiv-1806.01260-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1806.01260) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nianticlabs/monodepth2) [![GitHub stars](https://img.shields.io/github/stars/nianticlabs/monodepth2?style=flat-square&label=stars&color=C58A18)](https://github.com/nianticlabs/monodepth2/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nianticlabs/monodepth2?style=flat-square&label=forks&color=64748B)](https://github.com/nianticlabs/monodepth2/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -1523,7 +1523,7 @@ Niklaus–Liu 用 softmax 加权处理 forward warp 的多对一冲突，并支�
 
 用视图 warping 引导自适应 attention 与噪声重新初始化，提高单图新视角一致性，无需额外训练。
 
-[![arXiv: 2506.23518](https://img.shields.io/badge/arXiv-2506.23518-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.23518) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jwoo-park0/WAVE) [![GitHub stars](https://img.shields.io/github/stars/jwoo-park0/WAVE?style=flat-square&label=stars&color=C58A18)](https://github.com/jwoo-park0/WAVE/stargazers) [![GitHub forks](https://img.shields.io/github/forks/jwoo-park0/WAVE?style=flat-square&label=forks&color=64748B)](https://github.com/jwoo-park0/WAVE/forks)
+[![arXiv: 2506.23518](https://img.shields.io/badge/arXiv-2506.23518-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.23518) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jwoo-park0/WAVE) [![GitHub stars](https://img.shields.io/github/stars/jwoo-park0/WAVE?style=flat-square&label=stars&color=C58A18)](https://github.com/jwoo-park0/WAVE/stargazers) [![GitHub forks](https://img.shields.io/github/forks/jwoo-park0/WAVE?style=flat-square&label=forks&color=64748B)](https://github.com/jwoo-park0/WAVE/forks)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -1549,7 +1549,7 @@ Niklaus–Liu 用 softmax 加权处理 forward warp 的多对一冲突，并支�
 
 以 pixel splatting 约束目标视角，结合对齐合成与 texture bridge，平衡几何一致性和纹理保真。
 
-[![arXiv: 2502.12752](https://img.shields.io/badge/arXiv-2502.12752-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.12752) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2502.12752) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://studios.disneyresearch.com/2025/07/16/splatdiff/) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![arXiv: 2502.12752](https://img.shields.io/badge/arXiv-2502.12752-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.12752) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2502.12752) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://studios.disneyresearch.com/2025/07/16/splatdiff/)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
@@ -1597,7 +1597,7 @@ Niklaus–Liu 用 softmax 加权处理 forward warp 的多对一冲突，并支�
 
 用颜色图与深度生成虚拟视角，是理解深度重投影、遮挡和空洞的经典路线；该论文不是重投影思想的首次提出。
 
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1117/12.524762) ![Project: 未核实](https://img.shields.io/badge/Project-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square) ![GitHub: 未核实](https://img.shields.io/badge/GitHub-%E6%9C%AA%E6%A0%B8%E5%AE%9E-89939E?style=flat-square&logo=github&logoColor=white)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1117/12.524762)
 
 <details>
 <summary>论文信息、实现来源与局限</summary>
