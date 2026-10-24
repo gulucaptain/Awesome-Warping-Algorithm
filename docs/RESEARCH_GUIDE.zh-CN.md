@@ -1,5 +1,7 @@
 # Warping 研究指南
 
+> 当前文献主目录见 [中文 README 的 Topic 导航](../README.zh-CN.md#topics)：按六个研究板块、16 个 Topic 组织，每个 Topic 内按年份倒序排列。本指南保留原有年份表和领域表，作为历史研究备注；主分类与预留方向以 README 和 `data/catalog.json` 为准。
+
 [← 中文文献主页](../README.zh-CN.md) · [English guide](RESEARCH_GUIDE.md) · 本指南保留详细原理、分类比较、方法边界与选型说明。
 
 一个持续整理 **Warping（空间变换、形变与重采样）** 的研究资源库：从经典几何变换、样条与网格形变，到光流、可微采样、动态三维表示，以及生成模型中的图像、特征和噪声 warping。

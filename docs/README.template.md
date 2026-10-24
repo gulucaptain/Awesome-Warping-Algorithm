@@ -12,8 +12,10 @@
 **English** · [简体中文](README.zh-CN.md)
 
 <p align="justify">
-Warping maps pixels, features, and noise across space and time, providing a foundation for image alignment, 3D reconstruction, and controllable generation. This repository connects classical methods with recent advances, organizing papers and implementations by technique and application to help researchers navigate the field, compare approaches, and build on existing work.
+Warping maps pixels, features, and noise across space and time, providing a foundation for image alignment, 3D reconstruction, and controllable generation. This repository connects classical methods with recent advances, organizing papers and implementations into six research areas and their topics to help researchers navigate the field, compare approaches, and build on existing work.
 </p>
+
+{{STATS}}
 
 </div>
 
@@ -34,47 +36,43 @@ Warping maps pixels, features, and noise across space and time, providing a foun
 
 The collection focuses on **spatial warping** in computer vision, graphics and medical imaging. It distinguishes transformation models, correspondence estimators, resampling operators and application pipelines. Time-series DTW and GPU execution warps are outside its scope.
 
-Classics cover work before 2022. The 2022–2026 section uses representative formal publication years and retains earlier preprint dates. Coverage ends on {{DATE}}. Descriptions are grounded in papers and author resources; the collection does not claim a unified reproduction of all methods.
+Entries follow **research area → topic**, with papers listed newest year first within each topic. Each topic opens with a scope and paper-count block. Papers follow a consistent sequence: full paper title (venue and year), technique tags, contribution, resource links, and expandable details. Horizontal rules separate methods; classical and recent work appear together without year navigation or year groups. Published work uses its representative publication year, and preprints use their preprint year; publication histories are retained. Entries combining foundational methods use the publication year of the linked representative paper. Undated foundations appear last within their topic. Entries from the same year retain catalog order. Coverage ends on {{DATE}}. Descriptions are grounded in papers and author resources; the collection does not claim a unified reproduction of all methods.
+
+Each work has one primary topic, with related tags and reading links for other directions. Spatial reasoning, world models, interactive simulation and embodied agents are reserved for future work directly connected to warping.
 
 [Definitions, mapping conventions and evidence policy →](docs/RESEARCH_GUIDE.md#scope)
 
 </details>
 
-<a id="technology"></a>
-## 🧩 Technique map
+<a id="topics"></a>
+## 🗂️ Topic navigation
 
-Methods can belong to multiple families. Follow a method name to its entry; `T1–T9` tags link back to this map.
+{{AREA_COUNT}} research areas and {{TOPIC_COUNT}} topics, including {{RESERVED_COUNT}} reserved topics. Counts include primary entries only; related reading is not counted twice.
+
+{{TOPICS}}
+
+{{CATALOG}}
+
+<a id="technology"></a>
+## 🧩 Technique cross-index
+
+Methods can belong to multiple families. Follow a method name to its primary entry; `T1–T9` tags link back to this map. Works are listed newest year first.
 
 <details>
-<summary><b>Browse all 9 technique families</b></summary>
+<summary><b>Browse all {{TECH_COUNT}} technique families</b></summary>
 
 {{TECHNOLOGIES}}
 
 </details>
 
-<a id="topics"></a>
-## 🗂️ Topic index
+<a id="resources"></a>
+## 🛠️ Evaluation and implementation resources
 
-<details>
-<summary><b>Browse all 16 application areas</b></summary>
-
-{{TOPICS}}
-
-</details>
-
-<a id="recent"></a>
-## 🚀 Recent developments · 2022–2026
-
-**[2026](#year-2026)** · **[2025](#year-2025)** · **[2024](#year-2024)** · **[2023](#year-2023)** · **[2022](#year-2022)**
-
-Newest years first. Each entry includes sources, technique tags and a short contribution; expand its notes for limitations and publication history.
-
-{{RECENT}}
-
-<a id="classics"></a>
-## 🏛️ Classical foundations · Before 2022
-
-{{CLASSICS}}
+| Resource | Entry point |
+| --- | --- |
+| Metrics and comparison principles | [Evaluation guidance](docs/RESEARCH_GUIDE.md#evaluation) |
+| Image transforms, differentiable sampling and deformation tools | [Tools and starting points](docs/RESEARCH_GUIDE.md#practice) |
+| Datasets and benchmarks | To be added; contributions should specify the task, data version, metrics and evaluation protocol |
 
 <a id="guide"></a>
 ## 📖 Reading guide
@@ -92,9 +90,9 @@ Newest years first. Each entry includes sources, technique tags and a short cont
 
 Suggestions, corrections and verified links are welcome through [Issues](https://github.com/gulucaptain/Awesome-Warping-Algorithm/issues) and [Pull Requests](https://github.com/gulucaptain/Awesome-Warping-Algorithm/pulls).
 
-Please include the **paper title, publication year/status, Paper, Project, GitHub, technique family and application area**. Leave unavailable links empty, and distinguish author implementations, third-party reimplementations and shared frameworks.
+Please include the **paper title, publication year/status, Paper, Project, GitHub, technique family, primary topic and related topic tags**. Leave unavailable links empty, and distinguish author implementations, third-party reimplementations and shared frameworks.
 
-Edit [the bilingual catalog](data/catalog.json) and run `python3 scripts/build_readme.py` to update both READMEs. Counts and indexes use the same data; check consistency with `python3 scripts/build_readme.py --check`.
+Edit [the bilingual catalog](data/catalog.json) and run `python3 scripts/build_readme.py` to update both READMEs. Counts and indexes use the same data; check consistency with `python3 scripts/build_readme.py --check`. Set each work's unique home with `primary_topic`; `topics` contains that home and related directions. When adding papers to a reserved topic, set its `reserved` flag to `false`.
 
 <details>
 <summary>Design references and acknowledgments</summary>

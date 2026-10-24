@@ -12,8 +12,10 @@
 [English](README.md) · **简体中文**
 
 <p align="justify">
-Warping 将像素、特征与噪声在空间和时间中建立映射，是图像对齐、三维重建与可控生成的重要基础。本仓库连接经典方法与前沿进展，按基础技术和应用领域整理论文与代码，帮助研究者梳理技术脉络、比较不同思路，并在已有工作上继续探索。
+Warping 将像素、特征与噪声在空间和时间中建立映射，是图像对齐、三维重建与可控生成的重要基础。本仓库连接经典方法与前沿进展，按六个研究板块及其 Topic 整理论文与代码，帮助研究者梳理技术脉络、比较不同思路，并在已有工作上继续探索。
 </p>
+
+{{STATS}}
 
 </div>
 
@@ -34,47 +36,43 @@ Warping 将像素、特征与噪声在空间和时间中建立映射，是图像
 
 以计算机视觉、图形学和医学图像中的**空间 warping** 为主。区分变换模型、对应估计、采样算子及其应用系统；DTW 时间序列对齐和 GPU warp 不在本目录内。
 
-“经典”指截至 2021 年的工作；2022–2026 按代表性正式发表年份整理，并保留早期预印本说明。2026 年覆盖截至 {{DATE}} 的公开资料。方法贡献和局限来自原论文、作者资料与原版调研；本合集未对所有实现做统一复现。
+正文按 **研究板块 → Topic** 编排，各 Topic 内论文按年份从新到旧直接列出，不另设年份导航或分组；子类别以独立简介块开头，论文按“完整标题（出处 年份）→ 技术标签 → 贡献说明 → 资源链接 → 折叠详情”统一展示，方法之间以分隔线区分。经典与近期工作统一展示。正式发表工作采用代表性发表年份，预印本采用预印本年份，并保留发表历史；合并介绍多个基础方法的条目按所链接代表论文的发表年份排序。无单一年份的基础模型放在所属 Topic 末尾。同年条目保持数据中的顺序。覆盖截至 {{DATE}} 的公开资料。方法贡献和局限来自原论文、作者资料与原版调研；本合集未对所有实现做统一复现。
+
+每篇工作只有一个主 Topic；交叉方向通过关联标签和关联阅读连接。空间推理、世界模型、交互模拟与具身智能体方向先预留，后续优先收录与 Warping 直接相关的工作。
 
 [完整定义、Forward / Backward 与核验原则 →](docs/RESEARCH_GUIDE.zh-CN.md#scope)
 
 </details>
 
-<a id="technology"></a>
-## 🧩 基础技术
+<a id="topics"></a>
+## 🗂️ Topic 导航
 
-一种方法可以跨多个技术族；点击方法名直达条目，条目的 `T1–T9` 标签可返回本表。
+{{AREA_COUNT}} 个研究板块、{{TOPIC_COUNT}} 个 Topic，其中 {{RESERVED_COUNT}} 个待扩展。计数仅包含主条目，关联阅读不重复计数。
+
+{{TOPICS}}
+
+{{CATALOG}}
+
+<a id="technology"></a>
+## 🧩 基础技术交叉索引
+
+一种方法可以跨多个技术族；点击方法名直达主条目，条目的 `T1–T9` 标签可返回本表。文献入口按年份倒序排列。
 
 <details>
-<summary><b>展开 9 类基础技术与文献索引</b></summary>
+<summary><b>展开 {{TECH_COUNT}} 类基础技术与文献索引</b></summary>
 
 {{TECHNOLOGIES}}
 
 </details>
 
-<a id="topics"></a>
-## 🗂️ 应用领域
+<a id="resources"></a>
+## 🛠️ 评估与实现资源
 
-<details>
-<summary><b>展开 16 个应用领域与文献索引</b></summary>
-
-{{TOPICS}}
-
-</details>
-
-<a id="recent"></a>
-## 🚀 近期进展 · 2022–2026
-
-**[2026](#year-2026)** · **[2025](#year-2025)** · **[2024](#year-2024)** · **[2023](#year-2023)** · **[2022](#year-2022)**
-
-由近及远浏览。每条保留原始来源、技术标签和一句贡献；详细边界与选型见 [研究指南](docs/RESEARCH_GUIDE.zh-CN.md#recent)。
-
-{{RECENT}}
-
-<a id="classics"></a>
-## 🏛️ 经典方法 · 2022 年之前
-
-{{CLASSICS}}
+| 资源 | 入口 |
+| --- | --- |
+| 评估指标与比较原则 | [各方向的评估建议](docs/RESEARCH_GUIDE.zh-CN.md#topics) |
+| 图像变换、可微采样与形变实现 | [常用实现入口](docs/RESEARCH_GUIDE.zh-CN.md#practice) |
+| 数据集与基准 | 待补充；新增时注明任务、数据版本、指标与评估协议 |
 
 <a id="guide"></a>
 ## 📖 阅读指南
@@ -91,9 +89,9 @@ Warping 将像素、特征与噪声在空间和时间中建立映射，是图像
 
 欢迎通过 [Issue](https://github.com/gulucaptain/Awesome-Warping-Algorithm/issues) 或 [Pull Request](https://github.com/gulucaptain/Awesome-Warping-Algorithm/pulls) 补充论文、作者主页、代码或纠正分类。
 
-每条建议包含 **论文名、发表年份/状态、Paper、Project、GitHub、技术族和应用领域**。未公开的资源留空；第三方复现、共享框架与作者实现请明确区分。
+每条建议包含 **论文名、发表年份/状态、Paper、Project、GitHub、技术族、主 Topic 和交叉 Topic 标签**。未公开的资源留空；第三方复现、共享框架与作者实现请明确区分。
 
-维护者可编辑 [中英文文献数据](data/catalog.json)，再运行 `python3 scripts/build_readme.py` 同时更新中英文页面；计数与索引由同一份数据生成。详细原理与旧版逐项备注保留在 [研究指南](docs/RESEARCH_GUIDE.zh-CN.md)。
+维护者可编辑 [中英文文献数据](data/catalog.json)，再运行 `python3 scripts/build_readme.py` 同时更新中英文页面；计数与索引由同一份数据生成，运行 `python3 scripts/build_readme.py --check` 检查一致性。每条记录用 `primary_topic` 指定唯一主归属，用 `topics` 保存包括主归属在内的关联方向；新增论文后，将对应 Topic 的 `reserved` 设为 `false`。详细原理与旧版逐项备注保留在 [研究指南](docs/RESEARCH_GUIDE.zh-CN.md)。
 
 <details>
 <summary>版式参考与致谢</summary>

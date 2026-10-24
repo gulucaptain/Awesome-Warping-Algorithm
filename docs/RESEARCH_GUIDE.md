@@ -24,7 +24,9 @@ See the [OpenCV transformation documentation](https://docs.opencv.org/4.x/da/d54
 
 ## Publication and evidence policy
 
-Classics end in 2021. The recent section uses representative formal publication years and notes earlier preprints. Preprints and author-reported acceptance are distinguished from formal proceedings.
+The collection uses six research areas and 16 topics. Each work has one primary topic and may have related topic tags. Within each topic, dated entries appear newest year first, followed by undated foundations. Published work uses its representative publication year; preprints use their preprint year. Entries combining foundational methods use the publication year of the linked representative paper. Earlier preprint dates remain in the publication history. Preprints and author-reported acceptance are distinguished from formal proceedings.
+
+Spatial reasoning, world models, interactive simulation and embodied agents are reserved topics. New entries should directly connect to spatial correspondence, reprojection, deformation, noise transport or spatiotemporal alignment. The extended Chinese guide retains its historical year-based tables as background notes; the READMEs provide the current topic hierarchy.
 
 Primary papers and author resources support the entries. HF Paper links identify verified paper pages, not necessarily models or demos. Code provenance is labeled; shared-framework counts describe the entire repository. This collection does not independently reproduce every performance claim.
 
@@ -52,6 +54,7 @@ Cov[z(y), z(y')] = Σ_i w_i(y) w_i(y')
 
 Weights summing to one do not imply unit variance. Neighboring outputs sharing source samples can become spatially correlated. Per-pixel variance normalization generally does not remove these correlations. Evaluate within-frame statistics separately from motion-induced cross-frame correlation. The formulas do not directly cover signal-dependent random weights or arbitrary nonlinear operators. See the [∫-noise paper](https://openreview.net/pdf?id=pzElnMrgSD).
 
+<a id="evaluation"></a>
 ## Open problems and evaluation
 
 - **Occlusion:** pure coordinate transforms cannot recover absent observations; multiview evidence, history or synthesis is needed.

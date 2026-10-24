@@ -1,19 +1,43 @@
 #!/usr/bin/env python3
 """Generate English and Chinese READMEs from one bilingual catalog (stdlib only)."""
 from pathlib import Path
+from html import escape
 import argparse
 import json
 import re
 from urllib.parse import quote, urlencode, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
-GROUPS = {
-    '参数化几何与运动估计': 'Parametric geometry and motion estimation',
-    '控制点、样条与局部形状': 'Control points, splines and local shape',
-    '拓扑保持与医学配准': 'Topology preservation and medical registration',
-    '可微采样与抗混叠': 'Differentiable sampling and antialiasing',
-    '特征对齐、动画与三维形变': 'Feature alignment, animation and 3D deformation',
-}
+
+def newest_first(works):
+    """Keep catalog order within a year; undated foundations follow dated work."""
+    return sorted(works, key=lambda w: (w['year'] is None, -(w['year'] or 0)))
+
+
+def validate_catalog(data):
+    """Require one primary home per work and explicit placeholders for empty topics."""
+    for key in ('areas', 'topics', 'technologies', 'works'):
+        ids = [item['id'] for item in data[key]]
+        assert len(ids) == len(set(ids)), f'Duplicate {key} IDs'
+    areas = {a['id'] for a in data['areas']}
+    topics = {t['id']: t for t in data['topics']}
+    technologies = {t['id'] for t in data['technologies']}
+    numbers = [t['number'] for t in data['topics']]
+    assert len(numbers) == len(set(numbers)), 'Duplicate topic numbers'
+    assert {t['area'] for t in data['topics']} == areas, 'Missing or unknown research area'
+    for work in data['works']:
+        assert work['paper'], f'Missing source: {work["id"]}'
+        assert work['primary_topic'] in topics, f'Unknown primary topic: {work["id"]}'
+        assert work['primary_topic'] in work['topics'], f'Primary topic missing from tags: {work["id"]}'
+        assert len(work['topics']) == len(set(work['topics'])), f'Duplicate topic tags: {work["id"]}'
+        assert set(work['topics']) <= topics.keys(), f'Unknown topic tag: {work["id"]}'
+        assert set(work['technology']) <= technologies, f'Unknown technique: {work["id"]}'
+        assert work['year'] is None or type(work['year']) is int, f'Invalid year: {work["id"]}'
+    for topic in data['topics']:
+        members = [w for w in data['works'] if w['primary_topic'] == topic['id']]
+        tagged = [w for w in data['works'] if topic['id'] in w['topics']]
+        assert bool(members) != topic['reserved'], f'Incorrect reserved status: {topic["id"]}'
+        assert not topic['reserved'] or not tagged, f'Reserved topic has tagged works: {topic["id"]}'
 
 
 def badge(label, value, color, url=None, logo=None, logo_color='white'):
@@ -57,31 +81,38 @@ def resources(work, lang):
     return ' '.join(items)
 
 
-def render(lang):
-    data = json.loads((ROOT / 'data/catalog.json').read_text())
+def render(lang, data=None):
+    if data is None:
+        data = json.loads((ROOT / 'data/catalog.json').read_text())
+    validate_catalog(data)
     works = data['works']
     chinese = lang == 'zh-CN'
-    ids = [w['id'] for w in works]
-    assert len(ids) == len(set(ids)), 'Duplicate work IDs'
-    by_id = {w['id']: w for w in works}
-    classic = [w for w in works if w['era'] == 'classic']
-    recent = [w for w in works if w['era'] == 'recent']
+    topics = {t['id']: t for t in data['topics']}
     repos = {w['github'].lower().rstrip('/') for w in works if w['github']}
-    labels = ['项工作', '个代码仓库', '类基础技术', '个应用领域'] if chinese else ['works', 'repositories', 'techniques', 'topics']
-    values = [len(works), len(repos), len(data['technologies']), len(data['topics'])]
+    labels = ['项工作', '个代码仓库', '个研究板块', '个 Topic（含预留）'] if chinese else ['Papers', 'Repositories', 'Research areas', 'Topics']
+    values = [len(works), len(repos), len(data['areas']), len(data['topics'])]
     stats = ' &nbsp; · &nbsp; '.join(f'<b>{n}</b> {label}' for n, label in zip(values, labels))
     tech_rows = ['| 技术族 | 核心表示 | 文献入口 |' if chinese else '| Technique family | Core representation | Works |', '| --- | --- | --- |']
     for tech in data['technologies']:
         info = tech if chinese else tech['en']
-        members = [w for w in works if tech['id'] in w['technology']]
+        members = newest_first([w for w in works if tech['id'] in w['technology']])
         refs = ' · '.join(f'[{w["name"]}](#{w["id"]})' for w in members)
         tech_rows.append(f'| <a id="{tech["id"].lower()}"></a>**{tech["id"]} · {info["name"]}** | {info["description"]} | {refs} |')
-    topic_rows = ['| 领域 | 关注的问题 | 文献入口 |' if chinese else '| Topic | Core question | Works |', '| --- | --- | --- |']
-    for topic in data['topics']:
-        name = f'**{topic["name"]}**<br>{topic["english"]}' if chinese else f'**{topic["english"]}**'
-        question = topic['question'] if chinese else topic['question_en']
-        refs = ' · '.join(f'[{by_id[aid]["name"]}](#{aid})' for aid in topic['works'])
-        topic_rows.append(f'| <a id="{topic["id"]}"></a>{name} | {question} | {refs} |')
+    headers = ['研究板块', 'Topic', '主条目 / 状态'] if chinese else ['Research area', 'Topic', 'Primary entries / status']
+    topic_rows = ['<table>', '<thead>', '<tr>' + ''.join(f'<th align="left">{header}</th>' for header in headers) + '</tr>', '</thead>', '<tbody>']
+    for area in data['areas']:
+        area_name = area['name'] if chinese else area['english']
+        area_topics = [t for t in data['topics'] if t['area'] == area['id']]
+        for index, topic in enumerate(area_topics):
+            topic_name = topic['name'] if chinese else topic['english']
+            count = sum(w['primary_topic'] == topic['id'] for w in works)
+            status = ('待扩展' if chinese else 'Reserved') if topic['reserved'] else str(count)
+            topic_rows.append('<tr>')
+            if index == 0:
+                topic_rows.append(f'<td rowspan="{len(area_topics)}" valign="middle"><a href="#area-{area["id"]}">{area["number"]}. {escape(area_name)}</a></td>')
+            topic_rows += [f'<td><a href="#{topic["id"]}">{topic["number"]} {escape(topic_name)}</a></td>',
+                           f'<td>{status}</td>', '</tr>']
+    topic_rows += ['</tbody>', '</table>']
 
     def entry(work):
         info = work if chinese else work['en']
@@ -95,42 +126,77 @@ def render(lang):
         note = notes[work['code_kind']][0 if chinese else 1] if work['code_kind'] else None
         publication = info['publication'].replace('**', '')
         title = work.get('paper_title') or work['name']
+        topic_tags = []
+        for tid in work['topics']:
+            if tid == work['primary_topic']:
+                continue
+            topic = topics[tid]
+            topic_name = topic['name'] if chinese else topic['english']
+            topic_tags.append(f'[{topic["number"]} {topic_name}](#{tid})')
         result = [f'<a id="{work["id"]}"></a>', f'#### {title} ({work["venue"]})', '',
-                  tags, '', resources(work, lang), '',
-                  info['summary'].rstrip('。.') + ('。' if chinese else '.')]
+                  tags, '',
+                  info['summary'].rstrip('。.') + ('。' if chinese else '.'), '', resources(work, lang), '',
+                  '<details>', '<summary>' + ('论文信息、实现来源与局限' if chinese else 'Paper details, code provenance and limitations') + '</summary>', '',
+                  ('**完整论文名：** ' if chinese else '**Full paper title:** ') + title, '',
+                  ('**发表记录：** ' if chinese else '**Publication history:** ') + publication]
         if note:
-            result += ['', f'<sub>{note} · <a href="{work["github"]}">{repository_slug(work["github"])}</a></sub>']
-        result += ['', '<details>', '<summary>' + ('方法边界与备注' if chinese else 'Limitations and notes') + '</summary>', '', ('**发表记录：** ' if chinese else '**Publication history:** ') + publication, '', info['caveat']]
+            result += ['', ('**实现来源：** ' if chinese else '**Code provenance:** ') + f'{note} · [{repository_slug(work["github"])}]({work["github"]})']
+        if topic_tags:
+            result += ['', ('**关联 Topic：** ' if chinese else '**Related topics:** ') + ' · '.join(topic_tags)]
+        result += ['', ('**局限与备注：** ' if chinese else '**Limitations and notes:** ') + info['caveat']]
         if work.get('arxiv') and work['paper'] != work['arxiv']:
             label = '正式论文 / 原始来源' if chinese else 'Publication / primary source'
             result += ['', f'[{label}]({work["paper"]})']
         result += ['', '</details>', '']
         return '\n'.join(result)
 
-    recent_parts = []
-    for year in sorted({w['year'] for w in recent}, reverse=True):
-        members = [w for w in recent if w['year'] == year]
-        count = f'{len(members)} 项工作' if chinese else f'{len(members)} works'
-        back = '↑ 返回年份导航' if chinese else '↑ Back to years'
-        recent_parts += [f'<a id="year-{year}"></a>\n### {year} · {count}\n',
-                         '\n---\n\n'.join(entry(w) for w in members), f'[{back}](#recent)\n\n---\n']
-    classic_parts = []
-    for group in dict.fromkeys(w['group'] for w in classic):
-        members = [w for w in classic if w['group'] == group]
-        back = '↑ 返回经典方法' if chinese else '↑ Back to classics'
-        classic_parts += [f'### {group if chinese else GROUPS[group]}\n',
-                          '\n---\n\n'.join(entry(w) for w in members), f'[{back}](#classics)\n\n---\n']
+    catalog_parts = []
+    for area in data['areas']:
+        area_name = area['name'] if chinese else area['english']
+        catalog_parts += [f'<a id="area-{area["id"]}"></a>\n## {area["number"]}. {area_name}\n']
+        for topic in data['topics']:
+            if topic['area'] != area['id']:
+                continue
+            tid = topic['id']
+            topic_name = topic['name'] if chinese else topic['english']
+            aliases = '\n'.join(f'<a id="{alias}"></a>' for alias in topic['aliases'])
+            members = newest_first([w for w in works if w['primary_topic'] == tid])
+            scope = topic['question'] if chinese else topic['question_en']
+            scope_label = '本类关注' if chinese else 'Scope'
+            count_label = f'{len(members)} 篇论文 · 按年份从新到旧排列' if chinese else f'{len(members)} papers · Newest first'
+            if topic['reserved']:
+                count_label = '待扩展 · 暂无收录论文' if chinese else 'Reserved · No papers collected yet'
+            catalog_parts += [aliases, f'<a id="{tid}"></a>\n### {topic["number"]} {topic_name}\n',
+                              f'> **{scope_label}** · {scope}\n>\n> **{count_label}**', '', '---\n']
+            if topic['reserved']:
+                catalog_parts += [('**待扩展：** 已预留方向，尚未收录论文。后续优先收录与空间对应、重投影、形变、噪声输运或时空对齐直接相关的工作。'
+                                   if chinese else '**Reserved:** No papers collected yet. Future entries should directly connect to spatial correspondence, reprojection, deformation, noise transport or spatiotemporal alignment.'), '']
+            else:
+                def year_label(year):
+                    return str(year) if year is not None else ('基础模型（无单一年份）' if chinese else 'Foundational models (undated)')
+                catalog_parts += ['\n---\n\n'.join(entry(w) for w in members)]
+                related = newest_first([w for w in works if tid in w['topics'] and w['primary_topic'] != tid])
+                if related:
+                    label = f'关联阅读 · {len(related)} 篇其他 Topic 的论文' if chinese else f'Related reading · {len(related)} papers in other topics'
+                    refs = '\n'.join(f'- [{w["name"]}](#{w["id"]}) ({year_label(w["year"])})' for w in related)
+                    catalog_parts += ['---\n', '<details>', f'<summary>{label}</summary>', '', refs, '', '</details>', '']
+            back = '↑ 返回 Topic 导航' if chinese else '↑ Back to topic navigation'
+            top = f'↑ {topic["number"]} 本类开头' if chinese else f'↑ Start of {topic["number"]}'
+            catalog_parts += [f'[{top}](#{tid}) · [{back}](#topics)\n\n---\n']
     name = 'README.zh-CN.template.md' if chinese else 'README.template.md'
     template = (ROOT / 'docs' / name).read_text()
-    for key, value in {'STATS': stats, 'DATE': data['updated'], 'TECHNOLOGIES': '\n'.join(tech_rows),
-                       'TOPICS': '\n'.join(topic_rows), 'RECENT': '\n'.join(recent_parts),
-                       'CLASSICS': '\n'.join(classic_parts)}.items():
+    for key, value in {'STATS': stats, 'DATE': data['updated'],
+                       'AREA_COUNT': str(len(data['areas'])), 'TOPIC_COUNT': str(len(data['topics'])),
+                       'RESERVED_COUNT': str(sum(t['reserved'] for t in data['topics'])),
+                       'TECH_COUNT': str(len(data['technologies'])), 'TECHNOLOGIES': '\n'.join(tech_rows),
+                       'TOPICS': '\n'.join(topic_rows), 'CATALOG': '\n'.join(catalog_parts)}.items():
         template = template.replace('{{' + key + '}}', value)
     assert '{{' not in template, 'Unfilled template token'
     anchors = re.findall(r'<a id="([^"]+)"></a>', template)
     assert len(anchors) == len(set(anchors)), 'Duplicate anchor'
-    assert not set(re.findall(r'\]\(#([^\)]+)\)', template)) - set(anchors), 'Broken anchor'
-    assert all(w['paper'] and w['topics'] for w in works), 'Missing source or topic'
+    targets = re.findall(r'\]\(#([^\)]+)\)', template) + re.findall(r'href="#([^"]+)"', template)
+    assert not set(targets) - set(anchors), 'Broken anchor'
+    assert all(anchors.count(w['id']) == 1 for w in works), 'Missing or repeated work entry'
     if not chinese:
         assert not re.search(r'[\u4e00-\u9fff]', template.replace('简体中文', '')), 'Untranslated English page text'
     return template
