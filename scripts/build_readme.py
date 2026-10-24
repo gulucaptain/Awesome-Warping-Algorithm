@@ -85,7 +85,6 @@ def render(lang, data=None):
     validate_catalog(data)
     works = data['works']
     chinese = lang == 'zh-CN'
-    topics = {t['id']: t for t in data['topics']}
     repos = {w['github'].lower().rstrip('/') for w in works if w['github']}
     labels = ['篇论文', '个代码仓库', '个研究板块', '个主题'] if chinese else ['Papers', 'Repositories', 'Research areas', 'Topics']
     values = [len(works), len(repos), len(data['areas']), len(data['topics'])]
@@ -115,37 +114,10 @@ def render(lang, data=None):
     def entry(work):
         info = work if chinese else work['en']
         tags = ' '.join(f'[`{t}`](#{t.lower()})' for t in work['technology'])
-        notes = {
-            'framework': ('通用实现框架，计数属于整个仓库', 'Shared framework; counts refer to the entire repository'),
-            'unofficial': ('非官方复现', 'Unofficial reimplementation'),
-            'reimplementation': ('复现代码；仓库自述为 reimplementation', 'Reimplementation, as described by the repository'),
-            'official': ('作者实现', 'Author implementation'),
-        }
-        note = notes[work['code_kind']][0 if chinese else 1] if work['code_kind'] else None
-        publication = info['publication'].replace('**', '')
         title = work.get('paper_title') or work['name']
-        topic_tags = []
-        for tid in work['topics']:
-            if tid == work['primary_topic']:
-                continue
-            topic = topics[tid]
-            topic_name = topic['name'] if chinese else topic['english']
-            topic_tags.append(f'[{topic["number"]} {topic_name}](#{tid})')
         result = [f'<a id="{work["id"]}"></a>', f'#### {title} ({work["venue"]})', '',
-                  tags, '',
-                  info['summary'].rstrip('。.') + ('。' if chinese else '.'), '', resources(work), '',
-                  '<details>', '<summary>' + ('论文信息、实现来源与局限' if chinese else 'Paper details, code provenance and limitations') + '</summary>', '',
-                  ('**完整论文名：** ' if chinese else '**Full paper title:** ') + title, '',
-                  ('**发表记录：** ' if chinese else '**Publication history:** ') + publication]
-        if note:
-            result += ['', ('**实现来源：** ' if chinese else '**Code provenance:** ') + f'{note} · [{repository_slug(work["github"])}]({work["github"]})']
-        if topic_tags:
-            result += ['', ('**关联 Topic：** ' if chinese else '**Related topics:** ') + ' · '.join(topic_tags)]
-        result += ['', ('**局限与备注：** ' if chinese else '**Limitations and notes:** ') + info['caveat']]
-        if work.get('arxiv') and work['paper'] != work['arxiv']:
-            label = '正式论文 / 原始来源' if chinese else 'Publication / primary source'
-            result += ['', f'[{label}]({work["paper"]})']
-        result += ['', '</details>', '']
+                  resources(work) + ' &nbsp; ' + tags, '',
+                  info['summary'].rstrip('。.') + ('。' if chinese else '.'), '']
         return '\n'.join(result)
 
     catalog_parts = []

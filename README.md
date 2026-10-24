@@ -36,7 +36,7 @@ Warping maps pixels, features, and noise across space and time, providing a foun
 
 The collection focuses on **spatial warping** in computer vision, graphics and medical imaging. It distinguishes transformation models, correspondence estimators, resampling operators and application pipelines. Time-series DTW and GPU execution warps are outside its scope.
 
-Entries follow **research area → topic**, with papers listed newest year first within each topic. Each topic opens with a scope and paper-count block. Papers follow a consistent sequence: full paper title (venue and year), technique tags, contribution, resource links, and expandable details. Horizontal rules separate methods; classical and recent work appear together without year navigation or year groups. Published work uses its representative publication year, and preprints use their preprint year; publication histories are retained. Entries combining foundational methods use the publication year of the linked representative paper. Undated foundations appear last within their topic. Entries from the same year retain catalog order. Coverage ends on 2026-10-24. Descriptions are grounded in papers and author resources; the collection does not claim a unified reproduction of all methods.
+Entries follow **research area → topic**, with papers listed newest year first within each topic. Each topic opens with a scope and paper-count block. Papers follow a consistent sequence: full paper title (venue and year), one row of resource badges followed by technique tags, and a contribution summary. Full publication histories, code provenance and limitations remain in the bilingual catalog and research guides. Horizontal rules separate methods; classical and recent work appear together without year navigation or year groups. Published work uses its representative publication year, and preprints use their preprint year; publication histories are retained. Entries combining foundational methods use the publication year of the linked representative paper. Undated foundations appear last within their topic. Entries from the same year retain catalog order. Coverage ends on 2026-10-24. Descriptions are grounded in papers and author resources; the collection does not claim a unified reproduction of all methods.
 
 Each work has one primary topic, with related tags and reading links for other directions. Spatial reasoning, world models, interactive simulation and embodied agents are reserved for future work directly connected to warping.
 
@@ -144,184 +144,72 @@ Each work has one primary topic, with related tags and reading links for other d
 <a id="n26"></a>
 #### WarpI2I: Image Warping for Image-to-Image Translation (ECCV 2026)
 
-[`T2`](#t2) [`T9`](#t9)
+[![arXiv: 2606.31018](https://img.shields.io/badge/arXiv-2606.31018-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.31018) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2606.31018) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://shenzheng2000.github.io/WarpI2I.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ShenZheng2000/WarpI2I) [![GitHub stars](https://img.shields.io/github/stars/ShenZheng2000/WarpI2I?style=flat-square&label=stars&color=C58A18)](https://github.com/ShenZheng2000/WarpI2I/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ShenZheng2000/WarpI2I?style=flat-square&label=forks&color=64748B)](https://github.com/ShenZheng2000/WarpI2I/forks) &nbsp; [`T2`](#t2) [`T9`](#t9)
 
 Uses a saliency-guided warp before encoding to allocate more spatial representation to salient regions, then unwarps the output to improve structural preservation in compact latent models.
-
-[![arXiv: 2606.31018](https://img.shields.io/badge/arXiv-2606.31018-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.31018) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2606.31018) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://shenzheng2000.github.io/WarpI2I.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ShenZheng2000/WarpI2I) [![GitHub stars](https://img.shields.io/github/stars/ShenZheng2000/WarpI2I?style=flat-square&label=stars&color=C58A18)](https://github.com/ShenZheng2000/WarpI2I/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ShenZheng2000/WarpI2I?style=flat-square&label=forks&color=64748B)](https://github.com/ShenZheng2000/WarpI2I/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** WarpI2I: Image Warping for Image-to-Image Translation
-
-**Publication history:** 2026 · arXiv lists ECCV 2026
-
-**Code provenance:** Author implementation · [ShenZheng2000/WarpI2I](https://github.com/ShenZheng2000/WarpI2I)
-
-**Limitations and notes:** Uses warping to allocate representation capacity rather than primarily to estimate motion; inverse mapping remains subject to resampling error.
-
-</details>
 
 ---
 
 <a id="n21"></a>
 #### LookingGlass: Generative Anamorphoses via Laplacian Pyramid Warping (CVPR 2025)
 
-[`T7`](#t7) [`T9`](#t9)
+[![arXiv: 2504.08902](https://img.shields.io/badge/arXiv-2504.08902-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.08902) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2504.08902) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://lookingglass-lpw.github.io/) &nbsp; [`T7`](#t7) [`T9`](#t9)
 
 Uses Laplacian pyramids for frequency-aware image warping and view aggregation, enabling multiview generative anamorphoses.
-
-[![arXiv: 2504.08902](https://img.shields.io/badge/arXiv-2504.08902-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.08902) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2504.08902) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://lookingglass-lpw.github.io/)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** LookingGlass: Generative Anamorphoses via Laplacian Pyramid Warping
-
-**Publication history:** CVPR 2025
-
-**Limitations and notes:** Targets detail preservation and synchronization across transformed views, not a direct guarantee of random-noise statistics.
-
-</details>
 
 ---
 
 <a id="c09"></a>
 #### As-Rigid-As-Possible Surface Modeling (SGP 2007)
 
-[`T3`](#t3)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://igl.ethz.ch/projects/ARAP/arap_web.pdf) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://igl.ethz.ch/projects/ARAP/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/libigl/libigl) [![GitHub stars](https://img.shields.io/github/stars/libigl/libigl?style=flat-square&label=stars&color=C58A18)](https://github.com/libigl/libigl/stargazers) [![GitHub forks](https://img.shields.io/github/forks/libigl/libigl?style=flat-square&label=forks&color=64748B)](https://github.com/libigl/libigl/forks) &nbsp; [`T3`](#t3)
 
 Sorkine and Alexa preserve local shape through an as-rigid-as-possible energy, establishing a widely used approach to detail-preserving mesh editing.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://igl.ethz.ch/projects/ARAP/arap_web.pdf) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://igl.ethz.ch/projects/ARAP/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/libigl/libigl) [![GitHub stars](https://img.shields.io/github/stars/libigl/libigl?style=flat-square&label=stars&color=C58A18)](https://github.com/libigl/libigl/stargazers) [![GitHub forks](https://img.shields.io/github/forks/libigl/libigl?style=flat-square&label=forks&color=64748B)](https://github.com/libigl/libigl/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** As-Rigid-As-Possible Surface Modeling
-
-**Publication history:** SGP 2007
-
-**Code provenance:** Shared framework; counts refer to the entire repository · [libigl/libigl](https://github.com/libigl/libigl)
-
-**Limitations and notes:** Requires a mesh and numerical optimization; large deformations may still self-intersect.
-
-</details>
 
 ---
 
 <a id="c08"></a>
 #### Image deformation using moving least squares (SIGGRAPH / TOG 2006)
 
-[`T2`](#t2)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1145/1141911.1141920) &nbsp; [`T2`](#t2)
 
 Schaefer and colleagues construct affine, similarity and rigid image deformations through locally weighted fitting, enabling interactive point and line controls.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1145/1141911.1141920)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Image deformation using moving least squares
-
-**Publication history:** SIGGRAPH / TOG 2006
-
-**Limitations and notes:** Results depend on weights, landmark layout and extrapolation; local fitting does not guarantee global invertibility.
-
-</details>
 
 ---
 
 <a id="c06"></a>
 #### Feature-Based Image Metamorphosis (SIGGRAPH 1992)
 
-[`T2`](#t2)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://wcours.gel.ulaval.ca/GIF4105/old/h20/tps/tp3/beierneely92.pdf) &nbsp; [`T2`](#t2)
 
 Uses corresponding feature-line pairs to control an inverse warp, then blends image colors to produce morphing effects.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://wcours.gel.ulaval.ca/GIF4105/old/h20/tps/tp3/beierneely92.pdf)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Feature-Based Image Metamorphosis
-
-**Publication history:** SIGGRAPH 1992
-
-**Limitations and notes:** Requires manually specified correspondences and can distort complex regions.
-
-</details>
 
 ---
 
 <a id="c05"></a>
 #### Principal warps: thin-plate splines and the decomposition of deformations (TPAMI 1989)
 
-[`T2`](#t2)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1109/34.24792) &nbsp; [`T2`](#t2)
 
 Bookstein uses thin-plate splines for landmark-based deformation analysis, defining smooth nonrigid maps through bending energy. The underlying mathematics of TPS predates this paper.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1109/34.24792)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Principal warps: thin-plate splines and the decomposition of deformations
-
-**Publication history:** TPAMI 1989
-
-**Related topics:** [2.2 Image Registration, Stitching & Stabilization](#topic-image-alignment)
-
-**Limitations and notes:** Global support, outlier landmarks and extrapolation can produce implausible deformation.
-
-</details>
 
 ---
 
 <a id="c04"></a>
 #### Free-Form Deformation of Solid Geometric Models (SIGGRAPH 1986)
 
-[`T2`](#t2)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.cse.iitd.ac.in/~jatin/minor_p/papers/sederberg.pdf) &nbsp; [`T2`](#t2)
 
 Sederberg and Parry deform geometric objects through a control lattice and Bernstein polynomials, establishing a foundation for volumetric free-form deformation.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.cse.iitd.ac.in/~jatin/minor_p/papers/sederberg.pdf)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Free-Form Deformation of Solid Geometric Models
-
-**Publication history:** SIGGRAPH 1986
-
-**Limitations and notes:** Lattice resolution trades detail against complexity; the model does not automatically prevent folding.
-
-</details>
 
 ---
 
 <a id="c01"></a>
 #### Rigid / Similarity / Affine / Homography (Foundational models)
 
-[`T1`](#t1)
+[![Reference: Read](https://img.shields.io/badge/Reference-Read-2563EB?style=flat-square)](https://docs.opencv.org/4.x/d9/dab/tutorial_homography.html) &nbsp; [`T1`](#t1)
 
 Global rigid, similarity, affine and projective maps provide compact coordinate transformations. A homography models a plane or a change of view under pure rotation about a fixed optical center.
-
-[![Reference: Read](https://img.shields.io/badge/Reference-Read-2563EB?style=flat-square)](https://docs.opencv.org/4.x/d9/dab/tutorial_homography.html)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Rigid / Similarity / Affine / Homography
-
-**Publication history:** Foundational models
-
-**Related topics:** [2.2 Image Registration, Stitching & Stabilization](#topic-image-alignment) · [5.1 Spatial Perception, Depth & 3D Reconstruction](#topic-spatial-perception)
-
-**Limitations and notes:** One global matrix cannot generally explain 3D translation with parallax or nonrigid motion.
-
-</details>
 
 ---
 
@@ -349,70 +237,27 @@ Global rigid, similarity, affine and projective maps provide compact coordinate 
 <a id="n10"></a>
 #### ImWIP: Open-source image warping toolbox with adjoints and derivatives (SoftwareX 2023)
 
-[`T7`](#t7)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1016/j.softx.2023.101524) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://imwip.readthedocs.io/en/latest/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RendersJens/ImWIP) [![GitHub stars](https://img.shields.io/github/stars/RendersJens/ImWIP?style=flat-square&label=stars&color=C58A18)](https://github.com/RendersJens/ImWIP/stargazers) [![GitHub forks](https://img.shields.io/github/forks/RendersJens/ImWIP?style=flat-square&label=forks&color=64748B)](https://github.com/RendersJens/ImWIP/forks) &nbsp; [`T7`](#t7)
 
 Provides differentiable image-warp operators with exact discrete adjoints and derivatives for inverse-problem optimization.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1016/j.softx.2023.101524) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://imwip.readthedocs.io/en/latest/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RendersJens/ImWIP) [![GitHub stars](https://img.shields.io/github/stars/RendersJens/ImWIP?style=flat-square&label=stars&color=C58A18)](https://github.com/RendersJens/ImWIP/stargazers) [![GitHub forks](https://img.shields.io/github/forks/RendersJens/ImWIP?style=flat-square&label=forks&color=64748B)](https://github.com/RendersJens/ImWIP/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** ImWIP: Open-source image warping toolbox with adjoints and derivatives
-
-**Publication history:** SoftwareX 2023
-
-**Code provenance:** Author implementation · [RendersJens/ImWIP](https://github.com/RendersJens/ImWIP)
-
-**Limitations and notes:** The adjoint is not an inverse warp. Exactness concerns the selected discretization, up to floating-point error.
-
-</details>
 
 ---
 
 <a id="c13"></a>
 #### Spatial Transformer Networks (NeurIPS 2015)
 
-[`T7`](#t7)
+[![arXiv: 1506.02025](https://img.shields.io/badge/arXiv-1506.02025-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1506.02025) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/1506.02025) &nbsp; [`T7`](#t7)
 
 Jointly trains transformation prediction, grid generation and differentiable sampling, making spatial transformation a learnable neural-network module.
-
-[![arXiv: 1506.02025](https://img.shields.io/badge/arXiv-1506.02025-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1506.02025) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/1506.02025)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Spatial Transformer Networks
-
-**Publication history:** NeurIPS 2015
-
-**Limitations and notes:** The transformation family limits expressiveness. Bilinear sampling does not itself solve occlusion completion or rigorous antialiasing.
-
-</details>
 
 ---
 
 <a id="c25"></a>
 #### EWA Volume Splatting (IEEE Visualization 2001)
 
-[`T7`](#t7)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://dash.harvard.edu/bitstream/handle/1/4138240/Zwicker_EWA.pdf) &nbsp; [`T7`](#t7)
 
 Uses elliptical weighted-average kernels for projected reconstruction and low-pass filtering, providing a classic reference for splat footprints and antialiasing.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://dash.harvard.edu/bitstream/handle/1/4138240/Zwicker_EWA.pdf)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** EWA Volume Splatting
-
-**Publication history:** IEEE Visualization 2001
-
-**Related topics:** [1.1 Geometric Transformations & Deformation Editing](#topic-geometry-editing)
-
-**Limitations and notes:** This is a volume-rendering operator, not the same operation as 2D optical-flow warping or a complete modern 3DGS system.
-
-</details>
 
 ---
 
@@ -444,242 +289,90 @@ Uses elliptical weighted-average kernels for projected reconstruction and low-pa
 <a id="n20"></a>
 #### MEMFOF: High-Resolution Training for Memory-Efficient Multi-Frame Optical Flow Estimation (ICCV 2025)
 
-[`T4`](#t4)
+[![arXiv: 2506.23151](https://img.shields.io/badge/arXiv-2506.23151-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.23151) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2506.23151) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://msu-video-group.github.io/memfof/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/msu-video-group/memfof) [![GitHub stars](https://img.shields.io/github/stars/msu-video-group/memfof?style=flat-square&label=stars&color=C58A18)](https://github.com/msu-video-group/memfof/stargazers) [![GitHub forks](https://img.shields.io/github/forks/msu-video-group/memfof?style=flat-square&label=forks&color=64748B)](https://github.com/msu-video-group/memfof/forks) &nbsp; [`T4`](#t4)
 
 Combines reduced correlation representations, multiframe estimation and high-resolution training to improve memory efficiency for native FullHD optical flow.
-
-[![arXiv: 2506.23151](https://img.shields.io/badge/arXiv-2506.23151-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.23151) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2506.23151) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://msu-video-group.github.io/memfof/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/msu-video-group/memfof) [![GitHub stars](https://img.shields.io/github/stars/msu-video-group/memfof?style=flat-square&label=stars&color=C58A18)](https://github.com/msu-video-group/memfof/stargazers) [![GitHub forks](https://img.shields.io/github/forks/msu-video-group/memfof?style=flat-square&label=forks&color=64748B)](https://github.com/msu-video-group/memfof/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** MEMFOF: High-Resolution Training for Memory-Efficient Multi-Frame Optical Flow Estimation
-
-**Publication history:** ICCV 2025
-
-**Code provenance:** Author implementation · [msu-video-group/memfof](https://github.com/msu-video-group/memfof)
-
-**Limitations and notes:** Not a new sampling kernel; resource figures should be reproduced under the authors' resolution, precision and hardware settings.
-
-</details>
 
 ---
 
 <a id="n13"></a>
 #### SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow (ECCV 2024)
 
-[`T4`](#t4)
+[![arXiv: 2405.14793](https://img.shields.io/badge/arXiv-2405.14793-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.14793) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2405.14793) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/princeton-vl/SEA-RAFT) [![GitHub stars](https://img.shields.io/github/stars/princeton-vl/SEA-RAFT?style=flat-square&label=stars&color=C58A18)](https://github.com/princeton-vl/SEA-RAFT/stargazers) [![GitHub forks](https://img.shields.io/github/forks/princeton-vl/SEA-RAFT?style=flat-square&label=forks&color=64748B)](https://github.com/princeton-vl/SEA-RAFT/forks) &nbsp; [`T4`](#t4)
 
 Improves RAFT's efficiency and accuracy through initial-flow regression, a mixture-of-Laplace loss and rigid-motion pretraining.
-
-[![arXiv: 2405.14793](https://img.shields.io/badge/arXiv-2405.14793-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.14793) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2405.14793) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/princeton-vl/SEA-RAFT) [![GitHub stars](https://img.shields.io/github/stars/princeton-vl/SEA-RAFT?style=flat-square&label=stars&color=C58A18)](https://github.com/princeton-vl/SEA-RAFT/stargazers) [![GitHub forks](https://img.shields.io/github/forks/princeton-vl/SEA-RAFT?style=flat-square&label=forks&color=64748B)](https://github.com/princeton-vl/SEA-RAFT/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow
-
-**Publication history:** ECCV 2024
-
-**Code provenance:** Author implementation · [princeton-vl/SEA-RAFT](https://github.com/princeton-vl/SEA-RAFT)
-
-**Limitations and notes:** An improvement to correspondence estimation; outcomes depend on the evaluation protocol.
-
-</details>
 
 ---
 
 <a id="n09"></a>
 #### Unifying Flow, Stereo and Depth Estimation (TPAMI 2023)
 
-[`T4`](#t4) [`T6`](#t6)
+[![arXiv: 2211.05783](https://img.shields.io/badge/arXiv-2211.05783-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2211.05783) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2211.05783) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://haofeixu.github.io/unimatch/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/autonomousvision/unimatch) [![GitHub stars](https://img.shields.io/github/stars/autonomousvision/unimatch?style=flat-square&label=stars&color=C58A18)](https://github.com/autonomousvision/unimatch/stargazers) [![GitHub forks](https://img.shields.io/github/forks/autonomousvision/unimatch?style=flat-square&label=forks&color=64748B)](https://github.com/autonomousvision/unimatch/forks) &nbsp; [`T4`](#t4) [`T6`](#t6)
 
 Unifies optical flow, stereo disparity and depth from posed views as dense correspondence-matching problems.
-
-[![arXiv: 2211.05783](https://img.shields.io/badge/arXiv-2211.05783-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2211.05783) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2211.05783) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://haofeixu.github.io/unimatch/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/autonomousvision/unimatch) [![GitHub stars](https://img.shields.io/github/stars/autonomousvision/unimatch?style=flat-square&label=stars&color=C58A18)](https://github.com/autonomousvision/unimatch/stargazers) [![GitHub forks](https://img.shields.io/github/forks/autonomousvision/unimatch?style=flat-square&label=forks&color=64748B)](https://github.com/autonomousvision/unimatch/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Unifying Flow, Stereo and Depth Estimation
-
-**Publication history:** TPAMI 2023
-
-**Code provenance:** Author implementation · [autonomousvision/unimatch](https://github.com/autonomousvision/unimatch)
-
-**Related topics:** [5.1 Spatial Perception, Depth & 3D Reconstruction](#topic-spatial-perception)
-
-**Limitations and notes:** The preprint appeared in 2022; output structure, geometric constraints and refinement still depend on the task.
-
-</details>
 
 ---
 
 <a id="n01"></a>
 #### GMFlow: Learning Optical Flow via Global Matching (CVPR 2022)
 
-[`T4`](#t4)
+[![arXiv: 2111.13680](https://img.shields.io/badge/arXiv-2111.13680-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2111.13680) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2111.13680) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/haofeixu/gmflow) [![GitHub stars](https://img.shields.io/github/stars/haofeixu/gmflow?style=flat-square&label=stars&color=C58A18)](https://github.com/haofeixu/gmflow/stargazers) [![GitHub forks](https://img.shields.io/github/forks/haofeixu/gmflow?style=flat-square&label=forks&color=64748B)](https://github.com/haofeixu/gmflow/forks) &nbsp; [`T4`](#t4)
 
 Uses Transformer-enhanced cross-image features and global matching to estimate flow with less reliance on long sequences of iterative refinement.
-
-[![arXiv: 2111.13680](https://img.shields.io/badge/arXiv-2111.13680-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2111.13680) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2111.13680) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/haofeixu/gmflow) [![GitHub stars](https://img.shields.io/github/stars/haofeixu/gmflow?style=flat-square&label=stars&color=C58A18)](https://github.com/haofeixu/gmflow/stargazers) [![GitHub forks](https://img.shields.io/github/forks/haofeixu/gmflow?style=flat-square&label=forks&color=64748B)](https://github.com/haofeixu/gmflow/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** GMFlow: Learning Optical Flow via Global Matching
-
-**Publication history:** CVPR 2022
-
-**Code provenance:** Author implementation · [haofeixu/gmflow](https://github.com/haofeixu/gmflow)
-
-**Limitations and notes:** Improves correspondence estimation rather than the resampling kernel; the preprint appeared in 2021.
-
-</details>
 
 ---
 
 <a id="n02"></a>
 #### FlowFormer: A Transformer Architecture for Optical Flow (ECCV 2022)
 
-[`T4`](#t4)
+[![arXiv: 2203.16194](https://img.shields.io/badge/arXiv-2203.16194-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.16194) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://drinkingcoder.github.io/publication/flowformer/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/drinkingcoder/FlowFormer-Official) [![GitHub stars](https://img.shields.io/github/stars/drinkingcoder/FlowFormer-Official?style=flat-square&label=stars&color=C58A18)](https://github.com/drinkingcoder/FlowFormer-Official/stargazers) [![GitHub forks](https://img.shields.io/github/forks/drinkingcoder/FlowFormer-Official?style=flat-square&label=forks&color=64748B)](https://github.com/drinkingcoder/FlowFormer-Official/forks) &nbsp; [`T4`](#t4)
 
 Encodes a 4D cost volume with Transformers and recurrently decodes motion updates.
-
-[![arXiv: 2203.16194](https://img.shields.io/badge/arXiv-2203.16194-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.16194) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://drinkingcoder.github.io/publication/flowformer/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/drinkingcoder/FlowFormer-Official) [![GitHub stars](https://img.shields.io/github/stars/drinkingcoder/FlowFormer-Official?style=flat-square&label=stars&color=C58A18)](https://github.com/drinkingcoder/FlowFormer-Official/stargazers) [![GitHub forks](https://img.shields.io/github/forks/drinkingcoder/FlowFormer-Official?style=flat-square&label=forks&color=64748B)](https://github.com/drinkingcoder/FlowFormer-Official/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** FlowFormer: A Transformer Architecture for Optical Flow
-
-**Publication history:** ECCV 2022
-
-**Code provenance:** Author implementation · [drinkingcoder/FlowFormer-Official](https://github.com/drinkingcoder/FlowFormer-Official)
-
-**Limitations and notes:** The cost representation and high-resolution memory requirements need consideration.
-
-</details>
 
 ---
 
 <a id="c20"></a>
 #### RAFT: Recurrent All-Pairs Field Transforms for Optical Flow (ECCV 2020)
 
-[`T4`](#t4)
+[![arXiv: 2003.12039](https://img.shields.io/badge/arXiv-2003.12039-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2003.12039) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2003.12039) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/princeton-vl/RAFT) [![GitHub stars](https://img.shields.io/github/stars/princeton-vl/RAFT?style=flat-square&label=stars&color=C58A18)](https://github.com/princeton-vl/RAFT/stargazers) [![GitHub forks](https://img.shields.io/github/forks/princeton-vl/RAFT?style=flat-square&label=forks&color=64748B)](https://github.com/princeton-vl/RAFT/forks) &nbsp; [`T4`](#t4)
 
 Builds all-pairs correlation volumes and updates a dense flow field recurrently, providing an influential baseline for correspondence estimation.
-
-[![arXiv: 2003.12039](https://img.shields.io/badge/arXiv-2003.12039-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2003.12039) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2003.12039) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/princeton-vl/RAFT) [![GitHub stars](https://img.shields.io/github/stars/princeton-vl/RAFT?style=flat-square&label=stars&color=C58A18)](https://github.com/princeton-vl/RAFT/stargazers) [![GitHub forks](https://img.shields.io/github/forks/princeton-vl/RAFT?style=flat-square&label=forks&color=64748B)](https://github.com/princeton-vl/RAFT/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** RAFT: Recurrent All-Pairs Field Transforms for Optical Flow
-
-**Publication history:** ECCV 2020
-
-**Code provenance:** Author implementation · [princeton-vl/RAFT](https://github.com/princeton-vl/RAFT)
-
-**Related topics:** [3.1 Video Interpolation & Restoration](#topic-video-restoration) · [4.2 Camera-, Trajectory- & Motion-Controlled Generation](#topic-controlled-generation)
-
-**Limitations and notes:** Correlation storage grows with resolution. RAFT estimates flow; it does not introduce a new image interpolation kernel.
-
-</details>
 
 ---
 
 <a id="c15"></a>
 #### PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume (CVPR 2018)
 
-[`T4`](#t4)
+[![arXiv: 1709.02371](https://img.shields.io/badge/arXiv-1709.02371-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1709.02371) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NVlabs/PWC-Net) [![GitHub stars](https://img.shields.io/github/stars/NVlabs/PWC-Net?style=flat-square&label=stars&color=C58A18)](https://github.com/NVlabs/PWC-Net/stargazers) [![GitHub forks](https://img.shields.io/github/forks/NVlabs/PWC-Net?style=flat-square&label=forks&color=64748B)](https://github.com/NVlabs/PWC-Net/forks) &nbsp; [`T4`](#t4)
 
 Combines feature pyramids, feature warping and cost volumes to learn residual motion from coarse to fine.
-
-[![arXiv: 1709.02371](https://img.shields.io/badge/arXiv-1709.02371-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1709.02371) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NVlabs/PWC-Net) [![GitHub stars](https://img.shields.io/github/stars/NVlabs/PWC-Net?style=flat-square&label=stars&color=C58A18)](https://github.com/NVlabs/PWC-Net/stargazers) [![GitHub forks](https://img.shields.io/github/forks/NVlabs/PWC-Net?style=flat-square&label=forks&color=64748B)](https://github.com/NVlabs/PWC-Net/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume
-
-**Publication history:** CVPR 2018 · preprint 2017
-
-**Code provenance:** Author implementation · [NVlabs/PWC-Net](https://github.com/NVlabs/PWC-Net)
-
-**Related topics:** [3.1 Video Interpolation & Restoration](#topic-video-restoration)
-
-**Limitations and notes:** Errors can propagate between pyramid levels; occlusions require additional treatment.
-
-</details>
 
 ---
 
 <a id="c02"></a>
 #### Lucas-Kanade 20 Years On: A Unifying Framework (IJCV 2004)
 
-[`T1`](#t1) [`T4`](#t4)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.ri.cmu.edu/pub_files/pub3/baker_simon_2004_1/baker_simon_2004_1.pdf) &nbsp; [`T1`](#t1) [`T4`](#t4)
 
 Optimizes warp parameters using image residuals. The inverse compositional formulation reuses parts of the computation and remains a foundation of direct image alignment.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.ri.cmu.edu/pub_files/pub3/baker_simon_2004_1/baker_simon_2004_1.pdf)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Lucas-Kanade 20 Years On: A Unifying Framework
-
-**Publication history:** 1981 · IJCV 2004 unifying framework
-
-**Related topics:** [2.2 Image Registration, Stitching & Stabilization](#topic-image-alignment)
-
-**Limitations and notes:** Sensitive to initialization, photometric assumptions and local minima.
-
-</details>
 
 ---
 
 <a id="c27"></a>
 #### High Accuracy Optical Flow Estimation Based on a Theory for Warping (ECCV 2004)
 
-[`T4`](#t4)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.mia.uni-saarland.de/Publications/brox-eccv04-of.pdf) &nbsp; [`T4`](#t4)
 
 Combines brightness and gradient constancy with edge-preserving regularization, and gives a theoretical interpretation of coarse-to-fine warping in the numerical solver.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.mia.uni-saarland.de/Publications/brox-eccv04-of.pdf)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** High Accuracy Optical Flow Estimation Based on a Theory for Warping
-
-**Publication history:** ECCV 2004
-
-**Limitations and notes:** Large illumination changes and severe occlusion violate its data assumptions.
-
-</details>
 
 ---
 
 <a id="c03"></a>
 #### Determining optical flow (Artificial Intelligence 1981)
 
-[`T4`](#t4)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1016/0004-3702(81)90024-2) &nbsp; [`T4`](#t4)
 
 Combines brightness constancy with a global smoothness regularizer, establishing a classical variational formulation of dense optical flow.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1016/0004-3702(81)90024-2)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Determining optical flow
-
-**Publication history:** 1981
-
-**Limitations and notes:** The basic formulation can oversmooth motion boundaries and struggles with large displacement.
-
-</details>
 
 [↑ Start of 2.1](#topic-optical-flow) · [↑ Back to topic navigation](#topics)
 
@@ -700,116 +393,45 @@ Combines brightness constancy with a global smoothness regularizer, establishing
 <a id="n25"></a>
 #### DMAligner: Enhancing Image Alignment via Diffusion Model Based View Synthesis (CVPR 2026)
 
-[`T9`](#t9)
+[![arXiv: 2602.23022](https://img.shields.io/badge/arXiv-2602.23022-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.23022) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://boomluo02.github.io/DMAligner/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/boomluo02/DMAligner) [![GitHub stars](https://img.shields.io/github/stars/boomluo02/DMAligner?style=flat-square&label=stars&color=C58A18)](https://github.com/boomluo02/DMAligner/stargazers) [![GitHub forks](https://img.shields.io/github/forks/boomluo02/DMAligner?style=flat-square&label=forks&color=64748B)](https://github.com/boomluo02/DMAligner/forks) &nbsp; [`T9`](#t9)
 
 Recasts image alignment as diffusion-based view synthesis, using dynamics-aware training to address occlusion and illumination variation.
-
-[![arXiv: 2602.23022](https://img.shields.io/badge/arXiv-2602.23022-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.23022) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://boomluo02.github.io/DMAligner/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/boomluo02/DMAligner) [![GitHub stars](https://img.shields.io/github/stars/boomluo02/DMAligner?style=flat-square&label=stars&color=C58A18)](https://github.com/boomluo02/DMAligner/stargazers) [![GitHub forks](https://img.shields.io/github/forks/boomluo02/DMAligner?style=flat-square&label=forks&color=64748B)](https://github.com/boomluo02/DMAligner/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** DMAligner: Enhancing Image Alignment via Diffusion Model Based View Synthesis
-
-**Publication history:** 2026 · arXiv v2 reports CVPR 2026 acceptance
-
-**Code provenance:** Author implementation · [boomluo02/DMAligner](https://github.com/boomluo02/DMAligner)
-
-**Limitations and notes:** A generative alternative to some uses of explicit flow warping; visually aligned synthesis is not equivalent to recovering true pixel correspondence.
-
-</details>
 
 ---
 
 <a id="n28"></a>
 #### Eliminating Warping Shakes for Unsupervised Online Video Stitching (ECCV 2024)
 
-[`T2`](#t2) [`T3`](#t3)
+[![arXiv: 2403.06378](https://img.shields.io/badge/arXiv-2403.06378-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.06378) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2403.06378) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nie-lang/StabStitch) [![GitHub stars](https://img.shields.io/github/stars/nie-lang/StabStitch?style=flat-square&label=stars&color=C58A18)](https://github.com/nie-lang/StabStitch/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nie-lang/StabStitch?style=flat-square&label=forks&color=64748B)](https://github.com/nie-lang/StabStitch/forks) &nbsp; [`T2`](#t2) [`T3`](#t3)
 
 Unifies video stitching and stabilization in an unsupervised online framework, constraining spatial alignment and temporal stability to suppress warping shake.
-
-[![arXiv: 2403.06378](https://img.shields.io/badge/arXiv-2403.06378-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.06378) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2403.06378) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nie-lang/StabStitch) [![GitHub stars](https://img.shields.io/github/stars/nie-lang/StabStitch?style=flat-square&label=stars&color=C58A18)](https://github.com/nie-lang/StabStitch/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nie-lang/StabStitch?style=flat-square&label=forks&color=64748B)](https://github.com/nie-lang/StabStitch/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Eliminating Warping Shakes for Unsupervised Online Video Stitching
-
-**Publication history:** ECCV 2024
-
-**Code provenance:** Author implementation · [nie-lang/StabStitch](https://github.com/nie-lang/StabStitch)
-
-**Limitations and notes:** Good image-level alignment does not guarantee stable video; latency, distortion and dynamic-scene behavior need separate evaluation.
-
-</details>
 
 ---
 
 <a id="n08"></a>
 #### Parallax-Tolerant Unsupervised Deep Image Stitching (ICCV 2023)
 
-[`T1`](#t1) [`T2`](#t2) [`T3`](#t3)
+[![arXiv: 2302.08207](https://img.shields.io/badge/arXiv-2302.08207-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.08207) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2302.08207) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nie-lang/UDIS2) [![GitHub stars](https://img.shields.io/github/stars/nie-lang/UDIS2?style=flat-square&label=stars&color=C58A18)](https://github.com/nie-lang/UDIS2/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nie-lang/UDIS2?style=flat-square&label=forks&color=64748B)](https://github.com/nie-lang/UDIS2/forks) &nbsp; [`T1`](#t1) [`T2`](#t2) [`T3`](#t3)
 
 Combines global homography with local TPS, jointly considering overlap alignment, non-overlap shape preservation and seam composition.
-
-[![arXiv: 2302.08207](https://img.shields.io/badge/arXiv-2302.08207-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.08207) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2302.08207) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nie-lang/UDIS2) [![GitHub stars](https://img.shields.io/github/stars/nie-lang/UDIS2?style=flat-square&label=stars&color=C58A18)](https://github.com/nie-lang/UDIS2/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nie-lang/UDIS2?style=flat-square&label=forks&color=64748B)](https://github.com/nie-lang/UDIS2/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Parallax-Tolerant Unsupervised Deep Image Stitching
-
-**Publication history:** ICCV 2023
-
-**Code provenance:** Author implementation · [nie-lang/UDIS2](https://github.com/nie-lang/UDIS2)
-
-**Limitations and notes:** Tolerance of large parallax does not imply that all 3D visibility and occlusion problems are solved.
-
-</details>
 
 ---
 
 <a id="c12"></a>
 #### As-Projective-As-Possible Image Stitching with Moving DLT (CVPR 2013)
 
-[`T3`](#t3)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content_cvpr_2013/papers/Zaragoza_As-Projective-As-Possible_Image_Stitching_2013_CVPR_paper.pdf) &nbsp; [`T3`](#t3)
 
 Zaragoza and colleagues allow local departures from a global projective map through Moving DLT, accommodating parallax and nonplanarity in image stitching.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content_cvpr_2013/papers/Zaragoza_As-Projective-As-Possible_Image_Stitching_2013_CVPR_paper.pdf)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** As-Projective-As-Possible Image Stitching with Moving DLT
-
-**Publication history:** CVPR 2013
-
-**Limitations and notes:** Large parallax, heavy occlusion and extrapolation outside overlap remain challenging.
-
-</details>
 
 ---
 
 <a id="c29"></a>
 #### Content-Preserving Warps for 3D Video Stabilization (SIGGRAPH / TOG 2009)
 
-[`T3`](#t3)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://pages.cs.wisc.edu/~fliu/papers/siggraph09.pdf) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://web.cecs.pdx.edu/~fliu/project/3dstab.htm) &nbsp; [`T3`](#t3)
 
 Combines reconstructed 3D camera motion with content-preserving mesh warps to stabilize video while balancing alignment and salient-region shape.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://pages.cs.wisc.edu/~fliu/papers/siggraph09.pdf) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://web.cecs.pdx.edu/~fliu/project/3dstab.htm)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Content-Preserving Warps for 3D Video Stabilization
-
-**Publication history:** SIGGRAPH / TOG 2009
-
-**Limitations and notes:** Depends on reliable motion reconstruction, with trade-offs between cropping, depth variation and residual distortion.
-
-</details>
 
 ---
 
@@ -840,190 +462,72 @@ Combines reconstructed 3D camera motion with content-preserving mesh warps to st
 <a id="n14"></a>
 #### uniGradICON: A Foundation Model for Medical Image Registration (MICCAI 2024)
 
-[`T5`](#t5)
+[![arXiv: 2403.05780](https://img.shields.io/badge/arXiv-2403.05780-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.05780) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/uncbiag/uniGradICON) [![GitHub stars](https://img.shields.io/github/stars/uncbiag/uniGradICON?style=flat-square&label=stars&color=C58A18)](https://github.com/uncbiag/uniGradICON/stargazers) [![GitHub forks](https://img.shields.io/github/forks/uncbiag/uniGradICON?style=flat-square&label=forks&color=64748B)](https://github.com/uncbiag/uniGradICON/forks) &nbsp; [`T5`](#t5)
 
 Moves learned registration toward a reusable model across datasets, anatomical regions and new tasks, including zero-shot use and initialization for adaptation.
-
-[![arXiv: 2403.05780](https://img.shields.io/badge/arXiv-2403.05780-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.05780) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/uncbiag/uniGradICON) [![GitHub stars](https://img.shields.io/github/stars/uncbiag/uniGradICON?style=flat-square&label=stars&color=C58A18)](https://github.com/uncbiag/uniGradICON/stargazers) [![GitHub forks](https://img.shields.io/github/forks/uncbiag/uniGradICON?style=flat-square&label=forks&color=64748B)](https://github.com/uncbiag/uniGradICON/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** uniGradICON: A Foundation Model for Medical Image Registration
-
-**Publication history:** MICCAI 2024
-
-**Code provenance:** Author implementation · [uncbiag/uniGradICON](https://github.com/uncbiag/uniGradICON)
-
-**Limitations and notes:** Generalization is not guaranteed for arbitrary modalities or anatomy.
-
-[Publication / primary source](https://papers.miccai.org/miccai-2024/816-Paper0527.html)
-
-</details>
 
 ---
 
 <a id="n05"></a>
 #### TransMorph: Transformer for unsupervised medical image registration (Medical Image Analysis 2022)
 
-[`T5`](#t5)
+[![arXiv: 2111.10480](https://img.shields.io/badge/arXiv-2111.10480-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2111.10480) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration) [![GitHub stars](https://img.shields.io/github/stars/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration?style=flat-square&label=stars&color=C58A18)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/stargazers) [![GitHub forks](https://img.shields.io/github/forks/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration?style=flat-square&label=forks&color=64748B)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/forks) &nbsp; [`T5`](#t5)
 
 Uses a hybrid Transformer–ConvNet architecture to model long-range relationships in volumetric medical registration.
-
-[![arXiv: 2111.10480](https://img.shields.io/badge/arXiv-2111.10480-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2111.10480) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration) [![GitHub stars](https://img.shields.io/github/stars/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration?style=flat-square&label=stars&color=C58A18)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/stargazers) [![GitHub forks](https://img.shields.io/github/forks/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration?style=flat-square&label=forks&color=64748B)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** TransMorph: Transformer for unsupervised medical image registration
-
-**Publication history:** Medical Image Analysis 2022
-
-**Code provenance:** Author implementation · [junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration)
-
-**Limitations and notes:** The preprint appeared in 2021. Whether a variant is diffeomorphic depends on its specific formulation.
-
-</details>
 
 ---
 
 <a id="n06"></a>
 #### SynthMorph: learning contrast-invariant registration without acquired images (IEEE TMI 2022)
 
-[`T5`](#t5)
+[![arXiv: 2004.10282](https://img.shields.io/badge/arXiv-2004.10282-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2004.10282) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2004.10282) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://w3id.org/synthmorph) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/voxelmorph/voxelmorph) [![GitHub stars](https://img.shields.io/github/stars/voxelmorph/voxelmorph?style=flat-square&label=stars&color=C58A18)](https://github.com/voxelmorph/voxelmorph/stargazers) [![GitHub forks](https://img.shields.io/github/forks/voxelmorph/voxelmorph?style=flat-square&label=forks&color=64748B)](https://github.com/voxelmorph/voxelmorph/forks) &nbsp; [`T5`](#t5)
 
 Trains with synthetic label maps and diverse image appearances to improve deformable registration across MRI contrasts.
-
-[![arXiv: 2004.10282](https://img.shields.io/badge/arXiv-2004.10282-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2004.10282) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2004.10282) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://w3id.org/synthmorph) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/voxelmorph/voxelmorph) [![GitHub stars](https://img.shields.io/github/stars/voxelmorph/voxelmorph?style=flat-square&label=stars&color=C58A18)](https://github.com/voxelmorph/voxelmorph/stargazers) [![GitHub forks](https://img.shields.io/github/forks/voxelmorph/voxelmorph?style=flat-square&label=forks&color=64748B)](https://github.com/voxelmorph/voxelmorph/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** SynthMorph: learning contrast-invariant registration without acquired images
-
-**Publication history:** IEEE TMI 2022 · online publication 2021
-
-**Code provenance:** Shared framework; counts refer to the entire repository · [voxelmorph/voxelmorph](https://github.com/voxelmorph/voxelmorph)
-
-**Limitations and notes:** The preprint appeared in 2020; the main advance concerns training strategy and generalization.
-
-</details>
 
 ---
 
 <a id="c18"></a>
 #### VoxelMorph: A Learning Framework for Deformable Medical Image Registration (IEEE TMI 2019)
 
-[`T5`](#t5)
+[![arXiv: 1809.05231](https://img.shields.io/badge/arXiv-1809.05231-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1809.05231) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://voxelmorph.csail.mit.edu/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/voxelmorph/voxelmorph) [![GitHub stars](https://img.shields.io/github/stars/voxelmorph/voxelmorph?style=flat-square&label=stars&color=C58A18)](https://github.com/voxelmorph/voxelmorph/stargazers) [![GitHub forks](https://img.shields.io/github/forks/voxelmorph/voxelmorph?style=flat-square&label=forks&color=64748B)](https://github.com/voxelmorph/voxelmorph/forks) &nbsp; [`T5`](#t5)
 
 Amortizes pairwise optimization into a network that predicts deformation fields, trained with differentiable warping and image-similarity objectives.
-
-[![arXiv: 1809.05231](https://img.shields.io/badge/arXiv-1809.05231-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1809.05231) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://voxelmorph.csail.mit.edu/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/voxelmorph/voxelmorph) [![GitHub stars](https://img.shields.io/github/stars/voxelmorph/voxelmorph?style=flat-square&label=stars&color=C58A18)](https://github.com/voxelmorph/voxelmorph/stargazers) [![GitHub forks](https://img.shields.io/github/forks/voxelmorph/voxelmorph?style=flat-square&label=forks&color=64748B)](https://github.com/voxelmorph/voxelmorph/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** VoxelMorph: A Learning Framework for Deformable Medical Image Registration
-
-**Publication history:** MICCAI 2018 / IEEE TMI 2019
-
-**Code provenance:** Author implementation · [voxelmorph/voxelmorph](https://github.com/voxelmorph/voxelmorph)
-
-**Limitations and notes:** Distinguish the baseline displacement-field model from diffeomorphic extensions; performance depends on the training distribution.
-
-</details>
 
 ---
 
 <a id="c11"></a>
 #### Diffeomorphic demons: Efficient non-parametric image registration (NeuroImage 2009)
 
-[`T5`](#t5)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1016/j.neuroimage.2008.10.040) &nbsp; [`T5`](#t5)
 
 Introduces diffeomorphic updates within the Demons framework, combining efficient nonparametric registration with smooth, invertible deformation models.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1016/j.neuroimage.2008.10.040)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Diffeomorphic demons: Efficient non-parametric image registration
-
-**Publication history:** NeuroImage 2009
-
-**Limitations and notes:** The continuous model's invertibility does not remove the need to inspect numerical Jacobians.
-
-</details>
 
 ---
 
 <a id="c10"></a>
 #### Symmetric Diffeomorphic Image Registration with Cross-Correlation: Evaluating Automated Labeling of Elderly and Neurodegenerative Brain (Medical Image Analysis 2008)
 
-[`T5`](#t5)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2276735/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ANTsX/ANTs) [![GitHub stars](https://img.shields.io/github/stars/ANTsX/ANTs?style=flat-square&label=stars&color=C58A18)](https://github.com/ANTsX/ANTs/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ANTsX/ANTs?style=flat-square&label=forks&color=64748B)](https://github.com/ANTsX/ANTs/forks) &nbsp; [`T5`](#t5)
 
 Uses symmetric diffeomorphic registration with cross-correlation for anatomical alignment; SyN is a representative method in ANTs.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2276735/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ANTsX/ANTs) [![GitHub stars](https://img.shields.io/github/stars/ANTsX/ANTs?style=flat-square&label=stars&color=C58A18)](https://github.com/ANTsX/ANTs/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ANTsX/ANTs?style=flat-square&label=forks&color=64748B)](https://github.com/ANTsX/ANTs/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Symmetric Diffeomorphic Image Registration with Cross-Correlation: Evaluating Automated Labeling of Elderly and Neurodegenerative Brain
-
-**Publication history:** Medical Image Analysis 2008
-
-**Code provenance:** Shared framework; counts refer to the entire repository · [ANTsX/ANTs](https://github.com/ANTsX/ANTs)
-
-**Limitations and notes:** Pairwise optimization can be costly, and results depend on similarity measures, regularization and discretization.
-
-</details>
 
 ---
 
 <a id="c26"></a>
 #### Computing Large Deformation Metric Mappings via Geodesic Flows of Diffeomorphisms (IJCV 2005)
 
-[`T5`](#t5)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Beg05.pdf) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://www.cis.jhu.edu/software/lddmm-volume/index.php) &nbsp; [`T5`](#t5)
 
 Beg and colleagues construct large diffeomorphic deformations through smooth velocity fields and geodesic flows, forming a foundation of computational anatomy.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Beg05.pdf) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://www.cis.jhu.edu/software/lddmm-volume/index.php)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Computing Large Deformation Metric Mappings via Geodesic Flows of Diffeomorphisms
-
-**Publication history:** IJCV 2005
-
-**Limitations and notes:** Optimization and numerical integration can be expensive; discretization and regularization scale affect results.
-
-</details>
 
 ---
 
 <a id="c07"></a>
 #### Nonrigid registration using free-form deformations: application to breast MR images (IEEE TMI 1999)
 
-[`T2`](#t2) [`T5`](#t5)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1109/42.796284) &nbsp; [`T2`](#t2) [`T5`](#t5)
 
 Rueckert and colleagues combine global affine alignment with local B-spline free-form deformation for nonrigid breast MR registration.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1109/42.796284)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Nonrigid registration using free-form deformations: application to breast MR images
-
-**Publication history:** IEEE TMI 1999
-
-**Related topics:** [2.2 Image Registration, Stitching & Stabilization](#topic-image-alignment) · [1.2 Differentiable Sampling & Splatting](#topic-sampling-splatting)
-
-**Limitations and notes:** An ordinary B-spline FFD does not automatically satisfy diffeomorphic constraints.
-
-</details>
 
 [↑ Start of 2.3](#topic-medical-registration) · [↑ Back to topic navigation](#topics)
 
@@ -1046,124 +550,45 @@ Rueckert and colleagues combine global affine alignment with local B-spline free
 <a id="n17"></a>
 #### Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models (NeurIPS 2024)
 
-[`T9`](#t9)
+[![arXiv: 2410.16152](https://img.shields.io/badge/arXiv-2410.16152-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.16152) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2410.16152) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://giannisdaras.github.io/warped_diffusion.github.io/) &nbsp; [`T9`](#t9)
 
 Uses continuous function spaces and transformation equivariance for video inverse problems, improving temporal consistency with test-time self-equivariance guidance.
-
-[![arXiv: 2410.16152](https://img.shields.io/badge/arXiv-2410.16152-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.16152) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2410.16152) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://giannisdaras.github.io/warped_diffusion.github.io/)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models
-
-**Publication history:** NeurIPS 2024
-
-**Related topics:** [1.2 Differentiable Sampling & Splatting](#topic-sampling-splatting)
-
-**Limitations and notes:** Not simply a one-time warp of initialization noise; the applications include video inpainting and super-resolution.
-
-</details>
 
 ---
 
 <a id="n04"></a>
 #### FILM: Frame Interpolation for Large Motion (ECCV 2022)
 
-[`T4`](#t4) [`T8`](#t8)
+[![arXiv: 2202.04901](https://img.shields.io/badge/arXiv-2202.04901-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2202.04901) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2202.04901) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://film-net.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/google-research/frame-interpolation) [![GitHub stars](https://img.shields.io/github/stars/google-research/frame-interpolation?style=flat-square&label=stars&color=C58A18)](https://github.com/google-research/frame-interpolation/stargazers) [![GitHub forks](https://img.shields.io/github/forks/google-research/frame-interpolation?style=flat-square&label=forks&color=64748B)](https://github.com/google-research/frame-interpolation/forks) &nbsp; [`T4`](#t4) [`T8`](#t8)
 
 Shares feature extraction and motion estimation across scales to improve large-motion frame interpolation using training from image frames alone.
-
-[![arXiv: 2202.04901](https://img.shields.io/badge/arXiv-2202.04901-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2202.04901) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2202.04901) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://film-net.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/google-research/frame-interpolation) [![GitHub stars](https://img.shields.io/github/stars/google-research/frame-interpolation?style=flat-square&label=stars&color=C58A18)](https://github.com/google-research/frame-interpolation/stargazers) [![GitHub forks](https://img.shields.io/github/forks/google-research/frame-interpolation?style=flat-square&label=forks&color=64748B)](https://github.com/google-research/frame-interpolation/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** FILM: Frame Interpolation for Large Motion
-
-**Publication history:** ECCV 2022
-
-**Code provenance:** Author implementation · [google-research/frame-interpolation](https://github.com/google-research/frame-interpolation)
-
-**Limitations and notes:** Large disocclusions still require synthesis; this is an interpolation system rather than one universal warp operator.
-
-</details>
 
 ---
 
 <a id="n07"></a>
 #### BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment (CVPR 2022)
 
-[`T4`](#t4) [`T8`](#t8)
+[![arXiv: 2104.13371](https://img.shields.io/badge/arXiv-2104.13371-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2104.13371) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2104.13371) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ckkelvinchan/BasicVSR_PlusPlus) [![GitHub stars](https://img.shields.io/github/stars/ckkelvinchan/BasicVSR_PlusPlus?style=flat-square&label=stars&color=C58A18)](https://github.com/ckkelvinchan/BasicVSR_PlusPlus/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ckkelvinchan/BasicVSR_PlusPlus?style=flat-square&label=forks&color=64748B)](https://github.com/ckkelvinchan/BasicVSR_PlusPlus/forks) &nbsp; [`T4`](#t4) [`T8`](#t8)
 
 Combines second-order propagation with flow-guided deformable alignment to integrate optical-flow priors and adaptive feature sampling for video restoration.
-
-[![arXiv: 2104.13371](https://img.shields.io/badge/arXiv-2104.13371-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2104.13371) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2104.13371) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ckkelvinchan/BasicVSR_PlusPlus) [![GitHub stars](https://img.shields.io/github/stars/ckkelvinchan/BasicVSR_PlusPlus?style=flat-square&label=stars&color=C58A18)](https://github.com/ckkelvinchan/BasicVSR_PlusPlus/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ckkelvinchan/BasicVSR_PlusPlus?style=flat-square&label=forks&color=64748B)](https://github.com/ckkelvinchan/BasicVSR_PlusPlus/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment
-
-**Publication history:** CVPR 2022
-
-**Code provenance:** Author implementation · [ckkelvinchan/BasicVSR_PlusPlus](https://github.com/ckkelvinchan/BasicVSR_PlusPlus)
-
-**Limitations and notes:** The preprint appeared in 2021; the method is part of a video-restoration pipeline.
-
-[Publication / primary source](https://openaccess.thecvf.com/content/CVPR2022/html/Chan_BasicVSR_Improving_Video_Super-Resolution_With_Enhanced_Propagation_and_Alignment_CVPR_2022_paper.html)
-
-</details>
 
 ---
 
 <a id="c19"></a>
 #### Softmax Splatting for Video Frame Interpolation (CVPR 2020)
 
-[`T7`](#t7)
+[![arXiv: 2003.05534](https://img.shields.io/badge/arXiv-2003.05534-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2003.05534) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://sniklaus.com/softsplat) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sniklaus/softmax-splatting) [![GitHub stars](https://img.shields.io/github/stars/sniklaus/softmax-splatting?style=flat-square&label=stars&color=C58A18)](https://github.com/sniklaus/softmax-splatting/stargazers) [![GitHub forks](https://img.shields.io/github/forks/sniklaus/softmax-splatting?style=flat-square&label=forks&color=64748B)](https://github.com/sniklaus/softmax-splatting/forks) &nbsp; [`T7`](#t7)
 
 Niklaus and Liu use softmax weighting to resolve many-to-one conflicts in a differentiable forward warp, supporting both image and feature splatting.
-
-[![arXiv: 2003.05534](https://img.shields.io/badge/arXiv-2003.05534-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2003.05534) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://sniklaus.com/softsplat) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sniklaus/softmax-splatting) [![GitHub stars](https://img.shields.io/github/stars/sniklaus/softmax-splatting?style=flat-square&label=stars&color=C58A18)](https://github.com/sniklaus/softmax-splatting/stargazers) [![GitHub forks](https://img.shields.io/github/forks/sniklaus/softmax-splatting?style=flat-square&label=forks&color=64748B)](https://github.com/sniklaus/softmax-splatting/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Softmax Splatting for Video Frame Interpolation
-
-**Publication history:** CVPR 2020
-
-**Code provenance:** Author implementation · [sniklaus/softmax-splatting](https://github.com/sniklaus/softmax-splatting)
-
-**Related topics:** [4.2 Camera-, Trajectory- & Motion-Controlled Generation](#topic-controlled-generation)
-
-**Limitations and notes:** Depends on the flow and importance metric; disocclusion holes still need synthesis or another completion mechanism.
-
-</details>
 
 ---
 
 <a id="c14"></a>
 #### Deformable Convolutional Networks (ICCV 2017)
 
-[`T8`](#t8)
+[![arXiv: 1703.06211](https://img.shields.io/badge/arXiv-1703.06211-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1703.06211) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/msracver/Deformable-ConvNets) [![GitHub stars](https://img.shields.io/github/stars/msracver/Deformable-ConvNets?style=flat-square&label=stars&color=C58A18)](https://github.com/msracver/Deformable-ConvNets/stargazers) [![GitHub forks](https://img.shields.io/github/forks/msracver/Deformable-ConvNets?style=flat-square&label=forks&color=64748B)](https://github.com/msracver/Deformable-ConvNets/forks) &nbsp; [`T8`](#t8)
 
 Learns offsets for convolutional sampling locations, allowing features to adapt to local geometric variation.
-
-[![arXiv: 1703.06211](https://img.shields.io/badge/arXiv-1703.06211-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1703.06211) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/msracver/Deformable-ConvNets) [![GitHub stars](https://img.shields.io/github/stars/msracver/Deformable-ConvNets?style=flat-square&label=stars&color=C58A18)](https://github.com/msracver/Deformable-ConvNets/stargazers) [![GitHub forks](https://img.shields.io/github/forks/msracver/Deformable-ConvNets?style=flat-square&label=forks&color=64748B)](https://github.com/msracver/Deformable-ConvNets/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Deformable Convolutional Networks
-
-**Publication history:** ICCV 2017
-
-**Code provenance:** Author implementation · [msracver/Deformable-ConvNets](https://github.com/msracver/Deformable-ConvNets)
-
-**Limitations and notes:** Offsets are associated with individual kernel samples and are not equivalent to one physically meaningful global motion field.
-
-</details>
 
 ---
 
@@ -1193,100 +618,36 @@ Learns offsets for convolutional sampling locations, allowing features to adapt 
 <a id="n18"></a>
 #### StableVITON: Learning Semantic Correspondence with Latent Diffusion Model for Virtual Try-On (CVPR 2024)
 
-[`T9`](#t9)
+[![arXiv: 2312.01725](https://img.shields.io/badge/arXiv-2312.01725-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.01725) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2312.01725) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rlawjdghek/StableVITON) [![GitHub stars](https://img.shields.io/github/stars/rlawjdghek/StableVITON?style=flat-square&label=stars&color=C58A18)](https://github.com/rlawjdghek/StableVITON/stargazers) [![GitHub forks](https://img.shields.io/github/forks/rlawjdghek/StableVITON?style=flat-square&label=forks&color=64748B)](https://github.com/rlawjdghek/StableVITON/forks) &nbsp; [`T9`](#t9)
 
 Learns semantic garment-to-person correspondence inside a latent diffusion model, using attention for implicit alignment and detail transfer.
-
-[![arXiv: 2312.01725](https://img.shields.io/badge/arXiv-2312.01725-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.01725) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2312.01725) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rlawjdghek/StableVITON) [![GitHub stars](https://img.shields.io/github/stars/rlawjdghek/StableVITON?style=flat-square&label=stars&color=C58A18)](https://github.com/rlawjdghek/StableVITON/stargazers) [![GitHub forks](https://img.shields.io/github/forks/rlawjdghek/StableVITON?style=flat-square&label=forks&color=64748B)](https://github.com/rlawjdghek/StableVITON/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** StableVITON: Learning Semantic Correspondence with Latent Diffusion Model for Virtual Try-On
-
-**Publication history:** CVPR 2024 · preprint 2023
-
-**Code provenance:** Author implementation · [rlawjdghek/StableVITON](https://github.com/rlawjdghek/StableVITON)
-
-**Limitations and notes:** Implicit semantic association should not be treated as the same operator as an explicit TPS or flow-based coordinate warp.
-
-</details>
 
 ---
 
 <a id="n03"></a>
 #### Thin-Plate Spline Motion Model for Image Animation (CVPR 2022)
 
-[`T2`](#t2) [`T8`](#t8)
+[![arXiv: 2203.14367](https://img.shields.io/badge/arXiv-2203.14367-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.14367) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2203.14367) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model) [![GitHub stars](https://img.shields.io/github/stars/yoyo-nb/Thin-Plate-Spline-Motion-Model?style=flat-square&label=stars&color=C58A18)](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yoyo-nb/Thin-Plate-Spline-Motion-Model?style=flat-square&label=forks&color=64748B)](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model/forks) &nbsp; [`T2`](#t2) [`T8`](#t8)
 
 Extends local affine motion representations to multiple TPS transformations, using multiscale occlusion masks for feature warping in image animation.
-
-[![arXiv: 2203.14367](https://img.shields.io/badge/arXiv-2203.14367-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.14367) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2203.14367) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model) [![GitHub stars](https://img.shields.io/github/stars/yoyo-nb/Thin-Plate-Spline-Motion-Model?style=flat-square&label=stars&color=C58A18)](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yoyo-nb/Thin-Plate-Spline-Motion-Model?style=flat-square&label=forks&color=64748B)](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Thin-Plate Spline Motion Model for Image Animation
-
-**Publication history:** CVPR 2022
-
-**Code provenance:** Author implementation · [yoyo-nb/Thin-Plate-Spline-Motion-Model](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model)
-
-**Limitations and notes:** A learned composition of classical TPS models, not the invention of TPS itself; extreme identity differences remain challenging.
-
-[Publication / primary source](https://openaccess.thecvf.com/content/CVPR2022/html/Zhao_Thin-Plate_Spline_Motion_Model_for_Image_Animation_CVPR_2022_paper.html)
-
-</details>
 
 ---
 
 <a id="c17"></a>
 #### First Order Motion Model for Image Animation (NeurIPS 2019)
 
-[`T8`](#t8) [`T9`](#t9)
+[![arXiv: 2003.00196](https://img.shields.io/badge/arXiv-2003.00196-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2003.00196) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2003.00196) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://aliaksandrsiarohin.github.io/first-order-model-website/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AliaksandrSiarohin/first-order-model) [![GitHub stars](https://img.shields.io/github/stars/AliaksandrSiarohin/first-order-model?style=flat-square&label=stars&color=C58A18)](https://github.com/AliaksandrSiarohin/first-order-model/stargazers) [![GitHub forks](https://img.shields.io/github/forks/AliaksandrSiarohin/first-order-model?style=flat-square&label=forks&color=64748B)](https://github.com/AliaksandrSiarohin/first-order-model/forks) &nbsp; [`T8`](#t8) [`T9`](#t9)
 
 Learns keypoints and local first-order affine motion to construct dense feature warps and occlusion maps for image animation.
-
-[![arXiv: 2003.00196](https://img.shields.io/badge/arXiv-2003.00196-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2003.00196) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2003.00196) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://aliaksandrsiarohin.github.io/first-order-model-website/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AliaksandrSiarohin/first-order-model) [![GitHub stars](https://img.shields.io/github/stars/AliaksandrSiarohin/first-order-model?style=flat-square&label=stars&color=C58A18)](https://github.com/AliaksandrSiarohin/first-order-model/stargazers) [![GitHub forks](https://img.shields.io/github/forks/AliaksandrSiarohin/first-order-model?style=flat-square&label=forks&color=64748B)](https://github.com/AliaksandrSiarohin/first-order-model/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** First Order Motion Model for Image Animation
-
-**Publication history:** NeurIPS 2019 · arXiv 2020
-
-**Code provenance:** Author implementation · [AliaksandrSiarohin/first-order-model](https://github.com/AliaksandrSiarohin/first-order-model)
-
-**Limitations and notes:** Large identity differences, rotations and disocclusions remain difficult.
-
-[Publication / primary source](https://papers.nips.cc/paper/8935-first-order-motion-model-for-image-animation.pdf)
-
-</details>
 
 ---
 
 <a id="c24"></a>
 #### Toward Characteristic-Preserving Image-based Virtual Try-On Network (ECCV 2018)
 
-[`T2`](#t2) [`T9`](#t9)
+[![arXiv: 1807.07688](https://img.shields.io/badge/arXiv-1807.07688-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1807.07688) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/1807.07688) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sergeywong/cp-vton) [![GitHub stars](https://img.shields.io/github/stars/sergeywong/cp-vton?style=flat-square&label=stars&color=C58A18)](https://github.com/sergeywong/cp-vton/stargazers) [![GitHub forks](https://img.shields.io/github/forks/sergeywong/cp-vton?style=flat-square&label=forks&color=64748B)](https://github.com/sergeywong/cp-vton/forks) &nbsp; [`T2`](#t2) [`T9`](#t9)
 
 Learns a TPS with a geometric matching module to align an in-shop garment with a person, then learns a composition mask.
-
-[![arXiv: 1807.07688](https://img.shields.io/badge/arXiv-1807.07688-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1807.07688) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/1807.07688) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sergeywong/cp-vton) [![GitHub stars](https://img.shields.io/github/stars/sergeywong/cp-vton?style=flat-square&label=stars&color=C58A18)](https://github.com/sergeywong/cp-vton/stargazers) [![GitHub forks](https://img.shields.io/github/forks/sergeywong/cp-vton?style=flat-square&label=forks&color=64748B)](https://github.com/sergeywong/cp-vton/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Toward Characteristic-Preserving Image-based Virtual Try-On Network
-
-**Publication history:** ECCV 2018
-
-**Code provenance:** Reimplementation, as described by the repository · [sergeywong/cp-vton](https://github.com/sergeywong/cp-vton)
-
-**Limitations and notes:** TPS has limited capacity for large pose changes, complex occlusion and fine clothing details.
-
-</details>
 
 ---
 
@@ -1317,28 +678,9 @@ Learns a TPS with a geometric matching module to align an in-shop garment with a
 <a id="n16"></a>
 #### How I Warped Your Noise: a Temporally-Correlated Noise Prior for Diffusion Models (ICLR 2024)
 
-[`T7`](#t7) [`T9`](#t9)
+[![arXiv: 2504.03072](https://img.shields.io/badge/arXiv-2504.03072-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.03072) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://warpyournoise.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mskwak01/How-I-Warped-Your-Noise-Unofficial) [![GitHub stars](https://img.shields.io/github/stars/mskwak01/How-I-Warped-Your-Noise-Unofficial?style=flat-square&label=stars&color=C58A18)](https://github.com/mskwak01/How-I-Warped-Your-Noise-Unofficial/stargazers) [![GitHub forks](https://img.shields.io/github/forks/mskwak01/How-I-Warped-Your-Noise-Unofficial?style=flat-square&label=forks&color=64748B)](https://github.com/mskwak01/How-I-Warped-Your-Noise-Unofficial/forks) &nbsp; [`T7`](#t7) [`T9`](#t9)
 
 Interprets pixel noise as integrals over a continuous white-noise field and designs transport for Gaussian statistics while retaining motion-induced temporal correlation.
-
-[![arXiv: 2504.03072](https://img.shields.io/badge/arXiv-2504.03072-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.03072) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://warpyournoise.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mskwak01/How-I-Warped-Your-Noise-Unofficial) [![GitHub stars](https://img.shields.io/github/stars/mskwak01/How-I-Warped-Your-Noise-Unofficial?style=flat-square&label=stars&color=C58A18)](https://github.com/mskwak01/How-I-Warped-Your-Noise-Unofficial/stargazers) [![GitHub forks](https://img.shields.io/github/forks/mskwak01/How-I-Warped-Your-Noise-Unofficial?style=flat-square&label=forks&color=64748B)](https://github.com/mskwak01/How-I-Warped-Your-Noise-Unofficial/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** How I Warped Your Noise: a Temporally-Correlated Noise Prior for Diffusion Models
-
-**Publication history:** ICLR 2024
-
-**Code provenance:** Unofficial reimplementation · [mskwak01/How-I-Warped-Your-Noise-Unofficial](https://github.com/mskwak01/How-I-Warped-Your-Noise-Unofficial)
-
-**Related topics:** [4.2 Camera-, Trajectory- & Motion-Controlled Generation](#topic-controlled-generation)
-
-**Limitations and notes:** The goal differs from ordinary RGB interpolation. Its 2025 arXiv upload postdates the ICLR 2024 paper and should not be treated as the first publication.
-
-[Publication / primary source](https://openreview.net/pdf?id=pzElnMrgSD)
-
-</details>
 
 ---
 
@@ -1367,78 +709,27 @@ Interprets pixel noise as integrals over a continuous white-noise field and desi
 <a id="n24"></a>
 #### CameraNoise: Enabling Faithful Camera Control in Video Diffusion through Geometry-Flow-Guided Noise Warping (ICML 2026)
 
-[`T6`](#t6) [`T9`](#t9)
+[![arXiv: 2605.30774](https://img.shields.io/badge/arXiv-2605.30774-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.30774) [![Hugging Face: Model](https://img.shields.io/badge/Hugging%20Face-Model-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/gulucaptain/CameraNoise-I2V) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://gulucaptain.github.io/CameraNoise/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/gulucaptain/CameraNoise) [![GitHub stars](https://img.shields.io/github/stars/gulucaptain/CameraNoise?style=flat-square&label=stars&color=C58A18)](https://github.com/gulucaptain/CameraNoise/stargazers) [![GitHub forks](https://img.shields.io/github/forks/gulucaptain/CameraNoise?style=flat-square&label=forks&color=64748B)](https://github.com/gulucaptain/CameraNoise/forks) &nbsp; [`T6`](#t6) [`T9`](#t9)
 
 Uses geometry-guided reprojection flow and noise warping to encode camera motion into temporally correlated noise, while preserving the Gaussian prior and trajectory control.
-
-[![arXiv: 2605.30774](https://img.shields.io/badge/arXiv-2605.30774-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.30774) [![Hugging Face: Model](https://img.shields.io/badge/Hugging%20Face-Model-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/gulucaptain/CameraNoise-I2V) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://gulucaptain.github.io/CameraNoise/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/gulucaptain/CameraNoise) [![GitHub stars](https://img.shields.io/github/stars/gulucaptain/CameraNoise?style=flat-square&label=stars&color=C58A18)](https://github.com/gulucaptain/CameraNoise/stargazers) [![GitHub forks](https://img.shields.io/github/forks/gulucaptain/CameraNoise?style=flat-square&label=forks&color=64748B)](https://github.com/gulucaptain/CameraNoise/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** CameraNoise: Enabling Faithful Camera Control in Video Diffusion through Geometry-Flow-Guided Noise Warping
-
-**Publication history:** ICML 2026 · formal PMLR publication
-
-**Code provenance:** Author implementation · [gulucaptain/CameraNoise](https://github.com/gulucaptain/CameraNoise)
-
-**Related topics:** [4.1 Noise Warping & Temporal Consistency](#topic-noise-warping)
-
-**Limitations and notes:** Depends on scene geometry and motion estimates; the results do not imply exact control of arbitrary nonrigid motion.
-
-[Publication / primary source](https://proceedings.mlr.press/v306/zhao26l.html)
-
-</details>
 
 ---
 
 <a id="n27"></a>
 #### Warp-as-History: Generalizable Camera-Controlled Video Generation from One Training Video (arXiv 2026)
 
-[`T6`](#t6) [`T9`](#t9)
+[![arXiv: 2605.15182](https://img.shields.io/badge/arXiv-2605.15182-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.15182) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2605.15182) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://yyfz.github.io/warp-as-history/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yyfz/Warp-as-History) [![GitHub stars](https://img.shields.io/github/stars/yyfz/Warp-as-History?style=flat-square&label=stars&color=C58A18)](https://github.com/yyfz/Warp-as-History/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yyfz/Warp-as-History?style=flat-square&label=forks&color=64748B)](https://github.com/yyfz/Warp-as-History/forks) &nbsp; [`T6`](#t6) [`T9`](#t9)
 
 Turns camera-induced warps into pseudo-history aligned with target positions, selecting valid tokens to use a frozen model's visual-history pathway; also explores single-video LoRA adaptation.
-
-[![arXiv: 2605.15182](https://img.shields.io/badge/arXiv-2605.15182-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.15182) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2605.15182) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://yyfz.github.io/warp-as-history/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yyfz/Warp-as-History) [![GitHub stars](https://img.shields.io/github/stars/yyfz/Warp-as-History?style=flat-square&label=stars&color=C58A18)](https://github.com/yyfz/Warp-as-History/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yyfz/Warp-as-History?style=flat-square&label=forks&color=64748B)](https://github.com/yyfz/Warp-as-History/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Warp-as-History: Generalizable Camera-Controlled Video Generation from One Training Video
-
-**Publication history:** 2026 preprint
-
-**Code provenance:** Author implementation · [yyfz/Warp-as-History](https://github.com/yyfz/Warp-as-History)
-
-**Limitations and notes:** Listed as a public preprint at this update; control should be validated across datasets and camera trajectories.
-
-</details>
 
 ---
 
 <a id="n19"></a>
 #### Go-with-the-Flow: Motion-Controllable Video Diffusion Models Using Real-Time Warped Noise (CVPR 2025)
 
-[`T9`](#t9)
+[![arXiv: 2501.08331](https://img.shields.io/badge/arXiv-2501.08331-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.08331) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2501.08331) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://eyeline-labs.github.io/Go-with-the-Flow/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Eyeline-Labs/Go-with-the-Flow) [![GitHub stars](https://img.shields.io/github/stars/Eyeline-Labs/Go-with-the-Flow?style=flat-square&label=stars&color=C58A18)](https://github.com/Eyeline-Labs/Go-with-the-Flow/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Eyeline-Labs/Go-with-the-Flow?style=flat-square&label=forks&color=64748B)](https://github.com/Eyeline-Labs/Go-with-the-Flow/forks) &nbsp; [`T9`](#t9)
 
 Efficiently constructs warped noise and adapts video diffusion models to use it as a motion prior for motion transfer and camera or object control.
-
-[![arXiv: 2501.08331](https://img.shields.io/badge/arXiv-2501.08331-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.08331) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2501.08331) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://eyeline-labs.github.io/Go-with-the-Flow/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Eyeline-Labs/Go-with-the-Flow) [![GitHub stars](https://img.shields.io/github/stars/Eyeline-Labs/Go-with-the-Flow?style=flat-square&label=stars&color=C58A18)](https://github.com/Eyeline-Labs/Go-with-the-Flow/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Eyeline-Labs/Go-with-the-Flow?style=flat-square&label=forks&color=64748B)](https://github.com/Eyeline-Labs/Go-with-the-Flow/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Go-with-the-Flow: Motion-Controllable Video Diffusion Models Using Real-Time Warped Noise
-
-**Publication history:** CVPR 2025
-
-**Code provenance:** Author implementation · [Eyeline-Labs/Go-with-the-Flow](https://github.com/Eyeline-Labs/Go-with-the-Flow)
-
-**Related topics:** [3.2 Animation, Motion Transfer & Virtual Try-On](#topic-human-deformation) · [4.1 Noise Warping & Temporal Consistency](#topic-noise-warping)
-
-**Limitations and notes:** Requires the corresponding model adaptation; an arbitrary pretrained model does not necessarily support the same control mechanism.
-
-</details>
 
 ---
 
@@ -1471,26 +762,9 @@ Efficiently constructs warped noise and adapts video diffusion models to use it 
 <a id="c16"></a>
 #### Digging Into Self-Supervised Monocular Depth Estimation (ICCV 2019)
 
-[`T6`](#t6)
+[![arXiv: 1806.01260](https://img.shields.io/badge/arXiv-1806.01260-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1806.01260) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nianticlabs/monodepth2) [![GitHub stars](https://img.shields.io/github/stars/nianticlabs/monodepth2?style=flat-square&label=stars&color=C58A18)](https://github.com/nianticlabs/monodepth2/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nianticlabs/monodepth2?style=flat-square&label=forks&color=64748B)](https://github.com/nianticlabs/monodepth2/forks) &nbsp; [`T6`](#t6)
 
 Uses depth, pose and differentiable reprojection for self-supervised view reconstruction, introducing minimum reprojection loss and automasking.
-
-[![arXiv: 1806.01260](https://img.shields.io/badge/arXiv-1806.01260-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1806.01260) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nianticlabs/monodepth2) [![GitHub stars](https://img.shields.io/github/stars/nianticlabs/monodepth2?style=flat-square&label=stars&color=C58A18)](https://github.com/nianticlabs/monodepth2/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nianticlabs/monodepth2?style=flat-square&label=forks&color=64748B)](https://github.com/nianticlabs/monodepth2/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Digging Into Self-Supervised Monocular Depth Estimation
-
-**Publication history:** ICCV 2019 · preprint 2018
-
-**Code provenance:** Author implementation · [nianticlabs/monodepth2](https://github.com/nianticlabs/monodepth2)
-
-**Related topics:** [5.2 Reprojection & Novel View Synthesis](#topic-novel-view-synthesis)
-
-**Limitations and notes:** A depth-estimation system rather than a standalone warp operator; dynamic objects, reflections and unobserved regions remain challenges.
-
-</details>
 
 ---
 
@@ -1519,96 +793,36 @@ Uses depth, pose and differentiable reprojection for self-supervised view recons
 <a id="n22"></a>
 #### WAVE: Warp-Based View Guidance for Consistent Novel View Synthesis Using a Single Image (ICCV 2025)
 
-[`T6`](#t6) [`T9`](#t9)
+[![arXiv: 2506.23518](https://img.shields.io/badge/arXiv-2506.23518-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.23518) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jwoo-park0/WAVE) [![GitHub stars](https://img.shields.io/github/stars/jwoo-park0/WAVE?style=flat-square&label=stars&color=C58A18)](https://github.com/jwoo-park0/WAVE/stargazers) [![GitHub forks](https://img.shields.io/github/forks/jwoo-park0/WAVE?style=flat-square&label=forks&color=64748B)](https://github.com/jwoo-park0/WAVE/forks) &nbsp; [`T6`](#t6) [`T9`](#t9)
 
 Uses view warping to guide adaptive attention and noise reinitialization, improving single-image novel-view consistency without additional training.
-
-[![arXiv: 2506.23518](https://img.shields.io/badge/arXiv-2506.23518-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.23518) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jwoo-park0/WAVE) [![GitHub stars](https://img.shields.io/github/stars/jwoo-park0/WAVE?style=flat-square&label=stars&color=C58A18)](https://github.com/jwoo-park0/WAVE/stargazers) [![GitHub forks](https://img.shields.io/github/forks/jwoo-park0/WAVE?style=flat-square&label=forks&color=64748B)](https://github.com/jwoo-park0/WAVE/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** WAVE: Warp-Based View Guidance for Consistent Novel View Synthesis Using a Single Image
-
-**Publication history:** ICCV 2025
-
-**Code provenance:** Author implementation · [jwoo-park0/WAVE](https://github.com/jwoo-park0/WAVE)
-
-**Limitations and notes:** Depends on the base novel-view model and geometric estimates. Distinguish it from other WAVE papers. The authors' original project URL returned 404 during verification and is omitted.
-
-[Publication / primary source](https://openaccess.thecvf.com/content/ICCV2025/html/Park_WAVE_Warp-Based_View_Guidance_for_Consistent_Novel_View_Synthesis_Using_ICCV_2025_paper.html)
-
-</details>
 
 ---
 
 <a id="n23"></a>
 #### High-Fidelity Novel View Synthesis via Splatting-Guided Diffusion (SIGGRAPH 2025)
 
-[`T6`](#t6) [`T7`](#t7) [`T9`](#t9)
+[![arXiv: 2502.12752](https://img.shields.io/badge/arXiv-2502.12752-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.12752) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2502.12752) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://studios.disneyresearch.com/2025/07/16/splatdiff/) &nbsp; [`T6`](#t6) [`T7`](#t7) [`T9`](#t9)
 
 Uses pixel splatting to constrain target views and combines aligned synthesis with a texture bridge to balance geometric consistency and texture fidelity.
-
-[![arXiv: 2502.12752](https://img.shields.io/badge/arXiv-2502.12752-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.12752) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2502.12752) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://studios.disneyresearch.com/2025/07/16/splatdiff/)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** High-Fidelity Novel View Synthesis via Splatting-Guided Diffusion
-
-**Publication history:** SIGGRAPH 2025
-
-**Limitations and notes:** Depth and splatting errors can propagate; the faithfulness of generated detail requires separate verification.
-
-</details>
 
 ---
 
 <a id="n15"></a>
 #### GenWarp: Single Image to Novel Views with Semantic-Preserving Generative Warping (NeurIPS 2024)
 
-[`T6`](#t6) [`T9`](#t9)
+[![arXiv: 2405.17251](https://img.shields.io/badge/arXiv-2405.17251-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.17251) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2405.17251) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://genwarp-nvs.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sony/genwarp) [![GitHub stars](https://img.shields.io/github/stars/sony/genwarp?style=flat-square&label=stars&color=C58A18)](https://github.com/sony/genwarp/stargazers) [![GitHub forks](https://img.shields.io/github/forks/sony/genwarp?style=flat-square&label=forks&color=64748B)](https://github.com/sony/genwarp/forks) &nbsp; [`T6`](#t6) [`T9`](#t9)
 
 Combines depth-induced coordinate information with cross-view and self-attention, learning which content to transfer and which missing regions to generate.
-
-[![arXiv: 2405.17251](https://img.shields.io/badge/arXiv-2405.17251-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.17251) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2405.17251) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://genwarp-nvs.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sony/genwarp) [![GitHub stars](https://img.shields.io/github/stars/sony/genwarp?style=flat-square&label=stars&color=C58A18)](https://github.com/sony/genwarp/stargazers) [![GitHub forks](https://img.shields.io/github/forks/sony/genwarp?style=flat-square&label=forks&color=64748B)](https://github.com/sony/genwarp/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** GenWarp: Single Image to Novel Views with Semantic-Preserving Generative Warping
-
-**Publication history:** NeurIPS 2024
-
-**Code provenance:** Author implementation · [sony/genwarp](https://github.com/sony/genwarp)
-
-**Limitations and notes:** Generative warping does not mean that generated regions are exact copies transported from the source image.
-
-[Publication / primary source](https://proceedings.neurips.cc/paper_files/paper/2024/hash/92e886487a8354b03d8bf4416eae6d7d-Abstract-Conference.html)
-
-</details>
 
 ---
 
 <a id="c28"></a>
 #### Depth-image-based rendering (DIBR), compression, and transmission for a new approach on 3D-TV (SPIE 2004)
 
-[`T6`](#t6)
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1117/12.524762) &nbsp; [`T6`](#t6)
 
 Synthesizes virtual views from color and depth, providing a classic route to depth reprojection, visibility reasoning and hole handling. This paper did not originate the general idea of reprojection.
-
-[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1117/12.524762)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Depth-image-based rendering (DIBR), compression, and transmission for a new approach on 3D-TV
-
-**Publication history:** Fehn · SPIE 2004 representative work
-
-**Limitations and notes:** Depth discontinuities, disocclusion and projection collisions require dedicated handling.
-
-</details>
 
 ---
 
@@ -1638,124 +852,45 @@ Synthesizes virtual views from color and depth, providing a classic route to dep
 <a id="n11"></a>
 #### Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction (CVPR 2024)
 
-[`T8`](#t8)
+[![arXiv: 2309.13101](https://img.shields.io/badge/arXiv-2309.13101-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.13101) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2309.13101) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://ingra14m.github.io/Deformable-Gaussians/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ingra14m/Deformable-3D-Gaussians) [![GitHub stars](https://img.shields.io/github/stars/ingra14m/Deformable-3D-Gaussians?style=flat-square&label=stars&color=C58A18)](https://github.com/ingra14m/Deformable-3D-Gaussians/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ingra14m/Deformable-3D-Gaussians?style=flat-square&label=forks&color=64748B)](https://github.com/ingra14m/Deformable-3D-Gaussians/forks) &nbsp; [`T8`](#t8)
 
 Learns a deformation field over canonical Gaussians, combining dynamic reconstruction with fast splatting-based rendering.
-
-[![arXiv: 2309.13101](https://img.shields.io/badge/arXiv-2309.13101-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.13101) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2309.13101) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://ingra14m.github.io/Deformable-Gaussians/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ingra14m/Deformable-3D-Gaussians) [![GitHub stars](https://img.shields.io/github/stars/ingra14m/Deformable-3D-Gaussians?style=flat-square&label=stars&color=C58A18)](https://github.com/ingra14m/Deformable-3D-Gaussians/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ingra14m/Deformable-3D-Gaussians?style=flat-square&label=forks&color=64748B)](https://github.com/ingra14m/Deformable-3D-Gaussians/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction
-
-**Publication history:** CVPR 2024 · preprint 2023
-
-**Code provenance:** Author implementation · [ingra14m/Deformable-3D-Gaussians](https://github.com/ingra14m/Deformable-3D-Gaussians)
-
-**Limitations and notes:** Deforms 3D parameters before rendering rather than simply interpolating a 2D image; requires per-scene optimization.
-
-</details>
 
 ---
 
 <a id="n12"></a>
 #### 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering (CVPR 2024)
 
-[`T8`](#t8)
+[![arXiv: 2310.08528](https://img.shields.io/badge/arXiv-2310.08528-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.08528) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2310.08528) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://guanjunwu.github.io/4dgs/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hustvl/4DGaussians) [![GitHub stars](https://img.shields.io/github/stars/hustvl/4DGaussians?style=flat-square&label=stars&color=C58A18)](https://github.com/hustvl/4DGaussians/stargazers) [![GitHub forks](https://img.shields.io/github/forks/hustvl/4DGaussians?style=flat-square&label=forks&color=64748B)](https://github.com/hustvl/4DGaussians/forks) &nbsp; [`T8`](#t8)
 
 Combines spatiotemporal features with Gaussian deformation to improve training, storage and rendering efficiency for dynamic scenes.
-
-[![arXiv: 2310.08528](https://img.shields.io/badge/arXiv-2310.08528-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.08528) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2310.08528) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://guanjunwu.github.io/4dgs/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hustvl/4DGaussians) [![GitHub stars](https://img.shields.io/github/stars/hustvl/4DGaussians?style=flat-square&label=stars&color=C58A18)](https://github.com/hustvl/4DGaussians/stargazers) [![GitHub forks](https://img.shields.io/github/forks/hustvl/4DGaussians?style=flat-square&label=forks&color=64748B)](https://github.com/hustvl/4DGaussians/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering
-
-**Publication history:** CVPR 2024 · preprint 2023
-
-**Code provenance:** Author implementation · [hustvl/4DGaussians](https://github.com/hustvl/4DGaussians)
-
-**Limitations and notes:** This entry specifically refers to the 4D-GS method by Wu and colleagues, not every method named 4D Gaussian Splatting.
-
-</details>
 
 ---
 
 <a id="c21"></a>
 #### D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR 2021)
 
-[`T8`](#t8)
+[![arXiv: 2011.13961](https://img.shields.io/badge/arXiv-2011.13961-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2011.13961) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://www.albertpumarola.com/research/D-NeRF/index.html) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/albertpumarola/D-NeRF) [![GitHub stars](https://img.shields.io/github/stars/albertpumarola/D-NeRF?style=flat-square&label=stars&color=C58A18)](https://github.com/albertpumarola/D-NeRF/stargazers) [![GitHub forks](https://img.shields.io/github/forks/albertpumarola/D-NeRF?style=flat-square&label=forks&color=64748B)](https://github.com/albertpumarola/D-NeRF/forks) &nbsp; [`T8`](#t8)
 
 Learns time-conditioned deformation that maps dynamic-scene coordinates into a canonical radiance field.
-
-[![arXiv: 2011.13961](https://img.shields.io/badge/arXiv-2011.13961-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2011.13961) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://www.albertpumarola.com/research/D-NeRF/index.html) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/albertpumarola/D-NeRF) [![GitHub stars](https://img.shields.io/github/stars/albertpumarola/D-NeRF?style=flat-square&label=stars&color=C58A18)](https://github.com/albertpumarola/D-NeRF/stargazers) [![GitHub forks](https://img.shields.io/github/forks/albertpumarola/D-NeRF?style=flat-square&label=forks&color=64748B)](https://github.com/albertpumarola/D-NeRF/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** D-NeRF: Neural Radiance Fields for Dynamic Scenes
-
-**Publication history:** CVPR 2021 · preprint 2020
-
-**Code provenance:** Author implementation · [albertpumarola/D-NeRF](https://github.com/albertpumarola/D-NeRF)
-
-**Related topics:** [5.2 Reprojection & Novel View Synthesis](#topic-novel-view-synthesis)
-
-**Limitations and notes:** Monocular reconstruction is ambiguous; dynamic detail and training efficiency are limited.
-
-</details>
 
 ---
 
 <a id="c22"></a>
 #### Nerfies: Deformable Neural Radiance Fields (ICCV 2021)
 
-[`T8`](#t8)
+[![arXiv: 2011.12948](https://img.shields.io/badge/arXiv-2011.12948-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2011.12948) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2011.12948) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://nerfies.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/google/nerfies) [![GitHub stars](https://img.shields.io/github/stars/google/nerfies?style=flat-square&label=stars&color=C58A18)](https://github.com/google/nerfies/stargazers) [![GitHub forks](https://img.shields.io/github/forks/google/nerfies?style=flat-square&label=forks&color=64748B)](https://github.com/google/nerfies/forks) &nbsp; [`T8`](#t8)
 
 Combines continuous 3D deformation, elastic regularization and coarse-to-fine optimization to reconstruct casually captured nonrigid scenes.
-
-[![arXiv: 2011.12948](https://img.shields.io/badge/arXiv-2011.12948-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2011.12948) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2011.12948) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://nerfies.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/google/nerfies) [![GitHub stars](https://img.shields.io/github/stars/google/nerfies?style=flat-square&label=stars&color=C58A18)](https://github.com/google/nerfies/stargazers) [![GitHub forks](https://img.shields.io/github/forks/google/nerfies?style=flat-square&label=forks&color=64748B)](https://github.com/google/nerfies/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** Nerfies: Deformable Neural Radiance Fields
-
-**Publication history:** ICCV 2021 · preprint 2020
-
-**Code provenance:** Author implementation · [google/nerfies](https://github.com/google/nerfies)
-
-**Related topics:** [5.2 Reprojection & Novel View Synthesis](#topic-novel-view-synthesis)
-
-**Limitations and notes:** Continuous canonical warps struggle with topology changes, and optimization may reach local minima.
-
-</details>
 
 ---
 
 <a id="c23"></a>
 #### HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields (SIGGRAPH Asia / TOG 2021)
 
-[`T8`](#t8)
+[![arXiv: 2106.13228](https://img.shields.io/badge/arXiv-2106.13228-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2106.13228) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://hypernerf.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/google/hypernerf) [![GitHub stars](https://img.shields.io/github/stars/google/hypernerf?style=flat-square&label=stars&color=C58A18)](https://github.com/google/hypernerf/stargazers) [![GitHub forks](https://img.shields.io/github/forks/google/hypernerf?style=flat-square&label=forks&color=64748B)](https://github.com/google/hypernerf/forks) &nbsp; [`T8`](#t8)
 
 Lifts the representation into a higher-dimensional space and uses slices to model topology changes beyond ordinary continuous 3D warps.
-
-[![arXiv: 2106.13228](https://img.shields.io/badge/arXiv-2106.13228-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2106.13228) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://hypernerf.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/google/hypernerf) [![GitHub stars](https://img.shields.io/github/stars/google/hypernerf?style=flat-square&label=stars&color=C58A18)](https://github.com/google/hypernerf/stargazers) [![GitHub forks](https://img.shields.io/github/forks/google/hypernerf?style=flat-square&label=forks&color=64748B)](https://github.com/google/hypernerf/forks)
-
-<details>
-<summary>Paper details, code provenance and limitations</summary>
-
-**Full paper title:** HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields
-
-**Publication history:** SIGGRAPH Asia / TOG 2021
-
-**Code provenance:** Author implementation · [google/hypernerf](https://github.com/google/hypernerf)
-
-**Limitations and notes:** The higher-dimensional representation is not an everywhere-invertible deformation of ordinary 3D space.
-
-</details>
 
 [↑ Start of 5.3](#topic-dynamic-3d) · [↑ Back to topic navigation](#topics)
 

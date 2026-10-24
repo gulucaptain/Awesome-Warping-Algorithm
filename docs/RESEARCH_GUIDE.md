@@ -2,7 +2,7 @@
 
 [← English collection](../README.md) · [中文研究指南](RESEARCH_GUIDE.zh-CN.md)
 
-This guide explains the collection's organizing concepts. Method-specific contributions and limitations appear in both READMEs. Coverage is representative, with a review cutoff of **2026-10-24**.
+This guide explains the collection's organizing concepts. Both READMEs present method contributions and linked resources; full publication histories, code provenance and limitations remain in the bilingual catalog and detailed Chinese guide. Coverage is representative, with a review cutoff of **2026-10-24**.
 
 <a id="scope"></a>
 ## Scope and mapping conventions
