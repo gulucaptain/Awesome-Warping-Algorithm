@@ -62,7 +62,7 @@
 | --- | --- | --- |
 | [Inpaint4Drag: Repurposing Inpainting Models for Drag-Based Image Editing via Bidirectional Warping](../README.zh-CN.md#s003) · [原文](https://openaccess.thecvf.com/content/ICCV2025/html/Lu_Inpaint4Drag_Repurposing_Inpainting_Models_for_Drag-Based_Image_Editing_via_Bidirectional_ICCV_2025_paper.html) | ICCV 2025 | **显式空间形变** · 将拖拽编辑分解为像素空间双向 Warping 与图像修复，先建立几何对应，再补全显露区域。 |
 | [FlowDrag: 3D-aware Drag-based Image Editing with Mesh-guided Deformation Vector Flow Fields](../README.zh-CN.md#s004) · [原文](https://proceedings.mlr.press/v267/koo25a.html) | ICML 2025 | **显式空间形变** · 由单图构建三维网格，用控制点驱动网格变形，再将位移投影为二维流场引导扩散编辑。 |
-| [DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing](../README.zh-CN.md#s005) · [原文](https://openaccess.thecvf.com/content/CVPR2024/html/Shi_DragDiffusion_Harnessing_Diffusion_Models_for_Interactive_Point-based_Image_Editing_CVPR_2024_paper.html) | CVPR 2024 | **空间编辑** · 通过 UNet 特征上的运动监督优化扩散潜变量，实现交互式点拖拽和形状编辑。 |
+| DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing（2026-10-24 范围审校后移除） · [原文](https://openaccess.thecvf.com/content/CVPR2024/html/Shi_DragDiffusion_Harnessing_Diffusion_Models_for_Interactive_Point-based_Image_Editing_CVPR_2024_paper.html) | CVPR 2024 | **空间编辑** · 通过 UNet 特征上的运动监督优化扩散潜变量，实现交互式点拖拽和形状编辑。 |
 | [Green Coordinates](../README.zh-CN.md#s002) · [原文](https://www.wisdom.weizmann.ac.il/~ylipman/GC/gc_techrep.pdf) | SIGGRAPH / TOG 2008 | **显式空间形变** · 以笼体顶点与面法向共同定义 Green 坐标，构造二维保角及三维近似保角的形变映射。 |
 | [Harmonic Coordinates for Character Articulation](../README.zh-CN.md#s001) · [原文](https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Joshi07.pdf) | SIGGRAPH / TOG 2007 | **显式空间形变** · 通过求解笼体内部的调和权重控制体积形变，在凹形区域保持非负权重与内部局部性。 |
 
@@ -70,13 +70,13 @@
 
 | 论文 | 出处 | 机制 / 归属依据 |
 | --- | --- | --- |
-| [gsplat: An Open-Source Library for Gaussian Splatting](../README.zh-CN.md#s010) · [原文](https://jmlr.org/papers/v26/24-1476.html) | JMLR 2025 | **采样 / Splatting 算子** · 以可微高斯投影与光栅化核心实现高效训练和渲染，并提供公开的高斯 Splatting 软件论文。 |
-| [Mip-Splatting: Alias-free 3D Gaussian Splatting](../README.zh-CN.md#s008) · [原文](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_Mip-Splatting_Alias-free_3D_Gaussian_Splatting_CVPR_2024_paper.html) | CVPR 2024 | **采样 / Splatting 算子** · 结合三维平滑滤波和二维 Mip 滤波，减轻高斯 Splatting 在缩放与采样率变化下的混叠。 |
+| gsplat: An Open-Source Library for Gaussian Splatting（2026-10-24 范围审校后移除） · [原文](https://jmlr.org/papers/v26/24-1476.html) | JMLR 2025 | **采样 / Splatting 算子** · 以可微高斯投影与光栅化核心实现高效训练和渲染，并提供公开的高斯 Splatting 软件论文。 |
+| Mip-Splatting: Alias-free 3D Gaussian Splatting（2026-10-24 范围审校后移除） · [原文](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_Mip-Splatting_Alias-free_3D_Gaussian_Splatting_CVPR_2024_paper.html) | CVPR 2024 | **采样 / Splatting 算子** · 结合三维平滑滤波和二维 Mip 滤波，减轻高斯 Splatting 在缩放与采样率变化下的混叠。 |
 | [Towards Progressive Multi-Frequency Representation for Image Warping](../README.zh-CN.md#s079) · [原文](https://openaccess.thecvf.com/content/CVPR2024/html/Xiao_Towards_Progressive_Multi-Frequency_Representation_for_Image_Warping_CVPR_2024_paper.html) | CVPR 2024 | **采样 / Splatting 算子** · 通过渐进频带表示和可学习 Gabor 滤波器捕获局部空间频率，提高非规则网格变换中的图像细节。 |
 | [Kernel Aware Resampler](../README.zh-CN.md#s006) · [原文](https://openaccess.thecvf.com/content/CVPR2023/html/Bernasconi_Kernel_Aware_Resampler_CVPR_2023_paper.html) | CVPR 2023 | **采样 / Splatting 算子** · 联合建模重建核、局部几何畸变和抗混叠核，以空间变化的退化信息控制通用图像重采样。 |
 | [Learning Local Implicit Fourier Representation for Image Warping](../README.zh-CN.md#s085) · [原文](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780179.pdf) | ECCV 2022 | **采样 / Splatting 算子** · 利用局部纹理估计和坐标变换的 Jacobian 调整傅里叶响应，在连续表示中重采样非规则图像形状。 |
 | [SRWarp: Generalized Image Super-Resolution under Arbitrary Transformation](../README.zh-CN.md#s086) · [原文](https://openaccess.thecvf.com/content/CVPR2021/html/Son_SRWarp_Generalized_Image_Super-Resolution_under_Arbitrary_Transformation_CVPR_2021_paper.html) | CVPR 2021 | **采样 / Splatting 算子** · 将图像超分推广到任意空间变换，通过多尺度特征和自适应 Warping 支持非规则输出形状。 |
-| [Modular Primitives for High-Performance Differentiable Rendering](../README.zh-CN.md#s009) · [原文](https://research.nvidia.com/publication/2020-11_modular-primitives-high-performance-differentiable-rendering) | SIGGRAPH Asia / TOG 2020 | **采样 / Splatting 算子** · 将光栅化、属性插值、纹理采样和抗混叠拆为可微模块，支持硬件加速的逆渲染。 |
+| Modular Primitives for High-Performance Differentiable Rendering（2026-10-24 范围审校后移除） · [原文](https://research.nvidia.com/publication/2020-11_modular-primitives-high-performance-differentiable-rendering) | SIGGRAPH Asia / TOG 2020 | **采样 / Splatting 算子** · 将光栅化、属性插值、纹理采样和抗混叠拆为可微模块，支持硬件加速的逆渲染。 |
 | [Linearized Multi-Sampling for Differentiable Image Transformation](../README.zh-CN.md#s007) · [原文](https://research.google/pubs/linearized-multi-sampling-for-differentiable-image-transformation/) | ICCV 2019 | **采样 / Splatting 算子** · 在采样点邻域生成辅助样本并建立局部线性近似，改善可微图像变换的梯度传播。 |
 
 ### 2.1 光流与稠密对应
@@ -85,7 +85,7 @@
 | --- | --- | --- |
 | [UFM: A Simple Path towards Unified Dense Correspondence with Flow](../README.zh-CN.md#s015) · [原文](https://proceedings.neurips.cc/paper_files/paper/2025/hash/9d89448b63ce1e2e8dc7af72c984c196-Abstract-Conference.html) | NeurIPS 2025 | **对应关系估计** · 以统一的可共视训练数据和 Transformer 直接回归二维位移，将光流与宽基线稠密匹配合并建模。 |
 | [PDC-Net+: Enhanced Probabilistic Dense Correspondence Network](../README.zh-CN.md#s012) · [原文](https://arxiv.org/abs/2109.13912) | TPAMI 2023 | **对应关系估计** · 联合预测稠密对应与概率置信度，为大位移、遮挡和跨视角匹配提供不确定性信息。 |
-| [CroCo v2: Improved Cross-view Completion Pre-training for Stereo Matching and Optical Flow](../README.zh-CN.md#s014) · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Weinzaepfel_CroCo_v2_Improved_Cross-view_Completion_Pre-training_for_Stereo_Matching_and_ICCV_2023_paper.html) | ICCV 2023 | **对应关系估计** · 通过跨视图补全预训练与相对位置编码学习光流和双目匹配，不依赖显式图像 Warping 组件。 |
+| CroCo v2: Improved Cross-view Completion Pre-training for Stereo Matching and Optical Flow（2026-10-24 范围审校后移除） · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Weinzaepfel_CroCo_v2_Improved_Cross-view_Completion_Pre-training_for_Stereo_Matching_and_ICCV_2023_paper.html) | ICCV 2023 | **对应关系估计** · 通过跨视图补全预训练与相对位置编码学习光流和双目匹配，不依赖显式图像 Warping 组件。 |
 | [COTR: Correspondence Transformer for Matching Across Images](../README.zh-CN.md#s011) · [原文](https://openaccess.thecvf.com/content/ICCV2021/html/Jiang_COTR_Correspondence_Transformer_for_Matching_Across_Images_ICCV_2021_paper.html) | ICCV 2021 | **对应关系估计** · 用跨图像 Transformer 为连续坐标查询预测对应点，并通过局部细化实现精确匹配。 |
 | [GLU-Net: Global-Local Universal Network for Dense Flow and Correspondences](../README.zh-CN.md#s013) · [原文](https://openaccess.thecvf.com/content_CVPR_2020/html/Truong_GLU-Net_Global-Local_Universal_Network_for_Dense_Flow_and_Correspondences_CVPR_2020_paper.html) | CVPR 2020 | **对应关系估计** · 结合全局与局部相关层以及自适应分辨率，统一几何匹配、光流与语义对应估计。 |
 
@@ -140,7 +140,7 @@
 | [Infinite-Resolution Integral Noise Warping for Diffusion Models](../README.zh-CN.md#s043) · [原文](https://proceedings.iclr.cc/paper_files/paper/2025/hash/7feb98f84ee34f697944333d4faec0bd-Abstract-Conference.html) | ICLR 2025 | **噪声输运** · 分析积分噪声 Warping 的无限分辨率极限，以 Brownian bridge 增量构造高效、分布保持的噪声输运。 |
 | [On Equivariance and Fast Sampling in Video Diffusion Models Trained with Warped Noise](../README.zh-CN.md#s044) · [原文](https://arxiv.org/abs/2504.09789) | arXiv 2025 | **噪声输运** · 分析相关 Warping 噪声训练如何促进空间等变性，并将该性质用于高效视频生成与采样蒸馏。 |
 | [FlowVid: Taming Imperfect Optical Flows for Consistent Video-to-Video Synthesis](../README.zh-CN.md#s038) · [原文](https://openaccess.thecvf.com/content/CVPR2024/html/Liang_FlowVid_Taming_Imperfect_Optical_Flows_for_Consistent_Video-to-Video_Synthesis_CVPR_2024_paper.html) | CVPR 2024 | **显式空间形变** · 用光流将编辑首帧 Warp 到后续帧，联合深度等空间条件引导扩散模型传播视频编辑。 |
-| [FLATTEN: optical FLow-guided ATTENtion for consistent text-to-video editing](../README.zh-CN.md#s039) · [原文](https://openreview.net/forum?id=JgqftqZQZ7) | ICLR 2024 | **流场 / 轨迹条件引导** · 让视频中同一光流轨迹上的图像块在注意力模块中相互关联，改善文本引导编辑的跨帧一致性。 |
+| FLATTEN: optical FLow-guided ATTENtion for consistent text-to-video editing（2026-10-24 范围审校后移除） · [原文](https://openreview.net/forum?id=JgqftqZQZ7) | ICLR 2024 | **流场 / 轨迹条件引导** · 让视频中同一光流轨迹上的图像块在注意力模块中相互关联，改善文本引导编辑的跨帧一致性。 |
 | [WAVE: Warping DDIM Inversion Features for Zero-shot Text-to-Video Editing](../README.zh-CN.md#s042) · [原文](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9682_ECCV_2024_paper.php) | ECCV 2024 | **特征 / 潜变量 / 注意力对齐** · 在 DDIM 反演过程中利用光流传播关键帧特征，以获得更一致的反演潜变量并支持视频编辑。 |
 | [LatentWarp: Consistent Diffusion Latents for Zero-Shot Video-to-Video Translation](../README.zh-CN.md#s040) · [原文](https://arxiv.org/abs/2311.00353) | arXiv 2023 | **特征 / 潜变量 / 注意力对齐** · 用光流在扩散潜空间中执行 Warping，约束跨帧 query token，以改善零样本视频翻译。 |
 | [Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation](../README.zh-CN.md#s041) · [原文](https://arxiv.org/abs/2306.07954) | SIGGRAPH Asia / TOG 2023 | **特征 / 潜变量 / 注意力对齐** · 对关键帧施加跨帧形状和纹理约束，再通过时序感知的匹配与混合传播完整视频编辑。 |
@@ -152,7 +152,7 @@
 | [FloVD: Optical Flow Meets Video Diffusion Model for Enhanced Camera-Controlled Video Synthesis](../README.zh-CN.md#s047) · [原文](https://arxiv.org/abs/2502.08244) | CVPR 2025 | **流场 / 轨迹条件引导** · 将相机与物体运动表示为光流，先生成流场，再以流条件视频扩散实现相机控制与动态合成。 |
 | [TrajectoryCrafter: Redirecting Camera Trajectory for Monocular Videos via Diffusion Models](../README.zh-CN.md#s048) · [原文](https://www.openaccess.thecvf.com/content/ICCV2025/html/Yu_TrajectoryCrafter_Redirecting_Camera_Trajectory_for_Monocular_Videos_via_Diffusion_Models_ICCV_2025_paper.html) | ICCV 2025 | **重投影与渲染** · 将源视频与按目标轨迹渲染的点云共同作为扩散条件，并以双重重投影构建训练数据。 |
 | [Latent-Reframe: Enabling Camera Control for Video Diffusion Models without Training](../README.zh-CN.md#s049) · [原文](https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_Latent-Reframe_Enabling_Camera_Control_for_Video_Diffusion_Models_without_Training_ICCV_2025_paper.html) | ICCV 2025 | **重投影与渲染** · 通过时间感知点云将视频潜变量重构到目标相机轨迹，再用潜空间修复与协调完成视频生成。 |
-| [MotionPro: A Precise Motion Controller for Image-to-Video Generation](../README.zh-CN.md#s050) · [原文](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_MotionPro_A_Precise_Motion_Controller_for_Image-to-Video_Generation_CVPR_2025_paper.html) | CVPR 2025 | **流场 / 轨迹条件引导** · 以局部区域轨迹和运动掩码区分物体与相机运动，为视频生成提供精细的运动条件。 |
+| MotionPro: A Precise Motion Controller for Image-to-Video Generation（2026-10-24 范围审校后移除） · [原文](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_MotionPro_A_Precise_Motion_Controller_for_Image-to-Video_Generation_CVPR_2025_paper.html) | CVPR 2025 | **流场 / 轨迹条件引导** · 以局部区域轨迹和运动掩码区分物体与相机运动，为视频生成提供精细的运动条件。 |
 | [Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling](../README.zh-CN.md#s045) · [原文](https://arxiv.org/abs/2401.15977) | SIGGRAPH 2024 | **流场 / 轨迹条件引导** · 先预测参考图像像素的运动轨迹，再通过运动增强时序注意力传播特征，并支持稀疏轨迹控制。 |
 | [MotionCraft: Physics-Based Zero-Shot Video Generation](../README.zh-CN.md#s046) · [原文](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ded49449e9239a47057c33ef8d42c26e-Abstract-Conference.html) | NeurIPS 2024 | **噪声输运** · 将物理模拟得到的光流作用于扩散噪声潜空间，以零样本方式控制视频中的物理运动。 |
 
@@ -160,9 +160,9 @@
 
 | 论文 | 出处 | 机制 / 归属依据 |
 | --- | --- | --- |
-| [VGGT: Visual Geometry Grounded Transformer](../README.zh-CN.md#s054) · [原文](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html) | CVPR 2025 | **几何估计** · 从单幅或多幅图像联合预测相机、深度、三维点与点轨迹，为几何重建和后续重投影提供基础。 |
-| [FoundationStereo: Zero-Shot Stereo Matching](../README.zh-CN.md#s055) · [原文](https://openaccess.thecvf.com/content/CVPR2025/html/Wen_FoundationStereo_Zero-Shot_Stereo_Matching_CVPR_2025_paper.html) | CVPR 2025 | **对应关系估计** · 利用大规模合成双目数据、单目先验与长程代价体推理，学习跨域泛化的双目深度匹配。 |
-| [RAFT-Stereo: Multilevel Recurrent Field Transforms for Stereo Matching](../README.zh-CN.md#s053) · [原文](https://arxiv.org/abs/2109.07547) | 3DV 2021 | **对应关系估计** · 在校正后的双目图像上构建相关金字塔，用多层循环更新预测稠密视差。 |
+| VGGT: Visual Geometry Grounded Transformer（2026-10-24 范围审校后移除） · [原文](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html) | CVPR 2025 | **几何估计** · 从单幅或多幅图像联合预测相机、深度、三维点与点轨迹，为几何重建和后续重投影提供基础。 |
+| FoundationStereo: Zero-Shot Stereo Matching（2026-10-24 范围审校后移除） · [原文](https://openaccess.thecvf.com/content/CVPR2025/html/Wen_FoundationStereo_Zero-Shot_Stereo_Matching_CVPR_2025_paper.html) | CVPR 2025 | **对应关系估计** · 利用大规模合成双目数据、单目先验与长程代价体推理，学习跨域泛化的双目深度匹配。 |
+| RAFT-Stereo: Multilevel Recurrent Field Transforms for Stereo Matching（2026-10-24 范围审校后移除） · [原文](https://arxiv.org/abs/2109.07547) | 3DV 2021 | **对应关系估计** · 在校正后的双目图像上构建相关金字塔，用多层循环更新预测稠密视差。 |
 | [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](../README.zh-CN.md#s051) · [原文](https://openaccess.thecvf.com/content_CVPR_2020/html/Gu_Cascade_Cost_Volume_for_High-Resolution_Multi-View_Stereo_and_Stereo_Matching_CVPR_2020_paper.html) | CVPR 2020 | **几何估计** · 利用前一级深度缩小后续假设范围，通过金字塔级联代价体进行高分辨率多视图与双目匹配。 |
 | [DPSNet: End-to-end Deep Plane Sweep Stereo](../README.zh-CN.md#s052) · [原文](https://arxiv.org/abs/1905.00538) | ICLR 2019 | **重投影与渲染** · 通过可微平面扫描 Warping 构建跨视图特征代价体，再聚合并回归场景深度。 |
 
@@ -189,11 +189,11 @@
 
 | 论文 | 出处 | 机制 / 归属依据 |
 | --- | --- | --- |
-| [3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning](../README.zh-CN.md#s066) · [原文](https://openaccess.thecvf.com/content/CVPR2025/html/Yang_3D-Mem_3D_Scene_Memory_for_Embodied_Exploration_and_Reasoning_CVPR_2025_paper.html) | CVPR 2025 | **空间记忆** · 结合三维场景表示、信息丰富的多视图记忆快照与前沿快照，支持具身探索和问答。 |
-| [GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering](../README.zh-CN.md#s067) · [原文](https://proceedings.mlr.press/v305/saxena25a.html) | CoRL 2025 / PMLR 2025 | **空间记忆** · 将在线三维度量语义场景图与相关图像组成多模态记忆，用于结构化探索和具身问答。 |
+| 3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning（2026-10-24 范围审校后移除） · [原文](https://openaccess.thecvf.com/content/CVPR2025/html/Yang_3D-Mem_3D_Scene_Memory_for_Embodied_Exploration_and_Reasoning_CVPR_2025_paper.html) | CVPR 2025 | **空间记忆** · 结合三维场景表示、信息丰富的多视图记忆快照与前沿快照，支持具身探索和问答。 |
+| GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering（2026-10-24 范围审校后移除） · [原文](https://proceedings.mlr.press/v305/saxena25a.html) | CoRL 2025 / PMLR 2025 | **空间记忆** · 将在线三维度量语义场景图与相关图像组成多模态记忆，用于结构化探索和具身问答。 |
 | [Trans4Map: Revisiting Holistic Bird's-Eye-View Mapping From Egocentric Images to Allocentric Semantics With Vision Transformers](../README.zh-CN.md#s082) · [原文](https://openaccess.thecvf.com/content/WACV2023/html/Chen_Trans4Map_Revisiting_Holistic_Birds-Eye-View_Mapping_From_Egocentric_Images_to_Allocentric_WACV_2023_paper.html) | WACV 2023 | **空间记忆** · 用 Transformer 提取自我视角特征，将其投影并累积到双向世界坐标记忆，预测俯视语义地图。 |
 | [EgoMap: Projective mapping and structured egocentric memory for Deep RL](../README.zh-CN.md#s080) · [原文](https://arxiv.org/abs/2002.02286) | ECML PKDD 2020 | **空间记忆** · 将图像特征可微反投影到俯视记忆地图，并依据自运动通过仿射变换更新记忆坐标。 |
-| [Neural Map: Structured Memory for Deep Reinforcement Learning](../README.zh-CN.md#s065) · [原文](https://arxiv.org/abs/1702.08360) | ICLR 2018 | **空间记忆** · 以空间结构化的二维神经记忆存储环境信息，通过位置相关的读写支持长期导航推理。 |
+| Neural Map: Structured Memory for Deep Reinforcement Learning（2026-10-24 范围审校后移除） · [原文](https://arxiv.org/abs/1702.08360) | ICLR 2018 | **空间记忆** · 以空间结构化的二维神经记忆存储环境信息，通过位置相关的读写支持长期导航推理。 |
 | [MapNet: An Allocentric Spatial Memory for Mapping Environments](../README.zh-CN.md#s081) · [原文](https://openaccess.thecvf.com/content_cvpr_2018/html/Henriques_MapNet_An_Allocentric_CVPR_2018_paper.html) | CVPR 2018 | **空间记忆** · 将 RGB-D 感知注册到可学习的世界坐标记忆中，以卷积与反卷积形式实现定位和地图更新。 |
 
 ### 6.1 世界模型与环境预测
@@ -207,7 +207,7 @@
 
 | 论文 | 出处 | 机制 / 归属依据 |
 | --- | --- | --- |
-| [WorldMem: Long-term Consistent World Simulation with Memory](../README.zh-CN.md#s072) · [原文](https://proceedings.neurips.cc/paper_files/paper/2025/hash/470629a47e2d65ce0606c40055df5d26-Abstract-Conference.html) | NeurIPS 2025 | **空间记忆** · 保存历史帧、相机位姿与时间状态，通过记忆检索和注意力提高交互式世界模拟的长期一致性。 |
+| WorldMem: Long-term Consistent World Simulation with Memory（2026-10-24 范围审校后移除） · [原文](https://proceedings.neurips.cc/paper_files/paper/2025/hash/470629a47e2d65ce0606c40055df5d26-Abstract-Conference.html) | NeurIPS 2025 | **空间记忆** · 保存历史帧、相机位姿与时间状态，通过记忆检索和注意力提高交互式世界模拟的长期一致性。 |
 | [Video World Models with Long-term Spatial Memory](../README.zh-CN.md#s073) · [原文](https://proceedings.neurips.cc/paper_files/paper/2025/hash/467655d26fcc207bca08915dc91964c6-Abstract-Conference.html) | NeurIPS 2025 | **重投影与渲染** · 将生成帧累积为几何空间记忆，再按目标相机视角检索和渲染，维持动作条件世界生成中的场景一致性。 |
 | [Gibson Env: Real-World Perception for Embodied Agents](../README.zh-CN.md#s071) · [原文](https://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html) | CVPR 2018 | **重投影与渲染** · 将真实扫描场景中的观测重投影到新视角并进行神经修复，构建用于具身感知与控制的模拟环境。 |
 
@@ -217,5 +217,5 @@
 | --- | --- | --- |
 | [Autonomous Functional Play with Correspondence-Driven Trajectory Warping](../README.zh-CN.md#s077) · [原文](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b52ffc1e3ab14f7b423acbb14cdbfe8e-Abstract-Conference.html) | ICLR 2026 | **动作轨迹形变** · 以语义关键点对应将少量示范的动作轨迹 Warp 到目标场景，并通过自主任务交互持续收集经验。 |
 | [RVT: Robotic View Transformer for 3D Object Manipulation](../README.zh-CN.md#s075) · [原文](https://proceedings.mlr.press/v229/goyal23a.html) | CoRL 2023 / PMLR 2023 | **重投影与渲染** · 将 RGB-D 点云重渲染为多个虚拟视图，融合跨视图特征并反投影来预测三维机器人动作。 |
-| [FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects](../README.zh-CN.md#s076) · [原文](https://www.roboticsproceedings.org/rss18/p018.html) | RSS 2022 | **运动变换与预测** · 预测关节物体点云上各点的潜在三维运动方向，再用该稠密向量场引导解析运动规划。 |
-| [Dense Object Nets: Learning Dense Visual Object Descriptors By and For Robotic Manipulation](../README.zh-CN.md#s074) · [原文](https://proceedings.mlr.press/v87/florence18a.html) | CoRL 2018 / PMLR 2018 | **对应关系估计** · 利用多视图三维重建自动构造对应监督，学习支持跨姿态与跨物体操作的稠密视觉描述子。 |
+| FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects（2026-10-24 范围审校后移除） · [原文](https://www.roboticsproceedings.org/rss18/p018.html) | RSS 2022 | **运动变换与预测** · 预测关节物体点云上各点的潜在三维运动方向，再用该稠密向量场引导解析运动规划。 |
+| Dense Object Nets: Learning Dense Visual Object Descriptors By and For Robotic Manipulation（2026-10-24 范围审校后移除） · [原文](https://proceedings.mlr.press/v87/florence18a.html) | CoRL 2018 / PMLR 2018 | **对应关系估计** · 利用多视图三维重建自动构造对应监督，学习支持跨姿态与跨物体操作的稠密视觉描述子。 |

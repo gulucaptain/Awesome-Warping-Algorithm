@@ -52,6 +52,7 @@
 - 2026 年仅覆盖截至 **2026-10-24** 可核实的公开工作。正式会议、期刊与预印本分开标记；作者在 arXiv 自报接收的状态也注明来源。
 - 每条记录提供原论文、出版社、会议页面或作者项目页。代码仅在有明确作者来源时链接；未列代码不表示没有代码。
 - “突破”指下文说明的具体能力变化，不表示在所有数据集、分辨率、硬件上都优于经典方法。摘要、方法介绍与作者实现可支持分类，但不代替独立复现实验。
+- **2026-10-24 范围审校**：删除 40 篇本身不构造显式空间 warp 的工作（可微光栅化与 3DGS 渲染库、仅以位姿/轨迹作为条件的视频生成、几何基础模型、语义地图与场景图记忆、潜空间世界模型与生成式模拟器等）；Lucas–Kanade 主 Topic 移至 2.2，Softmax Splatting 与 Deformable ConvNets 移至 1.2，Warped Diffusion 移至 4.1；FlowVid、WAVE (DDIM)、LatentWarp、Rerender A Video 由 4.1 移至 3.1（3.1 扩展为“视频插帧、复原与编辑”），DepthSplat 由 5.2 移至 5.1；另删除 SemExp、DMAligner、Dense Object Nets 与 FLATTEN（仅沿光流轨迹约束注意力，不做 warp）。随后按 16 个 Topic 补充检索，新增 43 篇显式构造或估计空间 warp 的工作（数据中 `selection.batch` 为 `2026-10-24-supplement`），每篇均核对原文与出处，并逐篇确认其 warping 机制。
 - **不纳入主目录**：音频/时间序列的 Dynamic Time Warping（DTW）、操作系统 GPU warp、仅有名称相似而没有空间变换机制的方法。
 
 <a id="technology"></a>
@@ -164,7 +165,6 @@
 | <a id="n15"></a>N15 | **GenWarp**，NeurIPS 2024 | [应用/T6,T9] 结合深度诱导的坐标信息与跨视图/自注意力，让模型学习保留可迁移内容并生成缺失部分 | 属于 generative warping，生成区域并非从源图精确搬运 | [会议论文](https://proceedings.neurips.cc/paper_files/paper/2024/hash/92e886487a8354b03d8bf4416eae6d7d-Abstract-Conference.html) · [代码](https://github.com/sony/genwarp) |
 | <a id="n16"></a>N16 | **How I Warped Your Noise / ∫-noise**，ICLR 2024 | [算子/T7,T9] 把像素噪声解释为连续白噪声场的区域积分，设计面向 Gaussian 统计的输运，兼顾运动相关性和噪声性质 | 与普通 RGB 插值目标不同；会议早于 **2025** arXiv 上传，不能按该 ID 误判为 2025 首发 | [ICLR 原文](https://openreview.net/pdf?id=pzElnMrgSD) · [作者页](https://warpyournoise.github.io/) |
 | <a id="n17"></a>N17 | **Warped Diffusion**，NeurIPS 2024 | [应用/T9] 用连续函数空间和变换等变性处理视频逆问题，以测试时自等变引导提高时序一致性 | 不是仅对初始化噪声做一次 warp；关注视频补全与超分 | [论文](https://arxiv.org/abs/2410.16152) |
-| <a id="n18"></a>N18 | **StableVITON**，CVPR 2024；预印本 2023 | [应用/相关/T9] 在扩散 latent 中学习服装与人体的语义对应，以 attention 实现隐式对齐与细节传递 | 不应与显式 TPS/flow 坐标 warp 直接视作相同算子 | [论文](https://arxiv.org/abs/2312.01725) |
 
 ### 3.4 2025：可控噪声、频率感知和几何引导生成
 
@@ -181,7 +181,6 @@
 | ID | 工作 / 核实状态 | 核心变化及与 warping 的关系 | 边界 | 原始来源 |
 | --- | --- | --- | --- | --- |
 | <a id="n24"></a>N24 | **CameraNoise**，**ICML 2026，PMLR 正式论文** | [模型/算子/应用/T6,T9] 以 Geometry-guided Reprojection Flow 与噪声 warping 将相机运动编码到时序相关噪声中，同时关注 Gaussian 先验与轨迹控制 | 效果依赖场景几何和运动估计；不能据此推导任意非刚性运动均可精确控制 | [正式论文](https://proceedings.mlr.press/v306/zhao26l.html) · [作者代码](https://github.com/gulucaptain/CameraNoise) |
-| <a id="n25"></a>N25 | **DMAligner**，2026；arXiv v2 注明 **CVPR 2026 接收** | [应用/相关/T9] 将图像对齐转为 diffusion-based view synthesis，以动态感知训练处理遮挡与光照变化 | 是对传统 flow warp 局限的生成式替代路线；合成对齐不等同于恢复真实逐像素对应 | [论文及接收声明](https://arxiv.org/abs/2602.23022) |
 | <a id="n26"></a>N26 | **WarpI2I**，2026；arXiv 注明 **ECCV 2026** | [模型/应用/T2,T9] 在编码前用 saliency-guided warp 向显著区域分配更多空间表示，处理后 unwarp，改善紧凑 latent 模型的结构保留 | 用 warp 分配表示预算，不以运动估计为核心；逆映射受数值采样影响 | [论文及会议声明](https://arxiv.org/abs/2606.31018) |
 | <a id="n27"></a>N27 | **Warp-as-History**，**2026 预印本** | [应用/T6,T9] 将相机诱导的 warp 作为对齐目标位置的伪历史，结合有效 token 选择利用冻结模型的历史输入通路；另探索单视频 LoRA | 截止本版仅按公开预印本收录；控制能力仍需跨数据与轨迹验证 | [论文](https://arxiv.org/abs/2605.15182) |
 
@@ -192,7 +191,7 @@
 
 | Topic / 领域 | 核心问题 | 2022 年之前的代表 | 2022–2026 的代表与变化 | 建议评估 |
 | --- | --- | --- | --- | --- |
-| **图像配准 / Image Registration** | 两幅图的空间对齐 | [C01 全局变换](#c01)、[C02 LK](#c02)、[C05 TPS](#c05)、[C07 B-spline](#c07) | [N08 UDIS++](#n08) 混合几何；[N25 DMAligner](#n25) 生成式对齐 | 对应误差、有效区域、遮挡鲁棒性；生成结果不能仅用几何误差概括 |
+| **图像配准 / Image Registration** | 两幅图的空间对齐 | [C01 全局变换](#c01)、[C02 LK](#c02)、[C05 TPS](#c05)、[C07 B-spline](#c07) | [N08 UDIS++](#n08) 混合几何 | 对应误差、有效区域、遮挡鲁棒性；生成结果不能仅用几何误差概括 |
 | **医学图像 / Computational Anatomy** | 三维器官、跨模态与跨个体配准 | [C26 LDDMM](#c26)、[C10 SyN](#c10)、[C11 Diffeomorphic Demons](#c11)、[C18 VoxelMorph](#c18) | [N05 TransMorph](#n05)、[N06 SynthMorph](#n06)、[N14 uniGradICON](#n14)：长程关系与跨域泛化 | Dice、地标 TRE、Jacobian、逆一致性、运行时间 |
 | **拼接 / 全景 / 几何校正** | 对齐重叠区，同时控制非重叠区畸变 | [C01 Homography](#c01)、[C12 APAP](#c12) | [N08 UDIS++](#n08)：homography + TPS + 接缝合成 | 配准误差、直线/形状保持、重影、接缝、视差范围 |
 | **视频稳像 / 在线视频拼接** | 抑制相机抖动和逐帧 warp 的时间不一致 | [C29 Content-Preserving Warps](#c29) | [N28 StabStitch](#n28)：联合空间对齐与时间稳定 | 稳定性、裁切比例、内容畸变、接缝、在线延迟 |
@@ -201,7 +200,7 @@
 | **视频复原 / 超分 / 去噪 / 补全** | 对齐并融合跨帧信息 | [C14 DCN](#c14)、[C15 PWC-Net](#c15)、[C20 RAFT](#c20) 为常用组件 | [N07 BasicVSR++](#n07) 光流引导可形变对齐；[N17 Warped Diffusion](#n17) 图像先验用于视频逆问题 | 复原质量、闪烁、纹理粘连、错误传播、推理成本 |
 | **图像编辑 / Morphing / 形状操控** | 由点、线或网格控制局部形变 | [C04 FFD](#c04)、[C05 TPS](#c05)、[C06 Beier–Neely](#c06)、[C08 MLS](#c08)、[C09 ARAP](#c09) | [N21 LPW](#n21) 频率感知生成；[N26 WarpI2I](#n26) 空间表示预算分配 | 控制点误差、局部形状、折叠、高频与往返采样损失 |
 | **人像 / 人体动画 / Motion Transfer** | 从 driving motion 驱动 source appearance | [C17 FOMM](#c17) | [N03 TPS Motion Model](#n03) 扩展非刚性运动；[N19 Go-with-the-Flow](#n19) 噪声运动先验 | 身份/外观保持、关键点运动、姿态泛化、遮挡与时序一致性 |
-| **虚拟试衣 / Virtual Try-On** | 服装到人体的对齐，保持纹理与标识 | [C24 CP-VTON](#c24)：显式 TPS | [N18 StableVITON](#n18)：latent diffusion 中的语义关联与隐式对齐 | 服装细节、文字/logo、身体结构、遮挡；显式与隐式对应分开比较 |
+| **虚拟试衣 / Virtual Try-On** | 服装到人体的对齐，保持纹理与标识 | [C24 CP-VTON](#c24)：显式 TPS | [GP-VTON](../README.zh-CN.md#s035)：局部 flow 与全局 parsing 协同的显式服装 warping | 服装细节、文字/logo、身体结构、遮挡；显式与隐式对应分开比较 |
 | **深度 / 双目 / 多视图几何** | 由几何约束建立跨视图对应 | [C01 Homography](#c01)、[C16 Monodepth2](#c16) 的深度重投影 | [N09 UniMatch](#n09) 统一对应表示 | 深度/视差误差、遮挡、尺度、标定与动态物体影响 |
 | **新视角合成 / NVS** | 相机改变后的几何投影与内容补全 | [C28 DIBR](#c28)、[C16 Monodepth2](#c16) 提供重投影基础；[C21 D-NeRF](#c21)、[C22 Nerfies](#c22) 用于动态场景 | [N15 GenWarp](#n15)、[N22 WAVE](#n22)、[N23 SplatDiff](#n23)：几何引导与生成先验融合 | 相机遵循、几何与跨视图一致性、可见区细节、反遮挡质量 |
 | **动态三维 / 4D 重建** | 将时间变化映射到 canonical representation | [C21 D-NeRF](#c21)、[C22 Nerfies](#c22)、[C23 HyperNeRF](#c23) | [N11 Deformable 3D Gaussians](#n11)、[N12 4D-GS](#n12)：显式可渲染基元与形变结合 | 渲染质量、运动/拓扑、训练成本、存储、渲染速度 |
@@ -218,7 +217,7 @@
 
 1. **从局部残差搜索到全局对应，再到高效多帧估计。** [PWC-Net](#c15) 的逐层特征 warp、[RAFT](#c20) 的相关体与循环更新，发展为 [GMFlow](#n01) / [FlowFormer](#n02) 的全局或 attention 表示；[SEA-RAFT](#n13) / [MEMFOF](#n20) 进一步关注效率、高分辨率和多帧。进展主要发生在“如何估计对应”，并未淘汰传统采样。
 2. **从二维位移到可渲染的三维、四维形变。** [D-NeRF](#c21) / [Nerfies](#c22) 的 canonical deformation 延伸到 [Deformable 3D Gaussians](#n11) / [4D-GS](#n12)。改变的是表示和渲染效率；真实运动恢复、拓扑与遮挡仍需单独分析。
-3. **从先 warp 后补洞到几何与生成联合设计。** [GenWarp](#n15)、[WAVE](#n22)、[SplatDiff](#n23) 让几何引导、attention 和生成先验互相配合。[DMAligner](#n25) 则探索用生成式对齐替代显式 flow warp 的部分用途。生成内容的视觉真实性不等于可验证的空间对应。
+3. **从先 warp 后补洞到几何与生成联合设计。** [GenWarp](#n15)、[WAVE](#n22)、[SplatDiff](#n23) 让几何引导、attention 和生成先验互相配合。生成内容的视觉真实性不等于可验证的空间对应。
 4. **从输运颜色到输运随机场。** [∫-noise](#n16) 将噪声统计纳入算子设计，[Go-with-the-Flow](#n19) 把 warped noise 用作可控视频先验，[CameraNoise](#n24) 进一步结合相机重投影几何。对噪声而言，“看起来平滑”通常不是目标。
 5. **从只关心对齐到关心离散算子、频率和表示预算。** [ImWIP](#n10) 关注伴随和导数，[LookingGlass](#n21) 关注多频带 warp，[WarpI2I](#n26) 通过 warp–unwarp 分配 latent 表示资源。这些方向优化的是不同性质，不能只用同一个像素误差指标排序。
 

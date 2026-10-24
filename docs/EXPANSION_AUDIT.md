@@ -50,9 +50,9 @@
 
 | 工作 | 出处 | OpenAlex 引用快照 | 原始来源 | 归属依据 |
 | --- | --- | ---: | --- | --- |
-| [Neural 3D Mesh Renderer](../README.zh-CN.md#p05) | CVPR 2018 | [939](https://openalex.org/W2769112042) | [原文](https://arxiv.org/abs/1711.07566) | 为三角形光栅化设计近似梯度，使二维图像损失能够优化三维网格形状与相机参数。 |
+| Neural 3D Mesh Renderer（2026-10-24 范围审校后移除） | CVPR 2018 | [939](https://openalex.org/W2769112042) | [原文](https://arxiv.org/abs/1711.07566) | 为三角形光栅化设计近似梯度，使二维图像损失能够优化三维网格形状与相机参数。 |
 | [Surface Splatting](../README.zh-CN.md#p04) | SIGGRAPH 2001 | [674](https://openalex.org/W2293372129) | [原文](https://www.cs.umd.edu/~zwicker/publications/SurfaceSplatting-SIG01.pdf) | 将屏幕空间 EWA 滤波推广到不规则表面点采样，结合可见性处理实现抗混叠点基元渲染。 |
-| [Soft Rasterizer (SoftRas)](../README.zh-CN.md#p06) | ICCV 2019 | [642](https://openalex.org/W2990173985) | [原文](https://arxiv.org/abs/1904.01786) | 以概率覆盖和软聚合替代硬光栅化，将轮廓和颜色误差传播到网格几何与相机参数。 |
+| Soft Rasterizer (SoftRas)（2026-10-24 范围审校后移除） | ICCV 2019 | [642](https://openalex.org/W2990173985) | [原文](https://arxiv.org/abs/1904.01786) | 以概率覆盖和软聚合替代硬光栅化，将轮廓和颜色误差传播到网格几何与相机参数。 |
 
 ### 2.1 光流与稠密对应
 
@@ -111,36 +111,36 @@
 
 | 工作 | 出处 | OpenAlex 引用快照 | 原始来源 | 归属依据 |
 | --- | --- | ---: | --- | --- |
-| [Preserve Your Own Correlation (PYoCo)](../README.zh-CN.md#p31) | ICCV 2023 | [136](https://openalex.org/W4390872681) | [原文](https://arxiv.org/abs/2305.10474) | 设计混合与渐进式时序相关噪声先验，将图像扩散模型适配到视频生成。 |
-| [FreeNoise](../README.zh-CN.md#p32) | ICLR 2024 | [9](https://openalex.org/W4387929853) | [原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/15ce8e7afe5ee95bad56e3b9be28d3d1-Abstract-Conference.html) | 通过重调度初始噪声形成长程相关，并结合窗口时序注意力扩展预训练视频扩散模型的生成长度。 |
-| [ConsistI2V](../README.zh-CN.md#p33) | TMLR 2024 | [4](https://openalex.org/W4391670749) | [原文](https://openreview.net/forum?id=vqniLmUDvj) | 结合首帧时空注意力与低频噪声初始化，改善图生视频中的布局、外观和时序一致性。 |
+| Preserve Your Own Correlation (PYoCo)（2026-10-24 范围审校后移除） | ICCV 2023 | [136](https://openalex.org/W4390872681) | [原文](https://arxiv.org/abs/2305.10474) | 设计混合与渐进式时序相关噪声先验，将图像扩散模型适配到视频生成。 |
+| FreeNoise（2026-10-24 范围审校后移除） | ICLR 2024 | [9](https://openalex.org/W4387929853) | [原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/15ce8e7afe5ee95bad56e3b9be28d3d1-Abstract-Conference.html) | 通过重调度初始噪声形成长程相关，并结合窗口时序注意力扩展预训练视频扩散模型的生成长度。 |
+| ConsistI2V（2026-10-24 范围审校后移除） | TMLR 2024 | [4](https://openalex.org/W4391670749) | [原文](https://openreview.net/forum?id=vqniLmUDvj) | 结合首帧时空注意力与低频噪声初始化，改善图生视频中的布局、外观和时序一致性。 |
 
 ### 4.2 相机、轨迹与运动可控生成
 
 | 工作 | 出处 | OpenAlex 引用快照 | 原始来源 | 归属依据 |
 | --- | --- | ---: | --- | --- |
-| [MotionCtrl](../README.zh-CN.md#p34) | SIGGRAPH 2024 | [134](https://openalex.org/W4400573519) | [原文](https://arxiv.org/abs/2312.03641) | 以相机位姿和物体轨迹分别建模相机与物体运动，支持视频生成中的独立控制与组合。 |
-| [DragAnything](../README.zh-CN.md#p37) | ECCV 2024 | [29](https://openalex.org/W4402961675) | [原文](https://arxiv.org/abs/2403.07420) | 利用实体表示将用户绘制的轨迹关联到对象，支持多个对象及背景的运动控制。 |
-| [DragNUWA](../README.zh-CN.md#p36) | arXiv 2023 | [13](https://openalex.org/W4385965594) | [原文](https://arxiv.org/abs/2308.08089) | 融合文本、图像与轨迹条件，通过轨迹采样和多尺度控制实现开放域运动引导。 |
-| [CameraCtrl](../README.zh-CN.md#p35) | ECCV 2024 | [4](https://openalex.org/W4393967358) | [原文](https://arxiv.org/abs/2404.02101) | 将相机轨迹编码到可插拔相机模块，在尽量保留基础视频模型的同时实现位姿控制。 |
+| MotionCtrl（2026-10-24 范围审校后移除） | SIGGRAPH 2024 | [134](https://openalex.org/W4400573519) | [原文](https://arxiv.org/abs/2312.03641) | 以相机位姿和物体轨迹分别建模相机与物体运动，支持视频生成中的独立控制与组合。 |
+| DragAnything（2026-10-24 范围审校后移除） | ECCV 2024 | [29](https://openalex.org/W4402961675) | [原文](https://arxiv.org/abs/2403.07420) | 利用实体表示将用户绘制的轨迹关联到对象，支持多个对象及背景的运动控制。 |
+| DragNUWA（2026-10-24 范围审校后移除） | arXiv 2023 | [13](https://openalex.org/W4385965594) | [原文](https://arxiv.org/abs/2308.08089) | 融合文本、图像与轨迹条件，通过轨迹采样和多尺度控制实现开放域运动引导。 |
+| CameraCtrl（2026-10-24 范围审校后移除） | ECCV 2024 | [4](https://openalex.org/W4393967358) | [原文](https://arxiv.org/abs/2404.02101) | 将相机轨迹编码到可插拔相机模块，在尽量保留基础视频模型的同时实现位姿控制。 |
 
 ### 5.1 空间感知、深度与三维重建
 
 | 工作 | 出处 | OpenAlex 引用快照 | 原始来源 | 归属依据 |
 | --- | --- | ---: | --- | --- |
-| [COLMAP / Structure-from-Motion Revisited](../README.zh-CN.md#p38) | CVPR 2016 | [6,417](https://openalex.org/W2471962767) | [原文](https://openaccess.thecvf.com/content_cvpr_2016/html/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.html) | 改进增量式运动恢复结构流程，从无序图像估计相机和稀疏几何，为跨视图重投影提供基础。 |
+| COLMAP / Structure-from-Motion Revisited（2026-10-24 范围审校后移除） | CVPR 2016 | [6,417](https://openalex.org/W2471962767) | [原文](https://openaccess.thecvf.com/content_cvpr_2016/html/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.html) | 改进增量式运动恢复结构流程，从无序图像估计相机和稀疏几何，为跨视图重投影提供基础。 |
 | [SfMLearner](../README.zh-CN.md#p43) | CVPR 2017 | [2,908](https://openalex.org/W2609883120) | [原文](https://openaccess.thecvf.com/content_cvpr_2017/html/Zhou_Unsupervised_Learning_of_CVPR_2017_paper.html) | 用可微视图重建连接单目深度与相机运动网络，以无监督光度误差学习几何。 |
 | [MVSNet](../README.zh-CN.md#p39) | ECCV 2018 | [1,526](https://openalex.org/W2962793285) | [原文](https://arxiv.org/abs/1804.02505) | 用可微单应性 Warping 构建多视图代价体，并通过三维正则化推断参考视图深度。 |
-| [DUSt3R](../README.zh-CN.md#p41) | CVPR 2024 | [594](https://openalex.org/W4402816534) | [原文](https://arxiv.org/abs/2312.14132) | 将无标定多视图重建转化为成对点图回归，再通过全局对齐建立统一三维坐标系。 |
+| DUSt3R（2026-10-24 范围审校后移除） | CVPR 2024 | [594](https://openalex.org/W4402816534) | [原文](https://arxiv.org/abs/2312.14132) | 将无标定多视图重建转化为成对点图回归，再通过全局对齐建立统一三维坐标系。 |
 | [DROID-SLAM](../README.zh-CN.md#p40) | NeurIPS 2021 | [345](https://openalex.org/W3193551877) | [原文](https://arxiv.org/abs/2108.10869) | 通过循环更新和稠密束调整联合优化相机位姿与逐像素深度，统一单目、双目及 RGB-D SLAM。 |
-| [MASt3R](../README.zh-CN.md#p42) | ECCV 2024 | [308](https://openalex.org/W4404002617) | [原文](https://arxiv.org/abs/2406.09756) | 在 DUSt3R 三维点图基础上加入局部描述子与高效匹配，使图像对应与场景几何联合建模。 |
+| MASt3R（2026-10-24 范围审校后移除） | ECCV 2024 | [308](https://openalex.org/W4404002617) | [原文](https://arxiv.org/abs/2406.09756) | 在 DUSt3R 三维点图基础上加入局部描述子与高效匹配，使图像对应与场景几何联合建模。 |
 
 ### 5.2 重投影与新视角合成
 
 | 工作 | 出处 | OpenAlex 引用快照 | 原始来源 | 归属依据 |
 | --- | --- | ---: | --- | --- |
-| [3D Gaussian Splatting (3DGS)](../README.zh-CN.md#p45) | SIGGRAPH / TOG 2023 | [5,979](https://openalex.org/W4385318467) | [原文](https://arxiv.org/abs/2308.04079) | 优化各向异性三维高斯及其密度，通过可见性感知 Splatting 实现高效新视角渲染。 |
-| [NeRF](../README.zh-CN.md#p44) | ECCV 2020 | [5,335](https://openalex.org/W3109585842) | [原文](https://arxiv.org/abs/2003.08934) | 用连续辐射场与可微体渲染表示场景，从已知相机图像优化新视角合成。 |
+| 3D Gaussian Splatting (3DGS)（2026-10-24 范围审校后移除） | SIGGRAPH / TOG 2023 | [5,979](https://openalex.org/W4385318467) | [原文](https://arxiv.org/abs/2308.04079) | 优化各向异性三维高斯及其密度，通过可见性感知 Splatting 实现高效新视角渲染。 |
+| NeRF（2026-10-24 范围审校后移除） | ECCV 2020 | [5,335](https://openalex.org/W3109585842) | [原文](https://arxiv.org/abs/2003.08934) | 用连续辐射场与可微体渲染表示场景，从已知相机图像优化新视角合成。 |
 | [pixelNeRF](../README.zh-CN.md#p47) | CVPR 2021 | [1,600](https://openalex.org/W3176368002) | [原文](https://openaccess.thecvf.com/content/CVPR2021/html/Yu_pixelNeRF_Neural_Radiance_Fields_From_One_or_Few_Images_CVPR_2021_paper.html) | 将三维采样点投影到源图像特征，以一幅或少量图像条件化辐射场并生成新视角。 |
 | [IBRNet](../README.zh-CN.md#p46) | CVPR 2021 | [757](https://openalex.org/W3186630079) | [原文](https://arxiv.org/abs/2102.13090) | 将邻近源视图投影特征与射线聚合结合，学习可跨场景泛化的图像式新视角渲染。 |
 | [Stereo Magnification / Multiplane Images](../README.zh-CN.md#p48) | SIGGRAPH / TOG 2018 | [149](https://openalex.org/W2804091141) | [原文](https://arxiv.org/abs/1805.09817) | 从窄基线双目图像预测多平面图像，以深度平面的单应性 Warping 合成更大基线的新视角。 |
@@ -158,28 +158,28 @@
 
 | 工作 | 出处 | OpenAlex 引用快照 | 原始来源 | 归属依据 |
 | --- | --- | ---: | --- | --- |
-| [Visual Language Maps (VLMaps)](../README.zh-CN.md#p54) | ICRA 2023 | [375](https://openalex.org/W4383108296) | [原文](https://arxiv.org/abs/2210.05714) | 将预训练视觉语言特征融合到三维地图，支持开放词汇目标定位与空间关系驱动的导航。 |
-| [ConceptGraphs](../README.zh-CN.md#p56) | ICRA 2024 | [285](https://openalex.org/W4401414715) | [原文](https://arxiv.org/abs/2309.16650) | 将二维基础模型输出经跨视图关联融合为开放词汇三维场景图，用对象及关系支撑空间推理与规划。 |
-| [ConceptFusion](../README.zh-CN.md#p55) | RSS 2023 | [227](https://openalex.org/W4385431115) | [原文](https://arxiv.org/abs/2302.07241) | 通过像素对齐开放集特征与多视图三维融合建立可用语言、图像或音频查询的空间地图。 |
+| Visual Language Maps (VLMaps)（2026-10-24 范围审校后移除） | ICRA 2023 | [375](https://openalex.org/W4383108296) | [原文](https://arxiv.org/abs/2210.05714) | 将预训练视觉语言特征融合到三维地图，支持开放词汇目标定位与空间关系驱动的导航。 |
+| ConceptGraphs（2026-10-24 范围审校后移除） | ICRA 2024 | [285](https://openalex.org/W4401414715) | [原文](https://arxiv.org/abs/2309.16650) | 将二维基础模型输出经跨视图关联融合为开放词汇三维场景图，用对象及关系支撑空间推理与规划。 |
+| ConceptFusion（2026-10-24 范围审校后移除） | RSS 2023 | [227](https://openalex.org/W4385431115) | [原文](https://arxiv.org/abs/2302.07241) | 通过像素对齐开放集特征与多视图三维融合建立可用语言、图像或音频查询的空间地图。 |
 | [Semantic MapNet (SMNet)](../README.zh-CN.md#p53) | AAAI 2021 | [68](https://openalex.org/W3091259027) | [原文](https://ojs.aaai.org/index.php/AAAI/article/view/16180) | 把第一视角 RGB-D 特征投影到俯视坐标，并用空间记忆积累多帧信息，形成可供导航和问答使用的语义地图。 |
 
 ### 6.1 世界模型与环境预测
 
 | 工作 | 出处 | OpenAlex 引用快照 | 原始来源 | 归属依据 |
 | --- | --- | ---: | --- | --- |
-| [PlaNet](../README.zh-CN.md#p67) | ICML 2019 | [707](https://openalex.org/W2900152462) | [原文](https://proceedings.mlr.press/v97/hafner19a.html) | 从像素学习含确定性与随机成分的潜在状态动力学，并通过多步预测在潜在空间中搜索动作。 |
-| [DreamerV3](../README.zh-CN.md#p68) | Nature 2025 | [179](https://openalex.org/W4409147637) | [原文](https://www.nature.com/articles/s41586-025-08744-2) | 从观测学习环境动力学、奖励与继续概率，在潜在想象轨迹中训练策略，并用归一化等机制提升跨任务稳定性。 |
-| [Drive-WM](../README.zh-CN.md#p59) | CVPR 2024 | [119](https://openalex.org/W4402778069) | [原文](https://arxiv.org/abs/2311.17918) | 联合建模多视角和时间维度，生成不同驾驶动作对应的未来视频，并以图像奖励评估规划轨迹。 |
-| [GAIA-1](../README.zh-CN.md#p58) | arXiv 2023 | [28](https://openalex.org/W4387294122) | [原文](https://arxiv.org/abs/2309.17080) | 将视频、文本与动作离散化并预测后续序列，用于驾驶场景的动作条件未来生成。 |
-| [DIAMOND](../README.zh-CN.md#p62) | NeurIPS 2024 | 未取得数据 | [原文](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6bdde0373d53d4a501249547084bed43-Abstract-Conference.html) | 在像素空间扩散世界模型中预测视觉动态，并利用模型想象训练强化学习策略。 |
+| PlaNet（2026-10-24 范围审校后移除） | ICML 2019 | [707](https://openalex.org/W2900152462) | [原文](https://proceedings.mlr.press/v97/hafner19a.html) | 从像素学习含确定性与随机成分的潜在状态动力学，并通过多步预测在潜在空间中搜索动作。 |
+| DreamerV3（2026-10-24 范围审校后移除） | Nature 2025 | [179](https://openalex.org/W4409147637) | [原文](https://www.nature.com/articles/s41586-025-08744-2) | 从观测学习环境动力学、奖励与继续概率，在潜在想象轨迹中训练策略，并用归一化等机制提升跨任务稳定性。 |
+| Drive-WM（2026-10-24 范围审校后移除） | CVPR 2024 | [119](https://openalex.org/W4402778069) | [原文](https://arxiv.org/abs/2311.17918) | 联合建模多视角和时间维度，生成不同驾驶动作对应的未来视频，并以图像奖励评估规划轨迹。 |
+| GAIA-1（2026-10-24 范围审校后移除） | arXiv 2023 | [28](https://openalex.org/W4387294122) | [原文](https://arxiv.org/abs/2309.17080) | 将视频、文本与动作离散化并预测后续序列，用于驾驶场景的动作条件未来生成。 |
+| DIAMOND（2026-10-24 范围审校后移除） | NeurIPS 2024 | 未取得数据 | [原文](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6bdde0373d53d4a501249547084bed43-Abstract-Conference.html) | 在像素空间扩散世界模型中预测视觉动态，并利用模型想象训练强化学习策略。 |
 
 ### 6.2 交互式环境与模拟
 
 | 工作 | 出处 | OpenAlex 引用快照 | 原始来源 | 归属依据 |
 | --- | --- | ---: | --- | --- |
-| [Genie](../README.zh-CN.md#p60) | ICML 2024 | [23](https://openalex.org/W4392182423) | [原文](https://proceedings.mlr.press/v235/bruce24a.html) | 从无动作标注的视频学习潜在动作与时空动态，生成可逐帧交互的虚拟环境。 |
-| [UniSim](../README.zh-CN.md#p57) | ICLR 2024 | [20](https://openalex.org/W4387560742) | [原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/c4d66eae503694424123b93ac0fbaf17-Abstract-Conference.html) | 从异质视频与交互数据学习动作条件模拟器，生成指令或低层动作引起的视觉变化，并用于智能体训练。 |
-| [GameNGen](../README.zh-CN.md#p61) | ICLR 2025 | [7](https://openalex.org/W4402704721) | [原文](https://proceedings.iclr.cc/paper_files/paper/2025/hash/b71ecea210f7159f31e46631fe5c838f-Abstract-Conference.html) | 用历史帧和动作条件化扩散模型，结合噪声增强训练生成可交互的 DOOM 画面序列。 |
+| Genie（2026-10-24 范围审校后移除） | ICML 2024 | [23](https://openalex.org/W4392182423) | [原文](https://proceedings.mlr.press/v235/bruce24a.html) | 从无动作标注的视频学习潜在动作与时空动态，生成可逐帧交互的虚拟环境。 |
+| UniSim（2026-10-24 范围审校后移除） | ICLR 2024 | [20](https://openalex.org/W4387560742) | [原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/c4d66eae503694424123b93ac0fbaf17-Abstract-Conference.html) | 从异质视频与交互数据学习动作条件模拟器，生成指令或低层动作引起的视觉变化，并用于智能体训练。 |
+| GameNGen（2026-10-24 范围审校后移除） | ICLR 2025 | [7](https://openalex.org/W4402704721) | [原文](https://proceedings.iclr.cc/paper_files/paper/2025/hash/b71ecea210f7159f31e46631fe5c838f-Abstract-Conference.html) | 用历史帧和动作条件化扩散模型，结合噪声增强训练生成可交互的 DOOM 画面序列。 |
 
 ### 6.3 具身智能体、规划与控制
 
@@ -188,7 +188,7 @@
 | [Active Neural SLAM](../README.zh-CN.md#p63) | ICLR 2020 | [318](https://openalex.org/W3011144238) | [原文](https://arxiv.org/abs/2004.05155) | 结合可学习空间映射、全局探索策略与局部规划，将几何地图用于具身环境中的主动探索。 |
 | [CLIPort](../README.zh-CN.md#p66) | CoRL 2021 / PMLR 2022 | [223](https://openalex.org/W3203511201) | [原文](https://proceedings.mlr.press/v164/shridhar22a.html) | 将 CLIP 的语言语义与 Transporter 的空间对应结合，学习语言条件下的精确抓取放置操作。 |
 | [Transporter Networks](../README.zh-CN.md#p65) | CoRL 2020 / PMLR 2021 | [200](https://openalex.org/W3096099141) | [原文](https://proceedings.mlr.press/v155/zeng21a.html) | 通过平移与旋转视觉特征并进行相关匹配，预测抓取和放置的空间位移，将对应建模用于机器人操作。 |
-| [Goal-Oriented Semantic Exploration (SemExp)](../README.zh-CN.md#p64) | NeurIPS 2020 | [44](https://openalex.org/W3102804550) | [原文](https://proceedings.neurips.cc/paper/2020/hash/2c75cf2681788adaca63aa95ae028b22-Abstract.html) | 建立情景语义地图并利用目标类别相关的空间先验规划探索，完成未知环境中的对象目标导航。 |
+| Goal-Oriented Semantic Exploration (SemExp)（2026-10-24 范围审校后移除） | NeurIPS 2020 | [44](https://openalex.org/W3102804550) | [原文](https://proceedings.neurips.cc/paper/2020/hash/2c75cf2681788adaca63aa95ae028b22-Abstract.html) | 建立情景语义地图并利用目标类别相关的空间先验规划探索，完成未知环境中的对象目标导航。 |
 
 ## 链接与归属的排除记录
 

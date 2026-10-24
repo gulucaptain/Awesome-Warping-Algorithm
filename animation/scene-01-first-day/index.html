@@ -1,0 +1,216 @@
+<!doctype html>
+<!-- Visual draft: original Dot courier, round cel-cartoon language. Three looks share the same ten-second scene. See design-notes.md. -->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>下一帧，请签收 · 第一天上班</title>
+<style>
+:root{color-scheme:light;--ink:#20394b;--blue:#168de0;--paper:#fffdf5;--sky:#c8edfc;--grass:#bde3ae;--map:#fff9df;--grid:#bbd9cb;--outline:4.5;--cap:#1595df;--dot:#ffcf4d;--house:#fff5dd;--roof:#e87568}
+*{box-sizing:border-box}body{margin:0;background:#f2f3ef;color:#20394b;font-family:'Avenir Next','PingFang SC','Hiragino Sans GB',sans-serif}button,a,input,select{-webkit-tap-highlight-color:transparent}button,select{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #f1ad24;outline-offset:4px}
+main{max-width:1220px;margin:28px auto;padding:0 24px}.masthead{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:20px}.eyebrow{font-size:11px;letter-spacing:.18em;color:#62767f;margin:0 0 8px}h1{font-size:26px;letter-spacing:-.03em;margin:0;font-weight:800}h1 span{font-weight:500;color:#6b7c82;font-size:18px;margin-left:12px}.board-link{color:#3e687c;font-size:13px;text-decoration:none;border-bottom:1px solid #c0cdd0;padding-bottom:5px}
+.looks{display:flex;gap:8px;margin-bottom:14px}.looks button{border:1px solid #ccd8d9;border-radius:8px;background:transparent;padding:9px 15px;color:#5b6b72;font-size:13px}.looks button[aria-pressed=true]{background:#213f51;color:white;border-color:#213f51}.looks i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;background:var(--swatch)}
+.stage{position:relative;aspect-ratio:16/9;isolation:isolate;overflow:hidden;background:var(--sky);border-radius:12px;box-shadow:0 14px 35px #25405213;border:1px solid #20394b20}.stage canvas,.stage>svg{display:block;position:absolute;width:100%;height:100%;inset:0}.stage svg{font-family:'Avenir Next','PingFang SC','Hiragino Sans GB',sans-serif;overflow:hidden}.line{stroke:var(--ink);stroke-width:var(--outline);stroke-linecap:round;stroke-linejoin:round}.ink{fill:var(--ink)}.cap{fill:var(--cap)}.paper{fill:var(--paper)}.dot-color{fill:var(--dot)}.house{fill:var(--house)}.roof{fill:var(--roof)}.cloud{fill:#ffffff;stroke:none}.comics,.future{display:none}.future-window{fill:#87d4e8}.road-label{font-size:14px;font-weight:800;letter-spacing:.15em;fill:#769484}.subtitle-cn{font-size:26px;font-weight:700;fill:#20394b}.subtitle-en{font-size:15px;fill:#466376}.watermark{font-size:10px;fill:#20394b;opacity:.42;letter-spacing:.04em}
+.controls{display:flex;align-items:center;gap:12px;padding:18px 0 13px}.play{width:104px;background:#213f51;color:white;border:0;border-radius:7px;padding:11px 8px;font-size:13px}.replay{border:0;background:none;color:#5a6f7a;font-size:13px;padding:10px 5px}.time{font-family:'SFMono-Regular',Consolas,monospace;font-size:12px;color:#5c717b;min-width:89px}input[type=range]{min-width:50px;flex:1;accent-color:#168de0;cursor:pointer}select{border:1px solid #ced6d6;padding:7px;border-radius:6px;background:transparent;color:#5c717b;font-size:12px}.details{display:flex;justify-content:space-between;gap:16px;border-top:1px solid #d9e0de;padding-top:14px;color:#687b82;font-size:12px;line-height:1.8}.details p{margin:0;max-width:660px}.beats{display:flex;gap:8px;flex-shrink:0;align-items:flex-start}.beats button{background:none;border:1px solid #d1dbd9;color:#5b737e;border-radius:20px;padding:4px 11px;font-size:12px}.hint{font-size:11px;color:#839197;margin-top:14px}.clean{background:var(--sky)}.clean main{margin:0;padding:0;max-width:none}.clean .no-record{display:none}.clean .stage{border:0;box-shadow:none;border-radius:0;width:100vw;height:auto;aspect-ratio:16/9}
+body[data-look=comic]{--ink:#313645;--paper:#fffdf3;--sky:#f7efdb;--grass:#e9e3c5;--map:#fffdf5;--grid:#d8c9a9;--outline:5.5;--cap:#e65e50;--dot:#ffd257;--house:#f6d79e;--roof:#6594b1}body[data-look=comic] .comics{display:block}body[data-look=comic] .sky-only{display:none}body[data-look=comic] .cloud{fill:#fffdf5;stroke:var(--ink);stroke-width:3}
+body[data-look=future]{--ink:#24415e;--paper:#f8fdff;--sky:#c7ddfa;--grass:#b0c9ec;--map:#e7f4ff;--grid:#accee3;--outline:4;--cap:#4076cd;--dot:#ffca58;--house:#e9f5ff;--roof:#9faee7}body[data-look=future] .future{display:block}body[data-look=future] .town-only{display:none}body[data-look=future] .cloud{fill:#eaf4ff}body[data-look=future] .future-window{fill:#b4a0e6}
+@media(max-width:700px){main{margin:18px auto;padding:0 12px}h1{font-size:20px}h1 span{font-size:13px;display:block;margin:5px 0 0}.masthead{gap:5px}.looks button{font-size:11px;padding:8px 9px}.controls{gap:7px}.play{width:84px;font-size:11px}.time{min-width:65px;font-size:10px}.details{display:block}.beats{margin-top:12px}.board-link{font-size:11px}.replay{font-size:11px}}
+</style>
+</head>
+<body data-look="sky">
+<main>
+ <header class="masthead no-record"><div><p class="eyebrow">A DELIVERY TO THE NEXT FRAME · VISUAL DRAFT</p><h1>下一帧，请签收<span>第一天上班 · 10 秒样片</span></h1></div><a class="board-link" href="directions.html">查看三版方向板 ↗</a></header>
+ <nav class="looks no-record" aria-label="视觉方向"><button data-look="sky" aria-pressed="true"><i style="--swatch:#60b9eb"></i>A 晴空街区</button><button data-look="comic" aria-pressed="false"><i style="--swatch:#e58566"></i>B 奶油漫画</button><button data-look="future" aria-pressed="false"><i style="--swatch:#a39ada"></i>C 未来邮局</button></nav>
+ <section class="stage" aria-label="动画：Dot 第一天上班，接信、画路线、急刹并捡回帽子">
+ <canvas id="map" width="1600" height="900" aria-hidden="true"></canvas>
+ <svg viewBox="0 0 1600 900" role="img" aria-labelledby="scene-title scene-desc">
+ <title id="scene-title">下一帧，请签收：第一天上班</title><desc id="scene-desc">金色快递员 Dot 计划沿直线送信。城市网格旋转，蓝色收件点移走，Dot 急刹，帽子飞出后被捡回。</desc>
+ <defs>
+  <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.5" fill="#9e8765" opacity=".16"/></pattern>
+  <g id="envelope" class="line"><rect x="-67" y="-43" width="134" height="86" rx="8" fill="#fffdf4"/><path d="M-62-36 0 8 62-36M-61 35-18 2M61 35 18 2" fill="none" stroke="#b7ad95" stroke-width="2.5"/><rect x="36" y="-32" width="21" height="24" rx="2" fill="#ed685c" stroke="#c74743" stroke-width="2"/><circle cx="46.5" cy="-20" r="6" fill="none" stroke="#fff4d9" stroke-width="1.5"/><text x="-47" y="24" font-size="8.5" font-weight="800" stroke="none" fill="#405362">TO: THE NEXT FRAME</text></g>
+  <g id="hat-drawing" class="line"><path d="M-56 2Q-58-48-7-49 40-48 47-8L48 4Z" class="cap"/><path d="M-54-2Q-10-16 46-5L76 5Q81 20 56 21L-52 17Z" class="cap"/><path d="M-44-28Q-25-47-3-41" fill="none" stroke="white" stroke-width="5" opacity=".5"/><circle cx="-5" cy="-21" r="13" fill="#fffdf1" stroke-width="2.5"/><path d="m-11-20 5-5 7 5-7 6Z" fill="#f4b744" stroke-width="1.8"/></g>
+  <g id="tree" class="line"><path d="M0 4V-47" fill="none" stroke="#92795d" stroke-width="8"/><path d="M-12-17-22-27M5-11 17-25" fill="none" stroke="#92795d" stroke-width="5"/><path d="M-32-36Q-50-61-25-72-30-99-5-102 18-108 25-81 53-80 40-52 47-32 22-26-4-17-13-28-26-21-32-36Z" fill="#87bc8b" stroke-width="3"/></g>
+  <g id="cloud" class="cloud"><path d="M-70 12Q-87-18-50-26-46-68-7-66 27-67 39-31 73-34 79-5 111-3 107 21H-72Z"/></g>
+ </defs>
+ <g opacity=".8"><use href="#cloud" transform="translate(1165 135) scale(1.1)"/><use href="#cloud" transform="translate(1375 260) scale(.6)"/><use href="#cloud" transform="translate(215 270) scale(.55)"/></g>
+ <g class="comics"><rect width="1600" height="900" fill="url(#dots)"/><path d="M1300 100l18-18m7 47 26-4m-70-64 4-27" class="line" fill="none" stroke-width="3"/></g>
+ <g class="future" fill="#fff" opacity=".8"><path d="m1390 112 4-13 4 13 13 4-13 4-4 13-4-13-13-4ZM1060 213l3-10 3 10 10 3-10 3-3 10-3-10-10-3Z"/><circle cx="1450" cy="190" r="4"/><circle cx="1070" cy="90" r="3"/><ellipse cx="1310" cy="185" rx="70" ry="16" fill="none" stroke="#fff" stroke-width="3" transform="rotate(-20 1310 185)"/></g>
+ <g id="chapter"><text x="96" y="106" font-size="17" font-weight="700" letter-spacing="4" fill="#567e93">下一帧，请签收</text><text x="92" y="168" font-size="53" font-weight="900" class="ink">第一天上班</text><text x="96" y="202" font-size="16" letter-spacing="2" fill="#64869b">FIRST DAY ON THE JOB</text></g>
+ <g id="landmarks">
+  <g class="town-only">
+   <use href="#tree" transform="translate(930 420) scale(.76)"/><use href="#tree" transform="translate(1430 610) scale(.82)"/><use href="#tree" transform="translate(800 725) scale(.62)"/>
+   <g transform="translate(1025 680)" class="line"><rect x="-65" y="-59" width="118" height="66" rx="7" class="house"/><path d="m-79-60 68-54 78 54Z" class="roof"/><rect x="-37" y="-35" width="23" height="25" rx="3" fill="#b8e1e9" stroke-width="3"/><rect x="9" y="-36" width="24" height="43" rx="3" fill="#d9a17f" stroke-width="3"/></g>
+   <g transform="translate(630 395) scale(.7)" class="line"><rect x="-65" y="-59" width="118" height="66" rx="7" class="house"/><path d="m-79-60 68-54 78 54Z" class="roof"/><rect x="-36" y="-34" width="23" height="25" rx="3" fill="#b8e1e9" stroke-width="3"/><rect x="9" y="-35" width="24" height="42" rx="3" fill="#d9a17f" stroke-width="3"/></g>
+  </g>
+  <g class="future line"><g transform="translate(980 382)"><path d="M-53 0v-35a53 53 0 0 1 106 0V0Z" class="house"/><ellipse cy="-6" rx="73" ry="15" class="roof"/><circle cy="-40" r="19" class="future-window" stroke-width="3"/></g><g transform="translate(1030 700) scale(.8)"><path d="M-53 0v-35a53 53 0 0 1 106 0V0Z" class="house"/><ellipse cy="-6" rx="73" ry="15" class="roof"/><circle cy="-40" r="19" class="future-window" stroke-width="3"/></g><path d="M1430 620V490m-24 34h48m-35 24h22" fill="none"/><circle cx="1430" cy="487" r="14" fill="#b7a6e3"/></g>
+  <g transform="translate(210 565)" class="line">
+   <ellipse cx="0" cy="20" rx="105" ry="15" fill="#263e5014" stroke="none"/>
+   <rect x="-80" y="-145" width="160" height="157" rx="13" class="house"/>
+   <path d="M-96-142-6-194 96-142Z" class="roof town-only"/>
+   <path d="M-84-142Q-84-232 0-232 84-232 84-142Z" class="roof future"/>
+   <path d="M-80-91H80" fill="none"/><rect x="-57" y="-68" width="48" height="80" rx="7" fill="#71abc4"/><circle cx="-22" cy="-23" r="3" fill="#fff" stroke="none"/>
+   <rect x="20" y="-69" width="42" height="40" rx="5" fill="#fffdf0"/><path d="m25-60 16 13 16-13" fill="none" stroke-width="2.8"/>
+   <text x="0" y="-109" text-anchor="middle" font-size="18" font-weight="900" letter-spacing="3" stroke="none" class="ink">POST</text>
+  </g>
+  <g id="recipient" transform="translate(1260 610)" class="line">
+   <ellipse rx="72" ry="20" fill="#7aacca33" stroke="none"/>
+   <g class="town-only"><path d="M-48-14v-102a48 48 0 0 1 96 0V-14Z" fill="#4da9e7"/><path d="M-48-57H48" fill="none" stroke="#2279b2" stroke-width="3"/><rect x="-32" y="-101" width="64" height="10" rx="5" fill="#234861" stroke-width="2.5"/><rect x="-30" y="-43" width="60" height="29" rx="5" fill="#a2dcf5" stroke-width="2.5"/></g>
+   <g class="future"><ellipse cy="-80" rx="58" ry="88" fill="#669ce6"/><ellipse cy="-80" rx="40" ry="68" fill="#dcefff"/><ellipse cy="-80" rx="26" ry="53" fill="#afc8ee" stroke="none"/></g>
+   <path d="M-45 0H45" fill="none" stroke="#2c8ac7" stroke-width="8"/>
+   <g transform="translate(0 -204)" stroke-width="3"><path d="M-25-12a25 25 0 1 1 50 0C25 8 0 35 0 35S-25 8-25-12Z" fill="#238fdd"/><circle cy="-12" r="9" fill="white" stroke="none"/></g>
+   <text x="0" y="58" text-anchor="middle" stroke="none" font-size="16" letter-spacing="2" font-weight="800" fill="#2675ae">NEXT FRAME</text>
+  </g>
+ </g>
+ <!-- Planned route is deliberately outside the rotating map layer. -->
+ <g id="route" opacity="0"><path id="route-line" d="M455 610H1260" fill="none" stroke="#f0a537" stroke-width="8" stroke-linecap="round" stroke-dasharray="14 16"/><circle cx="1260" cy="610" r="12" fill="none" stroke="#f0a537" stroke-width="4"/><path d="m1235 593 25 17-25 17" fill="none" stroke="#f0a537" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+ <g id="mismatch" opacity="0"><path id="gap-line" fill="none" stroke="#e47867" stroke-width="3" stroke-dasharray="7 9"/><circle cx="1260" cy="610" r="24" fill="none" stroke="#e47867" stroke-width="3"/><path d="m1252 602 16 16m0-16-16 16" fill="none" stroke="#e47867" stroke-width="3" stroke-linecap="round"/></g>
+ <g id="speed" stroke="#7d8e86" stroke-width="5" stroke-linecap="round" opacity="0"><path d="M-135-35h-65M-123-3h-105M-128 29h-61"/></g>
+ <g id="dust" class="line" opacity="0" fill="#fffdf4" stroke-width="3"><circle cx="-52" cy="-2" r="25"/><circle cx="-20" cy="3" r="30"/><circle cx="13" cy="7" r="21"/></g>
+ <ellipse id="dot-shadow" cx="390" cy="691" rx="79" ry="15" fill="#27424f22"/>
+ <g id="dot" transform="translate(390 610)">
+  <g id="body" class="line">
+   <g id="leg-left"><path d="M-34 54-40 75" fill="none" stroke="#c58c34" stroke-width="14"/><ellipse cx="-42" cy="79" rx="29" ry="14" fill="#fffdf4"/></g>
+   <g id="leg-right"><path d="M31 54 40 75" fill="none" stroke="#c58c34" stroke-width="14"/><ellipse cx="43" cy="79" rx="29" ry="14" fill="#fffdf4"/></g>
+   <path id="back-arm" d="M-61-5Q-101 12-93 34" fill="none" stroke="#eab541" stroke-width="19"/><circle cx="-93" cy="34" r="15" fill="#fffdf4"/>
+   <path d="M-77-12C-77-70-47-96 0-96S78-63 78-9C78 44 50 69 0 69S-77 38-77-12Z" class="dot-color"/>
+   <path d="M-57-43Q-61-69-37-78" fill="none" stroke="#fff3ba" stroke-width="9"/>
+   <ellipse cx="6" cy="21" rx="47" ry="34" fill="#fff0be" stroke="none"/>
+   <path d="M-58 36Q-3 12 58 39" fill="none" stroke="#94664d" stroke-width="11"/>
+   <rect x="-38" y="33" width="65" height="39" rx="9" fill="#cb8d5c" stroke-width="3"/><path d="m-32 40 26 16 27-16" fill="none" stroke-width="2.5"/><circle cx="-5" cy="53" r="4" fill="#f6cc6b" stroke-width="2"/>
+   <g id="eyes"><ellipse cx="7" cy="-43" rx="18" ry="25" fill="#fff" stroke-width="3"/><ellipse cx="41" cy="-43" rx="17" ry="25" fill="#fff" stroke-width="3"/><g id="pupils"><ellipse cx="14" cy="-40" rx="5" ry="10" class="ink" stroke="none"/><ellipse cx="47" cy="-40" rx="5" ry="10" class="ink" stroke="none"/><circle cx="16" cy="-44" r="2" fill="white" stroke="none"/><circle cx="49" cy="-44" r="2" fill="white" stroke="none"/></g></g>
+   <path id="brows" d="M-6-73 16-75M32-75 51-72" fill="none" stroke-width="3"/>
+   <ellipse cx="54" cy="-10" rx="11" ry="5" fill="#ec9b69" stroke="none" opacity=".7"/>
+   <path id="mouth" d="M13-7Q29 13 44-9" fill="#c47850" stroke-width="3"/>
+   <g id="parcel-hand"><use href="#envelope" transform="translate(98 4) rotate(-7) scale(.78)"/><path d="M58 15Q79 43 108 30" fill="none" stroke="#ecb841" stroke-width="20"/><ellipse cx="107" cy="27" rx="17" ry="14" fill="#fffdf4" stroke-width="3.5"/></g>
+   <g id="reach-arm" opacity="0"><path id="reach-path" d="M61 10Q105 50 132 48" fill="none" stroke="#edb944" stroke-width="20"/><circle id="reach-hand" cx="132" cy="48" r="17" fill="#fffdf4" stroke-width="3.5"/></g>
+  </g>
+ </g>
+ <g id="hat"><use href="#hat-drawing"/></g>
+ <g id="incoming"><use href="#envelope"/></g>
+ <g id="letter-closeup" opacity="0"><ellipse cx="850" cy="380" rx="160" ry="18" fill="#27424f15"/><g transform="translate(850 263) rotate(-7) scale(2.5)"><use href="#envelope"/></g></g>
+ <g id="speech" opacity="0" class="line"><path d="M510 232h445q25 0 25 25v72q0 25-25 25H603l-57 36 15-36h-51q-25 0-25-25v-72q0-25 25-25Z" class="paper" stroke-width="3.5"/><text x="731" y="285" text-anchor="middle" stroke="none" font-size="29" font-weight="800" class="ink">这么近？十秒送到。</text><text x="731" y="320" text-anchor="middle" stroke="none" font-size="17" fill="#6b7c83">This close? Ten seconds, tops.</text></g>
+ <g id="shock" opacity="0" class="line" fill="none"><path d="m-10-5-5-25m32 24 10-24m3 36 23-9" stroke="#e68b4c" stroke-width="5"/></g>
+ <g id="sweat" opacity="0" class="line"><path d="M0-18C-3-9-12 0-11 8A11 11 0 0 0 11 8C12 0 3-9 0-18Z" fill="#84cdf1" stroke-width="2.5"/></g>
+ <g id="brake-word" opacity="0"><text x="0" y="0" font-size="44" font-weight="900" fill="#d66a51" stroke="#fff9e4" stroke-width="7" paint-order="stroke" transform="rotate(-13)">吱——！</text></g>
+ <g id="narration" opacity="0"><rect x="336" y="768" width="928" height="91" rx="18" fill="#fffdf6" opacity=".93"/><text x="800" y="805" text-anchor="middle" class="subtitle-cn">如果世界一直不动，寻找对应关系会很简单。</text><text x="800" y="836" text-anchor="middle" class="subtitle-en">If the world stood still, finding correspondence would be easy.</text></g>
+ <text x="1570" y="879" text-anchor="end" class="watermark">Created by Huashu-Design</text>
+ </svg>
+ </section>
+ <div class="controls no-record"><button class="play" id="play" aria-label="播放动画">播放样片</button><button class="replay" id="replay">重播</button><input id="seek" aria-label="动画进度" type="range" min="0" max="10" step="0.01" value="0"><output class="time" id="time">00.00 / 10s</output><select id="speed-select" aria-label="播放速度"><option value="1">1× 正常</option><option value="0.5">0.5× 慢放</option><option value="1.5">1.5×</option></select></div>
+ <div class="details no-record"><p id="look-note">晴空街区：蓝天、绿地和金色小邮差，接近日常电视卡通的轻快感。地图会旋转，Dot 画出的路线留在原位。</p><div class="beats" aria-label="跳至关键动作"><button data-time="1.7">接信</button><button data-time="3.8">自信</button><button data-time="6.35">急刹</button><button data-time="9.4">戴帽</button></div></div>
+ <p class="hint no-record">字幕样片 · 空格播放 / 暂停 · ← → 逐帧查看 · 无需联网，可直接打开本文件</p>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id), DURATION=10;
+const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v));
+const lerp=(a,b,p)=>a+(b-a)*p;
+const progress=(t,a,b)=>clamp((t-a)/(b-a));
+const smooth=p=>p*p*(3-2*p), out=p=>1-Math.pow(1-p,3), back=p=>1+2.70158*Math.pow(p-1,3)+1.70158*Math.pow(p-1,2);
+const fade=(t,a,b,c,d)=>smooth(progress(t,a,b))*(1-smooth(progress(t,c,d)));
+const palettes={sky:{sky:'#c8edfc',grass:'#c5e4b7',map:'#fff8df',grid:'#c4dace',ink:'#344f58',block:'#e8eed0'},comic:{sky:'#f7efdb',grass:'#e8dfbe',map:'#fffdf4',grid:'#ded1b3',ink:'#49494b',block:'#f3e7d1'},future:{sky:'#c7ddfa',grass:'#b5cceb',map:'#e7f4ff',grid:'#b8d4e9',ink:'#456485',block:'#d4e7f5'}};
+const notes={sky:'晴空街区：蓝天、绿地和金色小邮差，接近日常电视卡通的轻快感。地图会旋转，Dot 画出的路线留在原位。',comic:'奶油漫画：纸张色、网点和更粗的墨线，红帽 Dot 像从漫画页走出来，急刹与停顿更有喜剧感。',future:'未来邮局：冰蓝小城、圆顶建筑和环形收件站，让这封寄往「下一帧」的信更像一场时空冒险。'};
+const params=new URLSearchParams(location.search);
+let look=palettes[params.get('look')]?params.get('look'):'sky';
+let t=clamp(Number(params.get('t')||0),0,DURATION),playing=params.get('autoplay')==='1',rate=1,last=0;
+const cv=$('map'),ctx=cv.getContext('2d');
+const ids=['chapter','landmarks','route','route-line','mismatch','gap-line','speed','dust','dot-shadow','dot','body','leg-left','leg-right','back-arm','eyes','pupils','brows','mouth','parcel-hand','reach-arm','reach-path','reach-hand','hat','incoming','letter-closeup','speech','shock','sweat','brake-word','narration'];
+const el=Object.fromEntries(ids.map(id=>[id,$(id)]));
+function attr(id,key,value){el[id].setAttribute(key,value)}
+function alpha(id,value){attr(id,'opacity',clamp(value))}
+function trans(id,value){attr(id,'transform',value)}
+function roundRect(x,y,w,h,r){ctx.beginPath();ctx.roundRect(x,y,w,h,r)}
+function rotatedPoint(x,y,angle){const a=angle*Math.PI/180;return{x:800+(x-800)*Math.cos(a)-(y-580)*Math.sin(a),y:580+(x-800)*Math.sin(a)+(y-580)*Math.cos(a)}}
+function stateAt(time){
+ const unfold=lerp(.035,1,out(progress(time,0,1.45)));
+ const angle=-16*smooth(progress(time,5.2,6.4));
+ const run=progress(time,4.95,5.65),stop=out(progress(time,5.65,6.12));
+ const x=390+170*run*run+105*stop;
+ const moving=time>4.95&&time<6.12;
+ const lean=time<5.65?12*smooth(progress(time,4.95,5.5)):lerp(12,-15,smooth(progress(time,5.65,5.99)))*(1-smooth(progress(time,6.2,6.65)));
+ const crouch=fade(time,7.55,8.18,8.45,9.2);
+ const bob=moving?-Math.abs(Math.sin((time-4.95)*19))*12:0;
+ const target=rotatedPoint(1260,610,angle);
+ const baseHat={x:x+2,y:610+bob-99+38*crouch,rotation:lean*.7};
+ let hat={...baseHat};
+ if(time>=5.7&&time<7.6){const p=progress(time,5.7,7.6),launchX=392+170+105*out(progress(5.7,5.65,6.12)),launchY=511-Math.abs(Math.sin(.75*19))*12,launchRotation=lerp(12,-15,smooth(progress(5.7,5.65,5.99)))*.7;hat={x:lerp(launchX,850,p),y:lerp(launchY,684,p)-210*4*p*(1-p),rotation:lerp(launchRotation,375,p)}}
+ else if(time>=7.6&&time<8.42){hat={x:850,y:684-7*Math.abs(Math.sin(progress(time,7.6,8)*Math.PI))* (1-progress(time,7.6,8)),rotation:15}}
+ else if(time>=8.42&&time<9.35){const p=smooth(progress(time,8.42,9.35));hat={x:lerp(850,baseHat.x,p),y:lerp(684,baseHat.y,p)-90*Math.sin(p*Math.PI),rotation:lerp(15,0,p)}}
+ return{t:time,unfold,angle,x,lean,crouch,bob,target,hat,moving};
+}
+function drawMap(s){
+ const p=palettes[look];ctx.clearRect(0,0,1600,900);ctx.fillStyle=p.sky;ctx.fillRect(0,0,1600,900);
+ ctx.fillStyle=p.grass;ctx.beginPath();ctx.moveTo(0,465);ctx.bezierCurveTo(300,340,450,475,700,455);ctx.bezierCurveTo(1000,390,1220,330,1600,465);ctx.lineTo(1600,900);ctx.lineTo(0,900);ctx.fill();
+ ctx.save();ctx.translate(800,580);ctx.rotate(s.angle*Math.PI/180);ctx.scale(s.unfold,1);ctx.translate(-800,-580);
+ ctx.fillStyle='#29475b16';roundRect(73,340,1455,417,35);ctx.fill();ctx.fillStyle=p.map;roundRect(65,325,1470,415,35);ctx.fill();ctx.strokeStyle=p.ink;ctx.lineWidth=look==='comic'?4:2.8;ctx.stroke();
+ ctx.save();roundRect(65,325,1470,415,35);ctx.clip();
+ ctx.fillStyle=p.block;[[325,355,210,100],[735,355,128,105],[1085,355,350,80],[320,666,270,50],[865,660,300,60],[1360,520,105,180]].forEach(r=>{roundRect(...r,18);ctx.fill()});
+ ctx.strokeStyle=p.grid;ctx.lineWidth=1.8;ctx.beginPath();for(let x=100;x<1550;x+=95){ctx.moveTo(x,325);ctx.lineTo(x,740)}for(let y=345;y<740;y+=65){ctx.moveTo(65,y);ctx.lineTo(1535,y)}ctx.stroke();
+ // The central street belongs to the same rigid map coordinate system.
+ ctx.strokeStyle=look==='future'?'#cee4f6':'#f0e7c7';ctx.lineWidth=57;ctx.beginPath();ctx.moveTo(80,610);ctx.lineTo(1520,610);ctx.stroke();ctx.strokeStyle='#ffffffb3';ctx.lineWidth=2;ctx.setLineDash([13,17]);ctx.stroke();ctx.setLineDash([]);
+ ctx.restore();ctx.restore();
+}
+function render(time){
+ const s=stateAt(clamp(time,0,DURATION));drawMap(s);
+ trans('landmarks',`translate(800 580) rotate(${s.angle}) scale(${s.unfold} 1) translate(-800 -580)`);
+ alpha('chapter',1-smooth(progress(time,2.4,3.1))*.55);
+ const routeShow=smooth(progress(time,3.05,3.95));alpha('route',routeShow);
+ attr('route-line','pathLength',1);attr('route-line','stroke-dasharray','.0174 .0199');attr('route-line','stroke-dashoffset',0);
+ // Clip the dashed line while Dot draws; no change to its screen coordinate system.
+ el.route.style.clipPath=`inset(0 ${Math.max(0,(1-routeShow)*72)}% 0 0)`;
+ alpha('mismatch',smooth(progress(time,6.15,6.55))*.75);
+ attr('gap-line','d',`M1260 610Q1325 ${lerp(610,s.target.y,.5)} ${s.target.x} ${s.target.y}`);
+ trans('dot',`translate(${s.x} ${610+s.bob+38*s.crouch}) rotate(${s.lean})`);
+ const squash=fade(time,5.68,5.93,6.1,6.45);trans('body',`scale(${1+.09*squash} ${1-.08*squash}) rotate(${20*s.crouch})`);
+ attr('dot-shadow','cx',s.x);attr('dot-shadow','rx',79+20*squash);attr('dot-shadow','opacity',.8);
+ const walk=s.moving?Math.sin((time-4.95)*22):0;
+ trans('leg-left',`rotate(${walk*23+15*squash} -34 54)`);trans('leg-right',`rotate(${-walk*23-17*squash} 31 54)`);
+ alpha('speed',fade(time,5.04,5.17,5.65,5.95));trans('speed',`translate(${s.x} 605)`);
+ const dustP=progress(time,5.72,6.75);alpha('dust',fade(time,5.72,5.93,6.2,6.75));trans('dust',`translate(${s.x-60-45*dustP} 683) scale(${.45+.8*dustP})`);
+ alpha('brake-word',fade(time,5.72,5.85,6.38,6.62));trans('brake-word',`translate(${s.x-145} 425)`);
+ const surprise=smooth(progress(time,5.65,5.9))*(1-smooth(progress(time,8.7,9.6)));
+ const blink=fade(time,2.83,2.89,2.96,3.03)+fade(time,8.9,8.96,9.02,9.09);
+ trans('eyes',`translate(0 ${-43*(1-(1-.92*blink))}) scale(1 ${1-.92*blink})`);
+ trans('pupils',`translate(${surprise*-4} ${surprise*-2})`);
+ attr('mouth','d',surprise>.4?'M22-2C12-3 10 18 23 20C36 22 39 0 22-2Z':time>9.2?'M15 3Q30-5 43 3':'M13-7Q29 13 44-9');
+ attr('brows','d',surprise>.4?'M-7-79 15-84M33-83 53-77':'M-6-73 16-75M32-75 51-72');
+ alpha('parcel-hand',1);alpha('reach-arm',fade(time,7.55,7.9,9.0,9.3));
+ // Arm follows the resting hat, then retracts as the cap returns to the head.
+ const reach=fade(time,7.55,8.1,8.45,9.3);trans('parcel-hand',`translate(${-130*reach} ${20*reach}) rotate(${-10*reach})`);
+ // Inverse character transforms keep the glove attached to the cap during pickup.
+ const grip=time<8.42?{x:878,y:696}:{x:s.hat.x+28,y:s.hat.y+12};
+ const vx=grip.x-s.x,vy=grip.y-(610+s.bob+38*s.crouch),r=-s.lean*Math.PI/180;
+ const ux=(vx*Math.cos(r)-vy*Math.sin(r))/(1+.09*squash),uy=(vx*Math.sin(r)+vy*Math.cos(r))/(1-.08*squash),br=-20*s.crouch*Math.PI/180;
+ const pick=smooth(progress(time,7.55,8.1)),hx=lerp(98,ux*Math.cos(br)-uy*Math.sin(br),pick),hy=lerp(22,ux*Math.sin(br)+uy*Math.cos(br),pick);
+ attr('reach-path','d',`M61 10Q${hx-10} ${hy+25} ${hx} ${hy}`);attr('reach-hand','cx',hx);attr('reach-hand','cy',hy);
+ trans('hat',`translate(${s.hat.x} ${s.hat.y}) rotate(${s.hat.rotation})`);
+ alpha('hat',1);
+ const receive=out(progress(time,.35,1.75));alpha('incoming',1-smooth(progress(time,1.62,1.84)));trans('incoming',`translate(${lerp(255,488,receive)} ${lerp(516,614,receive)-30*Math.sin(receive*Math.PI)}) rotate(${lerp(-12,-7,receive)}) scale(.78)`);
+ // Hide held envelope until receipt, retaining Dot's glove underneath.
+ const held=el['parcel-hand'].querySelector('use');held.setAttribute('opacity',smooth(progress(time,1.45,1.8)));
+ alpha('letter-closeup',fade(time,1.85,2.1,2.65,2.95));
+ const bubble=fade(time,3.12,3.28,4.72,4.9);alpha('speech',bubble);trans('speech',`translate(731 354) scale(${lerp(.94,1,back(progress(time,3.12,3.4)))}) translate(-731 -354)`);
+ alpha('shock',fade(time,5.65,5.8,6.3,6.55));trans('shock',`translate(${s.x+37} 475)`);
+ alpha('sweat',fade(time,6.4,6.65,9.55,9.9));trans('sweat',`translate(${s.x-60} ${562+35*s.crouch})`);
+ alpha('narration',fade(time,5.8,6.02,9.6,9.8));
+ $('seek').value=String(time);$('time').value=`${time.toFixed(2).padStart(5,'0')} / 10s`;
+ document.documentElement.dataset.time=time.toFixed(3);
+ window.__lastFrame=s;
+}
+function setLook(value){look=palettes[value]?value:'sky';document.body.dataset.look=look;document.querySelectorAll('[data-look][aria-pressed]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.look===look));$('look-note').textContent=notes[look];render(t)}
+function syncPlay(){ $('play').textContent=playing?'暂停':t>=DURATION?'再看一次':'播放样片';$('play').setAttribute('aria-label',playing?'暂停动画':'播放动画') }
+function seek(time){t=clamp(Number(time),0,DURATION);playing=false;render(t);syncPlay()}
+function toggle(){if(t>=DURATION)t=0;playing=!playing;last=performance.now();syncPlay()}
+$('play').addEventListener('click',toggle);$('replay').addEventListener('click',()=>{t=0;playing=true;last=performance.now();render(t);syncPlay()});
+$('seek').addEventListener('input',e=>seek(e.target.value));$('speed-select').addEventListener('change',e=>rate=Number(e.target.value));
+document.querySelectorAll('.looks button').forEach(b=>b.addEventListener('click',()=>setLook(b.dataset.look)));
+document.querySelectorAll('[data-time]').forEach(b=>b.addEventListener('click',()=>seek(b.dataset.time)));
+document.addEventListener('keydown',e=>{if(e.target.matches('input,select,button,a'))return;if(e.code==='Space'){e.preventDefault();toggle()}if(e.code==='ArrowRight'){e.preventDefault();seek(t+1/60)}if(e.code==='ArrowLeft'){e.preventDefault();seek(t-1/60)}});
+if(params.get('clean')==='1')document.body.classList.add('clean');if(params.get('paused')==='1')playing=false;
+function sizeCanvas(){const dpr=Math.min(window.devicePixelRatio||1,2);cv.width=1600*dpr;cv.height=900*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);render(t)}
+window.addEventListener('resize',sizeCanvas);
+window.__seek=seek;window.__frameState=stateAt;window.__duration=DURATION;
+setLook(look);sizeCanvas();syncPlay();window.__ready=false;
+function tick(now){if(last===null){last=now;render(t);window.__ready=true;requestAnimationFrame(tick);return}if(playing){t=Math.min(DURATION,t+Math.min((now-last)/1000,.1)*rate);render(t);if(t>=DURATION){playing=false;syncPlay()}}last=now;requestAnimationFrame(tick)}
+document.fonts.ready.then(()=>{last=null;requestAnimationFrame(tick)});
+</script>
+</body></html>
