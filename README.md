@@ -15,7 +15,7 @@
 Warping maps pixels, features, and noise across space and time, providing a foundation for image alignment, 3D reconstruction, and controllable generation. This repository connects classical methods with recent advances, organizing papers and implementations into six research areas and their topics to help researchers navigate the field, compare approaches, and build on existing work.
 </p>
 
-<b>128</b> Papers &nbsp; · &nbsp; <b>87</b> Repositories &nbsp; · &nbsp; <b>6</b> Research areas &nbsp; · &nbsp; <b>16</b> Topics
+<b>212</b> Papers &nbsp; · &nbsp; <b>132</b> Repositories &nbsp; · &nbsp; <b>6</b> Research areas &nbsp; · &nbsp; <b>16</b> Topics
 
 </div>
 
@@ -57,72 +57,72 @@ Each work has one primary topic, with related tags and reading links for other d
 <tr>
 <td rowspan="2" valign="middle"><a href="#area-foundations">1. Warping Foundations &amp; Operators</a></td>
 <td><a href="#topic-geometry-editing">1.1 Geometric Transformations &amp; Deformation Editing</a></td>
-<td>10</td>
+<td>15</td>
 </tr>
 <tr>
 <td><a href="#topic-sampling-splatting">1.2 Differentiable Sampling &amp; Splatting</a></td>
-<td>6</td>
+<td>14</td>
 </tr>
 <tr>
 <td rowspan="3" valign="middle"><a href="#area-alignment">2. Correspondence &amp; Image Alignment</a></td>
 <td><a href="#topic-optical-flow">2.1 Optical Flow &amp; Dense Correspondence</a></td>
-<td>20</td>
+<td>25</td>
 </tr>
 <tr>
 <td><a href="#topic-image-alignment">2.2 Image Registration, Stitching &amp; Stabilization</a></td>
-<td>9</td>
+<td>13</td>
 </tr>
 <tr>
 <td><a href="#topic-medical-registration">2.3 Medical Registration &amp; Diffeomorphic Deformation</a></td>
-<td>12</td>
+<td>17</td>
 </tr>
 <tr>
 <td rowspan="2" valign="middle"><a href="#area-video-processing">3. Video Processing &amp; Human Deformation</a></td>
 <td><a href="#topic-video-restoration">3.1 Video Interpolation &amp; Restoration</a></td>
-<td>11</td>
+<td>18</td>
 </tr>
 <tr>
 <td><a href="#topic-human-deformation">3.2 Animation, Motion Transfer &amp; Virtual Try-On</a></td>
-<td>8</td>
+<td>16</td>
 </tr>
 <tr>
 <td rowspan="2" valign="middle"><a href="#area-video-generation">4. Video Generation &amp; Motion Control</a></td>
 <td><a href="#topic-noise-warping">4.1 Noise Warping &amp; Temporal Consistency</a></td>
-<td>4</td>
+<td>11</td>
 </tr>
 <tr>
 <td><a href="#topic-controlled-generation">4.2 Camera-, Trajectory- &amp; Motion-Controlled Generation</a></td>
-<td>7</td>
+<td>13</td>
 </tr>
 <tr>
 <td rowspan="4" valign="middle"><a href="#area-spatial-intelligence">5. Spatial Intelligence</a></td>
 <td><a href="#topic-spatial-perception">5.1 Spatial Perception, Depth &amp; 3D Reconstruction</a></td>
-<td>7</td>
+<td>12</td>
 </tr>
 <tr>
 <td><a href="#topic-novel-view-synthesis">5.2 Reprojection &amp; Novel View Synthesis</a></td>
-<td>9</td>
+<td>14</td>
 </tr>
 <tr>
 <td><a href="#topic-dynamic-3d">5.3 Dynamic 3D &amp; 4D Scenes</a></td>
-<td>9</td>
+<td>13</td>
 </tr>
 <tr>
 <td><a href="#topic-spatial-reasoning">5.4 Spatial Reasoning &amp; Scene Memory</a></td>
-<td>4</td>
+<td>10</td>
 </tr>
 <tr>
 <td rowspan="3" valign="middle"><a href="#area-world-models-agents">6. World Models &amp; Embodied Agents</a></td>
 <td><a href="#topic-world-models">6.1 World Models &amp; Environment Prediction</a></td>
-<td>5</td>
+<td>7</td>
 </tr>
 <tr>
 <td><a href="#topic-interactive-simulation">6.2 Interactive Environments &amp; Simulation</a></td>
-<td>3</td>
+<td>6</td>
 </tr>
 <tr>
 <td><a href="#topic-embodied-agents">6.3 Embodied Agents, Planning &amp; Control</a></td>
-<td>4</td>
+<td>8</td>
 </tr>
 </tbody>
 </table>
@@ -137,7 +137,7 @@ Each work has one primary topic, with related tags and reading links for other d
 
 > **Scope** · Parametric transforms, TPS, FFD, MLS, ARAP, morphing, frequency-aware deformation and warp–unwarp
 >
-> **10 papers · Newest first**
+> **15 papers · Newest first**
 
 ---
 
@@ -159,12 +159,48 @@ Uses Laplacian pyramids for frequency-aware image warping and view aggregation, 
 
 ---
 
+<a id="s003"></a>
+#### Inpaint4Drag: Repurposing Inpainting Models for Drag-Based Image Editing via Bidirectional Warping (ICCV 2025)
+
+[![arXiv: 2509.04582](https://img.shields.io/badge/arXiv-2509.04582-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.04582) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2509.04582) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://visual-ai.github.io/inpaint4drag/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Visual-AI/Inpaint4Drag) [![GitHub stars](https://img.shields.io/github/stars/Visual-AI/Inpaint4Drag?style=flat-square&label=stars&color=C58A18)](https://github.com/Visual-AI/Inpaint4Drag/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Visual-AI/Inpaint4Drag?style=flat-square&label=forks&color=64748B)](https://github.com/Visual-AI/Inpaint4Drag/forks) &nbsp; [`T3`](#t3) [`T9`](#t9)
+
+Separates pixel-space bidirectional warping from inpainting to deform selected regions and fill newly exposed content.
+
+---
+
+<a id="s004"></a>
+#### FlowDrag: 3D-aware Drag-based Image Editing with Mesh-guided Deformation Vector Flow Fields (ICML 2025)
+
+[![arXiv: 2507.08285](https://img.shields.io/badge/arXiv-2507.08285-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.08285) &nbsp; [`T3`](#t3) [`T6`](#t6) [`T9`](#t9)
+
+Deforms a reconstructed mesh with user handles and projects its displacement into a 2D flow field for diffusion editing.
+
+---
+
+<a id="s005"></a>
+#### DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing (CVPR 2024)
+
+[![arXiv: 2306.14435](https://img.shields.io/badge/arXiv-2306.14435-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.14435) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2306.14435) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://yujun-shi.github.io/projects/dragdiffusion.html) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Yujun-Shi/DragDiffusion) [![GitHub stars](https://img.shields.io/github/stars/Yujun-Shi/DragDiffusion?style=flat-square&label=stars&color=C58A18)](https://github.com/Yujun-Shi/DragDiffusion/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Yujun-Shi/DragDiffusion?style=flat-square&label=forks&color=64748B)](https://github.com/Yujun-Shi/DragDiffusion/forks) &nbsp; [`T8`](#t8) [`T9`](#t9)
+
+Optimizes diffusion latents with motion supervision on UNet features for interactive point-based shape editing.
+
+---
+
 <a id="p03"></a>
 #### Bounded Biharmonic Weights for Real-Time Deformation (SIGGRAPH / TOG 2011)
 
 [![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://igl.ethz.ch/projects/bbw/bounded-biharmonic-weights-siggraph-2011-jacobson-et-al.pdf) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://igl.ethz.ch/projects/bbw/) &nbsp; [`T2`](#t2) [`T3`](#t3)
 
 Computes shape-aware bounded biharmonic blending weights for point, bone and cage deformation handles.
+
+---
+
+<a id="s002"></a>
+#### Green Coordinates (SIGGRAPH / TOG 2008)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.wisdom.weizmann.ac.il/~ylipman/GC/gc_techrep.pdf) &nbsp; [`T3`](#t3)
+
+Combines cage vertices and face orientations through Green coordinates for shape-preserving space deformation.
 
 ---
 
@@ -183,6 +219,15 @@ Sorkine and Alexa preserve local shape through an as-rigid-as-possible energy, e
 [![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://cgl.ethz.ch/~sumnerb/research/embdef/Sumner2007EDF.pdf) &nbsp; [`T3`](#t3)
 
 Blends local affine transforms on a sparse deformation graph to manipulate complex shapes.
+
+---
+
+<a id="s001"></a>
+#### Harmonic Coordinates for Character Articulation (SIGGRAPH / TOG 2007)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Joshi07.pdf) &nbsp; [`T3`](#t3)
+
+Uses harmonic cage weights to drive volumetric deformation with nonnegative influence and interior locality.
 
 ---
 
@@ -232,8 +277,10 @@ Sederberg and Parry deform geometric objects through a control lattice and Berns
 ---
 
 <details>
-<summary>Related reading · 7 papers in other topics</summary>
+<summary>Related reading · 9 papers in other topics</summary>
 
+- [Tether / Autonomous Functional Play](#s077) (2026)
+- [SC-GS](#s061) (2024)
 - [Unsupervised Deep Image Stitching (UDIS)](#p14) (2021)
 - [Transporter Networks](#p65) (2021)
 - [Neural 3D Mesh Renderer](#p05) (2018)
@@ -254,7 +301,34 @@ Sederberg and Parry deform geometric objects through a control lattice and Berns
 
 > **Scope** · Interpolation, resampling, differentiable spatial transforms, sampling kernels, adjoints and derivatives
 >
-> **6 papers · Newest first**
+> **14 papers · Newest first**
+
+---
+
+<a id="s010"></a>
+#### gsplat: An Open-Source Library for Gaussian Splatting (JMLR 2025)
+
+[![arXiv: 2409.06765](https://img.shields.io/badge/arXiv-2409.06765-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2409.06765) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2409.06765) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nerfstudio-project/gsplat) [![GitHub stars](https://img.shields.io/github/stars/nerfstudio-project/gsplat?style=flat-square&label=stars&color=C58A18)](https://github.com/nerfstudio-project/gsplat/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nerfstudio-project/gsplat?style=flat-square&label=forks&color=64748B)](https://github.com/nerfstudio-project/gsplat/forks) &nbsp; [`T7`](#t7)
+
+Provides optimized differentiable Gaussian projection and rasterization for training and rendering splatting models.
+
+---
+
+<a id="s008"></a>
+#### Mip-Splatting: Alias-free 3D Gaussian Splatting (CVPR 2024)
+
+[![arXiv: 2311.16493](https://img.shields.io/badge/arXiv-2311.16493-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.16493) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2311.16493) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://niujinshuchong.github.io/mip-splatting/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/autonomousvision/mip-splatting) [![GitHub stars](https://img.shields.io/github/stars/autonomousvision/mip-splatting?style=flat-square&label=stars&color=C58A18)](https://github.com/autonomousvision/mip-splatting/stargazers) [![GitHub forks](https://img.shields.io/github/forks/autonomousvision/mip-splatting?style=flat-square&label=forks&color=64748B)](https://github.com/autonomousvision/mip-splatting/forks) &nbsp; [`T7`](#t7)
+
+Combines 3D smoothing and a 2D Mip filter to reduce Gaussian-splatting artifacts across sampling rates.
+
+---
+
+<a id="s079"></a>
+#### Towards Progressive Multi-Frequency Representation for Image Warping (CVPR 2024)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content/CVPR2024/html/Xiao_Towards_Progressive_Multi-Frequency_Representation_for_Image_Warping_CVPR_2024_paper.html) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/junxiao01/MFR) [![GitHub stars](https://img.shields.io/github/stars/junxiao01/MFR?style=flat-square&label=stars&color=C58A18)](https://github.com/junxiao01/MFR/stargazers) [![GitHub forks](https://img.shields.io/github/forks/junxiao01/MFR?style=flat-square&label=forks&color=64748B)](https://github.com/junxiao01/MFR/forks) &nbsp; [`T7`](#t7)
+
+Uses progressive frequency representations and learnable Gabor filters to preserve local detail during image warping.
 
 ---
 
@@ -267,12 +341,57 @@ Provides differentiable image-warp operators with exact discrete adjoints and de
 
 ---
 
+<a id="s006"></a>
+#### Kernel Aware Resampler (CVPR 2023)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content/CVPR2023/html/Bernasconi_Kernel_Aware_Resampler_CVPR_2023_paper.html) &nbsp; [`T7`](#t7)
+
+Conditions image resampling on spatially varying degradation that accounts for reconstruction kernels, geometric distortion and antialiasing.
+
+---
+
+<a id="s085"></a>
+#### Learning Local Implicit Fourier Representation for Image Warping (ECCV 2022)
+
+[![arXiv: 2207.01831](https://img.shields.io/badge/arXiv-2207.01831-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2207.01831) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaewon-lee-b/ltew) [![GitHub stars](https://img.shields.io/github/stars/jaewon-lee-b/ltew?style=flat-square&label=stars&color=C58A18)](https://github.com/jaewon-lee-b/ltew/stargazers) [![GitHub forks](https://img.shields.io/github/forks/jaewon-lee-b/ltew?style=flat-square&label=forks&color=64748B)](https://github.com/jaewon-lee-b/ltew/forks) &nbsp; [`T7`](#t7)
+
+Uses local texture estimates and transformation Jacobians to predict Fourier responses for continuous image warping.
+
+---
+
+<a id="s086"></a>
+#### SRWarp: Generalized Image Super-Resolution under Arbitrary Transformation (CVPR 2021)
+
+[![arXiv: 2104.10325](https://img.shields.io/badge/arXiv-2104.10325-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2104.10325) &nbsp; [`T7`](#t7)
+
+Generalizes super-resolution to arbitrary spatial transforms using multiscale features and adaptive warping.
+
+---
+
+<a id="s009"></a>
+#### Modular Primitives for High-Performance Differentiable Rendering (SIGGRAPH Asia / TOG 2020)
+
+[![arXiv: 2011.03277](https://img.shields.io/badge/arXiv-2011.03277-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2011.03277) &nbsp; [`T7`](#t7)
+
+Exposes rasterization, interpolation, texture sampling and antialiasing as modular differentiable rendering primitives.
+
+---
+
 <a id="p06"></a>
 #### Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning (ICCV 2019)
 
 [![arXiv: 1904.01786](https://img.shields.io/badge/arXiv-1904.01786-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1904.01786) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ShichenLiu/SoftRas) [![GitHub stars](https://img.shields.io/github/stars/ShichenLiu/SoftRas?style=flat-square&label=stars&color=C58A18)](https://github.com/ShichenLiu/SoftRas/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ShichenLiu/SoftRas?style=flat-square&label=forks&color=64748B)](https://github.com/ShichenLiu/SoftRas/forks) &nbsp; [`T7`](#t7)
 
 Uses probabilistic coverage and soft aggregation to differentiate image formation with respect to mesh geometry.
+
+---
+
+<a id="s007"></a>
+#### Linearized Multi-Sampling for Differentiable Image Transformation (ICCV 2019)
+
+[![arXiv: 1901.07124](https://img.shields.io/badge/arXiv-1901.07124-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1901.07124) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vcg-uvic/linearized_multisampling_release) [![GitHub stars](https://img.shields.io/github/stars/vcg-uvic/linearized_multisampling_release?style=flat-square&label=stars&color=C58A18)](https://github.com/vcg-uvic/linearized_multisampling_release/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vcg-uvic/linearized_multisampling_release?style=flat-square&label=forks&color=64748B)](https://github.com/vcg-uvic/linearized_multisampling_release/forks) &nbsp; [`T7`](#t7)
+
+Uses auxiliary neighboring samples and local linearization to improve gradients through differentiable image transformations.
 
 ---
 
@@ -313,8 +432,10 @@ Extends screen-space EWA filtering to irregular surface samples for antialiased 
 ---
 
 <details>
-<summary>Related reading · 7 papers in other topics</summary>
+<summary>Related reading · 9 papers in other topics</summary>
 
+- [Fast Forward](#s084) (2026)
+- [Infinite-Resolution Integral Noise Warping](#s043) (2025)
 - [Warped Diffusion](#n17) (2024)
 - [Dynamic 3D Gaussians](#p51) (2024)
 - [3D Gaussian Splatting (3DGS)](#p45) (2023)
@@ -338,7 +459,7 @@ Extends screen-space EWA filtering to irregular surface samples for antialiased 
 
 > **Scope** · Motion estimation, correlation volumes, global matching and multiframe correspondence
 >
-> **20 papers · Newest first**
+> **25 papers · Newest first**
 
 ---
 
@@ -348,6 +469,15 @@ Extends screen-space EWA filtering to irregular surface samples for antialiased 
 [![arXiv: 2506.23151](https://img.shields.io/badge/arXiv-2506.23151-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.23151) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2506.23151) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://msu-video-group.github.io/memfof/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/msu-video-group/memfof) [![GitHub stars](https://img.shields.io/github/stars/msu-video-group/memfof?style=flat-square&label=stars&color=C58A18)](https://github.com/msu-video-group/memfof/stargazers) [![GitHub forks](https://img.shields.io/github/forks/msu-video-group/memfof?style=flat-square&label=forks&color=64748B)](https://github.com/msu-video-group/memfof/forks) &nbsp; [`T4`](#t4)
 
 Combines reduced correlation representations, multiframe estimation and high-resolution training to improve memory efficiency for native FullHD optical flow.
+
+---
+
+<a id="s015"></a>
+#### UFM: A Simple Path towards Unified Dense Correspondence with Flow (NeurIPS 2025)
+
+[![arXiv: 2506.09278](https://img.shields.io/badge/arXiv-2506.09278-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.09278) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2506.09278) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://uniflowmatch.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/UniFlowMatch/UFM) [![GitHub stars](https://img.shields.io/github/stars/UniFlowMatch/UFM?style=flat-square&label=stars&color=C58A18)](https://github.com/UniFlowMatch/UFM/stargazers) [![GitHub forks](https://img.shields.io/github/forks/UniFlowMatch/UFM?style=flat-square&label=forks&color=64748B)](https://github.com/UniFlowMatch/UFM/forks) &nbsp; [`T4`](#t4)
+
+Directly regresses 2D displacement from unified covisible training pairs for optical flow and wide-baseline matching.
 
 ---
 
@@ -396,6 +526,24 @@ Combines global kernelized regression with local refinement to estimate dense ma
 
 ---
 
+<a id="s012"></a>
+#### PDC-Net+: Enhanced Probabilistic Dense Correspondence Network (TPAMI 2023)
+
+[![arXiv: 2109.13912](https://img.shields.io/badge/arXiv-2109.13912-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2109.13912) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PruneTruong/DenseMatching) [![GitHub stars](https://img.shields.io/github/stars/PruneTruong/DenseMatching?style=flat-square&label=stars&color=C58A18)](https://github.com/PruneTruong/DenseMatching/stargazers) [![GitHub forks](https://img.shields.io/github/forks/PruneTruong/DenseMatching?style=flat-square&label=forks&color=64748B)](https://github.com/PruneTruong/DenseMatching/forks) &nbsp; [`T4`](#t4)
+
+Jointly predicts dense correspondences and probabilistic confidence for large-displacement and wide-baseline matching.
+
+---
+
+<a id="s014"></a>
+#### CroCo v2: Improved Cross-view Completion Pre-training for Stereo Matching and Optical Flow (ICCV 2023)
+
+[![arXiv: 2211.10408](https://img.shields.io/badge/arXiv-2211.10408-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2211.10408) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2211.10408) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/naver/croco) [![GitHub stars](https://img.shields.io/github/stars/naver/croco?style=flat-square&label=stars&color=C58A18)](https://github.com/naver/croco/stargazers) [![GitHub forks](https://img.shields.io/github/forks/naver/croco?style=flat-square&label=forks&color=64748B)](https://github.com/naver/croco/forks) &nbsp; [`T4`](#t4)
+
+Uses cross-view completion pretraining and relative positions for flow and stereo without an explicit image-warping component.
+
+---
+
 <a id="n01"></a>
 #### GMFlow: Learning Optical Flow via Global Matching (CVPR 2022)
 
@@ -432,12 +580,30 @@ Uses pair-conditioned Transformer features and coarse-to-fine refinement for det
 
 ---
 
+<a id="s011"></a>
+#### COTR: Correspondence Transformer for Matching Across Images (ICCV 2021)
+
+[![arXiv: 2103.14167](https://img.shields.io/badge/arXiv-2103.14167-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2103.14167) &nbsp; [`T4`](#t4)
+
+Predicts correspondences for continuous coordinate queries with a cross-image transformer and local refinement.
+
+---
+
 <a id="c20"></a>
 #### RAFT: Recurrent All-Pairs Field Transforms for Optical Flow (ECCV 2020)
 
 [![arXiv: 2003.12039](https://img.shields.io/badge/arXiv-2003.12039-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2003.12039) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2003.12039) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/princeton-vl/RAFT) [![GitHub stars](https://img.shields.io/github/stars/princeton-vl/RAFT?style=flat-square&label=stars&color=C58A18)](https://github.com/princeton-vl/RAFT/stargazers) [![GitHub forks](https://img.shields.io/github/forks/princeton-vl/RAFT?style=flat-square&label=forks&color=64748B)](https://github.com/princeton-vl/RAFT/forks) &nbsp; [`T4`](#t4)
 
 Builds all-pairs correlation volumes and updates a dense flow field recurrently, providing an influential baseline for correspondence estimation.
+
+---
+
+<a id="s013"></a>
+#### GLU-Net: Global-Local Universal Network for Dense Flow and Correspondences (CVPR 2020)
+
+[![arXiv: 1912.05524](https://img.shields.io/badge/arXiv-1912.05524-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1912.05524) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PruneTruong/GLU-Net) [![GitHub stars](https://img.shields.io/github/stars/PruneTruong/GLU-Net?style=flat-square&label=stars&color=C58A18)](https://github.com/PruneTruong/GLU-Net/stargazers) [![GitHub forks](https://img.shields.io/github/forks/PruneTruong/GLU-Net?style=flat-square&label=forks&color=64748B)](https://github.com/PruneTruong/GLU-Net/forks) &nbsp; [`T4`](#t4)
+
+Combines global and local correlations with adaptive resolution for geometric, optical-flow and semantic matching.
 
 ---
 
@@ -523,10 +689,14 @@ Combines brightness constancy with a global smoothness regularizer, establishing
 ---
 
 <details>
-<summary>Related reading · 2 papers in other topics</summary>
+<summary>Related reading · 6 papers in other topics</summary>
 
 - [MASt3R](#p42) (2024)
+- [SceNeRFlow](#s062) (2024)
+- [E2FGVI](#s025) (2022)
 - [Neural Scene Flow Fields (NSFF)](#p49) (2021)
+- [RAFT-Stereo](#s053) (2021)
+- [Dense Object Nets](#s074) (2018)
 
 </details>
 
@@ -542,7 +712,7 @@ Combines brightness constancy with a global smoothness regularizer, establishing
 
 > **Scope** · Image alignment, panoramic stitching, parallax handling and temporal stabilization
 >
-> **9 papers · Newest first**
+> **13 papers · Newest first**
 
 ---
 
@@ -552,6 +722,15 @@ Combines brightness constancy with a global smoothness regularizer, establishing
 [![arXiv: 2602.23022](https://img.shields.io/badge/arXiv-2602.23022-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.23022) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://boomluo02.github.io/DMAligner/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/boomluo02/DMAligner) [![GitHub stars](https://img.shields.io/github/stars/boomluo02/DMAligner?style=flat-square&label=stars&color=C58A18)](https://github.com/boomluo02/DMAligner/stargazers) [![GitHub forks](https://img.shields.io/github/forks/boomluo02/DMAligner?style=flat-square&label=forks&color=64748B)](https://github.com/boomluo02/DMAligner/forks) &nbsp; [`T9`](#t9)
 
 Recasts image alignment as diffusion-based view synthesis, using dynamics-aware training to address occlusion and illumination variation.
+
+---
+
+<a id="s018"></a>
+#### PixelStitch: Structure-Preserving Pixel-Wise Bidirectional Warps for Unsupervised Image Stitching (ICCV 2025)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content/ICCV2025/html/Jin_PixelStitch_Structure-Preserving_Pixel-Wise_Bidirectional_Warps_for_Unsupervised_Image_Stitching_ICCV_2025_paper.html) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MakiseChris666/PixelStitch) [![GitHub stars](https://img.shields.io/github/stars/MakiseChris666/PixelStitch?style=flat-square&label=stars&color=C58A18)](https://github.com/MakiseChris666/PixelStitch/stargazers) [![GitHub forks](https://img.shields.io/github/forks/MakiseChris666/PixelStitch?style=flat-square&label=forks&color=64748B)](https://github.com/MakiseChris666/PixelStitch/forks) &nbsp; [`T1`](#t1) [`T4`](#t4)
+
+Uses an intermediate projection plane and bidirectional pixel-wise residual warps to align images while preserving structure.
 
 ---
 
@@ -570,6 +749,15 @@ Unifies video stitching and stabilization in an unsupervised online framework, c
 [![arXiv: 2302.08207](https://img.shields.io/badge/arXiv-2302.08207-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.08207) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2302.08207) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nie-lang/UDIS2) [![GitHub stars](https://img.shields.io/github/stars/nie-lang/UDIS2?style=flat-square&label=stars&color=C58A18)](https://github.com/nie-lang/UDIS2/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nie-lang/UDIS2?style=flat-square&label=forks&color=64748B)](https://github.com/nie-lang/UDIS2/forks) &nbsp; [`T1`](#t1) [`T2`](#t2) [`T3`](#t3)
 
 Combines global homography with local TPS, jointly considering overlap alignment, non-overlap shape preservation and seam composition.
+
+---
+
+<a id="s019"></a>
+#### DUT: Learning Video Stabilization by Simply Watching Unstable Videos (IEEE TIP 2022)
+
+[![arXiv: 2011.14574](https://img.shields.io/badge/arXiv-2011.14574-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2011.14574) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Annbless/DUTCode) [![GitHub stars](https://img.shields.io/github/stars/Annbless/DUTCode?style=flat-square&label=stars&color=C58A18)](https://github.com/Annbless/DUTCode/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Annbless/DUTCode?style=flat-square&label=forks&color=64748B)](https://github.com/Annbless/DUTCode/forks) &nbsp; [`T1`](#t1) [`T3`](#t3)
+
+Learns grid trajectories and adaptive smoothing from unstable videos to drive mesh-based stabilization.
 
 ---
 
@@ -597,6 +785,24 @@ Predicts a four-point homography directly from image pairs for learned planar al
 [![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://doi.org/10.1007/978-3-319-46466-4_48) &nbsp; [`T3`](#t3) [`T4`](#t4)
 
 Propagates feature motions to mesh vertices and smooths vertex trajectories for online video stabilization.
+
+---
+
+<a id="s016"></a>
+#### Shape-Preserving Half-Projective Warps for Image Stitching (CVPR 2014)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content_cvpr_2014/html/Chang_Shape-Preserving_Half-Projective_Warps_2014_CVPR_paper.html) &nbsp; [`T1`](#t1)
+
+Transitions smoothly from projective alignment to similarity transforms to reduce distortion outside image overlaps.
+
+---
+
+<a id="s017"></a>
+#### Parallax-tolerant Image Stitching (CVPR 2014)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content_cvpr_2014/html/Zhang_Parallax-tolerant_Image_Stitching_2014_CVPR_paper.html) &nbsp; [`T1`](#t1) [`T3`](#t3)
+
+Combines homography, content-preserving local warps and seam selection for parallax-tolerant stitching.
 
 ---
 
@@ -628,11 +834,15 @@ Combines reconstructed 3D camera motion with content-preserving mesh warps to st
 ---
 
 <details>
-<summary>Related reading · 8 papers in other topics</summary>
+<summary>Related reading · 12 papers in other topics</summary>
 
+- [HomoGen](#s028) (2025)
 - [Robust Dense Matching (RoMa)](#p71) (2024)
 - [Dense Kernelized Matching (DKM)](#p70) (2023)
+- [PDC-Net+](#s012) (2023)
 - [LoFTR](#p69) (2021)
+- [COTR](#s011) (2021)
+- [GLU-Net](#s013) (2020)
 - [COLMAP / Structure-from-Motion Revisited](#p38) (2016)
 - [SIFT Flow](#p72) (2011)
 - [Lucas–Kanade / Inverse Compositional](#c02) (2004)
@@ -651,7 +861,25 @@ Combines reconstructed 3D camera motion with content-preserving mesh warps to st
 
 > **Scope** · Cross-modal registration, diffeomorphisms, topology preservation and inverse consistency
 >
-> **12 papers · Newest first**
+> **17 papers · Newest first**
+
+---
+
+<a id="s023"></a>
+#### Learning Diffeomorphism for Medical Image Registration with Time-Embedded Architectures Using Semigroup Regularization (CVPR 2026)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content/CVPR2026/html/Matinkia_Learning_Diffeomorphism_for_Medical_Image_Registration_with_Time-Embedded_Architectures_Using_CVPR_2026_paper.html) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://mattkia.github.io/SGDIR/) &nbsp; [`T5`](#t5)
+
+Models continuous-time registration with time-embedded networks and semigroup regularization instead of explicit integration.
+
+---
+
+<a id="s084"></a>
+#### Fast forward: Rephrasing 3D deformable image registration through density alignment and splatting (MIDL 2025 / PMLR 2026)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://proceedings.mlr.press/v301/heinrich26a.html) &nbsp; [`T5`](#t5) [`T7`](#t7)
+
+Recasts medical registration as density alignment of forward-splatted point clouds using differentiable rasterization.
 
 ---
 
@@ -661,6 +889,24 @@ Combines reconstructed 3D camera motion with content-preserving mesh warps to st
 [![arXiv: 2403.05780](https://img.shields.io/badge/arXiv-2403.05780-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.05780) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/uncbiag/uniGradICON) [![GitHub stars](https://img.shields.io/github/stars/uncbiag/uniGradICON?style=flat-square&label=stars&color=C58A18)](https://github.com/uncbiag/uniGradICON/stargazers) [![GitHub forks](https://img.shields.io/github/forks/uncbiag/uniGradICON?style=flat-square&label=forks&color=64748B)](https://github.com/uncbiag/uniGradICON/forks) &nbsp; [`T5`](#t5)
 
 Moves learned registration toward a reusable model across datasets, anatomical regions and new tasks, including zero-shot use and initialization for adaptation.
+
+---
+
+<a id="s020"></a>
+#### GradICON: Approximate Diffeomorphisms via Gradient Inverse Consistency (CVPR 2023)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content/CVPR2023/html/Tian_GradICON_Approximate_Diffeomorphisms_via_Gradient_Inverse_Consistency_CVPR_2023_paper.html) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/uncbiag/ICON) [![GitHub stars](https://img.shields.io/github/stars/uncbiag/ICON?style=flat-square&label=stars&color=C58A18)](https://github.com/uncbiag/ICON/stargazers) [![GitHub forks](https://img.shields.io/github/forks/uncbiag/ICON?style=flat-square&label=forks&color=64748B)](https://github.com/uncbiag/ICON/forks) &nbsp; [`T5`](#t5)
+
+Regularizes the Jacobian of composed forward and reverse maps to learn smoother medical registration transforms.
+
+---
+
+<a id="s022"></a>
+#### Fourier-Net: Fast Image Registration with Band-limited Deformation (AAAI 2023)
+
+[![arXiv: 2211.16342](https://img.shields.io/badge/arXiv-2211.16342-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2211.16342) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/xi-jia/Fourier-Net) [![GitHub stars](https://img.shields.io/github/stars/xi-jia/Fourier-Net?style=flat-square&label=stars&color=C58A18)](https://github.com/xi-jia/Fourier-Net/stargazers) [![GitHub forks](https://img.shields.io/github/forks/xi-jia/Fourier-Net?style=flat-square&label=forks&color=64748B)](https://github.com/xi-jia/Fourier-Net/forks) &nbsp; [`T5`](#t5)
+
+Predicts band-limited Fourier deformation coefficients and decodes them into full-resolution displacement fields.
 
 ---
 
@@ -697,6 +943,15 @@ Uses inverse consistency and randomized off-grid interpolation to regularize lea
 [![arXiv: 2003.09514](https://img.shields.io/badge/arXiv-2003.09514-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2003.09514) &nbsp; [`T5`](#t5)
 
 Learns forward and inverse transforms jointly in a symmetric diffeomorphic registration framework.
+
+---
+
+<a id="s021"></a>
+#### Large Deformation Diffeomorphic Image Registration with Laplacian Pyramid Networks (MICCAI 2020)
+
+[![arXiv: 2006.16148](https://img.shields.io/badge/arXiv-2006.16148-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2006.16148) &nbsp; [`T5`](#t5)
+
+Estimates deformations coarse to fine in a Laplacian pyramid within a diffeomorphic registration framework.
 
 ---
 
@@ -775,7 +1030,25 @@ Formulates dense image-matching updates through a diffusion analogy for deformab
 
 > **Scope** · Interpolation, super-resolution, denoising, inpainting, cross-frame feature alignment and video inverse problems
 >
-> **11 papers · Newest first**
+> **18 papers · Newest first**
+
+---
+
+<a id="s028"></a>
+#### HomoGen: Enhanced Video Inpainting via Homography Propagation and Diffusion (CVPR 2025)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content/CVPR2025/html/Ding_HomoGen_Enhanced_Video_Inpainting_via_Homography_Propagation_and_Diffusion_CVPR_2025_paper.html) &nbsp; [`T1`](#t1) [`T9`](#t9)
+
+Propagates context through homography registration and injects the resulting priors into video diffusion inpainting.
+
+---
+
+<a id="s029"></a>
+#### BiM-VFI: Bidirectional Motion Field-Guided Frame Interpolation for Video with Non-uniform Motions (CVPR 2025)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content/CVPR2025/html/Seo_BiM-VFI_Bidirectional_Motion_Field-Guided_Frame_Interpolation_for_Video_with_Non-uniform_CVPR_2025_paper.html) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://kaist-viclab.github.io/BiM-VFI_site/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/KAIST-VICLab/BiM-VFI) [![GitHub stars](https://img.shields.io/github/stars/KAIST-VICLab/BiM-VFI?style=flat-square&label=stars&color=C58A18)](https://github.com/KAIST-VICLab/BiM-VFI/stargazers) [![GitHub forks](https://img.shields.io/github/forks/KAIST-VICLab/BiM-VFI?style=flat-square&label=forks&color=64748B)](https://github.com/KAIST-VICLab/BiM-VFI/forks) &nbsp; [`T4`](#t4)
+
+Models nonuniform motion with bidirectional fields and combines flow estimation, adaptive upsampling and distillation for interpolation.
 
 ---
 
@@ -785,6 +1058,33 @@ Formulates dense image-matching updates through a diffusion analogy for deformab
 [![arXiv: 2410.16152](https://img.shields.io/badge/arXiv-2410.16152-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.16152) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2410.16152) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://giannisdaras.github.io/warped_diffusion.github.io/) &nbsp; [`T9`](#t9)
 
 Uses continuous function spaces and transformation equivariance for video inverse problems, improving temporal consistency with test-time self-equivariance guidance.
+
+---
+
+<a id="s027"></a>
+#### Coherent Video Inpainting Using Optical Flow-Guided Efficient Diffusion (arXiv 2024)
+
+[![arXiv: 2412.00857](https://img.shields.io/badge/arXiv-2412.00857-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.00857) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2412.00857) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://nevsnev.github.io/FloED/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NevSNev/FloED-main) [![GitHub stars](https://img.shields.io/github/stars/NevSNev/FloED-main?style=flat-square&label=stars&color=C58A18)](https://github.com/NevSNev/FloED-main/stargazers) [![GitHub forks](https://img.shields.io/github/forks/NevSNev/FloED-main?style=flat-square&label=forks&color=64748B)](https://github.com/NevSNev/FloED-main/forks) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Guides video inpainting with completed flow and multiscale adapters, using flow-warped latent interpolation to accelerate denoising.
+
+---
+
+<a id="s030"></a>
+#### Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution (CVPR 2024)
+
+[![arXiv: 2312.06640](https://img.shields.io/badge/arXiv-2312.06640-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.06640) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2312.06640) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://shangchenzhou.com/projects/upscale-a-video/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sczhou/Upscale-A-Video) [![GitHub stars](https://img.shields.io/github/stars/sczhou/Upscale-A-Video?style=flat-square&label=stars&color=C58A18)](https://github.com/sczhou/Upscale-A-Video/stargazers) [![GitHub forks](https://img.shields.io/github/forks/sczhou/Upscale-A-Video?style=flat-square&label=forks&color=64748B)](https://github.com/sczhou/Upscale-A-Video/forks) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Combines temporal layers with global flow-guided recurrent latent propagation for diffusion-based video super-resolution.
+
+---
+
+<a id="s024"></a>
+#### ProPainter: Improving Propagation and Transformer for Video Inpainting (ICCV 2023)
+
+[![arXiv: 2309.03897](https://img.shields.io/badge/arXiv-2309.03897-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.03897) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2309.03897) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://shangchenzhou.com/projects/ProPainter/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sczhou/ProPainter) [![GitHub stars](https://img.shields.io/github/stars/sczhou/ProPainter?style=flat-square&label=stars&color=C58A18)](https://github.com/sczhou/ProPainter/stargazers) [![GitHub forks](https://img.shields.io/github/forks/sczhou/ProPainter?style=flat-square&label=forks&color=64748B)](https://github.com/sczhou/ProPainter/forks) &nbsp; [`T4`](#t4) [`T8`](#t8)
+
+Combines recurrent flow completion, image-and-feature propagation and a sparse video transformer for inpainting.
 
 ---
 
@@ -812,6 +1112,15 @@ Combines second-order propagation with flow-guided deformable alignment to integ
 [![arXiv: 2011.06294](https://img.shields.io/badge/arXiv-2011.06294-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2011.06294) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2011.06294) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/megvii-research/ECCV2022-RIFE) [![GitHub stars](https://img.shields.io/github/stars/megvii-research/ECCV2022-RIFE?style=flat-square&label=stars&color=C58A18)](https://github.com/megvii-research/ECCV2022-RIFE/stargazers) [![GitHub forks](https://img.shields.io/github/forks/megvii-research/ECCV2022-RIFE?style=flat-square&label=forks&color=64748B)](https://github.com/megvii-research/ECCV2022-RIFE/forks) &nbsp; [`T4`](#t4)
 
 Directly estimates intermediate optical flow with privileged distillation and temporal encoding for efficient frame interpolation.
+
+---
+
+<a id="s025"></a>
+#### Towards An End-to-End Framework for Flow-Guided Video Inpainting (CVPR 2022)
+
+[![arXiv: 2204.02663](https://img.shields.io/badge/arXiv-2204.02663-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2204.02663) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2204.02663) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MCG-NKU/E2FGVI) [![GitHub stars](https://img.shields.io/github/stars/MCG-NKU/E2FGVI?style=flat-square&label=stars&color=C58A18)](https://github.com/MCG-NKU/E2FGVI/stargazers) [![GitHub forks](https://img.shields.io/github/forks/MCG-NKU/E2FGVI?style=flat-square&label=forks&color=64748B)](https://github.com/MCG-NKU/E2FGVI/forks) &nbsp; [`T4`](#t4) [`T8`](#t8)
+
+Jointly trains flow completion, aligned feature propagation and content hallucination for end-to-end video inpainting.
 
 ---
 
@@ -860,6 +1169,15 @@ Jointly learns task-oriented motion and video processing so alignment serves int
 
 ---
 
+<a id="s026"></a>
+#### Deep Flow-Guided Video Inpainting (CVPR 2019)
+
+[![arXiv: 1905.02884](https://img.shields.io/badge/arXiv-1905.02884-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1905.02884) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/1905.02884) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://nbei.github.io/video-inpainting.html) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nbei/Deep-Flow-Guided-Video-Inpainting) [![GitHub stars](https://img.shields.io/github/stars/nbei/Deep-Flow-Guided-Video-Inpainting?style=flat-square&label=stars&color=C58A18)](https://github.com/nbei/Deep-Flow-Guided-Video-Inpainting/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nbei/Deep-Flow-Guided-Video-Inpainting?style=flat-square&label=forks&color=64748B)](https://github.com/nbei/Deep-Flow-Guided-Video-Inpainting/forks) &nbsp; [`T4`](#t4)
+
+Completes spatiotemporal flow fields and propagates visible pixels along them to repair masked video regions.
+
+---
+
 <a id="p21"></a>
 #### Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation (CVPR 2018)
 
@@ -902,7 +1220,16 @@ Learns offsets for convolutional sampling locations, allowing features to adapt 
 
 > **Scope** · Animation, appearance preservation, pose transfer and garment alignment
 >
-> **8 papers · Newest first**
+> **16 papers · Newest first**
+
+---
+
+<a id="s032"></a>
+#### Learning Implicit Features with Flow-Infused Transformations for Realistic Virtual Try-On (ICCV 2025)
+
+[![arXiv: 2412.11435](https://img.shields.io/badge/arXiv-2412.11435-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.11435) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2412.11435) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Injects dense warp flow and garment features into attention for implicit alignment guidance in diffusion try-on.
 
 ---
 
@@ -915,6 +1242,42 @@ Learns semantic garment-to-person correspondence inside a latent diffusion model
 
 ---
 
+<a id="s033"></a>
+#### FloAt: Flow Warping of Self-Attention for Clothing Animation Generation (arXiv 2024)
+
+[![arXiv: 2411.15028](https://img.shields.io/badge/arXiv-2411.15028-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.15028) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2411.15028) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Warps previous-frame self-attention features using flow from normal maps and blends them into clothing-animation generation.
+
+---
+
+<a id="s036"></a>
+#### D4-VTON: Dynamic Semantics Disentangling for Differential Diffusion based Virtual Try-On (ECCV 2024)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6231_ECCV_2024_paper.php) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Jerome-Young/D4-VTON) [![GitHub stars](https://img.shields.io/github/stars/Jerome-Young/D4-VTON?style=flat-square&label=stars&color=C58A18)](https://github.com/Jerome-Young/D4-VTON/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Jerome-Young/D4-VTON?style=flat-square&label=forks&color=64748B)](https://github.com/Jerome-Young/D4-VTON/forks) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Discovers garment semantics for local-flow warping and uses differential information tracking in diffusion try-on.
+
+---
+
+<a id="s031"></a>
+#### Taming the Power of Diffusion Models for High-Quality Virtual Try-On with Appearance Flow (ACM MM 2023)
+
+[![arXiv: 2308.06101](https://img.shields.io/badge/arXiv-2308.06101-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.06101) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2308.06101) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/bcmi/DCI-VTON-Virtual-Try-On) [![GitHub stars](https://img.shields.io/github/stars/bcmi/DCI-VTON-Virtual-Try-On?style=flat-square&label=stars&color=C58A18)](https://github.com/bcmi/DCI-VTON-Virtual-Try-On/stargazers) [![GitHub forks](https://img.shields.io/github/forks/bcmi/DCI-VTON-Virtual-Try-On?style=flat-square&label=forks&color=64748B)](https://github.com/bcmi/DCI-VTON-Virtual-Try-On/forks) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Explicitly warps garments with appearance flow and uses the aligned clothing to condition diffusion-based virtual try-on.
+
+---
+
+<a id="s035"></a>
+#### GP-VTON: Towards General Purpose Virtual Try-on via Collaborative Local-Flow Global-Parsing Learning (CVPR 2023)
+
+[![arXiv: 2303.13756](https://img.shields.io/badge/arXiv-2303.13756-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.13756) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2303.13756) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Combines local garment flows and global parsing with dynamic gradient truncation to reduce boundary-related texture distortion.
+
+---
+
 <a id="n03"></a>
 #### Thin-Plate Spline Motion Model for Image Animation (CVPR 2022)
 
@@ -924,12 +1287,39 @@ Extends local affine motion representations to multiple TPS transformations, usi
 
 ---
 
+<a id="s034"></a>
+#### High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions (ECCV 2022)
+
+[![arXiv: 2206.14180](https://img.shields.io/badge/arXiv-2206.14180-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2206.14180) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2206.14180) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sangyun884/hr-viton) [![GitHub stars](https://img.shields.io/github/stars/sangyun884/hr-viton?style=flat-square&label=stars&color=C58A18)](https://github.com/sangyun884/hr-viton/stargazers) [![GitHub forks](https://img.shields.io/github/forks/sangyun884/hr-viton?style=flat-square&label=forks&color=64748B)](https://github.com/sangyun884/hr-viton/forks) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Jointly exchanges information between garment warping and segmentation to reduce misalignment and occlusion-related texture squeezing.
+
+---
+
+<a id="s078"></a>
+#### ClothFormer: Taming Video Virtual Try-On in All Module (CVPR 2022)
+
+[![arXiv: 2204.12151](https://img.shields.io/badge/arXiv-2204.12151-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2204.12151) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://cloth-former.github.io) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/luxiangju-PersonAI/ClothFormer) [![GitHub stars](https://img.shields.io/github/stars/luxiangju-PersonAI/ClothFormer?style=flat-square&label=stars&color=C58A18)](https://github.com/luxiangju-PersonAI/ClothFormer/stargazers) [![GitHub forks](https://img.shields.io/github/forks/luxiangju-PersonAI/ClothFormer?style=flat-square&label=forks&color=64748B)](https://github.com/luxiangju-PersonAI/ClothFormer/forks) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Combines occlusion-aware garment warping, appearance-flow smoothing and a dual-stream transformer for consistent video try-on.
+
+---
+
 <a id="p29"></a>
 #### Parser-Free Virtual Try-on via Distilling Appearance Flows (CVPR 2021)
 
 [![arXiv: 2103.04559](https://img.shields.io/badge/arXiv-2103.04559-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2103.04559) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/geyuying/PF-AFN) [![GitHub stars](https://img.shields.io/github/stars/geyuying/PF-AFN?style=flat-square&label=stars&color=C58A18)](https://github.com/geyuying/PF-AFN/stargazers) [![GitHub forks](https://img.shields.io/github/forks/geyuying/PF-AFN?style=flat-square&label=forks&color=64748B)](https://github.com/geyuying/PF-AFN/forks) &nbsp; [`T4`](#t4) [`T9`](#t9)
 
 Distills garment-to-person appearance flows to enable parser-free virtual try-on at inference time.
+
+---
+
+<a id="s037"></a>
+#### One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing (CVPR 2021)
+
+[![arXiv: 2011.15126](https://img.shields.io/badge/arXiv-2011.15126-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2011.15126) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2011.15126) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://nvlabs.github.io/face-vid2vid/) &nbsp; [`T8`](#t8)
+
+Disentangles identity and motion keypoints to drive dense deformation and source-feature warping for talking-head synthesis.
 
 ---
 
@@ -979,10 +1369,12 @@ Learns a face embedding and a driving sampling field for image-, pose- or audio-
 ---
 
 <details>
-<summary>Related reading · 2 papers in other topics</summary>
+<summary>Related reading · 4 papers in other topics</summary>
 
 - [Go-with-the-Flow](#n19) (2025)
 - [Bounded Biharmonic Weights (BBW)](#p03) (2011)
+- [Green Coordinates](#s002) (2008)
+- [Harmonic Coordinates](#s001) (2007)
 
 </details>
 
@@ -999,7 +1391,25 @@ Learns a face embedding and a driving sampling field for image-, pose- or audio-
 
 > **Scope** · Random-field transport, noise statistics, motion-correlated noise and temporal consistency
 >
-> **4 papers · Newest first**
+> **11 papers · Newest first**
+
+---
+
+<a id="s043"></a>
+#### Infinite-Resolution Integral Noise Warping for Diffusion Models (ICLR 2025)
+
+[![arXiv: 2411.01212](https://img.shields.io/badge/arXiv-2411.01212-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.01212) &nbsp; [`T9`](#t9)
+
+Uses Brownian-bridge increments to compute the infinite-resolution limit of integral noise warping efficiently.
+
+---
+
+<a id="s044"></a>
+#### On Equivariance and Fast Sampling in Video Diffusion Models Trained with Warped Noise (arXiv 2025)
+
+[![arXiv: 2504.09789](https://img.shields.io/badge/arXiv-2504.09789-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.09789) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2504.09789) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://research.nvidia.com/labs/genair/equivdm/) &nbsp; [`T9`](#t9)
+
+Studies how warped-noise training encourages spatial equivariance and applies it to efficient video generation and distillation.
 
 ---
 
@@ -1030,6 +1440,33 @@ Combines first-frame spatiotemporal attention with low-frequency noise initializ
 
 ---
 
+<a id="s038"></a>
+#### FlowVid: Taming Imperfect Optical Flows for Consistent Video-to-Video Synthesis (CVPR 2024)
+
+[![arXiv: 2312.17681](https://img.shields.io/badge/arXiv-2312.17681-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.17681) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2312.17681) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://jeff-liangf.github.io/projects/flowvid/) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Warps an edited first frame into later frames and combines these references with spatial conditions for video editing.
+
+---
+
+<a id="s039"></a>
+#### FLATTEN: optical FLow-guided ATTENtion for consistent text-to-video editing (ICLR 2024)
+
+[![arXiv: 2310.05922](https://img.shields.io/badge/arXiv-2310.05922-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.05922) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2310.05922) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://flatten-video-editing.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yrcong/flatten) [![GitHub stars](https://img.shields.io/github/stars/yrcong/flatten?style=flat-square&label=stars&color=C58A18)](https://github.com/yrcong/flatten/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yrcong/flatten?style=flat-square&label=forks&color=64748B)](https://github.com/yrcong/flatten/forks) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Restricts attention along optical-flow trajectories to improve temporal consistency in text-guided video editing.
+
+---
+
+<a id="s042"></a>
+#### WAVE: Warping DDIM Inversion Features for Zero-shot Text-to-Video Editing (ECCV 2024)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9682_ECCV_2024_paper.php) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://ree1s.github.io/wave/) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Propagates key-frame features with flow during DDIM inversion to improve latent consistency for video editing.
+
+---
+
 <a id="p31"></a>
 #### Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models (ICCV 2023)
 
@@ -1039,11 +1476,36 @@ Adapts image diffusion to video with mixed and progressive temporally correlated
 
 ---
 
+<a id="s040"></a>
+#### LatentWarp: Consistent Diffusion Latents for Zero-Shot Video-to-Video Translation (arXiv 2023)
+
+[![arXiv: 2311.00353](https://img.shields.io/badge/arXiv-2311.00353-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.00353) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2311.00353) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Warps diffusion latents with optical flow to constrain query tokens for consistent zero-shot video translation.
+
+---
+
+<a id="s041"></a>
+#### Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation (SIGGRAPH Asia / TOG 2023)
+
+[![arXiv: 2306.07954](https://img.shields.io/badge/arXiv-2306.07954-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.07954) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2306.07954) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://www.mmlab-ntu.com/project/rerender/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/williamyang1991/Rerender_A_Video) [![GitHub stars](https://img.shields.io/github/stars/williamyang1991/Rerender_A_Video?style=flat-square&label=stars&color=C58A18)](https://github.com/williamyang1991/Rerender_A_Video/stargazers) [![GitHub forks](https://img.shields.io/github/forks/williamyang1991/Rerender_A_Video?style=flat-square&label=forks&color=64748B)](https://github.com/williamyang1991/Rerender_A_Video/forks) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Constrains key-frame shape and texture with cross-frame alignment, then propagates edits through temporal matching and blending.
+
+---
+
 <details>
-<summary>Related reading · 2 papers in other topics</summary>
+<summary>Related reading · 9 papers in other topics</summary>
 
 - [CameraNoise](#n24) (2026)
 - [Go-with-the-Flow](#n19) (2025)
+- [FIA-VTON](#s032) (2025)
+- [FloED](#s027) (2024)
+- [Upscale-A-Video](#s030) (2024)
+- [FloAt](#s033) (2024)
+- [MotionCraft](#s046) (2024)
+- [ProPainter](#s024) (2023)
+- [ClothFormer](#s078) (2022)
 
 </details>
 
@@ -1057,7 +1519,7 @@ Adapts image diffusion to video with mixed and progressive temporally correlated
 
 > **Scope** · Camera and object-motion control, geometric guidance and history-frame alignment
 >
-> **7 papers · Newest first**
+> **13 papers · Newest first**
 
 ---
 
@@ -1088,6 +1550,42 @@ Efficiently constructs warped noise and adapts video diffusion models to use it 
 
 ---
 
+<a id="s047"></a>
+#### FloVD: Optical Flow Meets Video Diffusion Model for Enhanced Camera-Controlled Video Synthesis (CVPR 2025)
+
+[![arXiv: 2502.08244](https://img.shields.io/badge/arXiv-2502.08244-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.08244) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2502.08244) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://jinwonjoon.github.io/flovd_site/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JinWonjoon/FloVD) [![GitHub stars](https://img.shields.io/github/stars/JinWonjoon/FloVD?style=flat-square&label=stars&color=C58A18)](https://github.com/JinWonjoon/FloVD/stargazers) [![GitHub forks](https://img.shields.io/github/forks/JinWonjoon/FloVD?style=flat-square&label=forks&color=64748B)](https://github.com/JinWonjoon/FloVD/forks) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Represents camera and object motion with flow, using flow generation followed by flow-conditioned video synthesis.
+
+---
+
+<a id="s048"></a>
+#### TrajectoryCrafter: Redirecting Camera Trajectory for Monocular Videos via Diffusion Models (ICCV 2025)
+
+[![arXiv: 2503.05638](https://img.shields.io/badge/arXiv-2503.05638-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.05638) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2503.05638) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://TrajectoryCrafter.github.io) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/TrajectoryCrafter/TrajectoryCrafter) [![GitHub stars](https://img.shields.io/github/stars/TrajectoryCrafter/TrajectoryCrafter?style=flat-square&label=stars&color=C58A18)](https://github.com/TrajectoryCrafter/TrajectoryCrafter/stargazers) [![GitHub forks](https://img.shields.io/github/forks/TrajectoryCrafter/TrajectoryCrafter?style=flat-square&label=forks&color=64748B)](https://github.com/TrajectoryCrafter/TrajectoryCrafter/forks) &nbsp; [`T6`](#t6) [`T9`](#t9)
+
+Conditions diffusion on source video and target-trajectory point-cloud renders, using double reprojection for training data.
+
+---
+
+<a id="s049"></a>
+#### Latent-Reframe: Enabling Camera Control for Video Diffusion Models without Training (ICCV 2025)
+
+[![arXiv: 2412.06029](https://img.shields.io/badge/arXiv-2412.06029-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.06029) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2412.06029) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://latent-reframe.github.io) &nbsp; [`T6`](#t6) [`T9`](#t9)
+
+Reframes video latents through time-aware point clouds and refines them with latent inpainting and harmonization.
+
+---
+
+<a id="s050"></a>
+#### MotionPro: A Precise Motion Controller for Image-to-Video Generation (CVPR 2025)
+
+[![arXiv: 2505.20287](https://img.shields.io/badge/arXiv-2505.20287-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.20287) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2505.20287) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://zhw-zhang.github.io/MotionPro-page/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HiDream-ai/MotionPro) [![GitHub stars](https://img.shields.io/github/stars/HiDream-ai/MotionPro?style=flat-square&label=stars&color=C58A18)](https://github.com/HiDream-ai/MotionPro/stargazers) [![GitHub forks](https://img.shields.io/github/forks/HiDream-ai/MotionPro?style=flat-square&label=forks&color=64748B)](https://github.com/HiDream-ai/MotionPro/forks) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Uses region-wise trajectories and motion masks for fine-grained object and camera motion conditioning.
+
+---
+
 <a id="p34"></a>
 #### MotionCtrl: A Unified and Flexible Motion Controller for Video Generation (SIGGRAPH 2024)
 
@@ -1115,6 +1613,24 @@ Connects user trajectories to entity representations for multi-object and backgr
 
 ---
 
+<a id="s045"></a>
+#### Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling (SIGGRAPH 2024)
+
+[![arXiv: 2401.15977](https://img.shields.io/badge/arXiv-2401.15977-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.15977) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2401.15977) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://xiaoyushi97.github.io/Motion-I2V/) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Predicts pixel trajectories and uses motion-augmented temporal attention to propagate features under sparse trajectory control.
+
+---
+
+<a id="s046"></a>
+#### MotionCraft: Physics-Based Zero-Shot Video Generation (NeurIPS 2024)
+
+[![arXiv: 2405.13557](https://img.shields.io/badge/arXiv-2405.13557-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.13557) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2405.13557) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://mezzelfo.github.io/MotionCraft/) &nbsp; [`T4`](#t4) [`T9`](#t9)
+
+Warps diffusion noise latents with optical flow from a physics simulation for zero-shot motion control.
+
+---
+
 <a id="p36"></a>
 #### DragNUWA: Fine-grained Control in Video Generation by Integrating Text, Image, and Trajectory (arXiv 2023)
 
@@ -1125,10 +1641,17 @@ Combines text, image and sampled trajectories for fine-grained motion control in
 ---
 
 <details>
-<summary>Related reading · 4 papers in other topics</summary>
+<summary>Related reading · 11 papers in other topics</summary>
 
+- [Inpaint4Drag](#s003) (2025)
+- [FlowDrag](#s004) (2025)
+- [EquiVDM / Warped-Noise Equivariance](#s044) (2025)
 - [How I Warped Your Noise / ∫-noise](#n16) (2024)
 - [ConsistI2V](#p33) (2024)
+- [DragDiffusion](#s005) (2024)
+- [FloAt](#s033) (2024)
+- [FlowVid](#s038) (2024)
+- [face-vid2vid](#s037) (2021)
 - [RAFT](#c20) (2020)
 - [Softmax Splatting](#c19) (2020)
 
@@ -1147,7 +1670,25 @@ Combines text, image and sampled trajectories for fine-grained motion control in
 
 > **Scope** · Depth, stereo, multiview geometry, camera pose and scene reconstruction
 >
-> **7 papers · Newest first**
+> **12 papers · Newest first**
+
+---
+
+<a id="s054"></a>
+#### VGGT: Visual Geometry Grounded Transformer (CVPR 2025)
+
+[![arXiv: 2503.11651](https://img.shields.io/badge/arXiv-2503.11651-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.11651) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2503.11651) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://vgg-t.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/facebookresearch/vggt) [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/vggt?style=flat-square&label=stars&color=C58A18)](https://github.com/facebookresearch/vggt/stargazers) [![GitHub forks](https://img.shields.io/github/forks/facebookresearch/vggt?style=flat-square&label=forks&color=64748B)](https://github.com/facebookresearch/vggt/forks) &nbsp; [`T6`](#t6)
+
+Jointly predicts cameras, depth, point maps and tracks for geometric reconstruction and downstream reprojection.
+
+---
+
+<a id="s055"></a>
+#### FoundationStereo: Zero-Shot Stereo Matching (CVPR 2025)
+
+[![arXiv: 2501.09898](https://img.shields.io/badge/arXiv-2501.09898-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.09898) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2501.09898) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://nvlabs.github.io/FoundationStereo/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NVlabs/FoundationStereo) [![GitHub stars](https://img.shields.io/github/stars/NVlabs/FoundationStereo?style=flat-square&label=stars&color=C58A18)](https://github.com/NVlabs/FoundationStereo/stargazers) [![GitHub forks](https://img.shields.io/github/forks/NVlabs/FoundationStereo?style=flat-square&label=forks&color=64748B)](https://github.com/NVlabs/FoundationStereo/forks) &nbsp; [`T4`](#t4) [`T6`](#t6)
+
+Combines synthetic stereo data, monocular priors and cost-volume reasoning for generalizable stereo depth matching.
 
 ---
 
@@ -1178,12 +1719,39 @@ Jointly updates camera poses and pixelwise depth through recurrent dense bundle 
 
 ---
 
+<a id="s053"></a>
+#### RAFT-Stereo: Multilevel Recurrent Field Transforms for Stereo Matching (3DV 2021)
+
+[![arXiv: 2109.07547](https://img.shields.io/badge/arXiv-2109.07547-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2109.07547) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2109.07547) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/princeton-vl/RAFT-Stereo) [![GitHub stars](https://img.shields.io/github/stars/princeton-vl/RAFT-Stereo?style=flat-square&label=stars&color=C58A18)](https://github.com/princeton-vl/RAFT-Stereo/stargazers) [![GitHub forks](https://img.shields.io/github/forks/princeton-vl/RAFT-Stereo?style=flat-square&label=forks&color=64748B)](https://github.com/princeton-vl/RAFT-Stereo/forks) &nbsp; [`T4`](#t4) [`T6`](#t6)
+
+Uses correlation pyramids and multilevel recurrent updates to estimate dense disparity from rectified stereo pairs.
+
+---
+
+<a id="s051"></a>
+#### Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching (CVPR 2020)
+
+[![arXiv: 1912.06378](https://img.shields.io/badge/arXiv-1912.06378-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1912.06378) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/alibaba/cascade-stereo) [![GitHub stars](https://img.shields.io/github/stars/alibaba/cascade-stereo?style=flat-square&label=stars&color=C58A18)](https://github.com/alibaba/cascade-stereo/stargazers) [![GitHub forks](https://img.shields.io/github/forks/alibaba/cascade-stereo?style=flat-square&label=forks&color=64748B)](https://github.com/alibaba/cascade-stereo/forks) &nbsp; [`T6`](#t6)
+
+Narrows depth hypotheses across cascaded feature cost volumes for high-resolution stereo and multiview depth estimation.
+
+---
+
 <a id="c16"></a>
 #### Digging Into Self-Supervised Monocular Depth Estimation (ICCV 2019)
 
 [![arXiv: 1806.01260](https://img.shields.io/badge/arXiv-1806.01260-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1806.01260) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nianticlabs/monodepth2) [![GitHub stars](https://img.shields.io/github/stars/nianticlabs/monodepth2?style=flat-square&label=stars&color=C58A18)](https://github.com/nianticlabs/monodepth2/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nianticlabs/monodepth2?style=flat-square&label=forks&color=64748B)](https://github.com/nianticlabs/monodepth2/forks) &nbsp; [`T6`](#t6)
 
 Uses depth, pose and differentiable reprojection for self-supervised view reconstruction, introducing minimum reprojection loss and automasking.
+
+---
+
+<a id="s052"></a>
+#### DPSNet: End-to-end Deep Plane Sweep Stereo (ICLR 2019)
+
+[![arXiv: 1905.00538](https://img.shields.io/badge/arXiv-1905.00538-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1905.00538) &nbsp; [`T6`](#t6) [`T7`](#t7)
+
+Builds feature cost volumes with differentiable plane-sweep warping, then aggregates them to regress scene depth.
 
 ---
 
@@ -1215,15 +1783,22 @@ Improves incremental structure-from-motion to recover camera poses and sparse ge
 ---
 
 <details>
-<summary>Related reading · 7 papers in other topics</summary>
+<summary>Related reading · 14 papers in other topics</summary>
 
+- [UFM](#s015) (2025)
+- [DepthSplat](#s059) (2025)
 - [Robust Dense Matching (RoMa)](#p71) (2024)
+- [MVSplat](#s058) (2024)
 - [UniMatch: Unifying Flow, Stereo and Depth Estimation](#n09) (2023)
 - [ConceptFusion](#p55) (2023)
 - [Dense Kernelized Matching (DKM)](#p70) (2023)
+- [PDC-Net+](#s012) (2023)
+- [CroCo v2](#s014) (2023)
+- [Trans4Map](#s082) (2023)
 - [IBRNet](#p46) (2021)
 - [pixelNeRF](#p47) (2021)
 - [LoFTR](#p69) (2021)
+- [COTR](#s011) (2021)
 
 </details>
 
@@ -1237,7 +1812,7 @@ Improves incremental structure-from-motion to recover camera poses and sparse ge
 
 > **Scope** · DIBR, cross-view warping, visibility and disocclusion completion
 >
-> **9 papers · Newest first**
+> **14 papers · Newest first**
 
 ---
 
@@ -1259,12 +1834,39 @@ Uses pixel splatting to constrain target views and combines aligned synthesis wi
 
 ---
 
+<a id="s059"></a>
+#### DepthSplat: Connecting Gaussian Splatting and Depth (CVPR 2025)
+
+[![arXiv: 2410.13862](https://img.shields.io/badge/arXiv-2410.13862-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.13862) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2410.13862) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://haofeixu.github.io/depthsplat/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cvg/depthsplat) [![GitHub stars](https://img.shields.io/github/stars/cvg/depthsplat?style=flat-square&label=stars&color=C58A18)](https://github.com/cvg/depthsplat/stargazers) [![GitHub forks](https://img.shields.io/github/forks/cvg/depthsplat?style=flat-square&label=forks&color=64748B)](https://github.com/cvg/depthsplat/forks) &nbsp; [`T6`](#t6) [`T7`](#t7)
+
+Connects multiview depth estimation and Gaussian reconstruction, using rendering supervision to improve depth representations.
+
+---
+
 <a id="n15"></a>
 #### GenWarp: Single Image to Novel Views with Semantic-Preserving Generative Warping (NeurIPS 2024)
 
 [![arXiv: 2405.17251](https://img.shields.io/badge/arXiv-2405.17251-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.17251) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2405.17251) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://genwarp-nvs.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sony/genwarp) [![GitHub stars](https://img.shields.io/github/stars/sony/genwarp?style=flat-square&label=stars&color=C58A18)](https://github.com/sony/genwarp/stargazers) [![GitHub forks](https://img.shields.io/github/forks/sony/genwarp?style=flat-square&label=forks&color=64748B)](https://github.com/sony/genwarp/forks) &nbsp; [`T6`](#t6) [`T9`](#t9)
 
 Combines depth-induced coordinate information with cross-view and self-attention, learning which content to transfer and which missing regions to generate.
+
+---
+
+<a id="s058"></a>
+#### MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images (ECCV 2024)
+
+[![arXiv: 2403.14627](https://img.shields.io/badge/arXiv-2403.14627-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.14627) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2403.14627) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://donydchen.github.io/mvsplat/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/donydchen/mvsplat) [![GitHub stars](https://img.shields.io/github/stars/donydchen/mvsplat?style=flat-square&label=stars&color=C58A18)](https://github.com/donydchen/mvsplat/stargazers) [![GitHub forks](https://img.shields.io/github/forks/donydchen/mvsplat?style=flat-square&label=forks&color=64748B)](https://github.com/donydchen/mvsplat/forks) &nbsp; [`T6`](#t6) [`T7`](#t7)
+
+Uses plane-sweep feature cost volumes to predict 3D Gaussians for feed-forward novel-view rendering from sparse views.
+
+---
+
+<a id="s060"></a>
+#### MultiDiff: Consistent Novel View Synthesis from a Single Image (CVPR 2024)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content/CVPR2024/html/Muller_MultiDiff_Consistent_Novel_View_Synthesis_from_a_Single_Image_CVPR_2024_paper.html) &nbsp; [`T6`](#t6) [`T9`](#t9)
+
+Warps a reference image with monocular depth and jointly synthesizes target views using a video-diffusion prior.
 
 ---
 
@@ -1304,6 +1906,24 @@ Represents scenes with a continuous radiance field optimized through differentia
 
 ---
 
+<a id="s056"></a>
+#### SynSin: End-to-End View Synthesis From a Single Image (CVPR 2020)
+
+[![arXiv: 1912.08804](https://img.shields.io/badge/arXiv-1912.08804-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1912.08804) &nbsp; [`T6`](#t6) [`T7`](#t7)
+
+Lifts image features into a point cloud, differentiably projects them to target views and refines disoccluded regions.
+
+---
+
+<a id="s083"></a>
+#### 3D Photography Using Context-Aware Layered Depth Inpainting (CVPR 2020)
+
+[![arXiv: 2004.04727](https://img.shields.io/badge/arXiv-2004.04727-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2004.04727) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2004.04727) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://shihmengli.github.io/3D-Photo-Inpainting/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vt-vl-lab/3d-photo-inpainting) [![GitHub stars](https://img.shields.io/github/stars/vt-vl-lab/3d-photo-inpainting?style=flat-square&label=stars&color=C58A18)](https://github.com/vt-vl-lab/3d-photo-inpainting/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vt-vl-lab/3d-photo-inpainting?style=flat-square&label=forks&color=64748B)](https://github.com/vt-vl-lab/3d-photo-inpainting/forks) &nbsp; [`T6`](#t6)
+
+Builds a layered depth image with explicit pixel connectivity and inpaints hidden color and depth for parallax rendering.
+
+---
+
 <a id="p48"></a>
 #### Stereo Magnification: Learning view synthesis using multiplane images (SIGGRAPH / TOG 2018)
 
@@ -1323,16 +1943,28 @@ Synthesizes virtual views from color and depth, providing a classic route to dep
 ---
 
 <details>
-<summary>Related reading · 9 papers in other topics</summary>
+<summary>Related reading · 21 papers in other topics</summary>
 
+- [gsplat](#s010) (2025)
+- [TrajectoryCrafter](#s048) (2025)
+- [Latent-Reframe](#s049) (2025)
+- [VGGT](#s054) (2025)
+- [MoSca](#s063) (2025)
 - [Dynamic 3D Gaussians](#p51) (2024)
+- [Mip-Splatting](#s008) (2024)
+- [RVT](#s075) (2023)
 - [TiNeuVox](#p52) (2022)
 - [D-NeRF](#c21) (2021)
 - [Nerfies](#c22) (2021)
 - [Neural Scene Flow Fields (NSFF)](#p49) (2021)
+- [NR-NeRF](#s064) (2021)
+- [nvdiffrast](#s009) (2020)
+- [CasMVSNet](#s051) (2020)
 - [Monodepth2](#c16) (2019)
 - [Soft Rasterizer (SoftRas)](#p06) (2019)
+- [DPSNet](#s052) (2019)
 - [MVSNet](#p39) (2018)
+- [Gibson Env](#s071) (2018)
 - [SfMLearner](#p43) (2017)
 
 </details>
@@ -1347,7 +1979,16 @@ Synthesizes virtual views from color and depth, providing a classic route to dep
 
 > **Scope** · Canonical deformation, dynamic NeRF, deformable Gaussians and spatiotemporal scene representations
 >
-> **9 papers · Newest first**
+> **13 papers · Newest first**
+
+---
+
+<a id="s063"></a>
+#### MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds (CVPR 2025)
+
+[![arXiv: 2405.17421](https://img.shields.io/badge/arXiv-2405.17421-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.17421) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2405.17421) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JiahuiLei/MoSca) [![GitHub stars](https://img.shields.io/github/stars/JiahuiLei/MoSca?style=flat-square&label=stars&color=C58A18)](https://github.com/JiahuiLei/MoSca/stargazers) [![GitHub forks](https://img.shields.io/github/forks/JiahuiLei/MoSca?style=flat-square&label=forks&color=64748B)](https://github.com/JiahuiLei/MoSca/forks) &nbsp; [`T6`](#t6) [`T8`](#t8)
+
+Lifts video priors into a 4D motion scaffold and fuses attached Gaussians to separate appearance from deformation.
 
 ---
 
@@ -1375,6 +2016,24 @@ Combines spatiotemporal features with Gaussian deformation to improve training, 
 [![arXiv: 2308.09713](https://img.shields.io/badge/arXiv-2308.09713-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.09713) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2308.09713) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://dynamic3dgaussians.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JonathonLuiten/Dynamic3DGaussians) [![GitHub stars](https://img.shields.io/github/stars/JonathonLuiten/Dynamic3DGaussians?style=flat-square&label=stars&color=C58A18)](https://github.com/JonathonLuiten/Dynamic3DGaussians/stargazers) [![GitHub forks](https://img.shields.io/github/forks/JonathonLuiten/Dynamic3DGaussians?style=flat-square&label=forks&color=64748B)](https://github.com/JonathonLuiten/Dynamic3DGaussians/forks) &nbsp; [`T6`](#t6) [`T7`](#t7) [`T8`](#t8)
 
 Uses persistent moving Gaussians and local rigidity constraints for dynamic view synthesis and dense tracking.
+
+---
+
+<a id="s061"></a>
+#### SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes (CVPR 2024)
+
+[![arXiv: 2312.14937](https://img.shields.io/badge/arXiv-2312.14937-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.14937) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2312.14937) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://yihua7.github.io/SC-GS-web/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CVMI-Lab/SC-GS) [![GitHub stars](https://img.shields.io/github/stars/CVMI-Lab/SC-GS?style=flat-square&label=stars&color=C58A18)](https://github.com/CVMI-Lab/SC-GS/stargazers) [![GitHub forks](https://img.shields.io/github/forks/CVMI-Lab/SC-GS?style=flat-square&label=forks&color=64748B)](https://github.com/CVMI-Lab/SC-GS/forks) &nbsp; [`T8`](#t8)
+
+Interpolates time-varying 6-DoF transforms of sparse control points to deform dense Gaussians for dynamic reconstruction and editing.
+
+---
+
+<a id="s062"></a>
+#### SceNeRFlow: Time-Consistent Reconstruction of General Dynamic Scenes (3DV 2024)
+
+[![arXiv: 2308.08258](https://img.shields.io/badge/arXiv-2308.08258-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.08258) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2308.08258) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://vcai.mpi-inf.mpg.de/projects/scenerflow/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/facebookresearch/SceNeRFlow) [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/SceNeRFlow?style=flat-square&label=stars&color=C58A18)](https://github.com/facebookresearch/SceNeRFlow/stargazers) [![GitHub forks](https://img.shields.io/github/forks/facebookresearch/SceNeRFlow?style=flat-square&label=forks&color=64748B)](https://github.com/facebookresearch/SceNeRFlow/forks) &nbsp; [`T8`](#t8)
+
+Uses backward deformation into a canonical scene to recover time-consistent correspondences over large motions.
 
 ---
 
@@ -1423,6 +2082,15 @@ Jointly models appearance, geometry and 3D scene flow for space-time view synthe
 
 ---
 
+<a id="s064"></a>
+#### Non-Rigid Neural Radiance Fields: Reconstruction and Novel View Synthesis of a Dynamic Scene From Monocular Video (ICCV 2021)
+
+[![arXiv: 2012.12247](https://img.shields.io/badge/arXiv-2012.12247-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2012.12247) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://vcai.mpi-inf.mpg.de/projects/nonrigid_nerf/) &nbsp; [`T8`](#t8)
+
+Uses ray bending and rigidity constraints to separate canonical radiance from deformation in monocular dynamic reconstruction.
+
+---
+
 <a id="p50"></a>
 #### DynamicFusion: Reconstruction and Tracking of Non-rigid Scenes in Real-Time (CVPR 2015)
 
@@ -1449,7 +2117,25 @@ Fuses RGB-D observations in canonical space while estimating a nonrigid field th
 
 > **Scope** · Spatial relationships, cross-view understanding, persistent maps and spatial memory
 >
-> **4 papers · Newest first**
+> **10 papers · Newest first**
+
+---
+
+<a id="s066"></a>
+#### 3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning (CVPR 2025)
+
+[![arXiv: 2411.17735](https://img.shields.io/badge/arXiv-2411.17735-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.17735) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2411.17735) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://umass-embodied-agi.github.io/3D-Mem/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/UMass-Embodied-AGI/3D-Mem) [![GitHub stars](https://img.shields.io/github/stars/UMass-Embodied-AGI/3D-Mem?style=flat-square&label=stars&color=C58A18)](https://github.com/UMass-Embodied-AGI/3D-Mem/stargazers) [![GitHub forks](https://img.shields.io/github/forks/UMass-Embodied-AGI/3D-Mem?style=flat-square&label=forks&color=64748B)](https://github.com/UMass-Embodied-AGI/3D-Mem/forks) &nbsp; [`T6`](#t6)
+
+Combines 3D scene representations with informative memory and frontier snapshots for embodied exploration and reasoning.
+
+---
+
+<a id="s067"></a>
+#### GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering (CoRL 2025 / PMLR 2025)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://proceedings.mlr.press/v305/saxena25a.html) &nbsp; [`T6`](#t6)
+
+Uses online metric-semantic 3D scene graphs and images as multimodal memory for structured exploration and question answering.
 
 ---
 
@@ -1480,6 +2166,15 @@ Fuses pixel-aligned open-set features into 3D maps that support language, image 
 
 ---
 
+<a id="s082"></a>
+#### Trans4Map: Revisiting Holistic Bird's-Eye-View Mapping From Egocentric Images to Allocentric Semantics With Vision Transformers (WACV 2023)
+
+[![arXiv: 2207.06205](https://img.shields.io/badge/arXiv-2207.06205-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2207.06205) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2207.06205) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/InSAI-Lab/Trans4Map) [![GitHub stars](https://img.shields.io/github/stars/InSAI-Lab/Trans4Map?style=flat-square&label=stars&color=C58A18)](https://github.com/InSAI-Lab/Trans4Map/stargazers) [![GitHub forks](https://img.shields.io/github/forks/InSAI-Lab/Trans4Map?style=flat-square&label=forks&color=64748B)](https://github.com/InSAI-Lab/Trans4Map/forks) &nbsp; [`T6`](#t6) [`T8`](#t8)
+
+Projects transformer features from egocentric images into bidirectional allocentric memory for top-down semantic mapping.
+
+---
+
 <a id="p53"></a>
 #### Semantic MapNet: Building Allocentric Semantic Maps and Representations from Egocentric Views (AAAI 2021)
 
@@ -1489,9 +2184,38 @@ Projects egocentric RGB-D features into allocentric spatial memory to build sema
 
 ---
 
-<details>
-<summary>Related reading · 3 papers in other topics</summary>
+<a id="s080"></a>
+#### EgoMap: Projective mapping and structured egocentric memory for Deep RL (ECML PKDD 2020)
 
+[![arXiv: 2002.02286](https://img.shields.io/badge/arXiv-2002.02286-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2002.02286) &nbsp; [`T1`](#t1) [`T6`](#t6) [`T8`](#t8)
+
+Inverse-projects image features into a top-down memory map and updates its coordinates with ego-motion-driven affine transforms.
+
+---
+
+<a id="s065"></a>
+#### Neural Map: Structured Memory for Deep Reinforcement Learning (ICLR 2018)
+
+[![arXiv: 1702.08360](https://img.shields.io/badge/arXiv-1702.08360-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1702.08360)
+
+Stores environment information in spatially structured neural memory with location-dependent reads and writes.
+
+---
+
+<a id="s081"></a>
+#### MapNet: An Allocentric Spatial Memory for Mapping Environments (CVPR 2018)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://openaccess.thecvf.com/content_cvpr_2018/html/Henriques_MapNet_An_Allocentric_CVPR_2018_paper.html) &nbsp; [`T6`](#t6) [`T8`](#t8)
+
+Registers RGB-D observations into learned allocentric memory using paired convolutional localization and registration operations.
+
+---
+
+<details>
+<summary>Related reading · 5 papers in other topics</summary>
+
+- [WorldMem](#s072) (2025)
+- [Spatial Memory World Models](#s073) (2025)
 - [CLIPort](#p66) (2022)
 - [Active Neural SLAM](#p63) (2020)
 - [Goal-Oriented Semantic Exploration (SemExp)](#p64) (2020)
@@ -1511,7 +2235,7 @@ Projects egocentric RGB-D features into allocentric spatial memory to build sema
 
 > **Scope** · State representations, dynamics prediction, action-conditioned prediction and future rollouts
 >
-> **5 papers · Newest first**
+> **7 papers · Newest first**
 
 ---
 
@@ -1560,10 +2284,30 @@ Learns deterministic-stochastic latent dynamics from pixels and searches action 
 
 ---
 
+<a id="s070"></a>
+#### Stochastic Variational Video Prediction (ICLR 2018)
+
+[![arXiv: 1710.11252](https://img.shields.io/badge/arXiv-1710.11252-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1710.11252) &nbsp; [`T7`](#t7)
+
+Adds stochastic latents to a CDNA motion-transforming predictor to model multiple possible visual futures.
+
+---
+
+<a id="s068"></a>
+#### Unsupervised Learning for Physical Interaction through Video Prediction (NeurIPS 2016)
+
+[![arXiv: 1605.07157](https://img.shields.io/badge/arXiv-1605.07157-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1605.07157) &nbsp; [`T1`](#t1) [`T7`](#t7)
+
+Predicts pixel motion with DNA, CDNA and spatial-transformer predictors, transforming and compositing prior frames into action-conditioned futures.
+
+---
+
 <details>
-<summary>Related reading · 3 papers in other topics</summary>
+<summary>Related reading · 5 papers in other topics</summary>
 
 - [GameNGen](#p61) (2025)
+- [WorldMem](#s072) (2025)
+- [Spatial Memory World Models](#s073) (2025)
 - [UniSim](#p57) (2024)
 - [Genie](#p60) (2024)
 
@@ -1579,7 +2323,7 @@ Learns deterministic-stochastic latent dynamics from pixels and searches action 
 
 > **Scope** · Interactive world generation, scene persistence, training and evaluation environments, and synthetic data
 >
-> **3 papers · Newest first**
+> **6 papers · Newest first**
 
 ---
 
@@ -1589,6 +2333,24 @@ Learns deterministic-stochastic latent dynamics from pixels and searches action 
 [![arXiv: 2408.14837](https://img.shields.io/badge/arXiv-2408.14837-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.14837) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2408.14837) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://gamengen.github.io/) &nbsp; [`T9`](#t9)
 
 Conditions diffusion on frame histories and actions, with noise augmentation, to simulate interactive DOOM gameplay.
+
+---
+
+<a id="s072"></a>
+#### WorldMem: Long-term Consistent World Simulation with Memory (NeurIPS 2025)
+
+[![arXiv: 2504.12369](https://img.shields.io/badge/arXiv-2504.12369-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.12369) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2504.12369) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://xizaoqu.github.io/worldmem/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/xizaoqu/WorldMem) [![GitHub stars](https://img.shields.io/github/stars/xizaoqu/WorldMem?style=flat-square&label=stars&color=C58A18)](https://github.com/xizaoqu/WorldMem/stargazers) [![GitHub forks](https://img.shields.io/github/forks/xizaoqu/WorldMem?style=flat-square&label=forks&color=64748B)](https://github.com/xizaoqu/WorldMem/forks)
+
+Retrieves historical frames using pose and time states to improve long-term consistency in interactive world simulation.
+
+---
+
+<a id="s073"></a>
+#### Video World Models with Long-term Spatial Memory (NeurIPS 2025)
+
+[![arXiv: 2506.05284](https://img.shields.io/badge/arXiv-2506.05284-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.05284) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2506.05284) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://spmem.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/spmem/spmem) [![GitHub stars](https://img.shields.io/github/stars/spmem/spmem?style=flat-square&label=stars&color=C58A18)](https://github.com/spmem/spmem/stargazers) [![GitHub forks](https://img.shields.io/github/forks/spmem/spmem?style=flat-square&label=forks&color=64748B)](https://github.com/spmem/spmem/forks) &nbsp; [`T6`](#t6) [`T9`](#t9)
+
+Accumulates generated frames into geometric spatial memory for camera-conditioned retrieval and rendering in persistent world generation.
 
 ---
 
@@ -1610,11 +2372,21 @@ Learns latent actions and spatiotemporal dynamics from unlabeled video to genera
 
 ---
 
+<a id="s071"></a>
+#### Gibson Env: Real-World Perception for Embodied Agents (CVPR 2018)
+
+[![arXiv: 1808.10654](https://img.shields.io/badge/arXiv-1808.10654-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1808.10654) &nbsp; [`T6`](#t6)
+
+Reprojects observations from scanned real spaces and uses neural rendering to support embodied perception and control in simulation.
+
+---
+
 <details>
-<summary>Related reading · 2 papers in other topics</summary>
+<summary>Related reading · 3 papers in other topics</summary>
 
 - [Drive-WM](#p59) (2024)
 - [DIAMOND](#p62) (2024)
+- [SV2P](#s070) (2018)
 
 </details>
 
@@ -1628,7 +2400,25 @@ Learns latent actions and spatiotemporal dynamics from unlabeled video to genera
 
 > **Scope** · Visual navigation, robotic manipulation, active perception, spatial-memory-guided planning and perception–action loops
 >
-> **4 papers · Newest first**
+> **8 papers · Newest first**
+
+---
+
+<a id="s077"></a>
+#### Autonomous Functional Play with Correspondence-Driven Trajectory Warping (ICLR 2026)
+
+[![Paper: Read](https://img.shields.io/badge/Paper-Read-2563EB?style=flat-square)](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b52ffc1e3ab14f7b423acbb14cdbfe8e-Abstract-Conference.html) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://tether-research.github.io) &nbsp; [`T3`](#t3) [`T4`](#t4)
+
+Warps demonstration action trajectories through semantic keypoint correspondences and collects experience through autonomous functional play.
+
+---
+
+<a id="s075"></a>
+#### RVT: Robotic View Transformer for 3D Object Manipulation (CoRL 2023 / PMLR 2023)
+
+[![arXiv: 2306.14896](https://img.shields.io/badge/arXiv-2306.14896-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.14896) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2306.14896) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://robotic-view-transformer.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nvlabs/rvt) [![GitHub stars](https://img.shields.io/github/stars/nvlabs/rvt?style=flat-square&label=stars&color=C58A18)](https://github.com/nvlabs/rvt/stargazers) [![GitHub forks](https://img.shields.io/github/forks/nvlabs/rvt?style=flat-square&label=forks&color=64748B)](https://github.com/nvlabs/rvt/forks) &nbsp; [`T6`](#t6)
+
+Renders RGB-D point clouds into virtual views, fuses their features and back-projects predictions into 3D robot actions.
 
 ---
 
@@ -1638,6 +2428,15 @@ Learns latent actions and spatiotemporal dynamics from unlabeled video to genera
 [![arXiv: 2109.12098](https://img.shields.io/badge/arXiv-2109.12098-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2109.12098) [![Hugging Face: Paper](https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/papers/2109.12098) [![Project: Page](https://img.shields.io/badge/Project-Page-087F8C?style=flat-square)](https://cliport.github.io/) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cliport/cliport) [![GitHub stars](https://img.shields.io/github/stars/cliport/cliport?style=flat-square&label=stars&color=C58A18)](https://github.com/cliport/cliport/stargazers) [![GitHub forks](https://img.shields.io/github/forks/cliport/cliport?style=flat-square&label=forks&color=64748B)](https://github.com/cliport/cliport/forks) &nbsp; [`T1`](#t1) [`T8`](#t8)
 
 Combines CLIP semantics with Transporter spatial correspondence for language-conditioned pick-and-place manipulation.
+
+---
+
+<a id="s076"></a>
+#### FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects (RSS 2022)
+
+[![arXiv: 2205.04382](https://img.shields.io/badge/arXiv-2205.04382-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2205.04382) &nbsp; [`T8`](#t8)
+
+Predicts point-wise 3D articulation directions and uses the resulting vector field to guide analytical manipulation planning.
 
 ---
 
@@ -1668,17 +2467,33 @@ Builds episodic semantic maps and uses goal-dependent spatial priors for object-
 
 ---
 
+<a id="s074"></a>
+#### Dense Object Nets: Learning Dense Visual Object Descriptors By and For Robotic Manipulation (CoRL 2018 / PMLR 2018)
+
+[![arXiv: 1806.08756](https://img.shields.io/badge/arXiv-1806.08756-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1806.08756) [![GitHub: Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RobotLocomotion/pytorch-dense-correspondence) [![GitHub stars](https://img.shields.io/github/stars/RobotLocomotion/pytorch-dense-correspondence?style=flat-square&label=stars&color=C58A18)](https://github.com/RobotLocomotion/pytorch-dense-correspondence/stargazers) [![GitHub forks](https://img.shields.io/github/forks/RobotLocomotion/pytorch-dense-correspondence?style=flat-square&label=forks&color=64748B)](https://github.com/RobotLocomotion/pytorch-dense-correspondence/forks) &nbsp; [`T4`](#t4) [`T6`](#t6)
+
+Uses multiview 3D reconstruction to supervise dense descriptors for correspondence-based robotic manipulation.
+
+---
+
 <details>
-<summary>Related reading · 8 papers in other topics</summary>
+<summary>Related reading · 15 papers in other topics</summary>
 
 - [DreamerV3](#p68) (2025)
+- [3D-Mem](#s066) (2025)
+- [GraphEQA](#s067) (2025)
 - [ConceptGraphs](#p56) (2024)
 - [UniSim](#p57) (2024)
 - [Visual Language Maps (VLMaps)](#p54) (2023)
 - [ConceptFusion](#p55) (2023)
 - [DROID-SLAM](#p40) (2021)
 - [Semantic MapNet (SMNet)](#p53) (2021)
+- [EgoMap](#s080) (2020)
 - [PlaNet](#p67) (2019)
+- [Neural Map](#s065) (2018)
+- [Gibson Env](#s071) (2018)
+- [MapNet](#s081) (2018)
+- [DNA / CDNA / STP](#s068) (2016)
 
 </details>
 
@@ -1697,15 +2512,15 @@ Methods can belong to multiple families. Follow a method name to its primary ent
 
 | Technique family | Core representation | Works |
 | --- | --- | --- |
-| <a id="t1"></a>**T1 · Parametric geometry** | Rigid / similarity / affine / homography | [UDIS++: Parallax-Tolerant Unsupervised Deep Image Stitching](#n08) · [CLIPort](#p66) · [Unsupervised Deep Image Stitching (UDIS)](#p14) · [Transporter Networks](#p65) · [Deep Image Homography Estimation](#p13) · [COLMAP / Structure-from-Motion Revisited](#p38) · [Lucas–Kanade / Inverse Compositional](#c02) |
+| <a id="t1"></a>**T1 · Parametric geometry** | Rigid / similarity / affine / homography | [PixelStitch](#s018) · [HomoGen](#s028) · [UDIS++: Parallax-Tolerant Unsupervised Deep Image Stitching](#n08) · [CLIPort](#p66) · [DUT](#s019) · [Unsupervised Deep Image Stitching (UDIS)](#p14) · [Transporter Networks](#p65) · [EgoMap](#s080) · [Deep Image Homography Estimation](#p13) · [COLMAP / Structure-from-Motion Revisited](#p38) · [DNA / CDNA / STP](#s068) · [SPHP](#s016) · [Parallax-tolerant Image Stitching](#s017) · [Lucas–Kanade / Inverse Compositional](#c02) |
 | <a id="t2"></a>**T2 · Control points and splines** | TPS / RBF / FFD / B-splines / MLS | [WarpI2I](#n26) · [StabStitch](#n28) · [UDIS++: Parallax-Tolerant Unsupervised Deep Image Stitching](#n08) · [Thin-Plate Spline Motion Model for Image Animation](#n03) · [Adaptive Content Generation and Preservation (ACGPN)](#p28) · [Deep Learning Image Registration (DLIR)](#p18) · [CP-VTON](#c24) · [VITON](#p27) · [Bounded Biharmonic Weights (BBW)](#p03) · [Moving Least Squares (MLS)](#c08) · [B-spline FFD Registration](#c07) · [Beier–Neely Feature-Based Morphing](#c06) · [Thin-Plate Spline (TPS) / Principal Warps](#c05) · [Free-Form Deformation (FFD)](#c04) |
-| <a id="t3"></a>**T3 · Meshes and local shape preservation** | Piecewise maps / ARAP / local projective models | [StabStitch](#n28) · [UDIS++: Parallax-Tolerant Unsupervised Deep Image Stitching](#n08) · [Unsupervised Deep Image Stitching (UDIS)](#p14) · [MeshFlow](#p16) · [DynamicFusion](#p50) · [As-Projective-As-Possible (APAP) / Moving DLT](#c12) · [Bundled Camera Paths](#p15) · [Bounded Biharmonic Weights (BBW)](#p03) · [Content-Preserving Warps for 3D Video Stabilization](#c29) · [As-Rigid-As-Possible (ARAP) Surface Modeling](#c09) · [Embedded Deformation](#p02) · [Laplacian Surface Editing](#p01) |
-| <a id="t4"></a>**T4 · Dense correspondence and optical flow** | Dense flow / correlation volumes / global matching | [MEMFOF](#n20) · [SEA-RAFT](#n13) · [DragAnything](#p37) · [MASt3R](#p42) · [Robust Dense Matching (RoMa)](#p71) · [UniMatch: Unifying Flow, Stereo and Depth Estimation](#n09) · [FlowFormer++](#p12) · [DragNUWA](#p36) · [Dense Kernelized Matching (DKM)](#p70) · [GMFlow](#n01) · [FlowFormer](#n02) · [FILM: Frame Interpolation for Large Motion](#n04) · [BasicVSR++](#n07) · [RIFE](#p23) · [Global Motion Aggregation (GMA)](#p11) · [BasicVSR](#p25) · [Parser-Free Appearance Flow (PF-AFN)](#p29) · [DROID-SLAM](#p40) · [Neural Scene Flow Fields (NSFF)](#p49) · [LoFTR](#p69) · [RAFT](#c20) · [Depth-Aware Interpolation (DAIN)](#p22) · [EDVR](#p24) · [Task-Oriented Flow (TOFlow)](#p26) · [PWC-Net](#c15) · [LiteFlowNet](#p10) · [Super SloMo](#p21) · [FlowNet 2.0](#p08) · [SPyNet](#p09) · [MeshFlow](#p16) · [FlowNet](#p07) · [SIFT Flow](#p72) · [Lucas–Kanade / Inverse Compositional](#c02) · [Brox et al. Variational Optical Flow](#c27) · [Horn–Schunck](#c03) |
-| <a id="t5"></a>**T5 · Invertible deformation and registration** | Velocity fields / diffeomorphisms / inverse consistency | [uniGradICON](#n14) · [TransMorph](#n05) · [SynthMorph](#n06) · [ICON](#p20) · [Symmetric Diffeomorphic Registration (SYMNet)](#p19) · [VoxelMorph](#c18) · [Deep Learning Image Registration (DLIR)](#p18) · [Diffeomorphic Demons](#c11) · [SyN: Symmetric Diffeomorphic Registration](#c10) · [LDDMM / Geodesic Flows of Diffeomorphisms](#c26) · [B-spline FFD Registration](#c07) · [Demons Registration](#p17) |
-| <a id="t6"></a>**T6 · Depth and 3D reprojection** | Depth / camera pose / projection / visibility | [CameraNoise](#n24) · [Warp-as-History](#n27) · [WAVE: Warp-Based View Guidance](#n22) · [SplatDiff: High-Fidelity Novel View Synthesis via Splatting-Guided Diffusion](#n23) · [GenWarp](#n15) · [MotionCtrl](#p34) · [CameraCtrl](#p35) · [DUSt3R](#p41) · [MASt3R](#p42) · [Dynamic 3D Gaussians](#p51) · [ConceptGraphs](#p56) · [Drive-WM](#p59) · [UniMatch: Unifying Flow, Stereo and Depth Estimation](#n09) · [3D Gaussian Splatting (3DGS)](#p45) · [Visual Language Maps (VLMaps)](#p54) · [ConceptFusion](#p55) · [TiNeuVox](#p52) · [DROID-SLAM](#p40) · [IBRNet](#p46) · [pixelNeRF](#p47) · [Neural Scene Flow Fields (NSFF)](#p49) · [Semantic MapNet (SMNet)](#p53) · [NeRF](#p44) · [Active Neural SLAM](#p63) · [Goal-Oriented Semantic Exploration (SemExp)](#p64) · [Monodepth2](#c16) · [Depth-Aware Interpolation (DAIN)](#p22) · [MVSNet](#p39) · [Stereo Magnification / Multiplane Images](#p48) · [SfMLearner](#p43) · [COLMAP / Structure-from-Motion Revisited](#p38) · [DynamicFusion](#p50) · [Depth-Image-Based Rendering (DIBR)](#c28) |
-| <a id="t7"></a>**T7 · Differentiable sampling and splatting** | Interpolation / footprints / aggregation / adjoints | [LookingGlass / Laplacian Pyramid Warping (LPW)](#n21) · [SplatDiff: High-Fidelity Novel View Synthesis via Splatting-Guided Diffusion](#n23) · [How I Warped Your Noise / ∫-noise](#n16) · [Dynamic 3D Gaussians](#p51) · [ImWIP](#n10) · [3D Gaussian Splatting (3DGS)](#p45) · [IBRNet](#p46) · [Softmax Splatting](#c19) · [Soft Rasterizer (SoftRas)](#p06) · [Depth-Aware Interpolation (DAIN)](#p22) · [Neural 3D Mesh Renderer](#p05) · [Spatial Transformer Networks (STN)](#c13) · [EWA Volume Splatting](#c25) · [Surface Splatting](#p04) |
-| <a id="t8"></a>**T8 · Learned feature and 3D deformation** | Offsets / local affine motion / canonical fields | [Deformable 3D Gaussians](#n11) · [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](#n12) · [Dynamic 3D Gaussians](#p51) · [Thin-Plate Spline Motion Model for Image Animation](#n03) · [FILM: Frame Interpolation for Large Motion](#n04) · [BasicVSR++](#n07) · [TiNeuVox](#p52) · [CLIPort](#p66) · [D-NeRF](#c21) · [Nerfies](#c22) · [HyperNeRF](#c23) · [Neural Scene Flow Fields (NSFF)](#p49) · [Transporter Networks](#p65) · [First Order Motion Model (FOMM)](#c17) · [EDVR](#p24) · [X2Face](#p30) · [Deformable ConvNets (DCN)](#c14) · [DynamicFusion](#p50) |
-| <a id="t9"></a>**T9 · Generative, frequency and stochastic warping** | Geometry–generation fusion / noise transport / frequency handling | [CameraNoise](#n24) · [DMAligner](#n25) · [WarpI2I](#n26) · [Warp-as-History](#n27) · [Go-with-the-Flow](#n19) · [LookingGlass / Laplacian Pyramid Warping (LPW)](#n21) · [WAVE: Warp-Based View Guidance](#n22) · [SplatDiff: High-Fidelity Novel View Synthesis via Splatting-Guided Diffusion](#n23) · [GameNGen](#p61) · [DreamerV3](#p68) · [GenWarp](#n15) · [How I Warped Your Noise / ∫-noise](#n16) · [Warped Diffusion](#n17) · [StableVITON](#n18) · [FreeNoise](#p32) · [ConsistI2V](#p33) · [MotionCtrl](#p34) · [CameraCtrl](#p35) · [DragAnything](#p37) · [UniSim](#p57) · [Drive-WM](#p59) · [Genie](#p60) · [DIAMOND](#p62) · [Preserve Your Own Correlation (PYoCo)](#p31) · [DragNUWA](#p36) · [GAIA-1](#p58) · [Parser-Free Appearance Flow (PF-AFN)](#p29) · [Adaptive Content Generation and Preservation (ACGPN)](#p28) · [First Order Motion Model (FOMM)](#c17) · [PlaNet](#p67) · [CP-VTON](#c24) · [VITON](#p27) · [X2Face](#p30) |
+| <a id="t3"></a>**T3 · Meshes and local shape preservation** | Piecewise maps / ARAP / local projective models | [Tether / Autonomous Functional Play](#s077) · [Inpaint4Drag](#s003) · [FlowDrag](#s004) · [StabStitch](#n28) · [UDIS++: Parallax-Tolerant Unsupervised Deep Image Stitching](#n08) · [DUT](#s019) · [Unsupervised Deep Image Stitching (UDIS)](#p14) · [MeshFlow](#p16) · [DynamicFusion](#p50) · [Parallax-tolerant Image Stitching](#s017) · [As-Projective-As-Possible (APAP) / Moving DLT](#c12) · [Bundled Camera Paths](#p15) · [Bounded Biharmonic Weights (BBW)](#p03) · [Content-Preserving Warps for 3D Video Stabilization](#c29) · [Green Coordinates](#s002) · [As-Rigid-As-Possible (ARAP) Surface Modeling](#c09) · [Embedded Deformation](#p02) · [Harmonic Coordinates](#s001) · [Laplacian Surface Editing](#p01) |
+| <a id="t4"></a>**T4 · Dense correspondence and optical flow** | Dense flow / correlation volumes / global matching | [Tether / Autonomous Functional Play](#s077) · [MEMFOF](#n20) · [UFM](#s015) · [PixelStitch](#s018) · [BiM-VFI](#s029) · [FIA-VTON](#s032) · [FloVD](#s047) · [MotionPro](#s050) · [FoundationStereo](#s055) · [SEA-RAFT](#n13) · [DragAnything](#p37) · [MASt3R](#p42) · [Robust Dense Matching (RoMa)](#p71) · [FloED](#s027) · [Upscale-A-Video](#s030) · [FloAt](#s033) · [D4-VTON](#s036) · [FlowVid](#s038) · [FLATTEN](#s039) · [WAVE (DDIM inversion)](#s042) · [Motion-I2V](#s045) · [MotionCraft](#s046) · [UniMatch: Unifying Flow, Stereo and Depth Estimation](#n09) · [FlowFormer++](#p12) · [DragNUWA](#p36) · [Dense Kernelized Matching (DKM)](#p70) · [PDC-Net+](#s012) · [CroCo v2](#s014) · [ProPainter](#s024) · [DCI-VTON](#s031) · [GP-VTON](#s035) · [LatentWarp](#s040) · [Rerender A Video](#s041) · [GMFlow](#n01) · [FlowFormer](#n02) · [FILM: Frame Interpolation for Large Motion](#n04) · [BasicVSR++](#n07) · [RIFE](#p23) · [E2FGVI](#s025) · [HR-VITON](#s034) · [ClothFormer](#s078) · [Global Motion Aggregation (GMA)](#p11) · [BasicVSR](#p25) · [Parser-Free Appearance Flow (PF-AFN)](#p29) · [DROID-SLAM](#p40) · [Neural Scene Flow Fields (NSFF)](#p49) · [LoFTR](#p69) · [COTR](#s011) · [RAFT-Stereo](#s053) · [RAFT](#c20) · [GLU-Net](#s013) · [Depth-Aware Interpolation (DAIN)](#p22) · [EDVR](#p24) · [Task-Oriented Flow (TOFlow)](#p26) · [Deep Flow-Guided Video Inpainting](#s026) · [PWC-Net](#c15) · [LiteFlowNet](#p10) · [Super SloMo](#p21) · [Dense Object Nets](#s074) · [FlowNet 2.0](#p08) · [SPyNet](#p09) · [MeshFlow](#p16) · [FlowNet](#p07) · [SIFT Flow](#p72) · [Lucas–Kanade / Inverse Compositional](#c02) · [Brox et al. Variational Optical Flow](#c27) · [Horn–Schunck](#c03) |
+| <a id="t5"></a>**T5 · Invertible deformation and registration** | Velocity fields / diffeomorphisms / inverse consistency | [SGDIR](#s023) · [Fast Forward](#s084) · [uniGradICON](#n14) · [GradICON](#s020) · [Fourier-Net](#s022) · [TransMorph](#n05) · [SynthMorph](#n06) · [ICON](#p20) · [Symmetric Diffeomorphic Registration (SYMNet)](#p19) · [LapIRN](#s021) · [VoxelMorph](#c18) · [Deep Learning Image Registration (DLIR)](#p18) · [Diffeomorphic Demons](#c11) · [SyN: Symmetric Diffeomorphic Registration](#c10) · [LDDMM / Geodesic Flows of Diffeomorphisms](#c26) · [B-spline FFD Registration](#c07) · [Demons Registration](#p17) |
+| <a id="t6"></a>**T6 · Depth and 3D reprojection** | Depth / camera pose / projection / visibility | [CameraNoise](#n24) · [Warp-as-History](#n27) · [WAVE: Warp-Based View Guidance](#n22) · [SplatDiff: High-Fidelity Novel View Synthesis via Splatting-Guided Diffusion](#n23) · [FlowDrag](#s004) · [TrajectoryCrafter](#s048) · [Latent-Reframe](#s049) · [VGGT](#s054) · [FoundationStereo](#s055) · [DepthSplat](#s059) · [MoSca](#s063) · [3D-Mem](#s066) · [GraphEQA](#s067) · [Spatial Memory World Models](#s073) · [GenWarp](#n15) · [MotionCtrl](#p34) · [CameraCtrl](#p35) · [DUSt3R](#p41) · [MASt3R](#p42) · [Dynamic 3D Gaussians](#p51) · [ConceptGraphs](#p56) · [Drive-WM](#p59) · [MVSplat](#s058) · [MultiDiff](#s060) · [UniMatch: Unifying Flow, Stereo and Depth Estimation](#n09) · [3D Gaussian Splatting (3DGS)](#p45) · [Visual Language Maps (VLMaps)](#p54) · [ConceptFusion](#p55) · [RVT](#s075) · [Trans4Map](#s082) · [TiNeuVox](#p52) · [DROID-SLAM](#p40) · [IBRNet](#p46) · [pixelNeRF](#p47) · [Neural Scene Flow Fields (NSFF)](#p49) · [Semantic MapNet (SMNet)](#p53) · [RAFT-Stereo](#s053) · [NeRF](#p44) · [Active Neural SLAM](#p63) · [Goal-Oriented Semantic Exploration (SemExp)](#p64) · [CasMVSNet](#s051) · [SynSin](#s056) · [EgoMap](#s080) · [3D Photography](#s083) · [Monodepth2](#c16) · [Depth-Aware Interpolation (DAIN)](#p22) · [DPSNet](#s052) · [MVSNet](#p39) · [Stereo Magnification / Multiplane Images](#p48) · [Gibson Env](#s071) · [Dense Object Nets](#s074) · [MapNet](#s081) · [SfMLearner](#p43) · [COLMAP / Structure-from-Motion Revisited](#p38) · [DynamicFusion](#p50) · [Depth-Image-Based Rendering (DIBR)](#c28) |
+| <a id="t7"></a>**T7 · Differentiable sampling and splatting** | Interpolation / footprints / aggregation / adjoints | [Fast Forward](#s084) · [LookingGlass / Laplacian Pyramid Warping (LPW)](#n21) · [SplatDiff: High-Fidelity Novel View Synthesis via Splatting-Guided Diffusion](#n23) · [gsplat](#s010) · [DepthSplat](#s059) · [How I Warped Your Noise / ∫-noise](#n16) · [Dynamic 3D Gaussians](#p51) · [Mip-Splatting](#s008) · [MVSplat](#s058) · [Multi-Frequency Representation (MFR)](#s079) · [ImWIP](#n10) · [3D Gaussian Splatting (3DGS)](#p45) · [Kernel Aware Resampler](#s006) · [Local Texture Estimator for Warping (LTEW)](#s085) · [IBRNet](#p46) · [SRWarp](#s086) · [Softmax Splatting](#c19) · [nvdiffrast](#s009) · [SynSin](#s056) · [Soft Rasterizer (SoftRas)](#p06) · [Depth-Aware Interpolation (DAIN)](#p22) · [Linearized Multi-Sampling](#s007) · [DPSNet](#s052) · [Neural 3D Mesh Renderer](#p05) · [SV2P](#s070) · [DNA / CDNA / STP](#s068) · [Spatial Transformer Networks (STN)](#c13) · [EWA Volume Splatting](#c25) · [Surface Splatting](#p04) |
+| <a id="t8"></a>**T8 · Learned feature and 3D deformation** | Offsets / local affine motion / canonical fields | [MoSca](#s063) · [Deformable 3D Gaussians](#n11) · [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](#n12) · [Dynamic 3D Gaussians](#p51) · [DragDiffusion](#s005) · [SC-GS](#s061) · [SceNeRFlow](#s062) · [ProPainter](#s024) · [Trans4Map](#s082) · [Thin-Plate Spline Motion Model for Image Animation](#n03) · [FILM: Frame Interpolation for Large Motion](#n04) · [BasicVSR++](#n07) · [TiNeuVox](#p52) · [CLIPort](#p66) · [E2FGVI](#s025) · [FlowBot3D](#s076) · [D-NeRF](#c21) · [Nerfies](#c22) · [HyperNeRF](#c23) · [Neural Scene Flow Fields (NSFF)](#p49) · [Transporter Networks](#p65) · [face-vid2vid](#s037) · [NR-NeRF](#s064) · [EgoMap](#s080) · [First Order Motion Model (FOMM)](#c17) · [EDVR](#p24) · [X2Face](#p30) · [MapNet](#s081) · [Deformable ConvNets (DCN)](#c14) · [DynamicFusion](#p50) |
+| <a id="t9"></a>**T9 · Generative, frequency and stochastic warping** | Geometry–generation fusion / noise transport / frequency handling | [CameraNoise](#n24) · [DMAligner](#n25) · [WarpI2I](#n26) · [Warp-as-History](#n27) · [Go-with-the-Flow](#n19) · [LookingGlass / Laplacian Pyramid Warping (LPW)](#n21) · [WAVE: Warp-Based View Guidance](#n22) · [SplatDiff: High-Fidelity Novel View Synthesis via Splatting-Guided Diffusion](#n23) · [GameNGen](#p61) · [DreamerV3](#p68) · [Inpaint4Drag](#s003) · [FlowDrag](#s004) · [HomoGen](#s028) · [FIA-VTON](#s032) · [Infinite-Resolution Integral Noise Warping](#s043) · [EquiVDM / Warped-Noise Equivariance](#s044) · [FloVD](#s047) · [TrajectoryCrafter](#s048) · [Latent-Reframe](#s049) · [MotionPro](#s050) · [Spatial Memory World Models](#s073) · [GenWarp](#n15) · [How I Warped Your Noise / ∫-noise](#n16) · [Warped Diffusion](#n17) · [StableVITON](#n18) · [FreeNoise](#p32) · [ConsistI2V](#p33) · [MotionCtrl](#p34) · [CameraCtrl](#p35) · [DragAnything](#p37) · [UniSim](#p57) · [Drive-WM](#p59) · [Genie](#p60) · [DIAMOND](#p62) · [DragDiffusion](#s005) · [FloED](#s027) · [Upscale-A-Video](#s030) · [FloAt](#s033) · [D4-VTON](#s036) · [FlowVid](#s038) · [FLATTEN](#s039) · [WAVE (DDIM inversion)](#s042) · [Motion-I2V](#s045) · [MotionCraft](#s046) · [MultiDiff](#s060) · [Preserve Your Own Correlation (PYoCo)](#p31) · [DragNUWA](#p36) · [GAIA-1](#p58) · [DCI-VTON](#s031) · [GP-VTON](#s035) · [LatentWarp](#s040) · [Rerender A Video](#s041) · [HR-VITON](#s034) · [ClothFormer](#s078) · [Parser-Free Appearance Flow (PF-AFN)](#p29) · [Adaptive Content Generation and Preservation (ACGPN)](#p28) · [First Order Motion Model (FOMM)](#c17) · [PlaNet](#p67) · [CP-VTON](#c24) · [VITON](#p27) · [X2Face](#p30) |
 
 </details>
 
@@ -1729,6 +2544,7 @@ Methods can belong to multiple families. Follow a method name to its primary ent
 | Implementation and method selection | [Tools and practical starting points](docs/RESEARCH_GUIDE.md#practice) |
 | Extended research notes | [Detailed Chinese guide](docs/RESEARCH_GUIDE.zh-CN.md) |
 | Selection evidence and citation snapshots | [2026-10-24 expansion audit](docs/EXPANSION_AUDIT.md) |
+| Systematic search across all topics | [Queries, relevance decisions and version checks](docs/SYSTEMATIC_SEARCH.md) |
 
 <a id="contributing"></a>
 ## 🤝 Contributing
@@ -1738,6 +2554,8 @@ Suggestions, corrections and verified links are welcome through [Issues](https:/
 Please include the **paper title, publication year/status, Paper, Project, GitHub, technique family, primary topic and related topic tags**. Leave unavailable links empty, and distinguish author implementations, third-party reimplementations and shared frameworks.
 
 Edit [the bilingual catalog](data/catalog.json) and run `python3 scripts/build_readme.py` to update both READMEs. Counts and indexes use the same data; check consistency with `python3 scripts/build_readme.py --check`. Set each work's unique home with `primary_topic`; `topics` contains that home and related directions. When adding papers to a reserved topic, set its `reserved` flag to `false`. Prioritize topic fit, verified publication records and established impact. Citation snapshots must name the provider, matched record and query date; do not add preprint and publication counts together. See the [curation audit](docs/EXPANSION_AUDIT.md) for this expansion.
+
+For systematic additions, discover candidates across tasks, spatial mechanisms and transformed representations before exact-title verification. Keep query logs, exclusion reasons and version relationships; identify explicit warping, correspondence estimation, flow conditioning and spatial memory separately. See the [systematic search record](docs/SYSTEMATIC_SEARCH.md). General documentation is excluded from paper counts, and preprints are not counted again when a formal version appears.
 
 <details>
 <summary>Design references and acknowledgments</summary>

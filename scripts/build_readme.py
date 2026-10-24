@@ -27,6 +27,11 @@ def validate_catalog(data):
     arxiv_ids = [re.sub(r'v\d+$', '', w['arxiv'].rstrip('/').rsplit('/', 1)[-1])
                  for w in data['works'] if w.get('arxiv')]
     assert len(arxiv_ids) == len(set(arxiv_ids)), 'Duplicate arXiv papers'
+    background_ids = {item['id'] for item in data.get('background_references', [])}
+    assert not background_ids & {w['id'] for w in data['works']}, 'Background reference counted as a paper'
+    dois = [re.sub(r'^https?://(?:dx\.)?doi\.org/', '', w['doi'].lower()).rstrip('/')
+            for w in data['works'] if w.get('doi')]
+    assert len(dois) == len(set(dois)), 'Duplicate publication DOI'
     numbers = [t['number'] for t in data['topics']]
     assert len(numbers) == len(set(numbers)), 'Duplicate topic numbers'
     assert {t['area'] for t in data['topics']} == areas, 'Missing or unknown research area'
@@ -40,6 +45,16 @@ def validate_catalog(data):
         assert set(work['topics']) <= topics.keys(), f'Unknown topic tag: {work["id"]}'
         assert set(work['technology']) <= technologies, f'Unknown technique: {work["id"]}'
         assert type(work['year']) is int, f'Invalid year: {work["id"]}'
+        versions = work.get('versions')
+        if versions:
+            assert versions['canonical_title'] == work['paper_title'], f'Inconsistent canonical title: {work["id"]}'
+            assert versions['canonical_source'] == work['paper'], f'Inconsistent canonical source: {work["id"]}'
+            assert versions['status'] in ('published', 'preprint'), f'Unverified publication status: {work["id"]}'
+            assert versions['notes']['zh'] and versions['notes']['en'], f'Missing version explanation: {work["id"]}'
+        selection = work.get('selection', {})
+        if selection.get('candidate_id'):
+            assert selection['warping_relation'] and selection['transformed_objects'], f'Missing relevance evidence: {work["id"]}'
+            assert work.get('authors') and work.get('source_checks'), f'Missing original-source checks: {work["id"]}'
         citation = work.get('citation_snapshot')
         if citation:
             assert type(citation['cited_by_count']) is int and citation['cited_by_count'] >= 0, f'Invalid citation count: {work["id"]}'
@@ -127,7 +142,7 @@ def render(lang, data=None):
         tags = ' '.join(f'[`{t}`](#{t.lower()})' for t in work['technology'])
         title = work.get('paper_title') or work['name']
         result = [f'<a id="{work["id"]}"></a>', f'#### {title} ({work["venue"]})', '',
-                  resources(work) + ' &nbsp; ' + tags, '',
+                  resources(work) + (' &nbsp; ' + tags if tags else ''), '',
                   info['summary'].rstrip('。.') + ('。' if chinese else '.'), '']
         return '\n'.join(result)
 

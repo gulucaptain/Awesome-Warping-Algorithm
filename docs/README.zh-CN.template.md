@@ -84,6 +84,7 @@ Warping 将像素、特征与噪声在空间和时间中建立映射，是图像
 | 噪声 Warping 的统计要求 | [普通插值为什么会改变高斯噪声？](docs/RESEARCH_GUIDE.zh-CN.md#trends) |
 | 工具、实现与方案选择 | [实现入口与快速选型](docs/RESEARCH_GUIDE.zh-CN.md#practice) |
 | 收录依据与引用快照 | [2026-10-24 论文扩充核验记录](docs/EXPANSION_AUDIT.md) |
+| 全 Topic 系统检索 | [检索词、相关性判断与版本核查](docs/SYSTEMATIC_SEARCH.zh-CN.md) |
 
 <a id="contributing"></a>
 ## 🤝 参与贡献
@@ -93,6 +94,8 @@ Warping 将像素、特征与噪声在空间和时间中建立映射，是图像
 每条建议包含 **论文名、发表年份/状态、Paper、Project、GitHub、技术族、主 Topic 和交叉 Topic 标签**。未公开的资源留空；第三方复现、共享框架与作者实现请明确区分。
 
 维护者可编辑 [中英文文献数据](data/catalog.json)，再运行 `python3 scripts/build_readme.py` 同时更新中英文页面；计数与索引由同一份数据生成，运行 `python3 scripts/build_readme.py --check` 检查一致性。每条记录用 `primary_topic` 指定唯一主归属，用 `topics` 保存包括主归属在内的关联方向；新增论文后，将对应 Topic 的 `reserved` 设为 `false`。优先核对主题匹配、正式发表信息与方法影响力；引用快照须注明提供方、匹配记录及查询日期，不叠加预印本与正式版本的计数。详见 [扩充核验记录](docs/EXPANSION_AUDIT.md)。详细原理与旧版逐项备注保留在 [研究指南](docs/RESEARCH_GUIDE.zh-CN.md)。
+
+系统补充时，先按应用任务、空间机制与被变换对象发现候选，再核验准确标题。保留检索词、排除理由和版本关系；分别说明显式 Warping、对应估计、流条件引导与空间记忆。详见 [全 Topic 系统检索记录](docs/SYSTEMATIC_SEARCH.zh-CN.md)。通用文档不计入论文，预印本与正式发表版本不重复统计。
 
 <details>
 <summary>版式参考与致谢</summary>

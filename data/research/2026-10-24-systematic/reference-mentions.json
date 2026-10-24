@@ -1,0 +1,3260 @@
+{
+  "method": "Exact normalized full-title matches in original full text. These provide leads for backward/related-work follow-up, not proof that every detected mention is a citation.",
+  "mentions": [
+    {
+      "from_candidate": "R001",
+      "mentioned_work": "c04",
+      "matched_title": "Free-Form Deformation of Solid Geometric Models",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R002",
+      "mentioned_work": "c04",
+      "matched_title": "Free-Form Deformation of Solid Geometric Models",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R002",
+      "mentioned_work": "c09",
+      "matched_title": "As-Rigid-As-Possible Surface Modeling",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R002",
+      "mentioned_work": "s001",
+      "matched_title": "Harmonic Coordinates for Character Articulation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R003",
+      "mentioned_work": "c04",
+      "matched_title": "Free-Form Deformation of Solid Geometric Models",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R003",
+      "mentioned_work": "c08",
+      "matched_title": "Image deformation using moving least squares",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R003",
+      "mentioned_work": "s005",
+      "matched_title": "DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R004",
+      "mentioned_work": "c09",
+      "matched_title": "As-Rigid-As-Possible Surface Modeling",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R004",
+      "mentioned_work": "s005",
+      "matched_title": "DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R006",
+      "mentioned_work": "s086",
+      "matched_title": "SRWarp: Generalized Image Super-Resolution under Arbitrary Transformation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R007",
+      "mentioned_work": "c02",
+      "matched_title": "Lucas-Kanade 20 Years On: A Unifying Framework",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R007",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R007",
+      "mentioned_work": "c14",
+      "matched_title": "Deformable Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R008",
+      "mentioned_work": "p44",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R008",
+      "mentioned_work": "p45",
+      "matched_title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R008",
+      "mentioned_work": "s056",
+      "matched_title": "SynSin: End-to-End View Synthesis From a Single Image",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R009",
+      "mentioned_work": "p06",
+      "matched_title": "Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R010",
+      "mentioned_work": "p44",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R010",
+      "mentioned_work": "p45",
+      "matched_title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R010",
+      "mentioned_work": "s008",
+      "matched_title": "Mip-Splatting: Alias-free 3D Gaussian Splatting",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R011",
+      "mentioned_work": "c15",
+      "matched_title": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R011",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R011",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R011",
+      "mentioned_work": "p07",
+      "matched_title": "FlowNet: Learning Optical Flow with Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R011",
+      "mentioned_work": "p10",
+      "matched_title": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R011",
+      "mentioned_work": "p38",
+      "matched_title": "Structure-from-Motion Revisited",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R011",
+      "mentioned_work": "p43",
+      "matched_title": "Unsupervised Learning of Depth and Ego-Motion from Video",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R011",
+      "mentioned_work": "p69",
+      "matched_title": "LoFTR: Detector-Free Local Feature Matching with Transformers",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R011",
+      "mentioned_work": "p72",
+      "matched_title": "SIFT Flow: Dense Correspondence across Scenes and its Applications",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R011",
+      "mentioned_work": "s007",
+      "matched_title": "Linearized Multi-Sampling for Differentiable Image Transformation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R011",
+      "mentioned_work": "s013",
+      "matched_title": "GLU-Net: Global-Local Universal Network for Dense Flow and Correspondences",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R012",
+      "mentioned_work": "c15",
+      "matched_title": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R012",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R012",
+      "mentioned_work": "p07",
+      "matched_title": "FlowNet: Learning Optical Flow with Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R012",
+      "mentioned_work": "p08",
+      "matched_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R012",
+      "mentioned_work": "p10",
+      "matched_title": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R012",
+      "mentioned_work": "p38",
+      "matched_title": "Structure-from-Motion Revisited",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R012",
+      "mentioned_work": "p69",
+      "matched_title": "LoFTR: Detector-Free Local Feature Matching with Transformers",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R012",
+      "mentioned_work": "p72",
+      "matched_title": "SIFT Flow: Dense Correspondence across Scenes and its Applications",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R012",
+      "mentioned_work": "s011",
+      "matched_title": "COTR: Correspondence Transformer for Matching Across Images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R012",
+      "mentioned_work": "s013",
+      "matched_title": "GLU-Net: Global-Local Universal Network for Dense Flow and Correspondences",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R013",
+      "mentioned_work": "c15",
+      "matched_title": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R013",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R013",
+      "mentioned_work": "p07",
+      "matched_title": "FlowNet: Learning Optical Flow with Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R013",
+      "mentioned_work": "p08",
+      "matched_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R013",
+      "mentioned_work": "p09",
+      "matched_title": "Optical Flow Estimation using a Spatial Pyramid Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R013",
+      "mentioned_work": "p10",
+      "matched_title": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R013",
+      "mentioned_work": "p38",
+      "matched_title": "Structure-from-Motion Revisited",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R013",
+      "mentioned_work": "p72",
+      "matched_title": "SIFT Flow: Dense Correspondence across Scenes and its Applications",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R014",
+      "mentioned_work": "c27",
+      "matched_title": "High Accuracy Optical Flow Estimation Based on a Theory for Warping",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R014",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R014",
+      "mentioned_work": "c16",
+      "matched_title": "Digging Into Self-Supervised Monocular Depth Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R014",
+      "mentioned_work": "n01",
+      "matched_title": "GMFlow: Learning Optical Flow via Global Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R014",
+      "mentioned_work": "n02",
+      "matched_title": "FlowFormer: A Transformer Architecture for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R014",
+      "mentioned_work": "n09",
+      "matched_title": "Unifying Flow, Stereo and Depth Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R014",
+      "mentioned_work": "p07",
+      "matched_title": "FlowNet: Learning Optical Flow with Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R014",
+      "mentioned_work": "p38",
+      "matched_title": "Structure-from-Motion Revisited",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R014",
+      "mentioned_work": "s053",
+      "matched_title": "RAFT-Stereo: Multilevel Recurrent Field Transforms for Stereo Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "c15",
+      "matched_title": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "n01",
+      "matched_title": "GMFlow: Learning Optical Flow via Global Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "n02",
+      "matched_title": "FlowFormer: A Transformer Architecture for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "n09",
+      "matched_title": "Unifying Flow, Stereo and Depth Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "n13",
+      "matched_title": "SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "p07",
+      "matched_title": "FlowNet: Learning Optical Flow with Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "p08",
+      "matched_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "p10",
+      "matched_title": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "p40",
+      "matched_title": "DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "p41",
+      "matched_title": "DUSt3R: Geometric 3D Vision Made Easy",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "p42",
+      "matched_title": "Grounding Image Matching in 3D with MASt3R",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "p70",
+      "matched_title": "DKM: Dense Kernelized Feature Matching for Geometry Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "p71",
+      "matched_title": "RoMa: Robust Dense Feature Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "s011",
+      "matched_title": "COTR: Correspondence Transformer for Matching Across Images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "s012",
+      "matched_title": "PDC-Net+: Enhanced Probabilistic Dense Correspondence Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "s013",
+      "matched_title": "GLU-Net: Global-Local Universal Network for Dense Flow and Correspondences",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "s014",
+      "matched_title": "CroCo v2: Improved Cross-view Completion Pre-training for Stereo Matching and Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R015",
+      "mentioned_work": "s054",
+      "matched_title": "VGGT: Visual Geometry Grounded Transformer",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R016",
+      "mentioned_work": "c12",
+      "matched_title": "As-Projective-As-Possible Image Stitching with Moving DLT",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R017",
+      "mentioned_work": "c29",
+      "matched_title": "Content-Preserving Warps for 3D Video Stabilization",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R017",
+      "mentioned_work": "c12",
+      "matched_title": "As-Projective-As-Possible Image Stitching with Moving DLT",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R018",
+      "mentioned_work": "c05",
+      "matched_title": "Principal warps: thin-plate splines and the decomposition of deformations",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R018",
+      "mentioned_work": "c12",
+      "matched_title": "As-Projective-As-Possible Image Stitching with Moving DLT",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R018",
+      "mentioned_work": "n08",
+      "matched_title": "Parallax-Tolerant Unsupervised Deep Image Stitching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R018",
+      "mentioned_work": "p14",
+      "matched_title": "Unsupervised Deep Image Stitching: Reconstructing Stitched Features to Images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R018",
+      "mentioned_work": "s016",
+      "matched_title": "Shape-Preserving Half-Projective Warps for Image Stitching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R018",
+      "mentioned_work": "s017",
+      "matched_title": "Parallax-tolerant Image Stitching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R019",
+      "mentioned_work": "c15",
+      "matched_title": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R019",
+      "mentioned_work": "c29",
+      "matched_title": "Content-Preserving Warps for 3D Video Stabilization",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R019",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R019",
+      "mentioned_work": "p15",
+      "matched_title": "Bundled Camera Paths for Video Stabilization",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R019",
+      "mentioned_work": "p16",
+      "matched_title": "MeshFlow: Minimum Latency Online Video Stabilization",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "c15",
+      "matched_title": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "c26",
+      "matched_title": "Computing Large Deformation Metric Mappings via Geodesic Flows of Diffeomorphisms",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "c10",
+      "matched_title": "Symmetric Diffeomorphic Image Registration with Cross-Correlation: Evaluating Automated Labeling of Elderly and Neurodegenerative Brain",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "c11",
+      "matched_title": "Diffeomorphic demons: Efficient non-parametric image registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "c18",
+      "matched_title": "VoxelMorph: A Learning Framework for Deformable Medical Image Registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "n02",
+      "matched_title": "FlowFormer: A Transformer Architecture for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "n06",
+      "matched_title": "SynthMorph: learning contrast-invariant registration without acquired images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "p07",
+      "matched_title": "FlowNet: Learning Optical Flow with Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "p08",
+      "matched_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "p17",
+      "matched_title": "Image matching as a diffusion process: an analogy with Maxwell's demons",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "p18",
+      "matched_title": "A deep learning framework for unsupervised affine and deformable image registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "p20",
+      "matched_title": "ICON: Learning Regular Maps Through Inverse Consistency",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R020",
+      "mentioned_work": "s021",
+      "matched_title": "Large Deformation Diffeomorphic Image Registration with Laplacian Pyramid Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R021",
+      "mentioned_work": "c10",
+      "matched_title": "Symmetric Diffeomorphic Image Registration with Cross-Correlation: Evaluating Automated Labeling of Elderly and Neurodegenerative Brain",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R021",
+      "mentioned_work": "c11",
+      "matched_title": "Diffeomorphic demons: Efficient non-parametric image registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R021",
+      "mentioned_work": "p17",
+      "matched_title": "Image matching as a diffusion process: an analogy with Maxwell's demons",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R021",
+      "mentioned_work": "p18",
+      "matched_title": "A deep learning framework for unsupervised affine and deformable image registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R022",
+      "mentioned_work": "c07",
+      "matched_title": "Nonrigid registration using free-form deformations: application to breast MR images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R022",
+      "mentioned_work": "c26",
+      "matched_title": "Computing Large Deformation Metric Mappings via Geodesic Flows of Diffeomorphisms",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R022",
+      "mentioned_work": "c11",
+      "matched_title": "Diffeomorphic demons: Efficient non-parametric image registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R022",
+      "mentioned_work": "c18",
+      "matched_title": "VoxelMorph: A Learning Framework for Deformable Medical Image Registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R022",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R022",
+      "mentioned_work": "n05",
+      "matched_title": "TransMorph: Transformer for unsupervised medical image registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R022",
+      "mentioned_work": "p18",
+      "matched_title": "A deep learning framework for unsupervised affine and deformable image registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R022",
+      "mentioned_work": "p19",
+      "matched_title": "Fast Symmetric Diffeomorphic Image Registration with Convolutional Neural Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R022",
+      "mentioned_work": "s021",
+      "matched_title": "Large Deformation Diffeomorphic Image Registration with Laplacian Pyramid Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R023",
+      "mentioned_work": "c07",
+      "matched_title": "Nonrigid registration using free-form deformations: application to breast MR images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R023",
+      "mentioned_work": "c26",
+      "matched_title": "Computing Large Deformation Metric Mappings via Geodesic Flows of Diffeomorphisms",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R023",
+      "mentioned_work": "c10",
+      "matched_title": "Symmetric Diffeomorphic Image Registration with Cross-Correlation: Evaluating Automated Labeling of Elderly and Neurodegenerative Brain",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R023",
+      "mentioned_work": "c11",
+      "matched_title": "Diffeomorphic demons: Efficient non-parametric image registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R023",
+      "mentioned_work": "c18",
+      "matched_title": "VoxelMorph: A Learning Framework for Deformable Medical Image Registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R023",
+      "mentioned_work": "n05",
+      "matched_title": "TransMorph: Transformer for unsupervised medical image registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R023",
+      "mentioned_work": "n06",
+      "matched_title": "SynthMorph: learning contrast-invariant registration without acquired images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R023",
+      "mentioned_work": "p19",
+      "matched_title": "Fast Symmetric Diffeomorphic Image Registration with Convolutional Neural Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R023",
+      "mentioned_work": "s020",
+      "matched_title": "GradICON: Approximate Diffeomorphisms via Gradient Inverse Consistency",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R023",
+      "mentioned_work": "s021",
+      "matched_title": "Large Deformation Diffeomorphic Image Registration with Laplacian Pyramid Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R024",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R024",
+      "mentioned_work": "c14",
+      "matched_title": "Deformable Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R024",
+      "mentioned_work": "n07",
+      "matched_title": "BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R024",
+      "mentioned_work": "p25",
+      "matched_title": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R024",
+      "mentioned_work": "s025",
+      "matched_title": "Towards An End-to-End Framework for Flow-Guided Video Inpainting",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R024",
+      "mentioned_work": "s026",
+      "matched_title": "Deep Flow-Guided Video Inpainting",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R025",
+      "mentioned_work": "c14",
+      "matched_title": "Deformable Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R025",
+      "mentioned_work": "c16",
+      "matched_title": "Digging Into Self-Supervised Monocular Depth Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R025",
+      "mentioned_work": "n07",
+      "matched_title": "BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R025",
+      "mentioned_work": "p09",
+      "matched_title": "Optical Flow Estimation using a Spatial Pyramid Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R025",
+      "mentioned_work": "p21",
+      "matched_title": "Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R025",
+      "mentioned_work": "p24",
+      "matched_title": "EDVR: Video Restoration with Enhanced Deformable Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R025",
+      "mentioned_work": "p25",
+      "matched_title": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R025",
+      "mentioned_work": "p26",
+      "matched_title": "Video Enhancement with Task-Oriented Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R025",
+      "mentioned_work": "s026",
+      "matched_title": "Deep Flow-Guided Video Inpainting",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R026",
+      "mentioned_work": "c15",
+      "matched_title": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R026",
+      "mentioned_work": "p08",
+      "matched_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R026",
+      "mentioned_work": "p10",
+      "matched_title": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R027",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R027",
+      "mentioned_work": "s024",
+      "matched_title": "ProPainter: Improving Propagation and Transformer for Video Inpainting",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R027",
+      "mentioned_work": "s025",
+      "matched_title": "Towards An End-to-End Framework for Flow-Guided Video Inpainting",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R028",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R028",
+      "mentioned_work": "s024",
+      "matched_title": "ProPainter: Improving Propagation and Transformer for Video Inpainting",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R028",
+      "mentioned_work": "s025",
+      "matched_title": "Towards An End-to-End Framework for Flow-Guided Video Inpainting",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R028",
+      "mentioned_work": "s026",
+      "matched_title": "Deep Flow-Guided Video Inpainting",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R028",
+      "mentioned_work": "s047",
+      "matched_title": "FloVD: Optical Flow Meets Video Diffusion Model for Enhanced Camera-Controlled Video Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R029",
+      "mentioned_work": "c15",
+      "matched_title": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R029",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R029",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R029",
+      "mentioned_work": "c19",
+      "matched_title": "Softmax Splatting for Video Frame Interpolation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R029",
+      "mentioned_work": "n02",
+      "matched_title": "FlowFormer: A Transformer Architecture for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R029",
+      "mentioned_work": "p10",
+      "matched_title": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R029",
+      "mentioned_work": "p21",
+      "matched_title": "Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R029",
+      "mentioned_work": "p23",
+      "matched_title": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R029",
+      "mentioned_work": "p26",
+      "matched_title": "Video Enhancement with Task-Oriented Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R030",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R030",
+      "mentioned_work": "c14",
+      "matched_title": "Deformable Convolutional Networks",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R030",
+      "mentioned_work": "n07",
+      "matched_title": "BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R030",
+      "mentioned_work": "p24",
+      "matched_title": "EDVR: Video Restoration with Enhanced Deformable Convolutional Networks",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R030",
+      "mentioned_work": "p25",
+      "matched_title": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R030",
+      "mentioned_work": "p26",
+      "matched_title": "Video Enhancement with Task-Oriented Flow",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R030",
+      "mentioned_work": "p31",
+      "matched_title": "Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R030",
+      "mentioned_work": "s024",
+      "matched_title": "ProPainter: Improving Propagation and Transformer for Video Inpainting",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R030",
+      "mentioned_work": "s039",
+      "matched_title": "FLATTEN: optical FLow-guided ATTENtion for consistent text-to-video editing",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R030",
+      "mentioned_work": "s041",
+      "matched_title": "Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R031",
+      "mentioned_work": "c24",
+      "matched_title": "Toward Characteristic-Preserving Image-based Virtual Try-On Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R031",
+      "mentioned_work": "p27",
+      "matched_title": "VITON: An Image-based Virtual Try-on Network",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R031",
+      "mentioned_work": "p28",
+      "matched_title": "Towards Photo-Realistic Virtual Try-On by Adaptively Generating-Preserving Image Content",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R031",
+      "mentioned_work": "p29",
+      "matched_title": "Parser-Free Virtual Try-on via Distilling Appearance Flows",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R031",
+      "mentioned_work": "s034",
+      "matched_title": "High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R032",
+      "mentioned_work": "c24",
+      "matched_title": "Toward Characteristic-Preserving Image-based Virtual Try-On Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R032",
+      "mentioned_work": "n18",
+      "matched_title": "StableVITON: Learning Semantic Correspondence with Latent Diffusion Model for Virtual Try-On",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R032",
+      "mentioned_work": "p27",
+      "matched_title": "VITON: An Image-based Virtual Try-on Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R032",
+      "mentioned_work": "p29",
+      "matched_title": "Parser-Free Virtual Try-on via Distilling Appearance Flows",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R032",
+      "mentioned_work": "s031",
+      "matched_title": "Taming the Power of Diffusion Models for High-Quality Virtual Try-On with Appearance Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R032",
+      "mentioned_work": "s034",
+      "matched_title": "High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R032",
+      "mentioned_work": "s035",
+      "matched_title": "GP-VTON: Towards General Purpose Virtual Try-on via Collaborative Local-Flow Global-Parsing Learning",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R032",
+      "mentioned_work": "s036",
+      "matched_title": "D4-VTON: Dynamic Semantics Disentangling for Differential Diffusion based Virtual Try-On",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R033",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R033",
+      "mentioned_work": "s039",
+      "matched_title": "FLATTEN: optical FLow-guided ATTENtion for consistent text-to-video editing",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R033",
+      "mentioned_work": "s040",
+      "matched_title": "LatentWarp: Consistent Diffusion Latents for Zero-Shot Video-to-Video Translation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R033",
+      "mentioned_work": "s041",
+      "matched_title": "Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R034",
+      "mentioned_work": "c24",
+      "matched_title": "Toward Characteristic-Preserving Image-based Virtual Try-On Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R034",
+      "mentioned_work": "p27",
+      "matched_title": "VITON: An Image-based Virtual Try-on Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R034",
+      "mentioned_work": "p28",
+      "matched_title": "Towards Photo-Realistic Virtual Try-On by Adaptively Generating-Preserving Image Content",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R034",
+      "mentioned_work": "p29",
+      "matched_title": "Parser-Free Virtual Try-on via Distilling Appearance Flows",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R035",
+      "mentioned_work": "c05",
+      "matched_title": "Principal warps: thin-plate splines and the decomposition of deformations",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R035",
+      "mentioned_work": "c24",
+      "matched_title": "Toward Characteristic-Preserving Image-based Virtual Try-On Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R035",
+      "mentioned_work": "p08",
+      "matched_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R035",
+      "mentioned_work": "p27",
+      "matched_title": "VITON: An Image-based Virtual Try-on Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R035",
+      "mentioned_work": "p28",
+      "matched_title": "Towards Photo-Realistic Virtual Try-On by Adaptively Generating-Preserving Image Content",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R035",
+      "mentioned_work": "p29",
+      "matched_title": "Parser-Free Virtual Try-on via Distilling Appearance Flows",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R035",
+      "mentioned_work": "s034",
+      "matched_title": "High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R036",
+      "mentioned_work": "c05",
+      "matched_title": "Principal warps: thin-plate splines and the decomposition of deformations",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R036",
+      "mentioned_work": "c24",
+      "matched_title": "Toward Characteristic-Preserving Image-based Virtual Try-On Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R036",
+      "mentioned_work": "p27",
+      "matched_title": "VITON: An Image-based Virtual Try-on Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R036",
+      "mentioned_work": "p28",
+      "matched_title": "Towards Photo-Realistic Virtual Try-On by Adaptively Generating-Preserving Image Content",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R036",
+      "mentioned_work": "s034",
+      "matched_title": "High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R037",
+      "mentioned_work": "c14",
+      "matched_title": "Deformable Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R037",
+      "mentioned_work": "c17",
+      "matched_title": "First Order Motion Model for Image Animation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R037",
+      "mentioned_work": "p24",
+      "matched_title": "EDVR: Video Restoration with Enhanced Deformable Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R037",
+      "mentioned_work": "p30",
+      "matched_title": "X2Face: A network for controlling face generation using images, audio, and pose codes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R038",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R038",
+      "mentioned_work": "n01",
+      "matched_title": "GMFlow: Learning Optical Flow via Global Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R038",
+      "mentioned_work": "n09",
+      "matched_title": "Unifying Flow, Stereo and Depth Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R038",
+      "mentioned_work": "p23",
+      "matched_title": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R038",
+      "mentioned_work": "s041",
+      "matched_title": "Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R039",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R039",
+      "mentioned_work": "p11",
+      "matched_title": "Learning to Estimate Hidden Motions with Global Motion Aggregation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R039",
+      "mentioned_work": "p31",
+      "matched_title": "Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R039",
+      "mentioned_work": "p32",
+      "matched_title": "FreeNoise: Tuning-Free Longer Video Diffusion via Noise Rescheduling",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R039",
+      "mentioned_work": "p36",
+      "matched_title": "DragNUWA: Fine-grained Control in Video Generation by Integrating Text, Image, and Trajectory",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R040",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R040",
+      "mentioned_work": "n02",
+      "matched_title": "FlowFormer: A Transformer Architecture for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R040",
+      "mentioned_work": "s041",
+      "matched_title": "Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R041",
+      "mentioned_work": "n01",
+      "matched_title": "GMFlow: Learning Optical Flow via Global Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R042",
+      "mentioned_work": "n01",
+      "matched_title": "GMFlow: Learning Optical Flow via Global Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R042",
+      "mentioned_work": "s039",
+      "matched_title": "FLATTEN: optical FLow-guided ATTENtion for consistent text-to-video editing",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R042",
+      "mentioned_work": "s040",
+      "matched_title": "LatentWarp: Consistent Diffusion Latents for Zero-Shot Video-to-Video Translation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R043",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R043",
+      "mentioned_work": "n16",
+      "matched_title": "How I Warped Your Noise: a Temporally-Correlated Noise Prior for Diffusion Models",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R043",
+      "mentioned_work": "p31",
+      "matched_title": "Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R043",
+      "mentioned_work": "p33",
+      "matched_title": "ConsistI2V: Enhancing Visual Consistency for Image-to-Video Generation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R043",
+      "mentioned_work": "s039",
+      "matched_title": "FLATTEN: optical FLow-guided ATTENtion for consistent text-to-video editing",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R044",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R044",
+      "mentioned_work": "n16",
+      "matched_title": "How I Warped Your Noise: a Temporally-Correlated Noise Prior for Diffusion Models",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R044",
+      "mentioned_work": "n17",
+      "matched_title": "Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R044",
+      "mentioned_work": "n19",
+      "matched_title": "Go-with-the-Flow: Motion-Controllable Video Diffusion Models Using Real-Time Warped Noise",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R044",
+      "mentioned_work": "p31",
+      "matched_title": "Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R044",
+      "mentioned_work": "p36",
+      "matched_title": "DragNUWA: Fine-grained Control in Video Generation by Integrating Text, Image, and Trajectory",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R044",
+      "mentioned_work": "p37",
+      "matched_title": "DragAnything: Motion Control for Anything using Entity Representation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R044",
+      "mentioned_work": "p48",
+      "matched_title": "Stereo Magnification: Learning view synthesis using multiplane images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R044",
+      "mentioned_work": "s043",
+      "matched_title": "Infinite-Resolution Integral Noise Warping for Diffusion Models",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R045",
+      "mentioned_work": "c15",
+      "matched_title": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R045",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R045",
+      "mentioned_work": "c19",
+      "matched_title": "Softmax Splatting for Video Frame Interpolation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R045",
+      "mentioned_work": "n02",
+      "matched_title": "FlowFormer: A Transformer Architecture for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R045",
+      "mentioned_work": "p07",
+      "matched_title": "FlowNet: Learning Optical Flow with Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R045",
+      "mentioned_work": "p08",
+      "matched_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R045",
+      "mentioned_work": "p09",
+      "matched_title": "Optical Flow Estimation using a Spatial Pyramid Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R045",
+      "mentioned_work": "p10",
+      "matched_title": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R045",
+      "mentioned_work": "p12",
+      "matched_title": "FlowFormer++: Masked Cost Volume Autoencoding for Pretraining Optical Flow Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R045",
+      "mentioned_work": "p69",
+      "matched_title": "LoFTR: Detector-Free Local Feature Matching with Transformers",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R045",
+      "mentioned_work": "s005",
+      "matched_title": "DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R046",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R046",
+      "mentioned_work": "s040",
+      "matched_title": "LatentWarp: Consistent Diffusion Latents for Zero-Shot Video-to-Video Translation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R047",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R047",
+      "mentioned_work": "n03",
+      "matched_title": "Thin-Plate Spline Motion Model for Image Animation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R047",
+      "mentioned_work": "p34",
+      "matched_title": "MotionCtrl: A Unified and Flexible Motion Controller for Video Generation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R047",
+      "mentioned_work": "p35",
+      "matched_title": "CameraCtrl: Enabling Camera Control for Text-to-Video Generation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R047",
+      "mentioned_work": "p36",
+      "matched_title": "DragNUWA: Fine-grained Control in Video Generation by Integrating Text, Image, and Trajectory",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R047",
+      "mentioned_work": "p38",
+      "matched_title": "Structure-from-Motion Revisited",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R047",
+      "mentioned_work": "p48",
+      "matched_title": "Stereo Magnification: Learning view synthesis using multiplane images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R047",
+      "mentioned_work": "s045",
+      "matched_title": "Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "c21",
+      "matched_title": "D-NeRF: Neural Radiance Fields for Dynamic Scenes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "c22",
+      "matched_title": "Nerfies: Deformable Neural Radiance Fields",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "p34",
+      "matched_title": "MotionCtrl: A Unified and Flexible Motion Controller for Video Generation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "p35",
+      "matched_title": "CameraCtrl: Enabling Camera Control for Text-to-Video Generation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "p41",
+      "matched_title": "DUSt3R: Geometric 3D Vision Made Easy",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "p42",
+      "matched_title": "Grounding Image Matching in 3D with MASt3R",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "p44",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "p45",
+      "matched_title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "p47",
+      "matched_title": "pixelNeRF: Neural Radiance Fields from One or Few Images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "p48",
+      "matched_title": "Stereo Magnification: Learning view synthesis using multiplane images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "p49",
+      "matched_title": "Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "s008",
+      "matched_title": "Mip-Splatting: Alias-free 3D Gaussian Splatting",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "s058",
+      "matched_title": "MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "s060",
+      "matched_title": "MultiDiff: Consistent Novel View Synthesis from a Single Image",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "s063",
+      "matched_title": "MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R048",
+      "mentioned_work": "s064",
+      "matched_title": "Non-Rigid Neural Radiance Fields: Reconstruction and Novel View Synthesis of a Dynamic Scene From Monocular Video",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R049",
+      "mentioned_work": "p31",
+      "matched_title": "Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R049",
+      "mentioned_work": "p34",
+      "matched_title": "MotionCtrl: A Unified and Flexible Motion Controller for Video Generation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R049",
+      "mentioned_work": "p35",
+      "matched_title": "CameraCtrl: Enabling Camera Control for Text-to-Video Generation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R049",
+      "mentioned_work": "p36",
+      "matched_title": "DragNUWA: Fine-grained Control in Video Generation by Integrating Text, Image, and Trajectory",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R049",
+      "mentioned_work": "p41",
+      "matched_title": "DUSt3R: Geometric 3D Vision Made Easy",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R049",
+      "mentioned_work": "p42",
+      "matched_title": "Grounding Image Matching in 3D with MASt3R",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R049",
+      "mentioned_work": "p44",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R049",
+      "mentioned_work": "p45",
+      "matched_title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R049",
+      "mentioned_work": "p48",
+      "matched_title": "Stereo Magnification: Learning view synthesis using multiplane images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R049",
+      "mentioned_work": "s005",
+      "matched_title": "DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R050",
+      "mentioned_work": "p31",
+      "matched_title": "Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R050",
+      "mentioned_work": "p34",
+      "matched_title": "MotionCtrl: A Unified and Flexible Motion Controller for Video Generation",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R050",
+      "mentioned_work": "p36",
+      "matched_title": "DragNUWA: Fine-grained Control in Video Generation by Integrating Text, Image, and Trajectory",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R050",
+      "mentioned_work": "p37",
+      "matched_title": "DragAnything: Motion Control for Anything using Entity Representation",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R050",
+      "mentioned_work": "s005",
+      "matched_title": "DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R050",
+      "mentioned_work": "s045",
+      "matched_title": "Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling",
+      "in_reference_tail": false,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R051",
+      "mentioned_work": "p38",
+      "matched_title": "Structure-from-Motion Revisited",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R051",
+      "mentioned_work": "p39",
+      "matched_title": "MVSNet: Depth Inference for Unstructured Multi-view Stereo",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R051",
+      "mentioned_work": "s052",
+      "matched_title": "DPSNet: End-to-end Deep Plane Sweep Stereo",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R052",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R052",
+      "mentioned_work": "p38",
+      "matched_title": "Structure-from-Motion Revisited",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R052",
+      "mentioned_work": "p39",
+      "matched_title": "MVSNet: Depth Inference for Unstructured Multi-view Stereo",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R052",
+      "mentioned_work": "p43",
+      "matched_title": "Unsupervised Learning of Depth and Ego-Motion from Video",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R053",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R053",
+      "mentioned_work": "p07",
+      "matched_title": "FlowNet: Learning Optical Flow with Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R053",
+      "mentioned_work": "p39",
+      "matched_title": "MVSNet: Depth Inference for Unstructured Multi-view Stereo",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R054",
+      "mentioned_work": "p38",
+      "matched_title": "Structure-from-Motion Revisited",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R054",
+      "mentioned_work": "p39",
+      "matched_title": "MVSNet: Depth Inference for Unstructured Multi-view Stereo",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R054",
+      "mentioned_work": "p40",
+      "matched_title": "DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R054",
+      "mentioned_work": "p41",
+      "matched_title": "DUSt3R: Geometric 3D Vision Made Easy",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R054",
+      "mentioned_work": "p42",
+      "matched_title": "Grounding Image Matching in 3D with MASt3R",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R054",
+      "mentioned_work": "p43",
+      "matched_title": "Unsupervised Learning of Depth and Ego-Motion from Video",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R054",
+      "mentioned_work": "p48",
+      "matched_title": "Stereo Magnification: Learning view synthesis using multiplane images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R054",
+      "mentioned_work": "p69",
+      "matched_title": "LoFTR: Detector-Free Local Feature Matching with Transformers",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R054",
+      "mentioned_work": "p70",
+      "matched_title": "DKM: Dense Kernelized Feature Matching for Geometry Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R054",
+      "mentioned_work": "p71",
+      "matched_title": "RoMa: Robust Dense Feature Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R054",
+      "mentioned_work": "s051",
+      "matched_title": "Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R055",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R055",
+      "mentioned_work": "n09",
+      "matched_title": "Unifying Flow, Stereo and Depth Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R055",
+      "mentioned_work": "p41",
+      "matched_title": "DUSt3R: Geometric 3D Vision Made Easy",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R055",
+      "mentioned_work": "p42",
+      "matched_title": "Grounding Image Matching in 3D with MASt3R",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R055",
+      "mentioned_work": "s014",
+      "matched_title": "CroCo v2: Improved Cross-view Completion Pre-training for Stereo Matching and Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R055",
+      "mentioned_work": "s053",
+      "matched_title": "RAFT-Stereo: Multilevel Recurrent Field Transforms for Stereo Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R056",
+      "mentioned_work": "p43",
+      "matched_title": "Unsupervised Learning of Depth and Ego-Motion from Video",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R056",
+      "mentioned_work": "p48",
+      "matched_title": "Stereo Magnification: Learning view synthesis using multiplane images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R056",
+      "mentioned_work": "s007",
+      "matched_title": "Linearized Multi-Sampling for Differentiable Image Transformation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R058",
+      "mentioned_work": "n01",
+      "matched_title": "GMFlow: Learning Optical Flow via Global Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R058",
+      "mentioned_work": "n09",
+      "matched_title": "Unifying Flow, Stereo and Depth Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R058",
+      "mentioned_work": "p39",
+      "matched_title": "MVSNet: Depth Inference for Unstructured Multi-view Stereo",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R058",
+      "mentioned_work": "p44",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R058",
+      "mentioned_work": "p45",
+      "matched_title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R058",
+      "mentioned_work": "p46",
+      "matched_title": "IBRNet: Learning Multi-View Image-Based Rendering",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R058",
+      "mentioned_work": "p47",
+      "matched_title": "pixelNeRF: Neural Radiance Fields from One or Few Images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R058",
+      "mentioned_work": "p48",
+      "matched_title": "Stereo Magnification: Learning view synthesis using multiplane images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R058",
+      "mentioned_work": "s051",
+      "matched_title": "Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R059",
+      "mentioned_work": "n01",
+      "matched_title": "GMFlow: Learning Optical Flow via Global Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R059",
+      "mentioned_work": "n09",
+      "matched_title": "Unifying Flow, Stereo and Depth Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R059",
+      "mentioned_work": "p39",
+      "matched_title": "MVSNet: Depth Inference for Unstructured Multi-view Stereo",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R059",
+      "mentioned_work": "p45",
+      "matched_title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R059",
+      "mentioned_work": "p47",
+      "matched_title": "pixelNeRF: Neural Radiance Fields from One or Few Images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R059",
+      "mentioned_work": "p48",
+      "matched_title": "Stereo Magnification: Learning view synthesis using multiplane images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R059",
+      "mentioned_work": "s051",
+      "matched_title": "Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R059",
+      "mentioned_work": "s058",
+      "matched_title": "MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R060",
+      "mentioned_work": "p32",
+      "matched_title": "FreeNoise: Tuning-Free Longer Video Diffusion via Noise Rescheduling",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R060",
+      "mentioned_work": "p44",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R060",
+      "mentioned_work": "p46",
+      "matched_title": "IBRNet: Learning Multi-View Image-Based Rendering",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R060",
+      "mentioned_work": "p47",
+      "matched_title": "pixelNeRF: Neural Radiance Fields from One or Few Images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R060",
+      "mentioned_work": "p48",
+      "matched_title": "Stereo Magnification: Learning view synthesis using multiplane images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R060",
+      "mentioned_work": "s056",
+      "matched_title": "SynSin: End-to-End View Synthesis From a Single Image",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "c09",
+      "matched_title": "As-Rigid-As-Possible Surface Modeling",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "c21",
+      "matched_title": "D-NeRF: Neural Radiance Fields for Dynamic Scenes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "c22",
+      "matched_title": "Nerfies: Deformable Neural Radiance Fields",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "c23",
+      "matched_title": "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "n11",
+      "matched_title": "Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "n12",
+      "matched_title": "4D Gaussian Splatting for Real-Time Dynamic Scene Rendering",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "p02",
+      "matched_title": "Embedded Deformation for Shape Manipulation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "p38",
+      "matched_title": "Structure-from-Motion Revisited",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "p44",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "p45",
+      "matched_title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "p49",
+      "matched_title": "Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "p50",
+      "matched_title": "DynamicFusion: Reconstruction and Tracking of Non-rigid Scenes in Real-Time",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "p51",
+      "matched_title": "Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "p52",
+      "matched_title": "Fast Dynamic Radiance Fields with Time-Aware Neural Voxels",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R061",
+      "mentioned_work": "s064",
+      "matched_title": "Non-Rigid Neural Radiance Fields: Reconstruction and Novel View Synthesis of a Dynamic Scene From Monocular Video",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R062",
+      "mentioned_work": "c09",
+      "matched_title": "As-Rigid-As-Possible Surface Modeling",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R062",
+      "mentioned_work": "c21",
+      "matched_title": "D-NeRF: Neural Radiance Fields for Dynamic Scenes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R062",
+      "mentioned_work": "c22",
+      "matched_title": "Nerfies: Deformable Neural Radiance Fields",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R062",
+      "mentioned_work": "c23",
+      "matched_title": "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R062",
+      "mentioned_work": "p44",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R062",
+      "mentioned_work": "p47",
+      "matched_title": "pixelNeRF: Neural Radiance Fields from One or Few Images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R062",
+      "mentioned_work": "p49",
+      "matched_title": "Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R062",
+      "mentioned_work": "p50",
+      "matched_title": "DynamicFusion: Reconstruction and Tracking of Non-rigid Scenes in Real-Time",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R062",
+      "mentioned_work": "p52",
+      "matched_title": "Fast Dynamic Radiance Fields with Time-Aware Neural Voxels",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R062",
+      "mentioned_work": "s064",
+      "matched_title": "Non-Rigid Neural Radiance Fields: Reconstruction and Novel View Synthesis of a Dynamic Scene From Monocular Video",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "c21",
+      "matched_title": "D-NeRF: Neural Radiance Fields for Dynamic Scenes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "c22",
+      "matched_title": "Nerfies: Deformable Neural Radiance Fields",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "c23",
+      "matched_title": "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "n11",
+      "matched_title": "Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "n12",
+      "matched_title": "4D Gaussian Splatting for Real-Time Dynamic Scene Rendering",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "p02",
+      "matched_title": "Embedded Deformation for Shape Manipulation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "p40",
+      "matched_title": "DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "p41",
+      "matched_title": "DUSt3R: Geometric 3D Vision Made Easy",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "p44",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "p45",
+      "matched_title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "p49",
+      "matched_title": "Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "p50",
+      "matched_title": "DynamicFusion: Reconstruction and Tracking of Non-rigid Scenes in Real-Time",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "p51",
+      "matched_title": "Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "p52",
+      "matched_title": "Fast Dynamic Radiance Fields with Time-Aware Neural Voxels",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "s061",
+      "matched_title": "SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R063",
+      "mentioned_work": "s064",
+      "matched_title": "Non-Rigid Neural Radiance Fields: Reconstruction and Novel View Synthesis of a Dynamic Scene From Monocular Video",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R064",
+      "mentioned_work": "c09",
+      "matched_title": "As-Rigid-As-Possible Surface Modeling",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R064",
+      "mentioned_work": "c21",
+      "matched_title": "D-NeRF: Neural Radiance Fields for Dynamic Scenes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R064",
+      "mentioned_work": "p38",
+      "matched_title": "Structure-from-Motion Revisited",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R064",
+      "mentioned_work": "p44",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R064",
+      "mentioned_work": "p49",
+      "matched_title": "Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R064",
+      "mentioned_work": "p50",
+      "matched_title": "DynamicFusion: Reconstruction and Tracking of Non-rigid Scenes in Real-Time",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R065",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R066",
+      "mentioned_work": "p55",
+      "matched_title": "ConceptFusion: Open-set Multimodal 3D Mapping",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R066",
+      "mentioned_work": "p56",
+      "matched_title": "ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R067",
+      "mentioned_work": "p54",
+      "matched_title": "Visual Language Maps for Robot Navigation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R067",
+      "mentioned_work": "p55",
+      "matched_title": "ConceptFusion: Open-set Multimodal 3D Mapping",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R067",
+      "mentioned_work": "p56",
+      "matched_title": "ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R068",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R070",
+      "mentioned_work": "s068",
+      "matched_title": "Unsupervised Learning for Physical Interaction through Video Prediction",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R072",
+      "mentioned_work": "p34",
+      "matched_title": "MotionCtrl: A Unified and Flexible Motion Controller for Video Generation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R072",
+      "mentioned_work": "p35",
+      "matched_title": "CameraCtrl: Enabling Camera Control for Text-to-Video Generation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R072",
+      "mentioned_work": "p48",
+      "matched_title": "Stereo Magnification: Learning view synthesis using multiplane images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R072",
+      "mentioned_work": "p57",
+      "matched_title": "Learning Interactive Real-World Simulators",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R072",
+      "mentioned_work": "p58",
+      "matched_title": "GAIA-1: A Generative World Model for Autonomous Driving",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R072",
+      "mentioned_work": "p61",
+      "matched_title": "Diffusion Models Are Real-Time Game Engines",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R072",
+      "mentioned_work": "p62",
+      "matched_title": "Diffusion for World Modeling: Visual Details Matter in Atari",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R073",
+      "mentioned_work": "p34",
+      "matched_title": "MotionCtrl: A Unified and Flexible Motion Controller for Video Generation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R073",
+      "mentioned_work": "p38",
+      "matched_title": "Structure-from-Motion Revisited",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R073",
+      "mentioned_work": "p41",
+      "matched_title": "DUSt3R: Geometric 3D Vision Made Easy",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R073",
+      "mentioned_work": "p61",
+      "matched_title": "Diffusion Models Are Real-Time Game Engines",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R073",
+      "mentioned_work": "p62",
+      "matched_title": "Diffusion for World Modeling: Visual Details Matter in Atari",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R073",
+      "mentioned_work": "s048",
+      "matched_title": "TrajectoryCrafter: Redirecting Camera Trajectory for Monocular Videos via Diffusion Models",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R073",
+      "mentioned_work": "s054",
+      "matched_title": "VGGT: Visual Geometry Grounded Transformer",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R074",
+      "mentioned_work": "p50",
+      "matched_title": "DynamicFusion: Reconstruction and Tracking of Non-rigid Scenes in Real-Time",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R075",
+      "mentioned_work": "p44",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R075",
+      "mentioned_work": "p65",
+      "matched_title": "Transporter Networks: Rearranging the Visual World for Robotic Manipulation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R075",
+      "mentioned_work": "p66",
+      "matched_title": "CLIPort: What and Where Pathways for Robotic Manipulation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R076",
+      "mentioned_work": "c20",
+      "matched_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R076",
+      "mentioned_work": "p07",
+      "matched_title": "FlowNet: Learning Optical Flow with Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R076",
+      "mentioned_work": "p08",
+      "matched_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R077",
+      "mentioned_work": "p42",
+      "matched_title": "Grounding Image Matching in 3D with MASt3R",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R078",
+      "mentioned_work": "c24",
+      "matched_title": "Toward Characteristic-Preserving Image-based Virtual Try-On Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R078",
+      "mentioned_work": "p08",
+      "matched_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R078",
+      "mentioned_work": "p27",
+      "matched_title": "VITON: An Image-based Virtual Try-on Network",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R078",
+      "mentioned_work": "p28",
+      "matched_title": "Towards Photo-Realistic Virtual Try-On by Adaptively Generating-Preserving Image Content",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R078",
+      "mentioned_work": "p29",
+      "matched_title": "Parser-Free Virtual Try-on via Distilling Appearance Flows",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R078",
+      "mentioned_work": "s026",
+      "matched_title": "Deep Flow-Guided Video Inpainting",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R079",
+      "mentioned_work": "c06",
+      "matched_title": "Feature-Based Image Metamorphosis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R079",
+      "mentioned_work": "p30",
+      "matched_title": "X2Face: A network for controlling face generation using images, audio, and pose codes",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R079",
+      "mentioned_work": "s021",
+      "matched_title": "Large Deformation Diffeomorphic Image Registration with Laplacian Pyramid Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R079",
+      "mentioned_work": "s085",
+      "matched_title": "Learning Local Implicit Fourier Representation for Image Warping",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R079",
+      "mentioned_work": "s086",
+      "matched_title": "SRWarp: Generalized Image Super-Resolution under Arbitrary Transformation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R080",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R080",
+      "mentioned_work": "s065",
+      "matched_title": "Neural Map: Structured Memory for Deep Reinforcement Learning",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R080",
+      "mentioned_work": "s071",
+      "matched_title": "Gibson Env: Real-World Perception for Embodied Agents",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R080",
+      "mentioned_work": "s081",
+      "matched_title": "MapNet: An Allocentric Spatial Memory for Mapping Environments",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R081",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R081",
+      "mentioned_work": "s065",
+      "matched_title": "Neural Map: Structured Memory for Deep Reinforcement Learning",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R082",
+      "mentioned_work": "p53",
+      "matched_title": "Semantic MapNet: Building Allocentric Semantic Maps and Representations from Egocentric Views",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R082",
+      "mentioned_work": "p63",
+      "matched_title": "Learning To Explore Using Active Neural SLAM",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R082",
+      "mentioned_work": "s081",
+      "matched_title": "MapNet: An Allocentric Spatial Memory for Mapping Environments",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R083",
+      "mentioned_work": "c16",
+      "matched_title": "Digging Into Self-Supervised Monocular Depth Estimation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R083",
+      "mentioned_work": "p43",
+      "matched_title": "Unsupervised Learning of Depth and Ego-Motion from Video",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R083",
+      "mentioned_work": "p48",
+      "matched_title": "Stereo Magnification: Learning view synthesis using multiplane images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R083",
+      "mentioned_work": "s052",
+      "matched_title": "DPSNet: End-to-end Deep Plane Sweep Stereo",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R083",
+      "mentioned_work": "s056",
+      "matched_title": "SynSin: End-to-End View Synthesis From a Single Image",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R084",
+      "mentioned_work": "c10",
+      "matched_title": "Symmetric Diffeomorphic Image Registration with Cross-Correlation: Evaluating Automated Labeling of Elderly and Neurodegenerative Brain",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R084",
+      "mentioned_work": "c18",
+      "matched_title": "VoxelMorph: A Learning Framework for Deformable Medical Image Registration",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R084",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R084",
+      "mentioned_work": "c14",
+      "matched_title": "Deformable Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R084",
+      "mentioned_work": "s021",
+      "matched_title": "Large Deformation Diffeomorphic Image Registration with Laplacian Pyramid Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R084",
+      "mentioned_work": "s022",
+      "matched_title": "Fourier-Net: Fast Image Registration with Band-limited Deformation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R085",
+      "mentioned_work": "c15",
+      "matched_title": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R085",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R085",
+      "mentioned_work": "p25",
+      "matched_title": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R085",
+      "mentioned_work": "p44",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R085",
+      "mentioned_work": "s011",
+      "matched_title": "COTR: Correspondence Transformer for Matching Across Images",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R085",
+      "mentioned_work": "s086",
+      "matched_title": "SRWarp: Generalized Image Super-Resolution under Arbitrary Transformation",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R086",
+      "mentioned_work": "c13",
+      "matched_title": "Spatial Transformer Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R086",
+      "mentioned_work": "c14",
+      "matched_title": "Deformable Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    },
+    {
+      "from_candidate": "R086",
+      "mentioned_work": "p24",
+      "matched_title": "EDVR: Video Restoration with Enhanced Deformable Convolutional Networks",
+      "in_reference_tail": true,
+      "match": "normalized full-title mention; machine detected, not an independently validated citation edge"
+    }
+  ]
+}

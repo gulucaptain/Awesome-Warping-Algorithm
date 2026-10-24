@@ -85,6 +85,7 @@ Methods can belong to multiple families. Follow a method name to its primary ent
 | Implementation and method selection | [Tools and practical starting points](docs/RESEARCH_GUIDE.md#practice) |
 | Extended research notes | [Detailed Chinese guide](docs/RESEARCH_GUIDE.zh-CN.md) |
 | Selection evidence and citation snapshots | [2026-10-24 expansion audit](docs/EXPANSION_AUDIT.md) |
+| Systematic search across all topics | [Queries, relevance decisions and version checks](docs/SYSTEMATIC_SEARCH.md) |
 
 <a id="contributing"></a>
 ## 🤝 Contributing
@@ -94,6 +95,8 @@ Suggestions, corrections and verified links are welcome through [Issues](https:/
 Please include the **paper title, publication year/status, Paper, Project, GitHub, technique family, primary topic and related topic tags**. Leave unavailable links empty, and distinguish author implementations, third-party reimplementations and shared frameworks.
 
 Edit [the bilingual catalog](data/catalog.json) and run `python3 scripts/build_readme.py` to update both READMEs. Counts and indexes use the same data; check consistency with `python3 scripts/build_readme.py --check`. Set each work's unique home with `primary_topic`; `topics` contains that home and related directions. When adding papers to a reserved topic, set its `reserved` flag to `false`. Prioritize topic fit, verified publication records and established impact. Citation snapshots must name the provider, matched record and query date; do not add preprint and publication counts together. See the [curation audit](docs/EXPANSION_AUDIT.md) for this expansion.
+
+For systematic additions, discover candidates across tasks, spatial mechanisms and transformed representations before exact-title verification. Keep query logs, exclusion reasons and version relationships; identify explicit warping, correspondence estimation, flow conditioning and spatial memory separately. See the [systematic search record](docs/SYSTEMATIC_SEARCH.md). General documentation is excluded from paper counts, and preprints are not counted again when a formal version appears.
 
 <details>
 <summary>Design references and acknowledgments</summary>

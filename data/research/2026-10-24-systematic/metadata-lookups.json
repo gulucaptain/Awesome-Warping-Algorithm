@@ -1,0 +1,898 @@
+[
+  {
+    "candidate_id": "R001",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Harmonic+Coordinates+for+Character+Articulation&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Harmonic+Coordinates+for+Character+Articulation&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "Harmonic coordinates for character articulation",
+        "id": "https://openalex.org/W3136375062",
+        "score": 1.0
+      },
+      {
+        "title": "Harmonic coordinates for character articulation",
+        "id": "https://openalex.org/W2079209697",
+        "score": 1.0
+      },
+      {
+        "title": "Harmonic coordinates for character articulation",
+        "id": "https://openalex.org/W4233387241",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "R002",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Green+Coordinates&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Green+Coordinates&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "Green Coordinates",
+        "id": "https://openalex.org/W2293537096",
+        "score": 1.0
+      },
+      {
+        "title": "Green Coordinates",
+        "id": "https://openalex.org/W4206423689",
+        "score": 1.0
+      },
+      {
+        "title": "Anisotropic Green Coordinates",
+        "id": "https://openalex.org/W7117277560",
+        "score": 0.744
+      }
+    ]
+  },
+  {
+    "candidate_id": "R003",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Inpaint4Drag%3A+Repurposing+Inpainting+Models+for+Drag-Based+Image+Editing+via+Bidirectional+Warping&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Inpaint4Drag%3A+Repurposing+Inpainting+Models+for+Drag-Based+Image+Editing+via+Bidirectional+Warping&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "Inpaint4Drag: Repurposing Inpainting Models for Drag-Based Image Editing via Bidirectional Warping",
+        "id": "https://openalex.org/W4414758949",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "R004",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=FlowDrag%3A+3D-aware+Drag-based+Image+Editing+with+Mesh-guided+Deformation+Vector+Flow+Fields&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=FlowDrag%3A+3D-aware+Drag-based+Image+Editing+with+Mesh-guided+Deformation+Vector+Flow+Fields&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "FlowDrag: 3D-aware Drag-based Image Editing with Mesh-guided Deformation Vector Flow Fields",
+        "id": "https://openalex.org/W4417275597",
+        "score": 1.0
+      },
+      {
+        "title": "DirectDrag: High-Fidelity, Mask-Free, Prompt-Free Drag-based Image Editing via Readout-Guided Feature Alignment",
+        "id": "https://openalex.org/W4417034334",
+        "score": 0.518
+      },
+      {
+        "title": "ScaleVid: Geometry-Aware Video Object Scaling with Mesh-Free Inference",
+        "id": "https://openalex.org/W7202345208",
+        "score": 0.38
+      }
+    ]
+  },
+  {
+    "candidate_id": "R005",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=DragDiffusion%3A+Harnessing+Diffusion+Models+for+Interactive+Point-based+Image+Editing&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=DragDiffusion%3A+Harnessing+Diffusion+Models+for+Interactive+Point-based+Image+Editing&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "DragDiffusion: Harnessing Diffusion Models for Interactive Point-Based Image Editing",
+        "id": "https://openalex.org/W4402727040",
+        "score": 1.0
+      },
+      {
+        "title": "Dragtext: Rethinking Text Embedding in Point-Based Image Editing",
+        "id": "https://openalex.org/W4409263986",
+        "score": 0.558
+      },
+      {
+        "title": "StableDrag: Stable Dragging for Point-Based Image Editing",
+        "id": "https://openalex.org/W4404024919",
+        "score": 0.553
+      }
+    ]
+  },
+  {
+    "candidate_id": "R006",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Kernel+Aware+Resampler&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Kernel+Aware+Resampler&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "Kernel Aware Resampler",
+        "id": "https://openalex.org/W4386065522",
+        "score": 1.0
+      },
+      {
+        "title": "Timestep-Aware Diffusion Model for Extreme Image Rescaling",
+        "id": "https://openalex.org/W7160173501",
+        "score": 0.338
+      },
+      {
+        "title": "Self-Asymmetric Invertible Network for Compression-Aware Image Rescaling",
+        "id": "https://openalex.org/W4382463658",
+        "score": 0.333
+      }
+    ]
+  },
+  {
+    "candidate_id": "R007",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Linearized+Multi-Sampling+for+Differentiable+Image+Transformation&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Linearized+Multi-Sampling+for+Differentiable+Image+Transformation&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "Linearized Multi-Sampling for Differentiable Image Transformation",
+        "id": "https://openalex.org/W2981352086",
+        "score": 1.0
+      },
+      {
+        "title": "Countering Adversarial Images using Input Transformations",
+        "id": "https://openalex.org/W2765384636",
+        "score": 0.468
+      },
+      {
+        "title": "SampleNet: Differentiable Point Cloud Sampling",
+        "id": "https://openalex.org/W2992727535",
+        "score": 0.46
+      }
+    ]
+  },
+  {
+    "candidate_id": "R008",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Mip-Splatting%3A+Alias-free+3D+Gaussian+Splatting&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Mip-Splatting%3A+Alias-free+3D+Gaussian+Splatting&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "Mip-Splatting: Alias-Free 3D Gaussian Splatting",
+        "id": "https://openalex.org/W4402715988",
+        "score": 1.0
+      },
+      {
+        "title": "MipSLAM: Alias-Free Gaussian Splatting SLAM",
+        "id": "https://openalex.org/W7134846189",
+        "score": 0.831
+      },
+      {
+        "title": "AA-Splat: Anti-Aliased Feed-forward Gaussian Splatting",
+        "id": "https://openalex.org/W7147570064",
+        "score": 0.767
+      }
+    ]
+  },
+  {
+    "candidate_id": "R009",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Modular+Primitives+for+High-Performance+Differentiable+Rendering&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Modular+Primitives+for+High-Performance+Differentiable+Rendering&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "Modular primitives for high-performance differentiable rendering",
+        "id": "https://openalex.org/W3104898586",
+        "score": 1.0
+      },
+      {
+        "title": "Mixture of volumetric primitives for efficient neural rendering",
+        "id": "https://openalex.org/W3180589757",
+        "score": 0.596
+      },
+      {
+        "title": "A Simple Approach to Differentiable Rendering of SDFs",
+        "id": "https://openalex.org/W4404965515",
+        "score": 0.577
+      }
+    ]
+  },
+  {
+    "candidate_id": "R010",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=gsplat%3A+An+Open-Source+Library+for+Gaussian+Splatting&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=gsplat%3A+An+Open-Source+Library+for+Gaussian+Splatting&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "gsplat: An Open-Source Library for Gaussian Splatting",
+        "id": "https://openalex.org/W4403620462",
+        "score": 1.0
+      },
+      {
+        "title": "DN-Splatter: Depth and Normal Priors for Gaussian Splatting and Meshing",
+        "id": "https://openalex.org/W4409264028",
+        "score": 0.571
+      },
+      {
+        "title": "Fast 3D Foundation Model Initialized Gaussian Splatting",
+        "id": "https://openalex.org/W7167588445",
+        "score": 0.553
+      }
+    ]
+  },
+  {
+    "candidate_id": "R011",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=COTR%3A+Correspondence+Transformer+for+Matching+Across+Images&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=COTR%3A+Correspondence+Transformer+for+Matching+Across+Images&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "COTR: Correspondence Transformer for Matching Across Images",
+        "id": "https://openalex.org/W3203518786",
+        "score": 1.0
+      },
+      {
+        "title": "Adaptive Spot-Guided Transformer for Consistent Local Feature Matching",
+        "id": "https://openalex.org/W4386076035",
+        "score": 0.509
+      },
+      {
+        "title": "Learning Geometric Feature Embedding with Transformers for Image Matching",
+        "id": "https://openalex.org/W4312196361",
+        "score": 0.496
+      }
+    ]
+  },
+  {
+    "candidate_id": "R012",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=PDC-Net%2B%3A+Enhanced+Probabilistic+Dense+Correspondence+Network&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=PDC-Net%2B%3A+Enhanced+Probabilistic+Dense+Correspondence+Network&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "PDC-Net+: Enhanced Probabilistic Dense Correspondence Network",
+        "id": "https://openalex.org/W3203615845",
+        "score": 1.0
+      },
+      {
+        "title": "Local All-Pair Correspondence for Point Tracking",
+        "id": "https://openalex.org/W4403998573",
+        "score": 0.421
+      },
+      {
+        "title": "N-QR: Natural Quick Response Codes for Multi-Robot Instance Correspondence",
+        "id": "https://openalex.org/W4401415897",
+        "score": 0.379
+      }
+    ]
+  },
+  {
+    "candidate_id": "R013",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=GLU-Net%3A+Global-Local+Universal+Network+for+Dense+Flow+and+Correspondences&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=GLU-Net%3A+Global-Local+Universal+Network+for+Dense+Flow+and+Correspondences&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "GLU-Net: Global-Local Universal Network for Dense Flow and Correspondences",
+        "id": "https://openalex.org/W2995297741",
+        "score": 1.0
+      },
+      {
+        "title": "Multi-scale Matching Networks for Semantic Correspondence",
+        "id": "https://openalex.org/W3188199900",
+        "score": 0.596
+      },
+      {
+        "title": "Learning Dense Correspondences between Photos and Sketches",
+        "id": "https://openalex.org/W4385262454",
+        "score": 0.452
+      }
+    ]
+  },
+  {
+    "candidate_id": "R014",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=CroCo+v2%3A+Improved+Cross-view+Completion+Pre-training+for+Stereo+Matching+and+Optical+Flow&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=CroCo+v2%3A+Improved+Cross-view+Completion+Pre-training+for+Stereo+Matching+and+Optical+Flow&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "CroCo v2: Improved Cross-view Completion Pre-training for Stereo Matching and Optical Flow",
+        "id": "https://openalex.org/W4390872625",
+        "score": 1.0
+      },
+      {
+        "title": "SR-Stereo & DAPE: Stepwise Regression and Pre-Trained Edges for Practical Stereo Matching",
+        "id": "https://openalex.org/W4412567067",
+        "score": 0.493
+      },
+      {
+        "title": "Adaptive Multi-Modal Cross-Entropy Loss for Stereo Matching",
+        "id": "https://openalex.org/W4402727029",
+        "score": 0.488
+      }
+    ]
+  },
+  {
+    "candidate_id": "R015",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=UFM%3A+A+Simple+Path+towards+Unified+Dense+Correspondence+with+Flow&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=UFM%3A+A+Simple+Path+towards+Unified+Dense+Correspondence+with+Flow&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "UFM: A Simple Path towards Unified Dense Correspondence with Flow",
+        "id": "https://openalex.org/W4417308085",
+        "score": 1.0
+      },
+      {
+        "title": "RoMa V2: Harder Better Faster Denser Feature Matching",
+        "id": "https://openalex.org/W4416550920",
+        "score": 0.34
+      },
+      {
+        "title": "REDI-Match: Rotation-Equivariant Distillation for Efficient and Robust Dense Matching",
+        "id": "https://openalex.org/W7165730150",
+        "score": 0.326
+      }
+    ]
+  },
+  {
+    "candidate_id": "R016",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Shape-Preserving+Half-Projective+Warps+for+Image+Stitching&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Shape-Preserving+Half-Projective+Warps+for+Image+Stitching&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "Shape-Preserving Half-Projective Warps for Image Stitching",
+        "id": "https://openalex.org/W1983683849",
+        "score": 1.0
+      },
+      {
+        "title": "Quasi-Homography Warps in Image Stitching",
+        "id": "https://openalex.org/W2585881402",
+        "score": 0.552
+      },
+      {
+        "title": "Image stitching and ghost elimination based on Shape-Preserving Half-Projective warps",
+        "id": "https://openalex.org/W1654503758",
+        "score": 0.544
+      }
+    ]
+  },
+  {
+    "candidate_id": "R017",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Parallax-tolerant+Image+Stitching&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Parallax-tolerant+Image+Stitching&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "HTTP Error 429: Too Many Requests",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R018",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=PixelStitch%3A+Structure-Preserving+Pixel-Wise+Bidirectional+Warps+for+Unsupervised+Image+Stitching&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=PixelStitch%3A+Structure-Preserving+Pixel-Wise+Bidirectional+Warps+for+Unsupervised+Image+Stitching&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R019",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=DUT%3A+Learning+Video+Stabilization+by+Simply+Watching+Unstable+Videos&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=DUT%3A+Learning+Video+Stabilization+by+Simply+Watching+Unstable+Videos&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "DUT: Learning Video Stabilization by Simply Watching Unstable Videos",
+        "id": "https://openalex.org/W3108568693",
+        "score": 1.0
+      },
+      {
+        "title": "3D Rainy Stereoscopic Video Stabilization Using Depth Estimation",
+        "id": "https://openalex.org/W4412466157",
+        "score": 0.534
+      },
+      {
+        "title": "Fast Full-frame Video Stabilization with Iterative Optimization",
+        "id": "https://openalex.org/W4390872736",
+        "score": 0.47
+      }
+    ]
+  },
+  {
+    "candidate_id": "R020",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=GradICON%3A+Approximate+Diffeomorphisms+via+Gradient+Inverse+Consistency&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=GradICON%3A+Approximate+Diffeomorphisms+via+Gradient+Inverse+Consistency&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R021",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Large+Deformation+Diffeomorphic+Image+Registration+with+Laplacian+Pyramid+Networks&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Large+Deformation+Diffeomorphic+Image+Registration+with+Laplacian+Pyramid+Networks&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "Large Deformation Diffeomorphic Image Registration with Laplacian Pyramid Networks",
+        "id": "https://openalex.org/W3037630589",
+        "score": 1.0
+      },
+      {
+        "title": "Multi-Resolution Diffeomorphic Image Registration with Convolutional Vision Transformer Network",
+        "id": "https://openalex.org/W4385299137",
+        "score": 0.713
+      },
+      {
+        "title": "Diffeomorphic Image Registration with Neural Velocity Field",
+        "id": "https://openalex.org/W4319300096",
+        "score": 0.646
+      }
+    ]
+  },
+  {
+    "candidate_id": "R022",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Fourier-Net%3A+Fast+Image+Registration+with+Band-limited+Deformation&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Fourier-Net%3A+Fast+Image+Registration+with+Band-limited+Deformation&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "matched",
+    "citation_alternatives": [
+      {
+        "title": "Fourier-Net: Fast Image Registration with Band-Limited Deformation",
+        "id": "https://openalex.org/W4382462027",
+        "score": 1.0
+      },
+      {
+        "title": "Spatially Covariant Image Registration With Text Prompts",
+        "id": "https://openalex.org/W4402673524",
+        "score": 0.579
+      },
+      {
+        "title": "Decoder-Only Image Registration",
+        "id": "https://openalex.org/W4391631539",
+        "score": 0.494
+      }
+    ]
+  },
+  {
+    "candidate_id": "R023",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Learning+Diffeomorphism+for+Medical+Image+Registration+with+Time-Embedded+Architectures+Using+Semigroup+Regularization&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Learning+Diffeomorphism+for+Medical+Image+Registration+with+Time-Embedded+Architectures+Using+Semigroup+Regularization&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R024",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=ProPainter%3A+Improving+Propagation+and+Transformer+for+Video+Inpainting&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=ProPainter%3A+Improving+Propagation+and+Transformer+for+Video+Inpainting&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R025",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Towards+An+End-to-End+Framework+for+Flow-Guided+Video+Inpainting&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Towards+An+End-to-End+Framework+for+Flow-Guided+Video+Inpainting&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R026",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Deep+Flow-Guided+Video+Inpainting&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Deep+Flow-Guided+Video+Inpainting&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R027",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Coherent+Video+Inpainting+Using+Optical+Flow-Guided+Efficient+Diffusion&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Coherent+Video+Inpainting+Using+Optical+Flow-Guided+Efficient+Diffusion&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R028",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=HomoGen%3A+Enhanced+Video+Inpainting+via+Homography+Propagation+and+Diffusion&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=HomoGen%3A+Enhanced+Video+Inpainting+via+Homography+Propagation+and+Diffusion&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R029",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=BiM-VFI%3A+Bidirectional+Motion+Field-Guided+Frame+Interpolation+for+Video+with+Non-uniform+Motions&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=BiM-VFI%3A+Bidirectional+Motion+Field-Guided+Frame+Interpolation+for+Video+with+Non-uniform+Motions&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R030",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Upscale-A-Video%3A+Temporal-Consistent+Diffusion+Model+for+Real-World+Video+Super-Resolution&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Upscale-A-Video%3A+Temporal-Consistent+Diffusion+Model+for+Real-World+Video+Super-Resolution&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R031",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Taming+the+Power+of+Diffusion+Models+for+High-Quality+Virtual+Try-On+with+Appearance+Flow&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Taming+the+Power+of+Diffusion+Models+for+High-Quality+Virtual+Try-On+with+Appearance+Flow&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R032",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Learning+Implicit+Features+with+Flow-Infused+Transformations+for+Realistic+Virtual+Try-On&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Learning+Implicit+Features+with+Flow-Infused+Transformations+for+Realistic+Virtual+Try-On&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R033",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=FloAt%3A+Flow+Warping+of+Self-Attention+for+Clothing+Animation+Generation&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=FloAt%3A+Flow+Warping+of+Self-Attention+for+Clothing+Animation+Generation&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R034",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=High-Resolution+Virtual+Try-On+with+Misalignment+and+Occlusion-Handled+Conditions&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=High-Resolution+Virtual+Try-On+with+Misalignment+and+Occlusion-Handled+Conditions&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R035",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=GP-VTON%3A+Towards+General+Purpose+Virtual+Try-on+via+Collaborative+Local-Flow+Global-Parsing+Learning&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=GP-VTON%3A+Towards+General+Purpose+Virtual+Try-on+via+Collaborative+Local-Flow+Global-Parsing+Learning&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R036",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=D4-VTON%3A+Dynamic+Semantics+Disentangling+for+Differential+Diffusion+based+Virtual+Try-On&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=D4-VTON%3A+Dynamic+Semantics+Disentangling+for+Differential+Diffusion+based+Virtual+Try-On&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R037",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=One-Shot+Free-View+Neural+Talking-Head+Synthesis+for+Video+Conferencing&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=One-Shot+Free-View+Neural+Talking-Head+Synthesis+for+Video+Conferencing&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R038",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=FlowVid%3A+Taming+Imperfect+Optical+Flows+for+Consistent+Video-to-Video+Synthesis&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=FlowVid%3A+Taming+Imperfect+Optical+Flows+for+Consistent+Video-to-Video+Synthesis&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R039",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=FLATTEN%3A+optical+FLow-guided+ATTENtion+for+consistent+text-to-video+editing&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=FLATTEN%3A+optical+FLow-guided+ATTENtion+for+consistent+text-to-video+editing&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R040",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=LatentWarp%3A+Consistent+Diffusion+Latents+for+Zero-Shot+Video-to-Video+Translation&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=LatentWarp%3A+Consistent+Diffusion+Latents+for+Zero-Shot+Video-to-Video+Translation&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R041",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Rerender+A+Video%3A+Zero-Shot+Text-Guided+Video-to-Video+Translation&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Rerender+A+Video%3A+Zero-Shot+Text-Guided+Video-to-Video+Translation&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R042",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=WAVE%3A+Warping+DDIM+Inversion+Features+for+Zero-shot+Text-to-Video+Editing&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=WAVE%3A+Warping+DDIM+Inversion+Features+for+Zero-shot+Text-to-Video+Editing&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R043",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Infinite-Resolution+Integral+Noise+Warping+for+Diffusion+Models&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Infinite-Resolution+Integral+Noise+Warping+for+Diffusion+Models&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R044",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=EquiVDM%3A+Equivariant+Video+Diffusion+Models+with+Temporally+Consistent+Noise&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=EquiVDM%3A+Equivariant+Video+Diffusion+Models+with+Temporally+Consistent+Noise&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R045",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Motion-I2V%3A+Consistent+and+Controllable+Image-to-Video+Generation+with+Explicit+Motion+Modeling&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Motion-I2V%3A+Consistent+and+Controllable+Image-to-Video+Generation+with+Explicit+Motion+Modeling&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R046",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=MotionCraft%3A+Physics-Based+Zero-Shot+Video+Generation&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=MotionCraft%3A+Physics-Based+Zero-Shot+Video+Generation&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R047",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=FloVD%3A+Optical+Flow+Meets+Video+Diffusion+Model+for+Enhanced+Camera-Controlled+Video+Synthesis&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=FloVD%3A+Optical+Flow+Meets+Video+Diffusion+Model+for+Enhanced+Camera-Controlled+Video+Synthesis&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R048",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=TrajectoryCrafter%3A+Redirecting+Camera+Trajectory+for+Monocular+Videos+via+Diffusion+Models&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=TrajectoryCrafter%3A+Redirecting+Camera+Trajectory+for+Monocular+Videos+via+Diffusion+Models&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R049",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Latent-Reframe%3A+Enabling+Camera+Control+for+Video+Diffusion+Models+without+Training&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Latent-Reframe%3A+Enabling+Camera+Control+for+Video+Diffusion+Models+without+Training&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R050",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=MotionPro%3A+A+Precise+Motion+Controller+for+Image-to-Video+Generation&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=MotionPro%3A+A+Precise+Motion+Controller+for+Image-to-Video+Generation&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R051",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Cascade+Cost+Volume+for+High-Resolution+Multi-View+Stereo+and+Stereo+Matching&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Cascade+Cost+Volume+for+High-Resolution+Multi-View+Stereo+and+Stereo+Matching&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R052",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=DPSNet%3A+End-to-end+Deep+Plane+Sweep+Stereo&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=DPSNet%3A+End-to-end+Deep+Plane+Sweep+Stereo&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R053",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=RAFT-Stereo%3A+Multilevel+Recurrent+Field+Transforms+for+Stereo+Matching&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=RAFT-Stereo%3A+Multilevel+Recurrent+Field+Transforms+for+Stereo+Matching&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R054",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=VGGT%3A+Visual+Geometry+Grounded+Transformer&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=VGGT%3A+Visual+Geometry+Grounded+Transformer&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R055",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=FoundationStereo%3A+Zero-Shot+Stereo+Matching&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=FoundationStereo%3A+Zero-Shot+Stereo+Matching&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R056",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=SynSin%3A+End-to-End+View+Synthesis+From+a+Single+Image&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=SynSin%3A+End-to-End+View+Synthesis+From+a+Single+Image&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R057",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Novel+View+Synthesis+with+Pixel-Space+Diffusion+Models&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Novel+View+Synthesis+with+Pixel-Space+Diffusion+Models&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R058",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=MVSplat%3A+Efficient+3D+Gaussian+Splatting+from+Sparse+Multi-View+Images&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=MVSplat%3A+Efficient+3D+Gaussian+Splatting+from+Sparse+Multi-View+Images&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R059",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=DepthSplat%3A+Connecting+Gaussian+Splatting+and+Depth&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=DepthSplat%3A+Connecting+Gaussian+Splatting+and+Depth&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R060",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=MultiDiff%3A+Consistent+Novel+View+Synthesis+from+a+Single+Image&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=MultiDiff%3A+Consistent+Novel+View+Synthesis+from+a+Single+Image&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R061",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=SC-GS%3A+Sparse-Controlled+Gaussian+Splatting+for+Editable+Dynamic+Scenes&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=SC-GS%3A+Sparse-Controlled+Gaussian+Splatting+for+Editable+Dynamic+Scenes&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R062",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=SceNeRFlow%3A+Time-Consistent+Reconstruction+of+General+Dynamic+Scenes&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=SceNeRFlow%3A+Time-Consistent+Reconstruction+of+General+Dynamic+Scenes&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R063",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=MoSca%3A+Dynamic+Gaussian+Fusion+from+Casual+Videos+via+4D+Motion+Scaffolds&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=MoSca%3A+Dynamic+Gaussian+Fusion+from+Casual+Videos+via+4D+Motion+Scaffolds&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R064",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Non-Rigid+Neural+Radiance+Fields%3A+Reconstruction+and+Novel+View+Synthesis+of+a+Dynamic+Scene+From+Monocular+Video&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Non-Rigid+Neural+Radiance+Fields%3A+Reconstruction+and+Novel+View+Synthesis+of+a+Dynamic+Scene+From+Monocular+Video&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R065",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Neural+Map%3A+Structured+Memory+for+Deep+Reinforcement+Learning&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Neural+Map%3A+Structured+Memory+for+Deep+Reinforcement+Learning&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R066",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=3D-Mem%3A+3D+Scene+Memory+for+Embodied+Exploration+and+Reasoning&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=3D-Mem%3A+3D+Scene+Memory+for+Embodied+Exploration+and+Reasoning&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R067",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=GraphEQA%3A+Using+3D+Semantic+Scene+Graphs+for+Real-time+Embodied+Question+Answering&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=GraphEQA%3A+Using+3D+Semantic+Scene+Graphs+for+Real-time+Embodied+Question+Answering&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R068",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Unsupervised+Learning+for+Physical+Interaction+through+Video+Prediction&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Unsupervised+Learning+for+Physical+Interaction+through+Video+Prediction&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R069",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Unsupervised+Learning+of+Visual+Structure+using+Predictive+Generative+Networks&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Unsupervised+Learning+of+Visual+Structure+using+Predictive+Generative+Networks&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R070",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Stochastic+Variational+Video+Prediction&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Stochastic+Variational+Video+Prediction&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R071",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Gibson+Env%3A+Real-World+Perception+for+Embodied+Agents&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Gibson+Env%3A+Real-World+Perception+for+Embodied+Agents&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R072",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=WorldMem%3A+Long-term+Consistent+World+Simulation+with+Memory&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=WorldMem%3A+Long-term+Consistent+World+Simulation+with+Memory&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R073",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Video+World+Models+with+Long-term+Spatial+Memory&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Video+World+Models+with+Long-term+Spatial+Memory&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R074",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Dense+Object+Nets%3A+Learning+Dense+Visual+Object+Descriptors+By+and+For+Robotic+Manipulation&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Dense+Object+Nets%3A+Learning+Dense+Visual+Object+Descriptors+By+and+For+Robotic+Manipulation&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R075",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=RVT%3A+Robotic+View+Transformer+for+3D+Object+Manipulation&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=RVT%3A+Robotic+View+Transformer+for+3D+Object+Manipulation&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R076",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=FlowBot3D%3A+Learning+3D+Articulation+Flow+to+Manipulate+Articulated+Objects&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=FlowBot3D%3A+Learning+3D+Articulation+Flow+to+Manipulate+Articulated+Objects&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R077",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Autonomous+Functional+Play+with+Correspondence-Driven+Trajectory+Warping&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Autonomous+Functional+Play+with+Correspondence-Driven+Trajectory+Warping&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R078",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=ClothFormer%3A+Taming+Video+Virtual+Try-On+in+All+Module&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=ClothFormer%3A+Taming+Video+Virtual+Try-On+in+All+Module&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R079",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Towards+Progressive+Multi-Frequency+Representation+for+Image+Warping&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Towards+Progressive+Multi-Frequency+Representation+for+Image+Warping&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R080",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=EgoMap%3A+Projective+mapping+and+structured+egocentric+memory+for+Deep+RL&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=EgoMap%3A+Projective+mapping+and+structured+egocentric+memory+for+Deep+RL&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R081",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=MapNet%3A+An+Allocentric+Spatial+Memory+for+Mapping+Environments&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=MapNet%3A+An+Allocentric+Spatial+Memory+for+Mapping+Environments&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R082",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Trans4Map%3A+Revisiting+Holistic+Bird%27s-Eye-View+Mapping+From+Egocentric+Images+to+Allocentric+Semantics+With+Vision+Transformers&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Trans4Map%3A+Revisiting+Holistic+Bird%27s-Eye-View+Mapping+From+Egocentric+Images+to+Allocentric+Semantics+With+Vision+Transformers&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R083",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=3D+Photography+Using+Context-Aware+Layered+Depth+Inpainting&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=3D+Photography+Using+Context-Aware+Layered+Depth+Inpainting&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R084",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Fast+forward%3A+Rephrasing+3D+deformable+image+registration+through+density+alignment+and+splatting&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Fast+forward%3A+Rephrasing+3D+deformable+image+registration+through+density+alignment+and+splatting&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R085",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=Learning+Local+Implicit+Fourier+Representation+for+Image+Warping&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=Learning+Local+Implicit+Fourier+Representation+for+Image+Warping&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  },
+  {
+    "candidate_id": "R086",
+    "hf_search_url": "https://huggingface.co/api/papers/search?q=SRWarp%3A+Generalized+Image+Super-Resolution+under+Arbitrary+Transformation&limit=8",
+    "citation_query": "https://api.openalex.org/works?search=SRWarp%3A+Generalized+Image+Super-Resolution+under+Arbitrary+Transformation&per-page=10&select=id%2Ctitle%2Cdoi%2Ccited_by_count%2Cpublication_year%2Cauthorships%2Cprimary_location",
+    "citation_status": "unavailable-or-rate-limited",
+    "citation_alternatives": []
+  }
+]

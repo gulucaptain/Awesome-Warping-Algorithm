@@ -1,0 +1,93 @@
+{
+  "before": 128,
+  "added": 84,
+  "after": 212,
+  "detailed_candidates": 86,
+  "recorded_decisions": 99,
+  "web_queries": 117,
+  "retrieved_urls": 1355,
+  "citation_matches": 19,
+  "reference_mentions": 465,
+  "by_topic": {
+    "topic-geometry-editing": {
+      "before": 10,
+      "added": 5,
+      "after": 15
+    },
+    "topic-sampling-splatting": {
+      "before": 6,
+      "added": 8,
+      "after": 14
+    },
+    "topic-optical-flow": {
+      "before": 20,
+      "added": 5,
+      "after": 25
+    },
+    "topic-image-alignment": {
+      "before": 9,
+      "added": 4,
+      "after": 13
+    },
+    "topic-medical-registration": {
+      "before": 12,
+      "added": 5,
+      "after": 17
+    },
+    "topic-video-restoration": {
+      "before": 11,
+      "added": 7,
+      "after": 18
+    },
+    "topic-human-deformation": {
+      "before": 8,
+      "added": 8,
+      "after": 16
+    },
+    "topic-noise-warping": {
+      "before": 4,
+      "added": 7,
+      "after": 11
+    },
+    "topic-controlled-generation": {
+      "before": 7,
+      "added": 6,
+      "after": 13
+    },
+    "topic-spatial-perception": {
+      "before": 7,
+      "added": 5,
+      "after": 12
+    },
+    "topic-novel-view-synthesis": {
+      "before": 9,
+      "added": 5,
+      "after": 14
+    },
+    "topic-dynamic-3d": {
+      "before": 9,
+      "added": 4,
+      "after": 13
+    },
+    "topic-spatial-reasoning": {
+      "before": 4,
+      "added": 6,
+      "after": 10
+    },
+    "topic-world-models": {
+      "before": 5,
+      "added": 2,
+      "after": 7
+    },
+    "topic-interactive-simulation": {
+      "before": 3,
+      "added": 3,
+      "after": 6
+    },
+    "topic-embodied-agents": {
+      "before": 4,
+      "added": 4,
+      "after": 8
+    }
+  }
+}

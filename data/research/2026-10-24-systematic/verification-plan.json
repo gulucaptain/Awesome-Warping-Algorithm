@@ -1,0 +1,785 @@
+[
+  {
+    "candidate_id": "R001",
+    "topic": "topic-geometry-editing",
+    "name": "Harmonic Coordinates",
+    "query": "Harmonic Coordinates for Character Articulation",
+    "venue_proposed": "SIGGRAPH / TOG 2007",
+    "arxiv_id": null,
+    "primary_url": "https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Joshi07.pdf"
+  },
+  {
+    "candidate_id": "R002",
+    "topic": "topic-geometry-editing",
+    "name": "Green Coordinates",
+    "query": "Green Coordinates",
+    "venue_proposed": "SIGGRAPH / TOG 2008",
+    "arxiv_id": null,
+    "primary_url": "https://www.cs.tau.ac.il/~dcor/articles/2008/Green-Coordinates.pdf"
+  },
+  {
+    "candidate_id": "R003",
+    "topic": "topic-geometry-editing",
+    "name": "Inpaint4Drag",
+    "query": "Inpaint4Drag: Repurposing Inpainting Models for Drag-Based Image Editing via Bidirectional Warping",
+    "venue_proposed": "ICCV 2025",
+    "arxiv_id": "2509.04582",
+    "primary_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Lu_Inpaint4Drag_Repurposing_Inpainting_Models_for_Drag-Based_Image_Editing_via_Bidirectional_ICCV_2025_paper.html"
+  },
+  {
+    "candidate_id": "R004",
+    "topic": "topic-geometry-editing",
+    "name": "FlowDrag",
+    "query": "FlowDrag: 3D-aware Drag-based Image Editing with Mesh-guided Deformation Vector Flow Fields",
+    "venue_proposed": "ICML 2025",
+    "arxiv_id": "2507.08285",
+    "primary_url": "https://proceedings.mlr.press/v267/koo25a.html"
+  },
+  {
+    "candidate_id": "R005",
+    "topic": "topic-geometry-editing",
+    "name": "DragDiffusion",
+    "query": "DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing",
+    "venue_proposed": "CVPR 2024",
+    "arxiv_id": "2306.14435",
+    "primary_url": "https://arxiv.org/abs/2306.14435"
+  },
+  {
+    "candidate_id": "R006",
+    "topic": "topic-sampling-splatting",
+    "name": "Kernel Aware Resampler",
+    "query": "Kernel Aware Resampler",
+    "venue_proposed": "CVPR 2023",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Bernasconi_Kernel_Aware_Resampler_CVPR_2023_paper.html"
+  },
+  {
+    "candidate_id": "R007",
+    "topic": "topic-sampling-splatting",
+    "name": "Linearized Multi-Sampling",
+    "query": "Linearized Multi-Sampling for Differentiable Image Transformation",
+    "venue_proposed": "ICCV 2019",
+    "arxiv_id": null,
+    "primary_url": "https://research.google/pubs/linearized-multi-sampling-for-differentiable-image-transformation/"
+  },
+  {
+    "candidate_id": "R008",
+    "topic": "topic-sampling-splatting",
+    "name": "Mip-Splatting",
+    "query": "Mip-Splatting: Alias-free 3D Gaussian Splatting",
+    "venue_proposed": "CVPR 2024",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yu_Mip-Splatting_Alias-free_3D_Gaussian_Splatting_CVPR_2024_paper.html"
+  },
+  {
+    "candidate_id": "R009",
+    "topic": "topic-sampling-splatting",
+    "name": "nvdiffrast",
+    "query": "Modular Primitives for High-Performance Differentiable Rendering",
+    "venue_proposed": "SIGGRAPH Asia / TOG 2020",
+    "arxiv_id": "2011.03277",
+    "primary_url": "https://research.nvidia.com/publication/2020-11_modular-primitives-high-performance-differentiable-rendering"
+  },
+  {
+    "candidate_id": "R010",
+    "topic": "topic-sampling-splatting",
+    "name": "gsplat",
+    "query": "gsplat: An Open-Source Library for Gaussian Splatting",
+    "venue_proposed": "JMLR 2025",
+    "arxiv_id": "2409.06765",
+    "primary_url": "https://jmlr.org/papers/v26/24-1476.html"
+  },
+  {
+    "candidate_id": "R011",
+    "topic": "topic-optical-flow",
+    "name": "COTR",
+    "query": "COTR: Correspondence Transformer for Matching Across Images",
+    "venue_proposed": "ICCV 2021",
+    "arxiv_id": "2103.14167",
+    "primary_url": "https://openaccess.thecvf.com/content/ICCV2021/html/Jiang_COTR_Correspondence_Transformer_for_Matching_Across_Images_ICCV_2021_paper.html"
+  },
+  {
+    "candidate_id": "R012",
+    "topic": "topic-optical-flow",
+    "name": "PDC-Net+",
+    "query": "PDC-Net+: Enhanced Probabilistic Dense Correspondence Network",
+    "venue_proposed": "TPAMI 2023",
+    "arxiv_id": "2109.13912",
+    "primary_url": "https://arxiv.org/abs/2109.13912"
+  },
+  {
+    "candidate_id": "R013",
+    "topic": "topic-optical-flow",
+    "name": "GLU-Net",
+    "query": "GLU-Net: Global-Local Universal Network for Dense Flow and Correspondences",
+    "venue_proposed": "CVPR 2020",
+    "arxiv_id": "1912.05524",
+    "primary_url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Truong_GLU-Net_Global-Local_Universal_Network_for_Dense_Flow_and_Correspondences_CVPR_2020_paper.html"
+  },
+  {
+    "candidate_id": "R014",
+    "topic": "topic-optical-flow",
+    "name": "CroCo v2",
+    "query": "CroCo v2: Improved Cross-view Completion Pre-training for Stereo Matching and Optical Flow",
+    "venue_proposed": "ICCV 2023",
+    "arxiv_id": "2211.10408",
+    "primary_url": "https://arxiv.org/abs/2211.10408"
+  },
+  {
+    "candidate_id": "R015",
+    "topic": "topic-optical-flow",
+    "name": "UFM",
+    "query": "UFM: A Simple Path towards Unified Dense Correspondence with Flow",
+    "venue_proposed": "NeurIPS 2025",
+    "arxiv_id": "2506.09278",
+    "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9d89448b63ce1e2e8dc7af72c984c196-Abstract-Conference.html"
+  },
+  {
+    "candidate_id": "R016",
+    "topic": "topic-image-alignment",
+    "name": "SPHP",
+    "query": "Shape-Preserving Half-Projective Warps for Image Stitching",
+    "venue_proposed": "CVPR 2014",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content_cvpr_2014/html/Chang_Shape-Preserving_Half-Projective_Warps_2014_CVPR_paper.html"
+  },
+  {
+    "candidate_id": "R017",
+    "topic": "topic-image-alignment",
+    "name": "Parallax-tolerant Image Stitching",
+    "query": "Parallax-tolerant Image Stitching",
+    "venue_proposed": "CVPR 2014",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content_cvpr_2014/html/Zhang_Parallax-tolerant_Image_Stitching_2014_CVPR_paper.html"
+  },
+  {
+    "candidate_id": "R018",
+    "topic": "topic-image-alignment",
+    "name": "PixelStitch",
+    "query": "PixelStitch: Structure-Preserving Pixel-Wise Bidirectional Warps for Unsupervised Image Stitching",
+    "venue_proposed": "ICCV 2025",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Jin_PixelStitch_Structure-Preserving_Pixel-Wise_Bidirectional_Warps_for_Unsupervised_Image_Stitching_ICCV_2025_paper.html"
+  },
+  {
+    "candidate_id": "R019",
+    "topic": "topic-image-alignment",
+    "name": "DUT",
+    "query": "DUT: Learning Video Stabilization by Simply Watching Unstable Videos",
+    "venue_proposed": "IEEE TIP 2021",
+    "arxiv_id": "2011.14574",
+    "primary_url": "https://arxiv.org/abs/2011.14574"
+  },
+  {
+    "candidate_id": "R020",
+    "topic": "topic-medical-registration",
+    "name": "GradICON",
+    "query": "GradICON: Approximate Diffeomorphisms via Gradient Inverse Consistency",
+    "venue_proposed": "CVPR 2023",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Tian_GradICON_Approximate_Diffeomorphisms_via_Gradient_Inverse_Consistency_CVPR_2023_paper.html"
+  },
+  {
+    "candidate_id": "R021",
+    "topic": "topic-medical-registration",
+    "name": "LapIRN",
+    "query": "Large Deformation Diffeomorphic Image Registration with Laplacian Pyramid Networks",
+    "venue_proposed": "MICCAI 2020",
+    "arxiv_id": "2006.16148",
+    "primary_url": "https://arxiv.org/abs/2006.16148"
+  },
+  {
+    "candidate_id": "R022",
+    "topic": "topic-medical-registration",
+    "name": "Fourier-Net",
+    "query": "Fourier-Net: Fast Image Registration with Band-limited Deformation",
+    "venue_proposed": "AAAI 2023",
+    "arxiv_id": "2211.16342",
+    "primary_url": "https://arxiv.org/abs/2211.16342"
+  },
+  {
+    "candidate_id": "R023",
+    "topic": "topic-medical-registration",
+    "name": "Time-Embedded Registration",
+    "query": "Learning Diffeomorphism for Medical Image Registration with Time-Embedded Architectures Using",
+    "venue_proposed": "CVPR 2026",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Matinkia_Learning_Diffeomorphism_for_Medical_Image_Registration_with_Time-Embedded_Architectures_Using_CVPR_2026_paper.html"
+  },
+  {
+    "candidate_id": "R024",
+    "topic": "topic-video-restoration",
+    "name": "ProPainter",
+    "query": "ProPainter: Improving Propagation and Transformer for Video Inpainting",
+    "venue_proposed": "ICCV 2023",
+    "arxiv_id": "2309.03897",
+    "primary_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhou_ProPainter_Improving_Propagation_and_Transformer_for_Video_Inpainting_ICCV_2023_paper.html"
+  },
+  {
+    "candidate_id": "R025",
+    "topic": "topic-video-restoration",
+    "name": "E2FGVI",
+    "query": "Towards an End-to-End Framework for Flow-Guided Video Inpainting",
+    "venue_proposed": "CVPR 2022",
+    "arxiv_id": "2204.02663",
+    "primary_url": "https://arxiv.org/abs/2204.02663"
+  },
+  {
+    "candidate_id": "R026",
+    "topic": "topic-video-restoration",
+    "name": "Deep Flow-Guided Video Inpainting",
+    "query": "Deep Flow-Guided Video Inpainting",
+    "venue_proposed": "CVPR 2019",
+    "arxiv_id": "1905.02884",
+    "primary_url": "https://arxiv.org/abs/1905.02884"
+  },
+  {
+    "candidate_id": "R027",
+    "topic": "topic-video-restoration",
+    "name": "FloED",
+    "query": "Coherent Video Inpainting Using Optical Flow-Guided Efficient Diffusion",
+    "venue_proposed": "arXiv 2024",
+    "arxiv_id": "2412.00857",
+    "primary_url": "https://arxiv.org/abs/2412.00857"
+  },
+  {
+    "candidate_id": "R028",
+    "topic": "topic-video-restoration",
+    "name": "HomoGen",
+    "query": "HomoGen: Enhanced Video Inpainting via Homography Propagation and Diffusion",
+    "venue_proposed": "CVPR 2025",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ding_HomoGen_Enhanced_Video_Inpainting_via_Homography_Propagation_and_Diffusion_CVPR_2025_paper.html"
+  },
+  {
+    "candidate_id": "R029",
+    "topic": "topic-video-restoration",
+    "name": "BiM-VFI",
+    "query": "BiM-VFI: Bidirectional Motion Field-Guided Frame Interpolation for Video with Non-uniform Motions",
+    "venue_proposed": "CVPR 2025",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Seo_BiM-VFI_Bidirectional_Motion_Field-Guided_Frame_Interpolation_for_Video_with_Non-uniform_CVPR_2025_paper.html"
+  },
+  {
+    "candidate_id": "R030",
+    "topic": "topic-video-restoration",
+    "name": "Upscale-A-Video",
+    "query": "Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution",
+    "venue_proposed": "CVPR 2024",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Upscale-A-Video_Temporal-Consistent_Diffusion_Model_for_Real-World_Video_Super-Resolution_CVPR_2024_paper.html"
+  },
+  {
+    "candidate_id": "R031",
+    "topic": "topic-human-deformation",
+    "name": "DCI-VTON",
+    "query": "Taming the Power of Diffusion Models for High-Quality Virtual Try-On with Appearance Flow",
+    "venue_proposed": "ACM MM 2023",
+    "arxiv_id": "2308.06101",
+    "primary_url": "https://arxiv.org/abs/2308.06101"
+  },
+  {
+    "candidate_id": "R032",
+    "topic": "topic-human-deformation",
+    "name": "FIA-VTON",
+    "query": "Learning Implicit Features with Flow-Infused Transformations for Realistic Virtual Try-On",
+    "venue_proposed": "ICCV 2025",
+    "arxiv_id": "2412.11435",
+    "primary_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_Learning_Implicit_Features_with_Flow-Infused_Transformations_for_Realistic_Virtual_Try-On_ICCV_2025_paper.html"
+  },
+  {
+    "candidate_id": "R033",
+    "topic": "topic-human-deformation",
+    "name": "FloAt",
+    "query": "FloAt: Flow Warping of Self-Attention for Clothing Animation Generation",
+    "venue_proposed": "arXiv 2024",
+    "arxiv_id": "2411.15028",
+    "primary_url": "https://arxiv.org/abs/2411.15028"
+  },
+  {
+    "candidate_id": "R034",
+    "topic": "topic-human-deformation",
+    "name": "HR-VITON",
+    "query": "High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions",
+    "venue_proposed": "ECCV 2022",
+    "arxiv_id": null,
+    "primary_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/6403_ECCV_2022_paper.php"
+  },
+  {
+    "candidate_id": "R035",
+    "topic": "topic-human-deformation",
+    "name": "GP-VTON",
+    "query": "GP-VTON: Towards General Purpose Virtual Try-On via Collaborative Local-Flow Global-Parsing Learning",
+    "venue_proposed": "CVPR 2023",
+    "arxiv_id": "2303.13756",
+    "primary_url": "https://arxiv.org/abs/2303.13756"
+  },
+  {
+    "candidate_id": "R036",
+    "topic": "topic-human-deformation",
+    "name": "D4-VTON",
+    "query": "D4-VTON: Dynamic Semantics Disentangling for Differential Diffusion based Virtual Try-On",
+    "venue_proposed": "ECCV 2024",
+    "arxiv_id": null,
+    "primary_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6231_ECCV_2024_paper.php"
+  },
+  {
+    "candidate_id": "R037",
+    "topic": "topic-human-deformation",
+    "name": "face-vid2vid",
+    "query": "One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing",
+    "venue_proposed": "CVPR 2021",
+    "arxiv_id": null,
+    "primary_url": "https://arxiv.org/abs/2011.15126"
+  },
+  {
+    "candidate_id": "R038",
+    "topic": "topic-noise-warping",
+    "name": "FlowVid",
+    "query": "FlowVid: Taming Imperfect Optical Flows for Consistent Video-to-Video Synthesis",
+    "venue_proposed": "CVPR 2024",
+    "arxiv_id": "2312.17681",
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Liang_FlowVid_Taming_Imperfect_Optical_Flows_for_Consistent_Video-to-Video_Synthesis_CVPR_2024_paper.html"
+  },
+  {
+    "candidate_id": "R039",
+    "topic": "topic-noise-warping",
+    "name": "FLATTEN",
+    "query": "FLATTEN: optical FLow-guided ATTENtion for consistent text-to-video editing",
+    "venue_proposed": "ICLR 2024",
+    "arxiv_id": "2310.05922",
+    "primary_url": "https://openreview.net/forum?id=JgqftqZQZ7"
+  },
+  {
+    "candidate_id": "R040",
+    "topic": "topic-noise-warping",
+    "name": "LatentWarp",
+    "query": "LatentWarp: Consistent Diffusion Latents for Zero-Shot Video-to-Video Translation",
+    "venue_proposed": "arXiv 2023",
+    "arxiv_id": "2311.00353",
+    "primary_url": "https://arxiv.org/abs/2311.00353"
+  },
+  {
+    "candidate_id": "R041",
+    "topic": "topic-noise-warping",
+    "name": "Rerender A Video",
+    "query": "Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation",
+    "venue_proposed": "SIGGRAPH Asia / TOG 2023",
+    "arxiv_id": "2306.07954",
+    "primary_url": "https://arxiv.org/abs/2306.07954"
+  },
+  {
+    "candidate_id": "R042",
+    "topic": "topic-noise-warping",
+    "name": "WAVE (DDIM inversion)",
+    "query": "WAVE: Warping DDIM Inversion Features for Zero-shot Text-to-Video Editing",
+    "venue_proposed": "ECCV 2024",
+    "arxiv_id": null,
+    "primary_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9682_ECCV_2024_paper.php"
+  },
+  {
+    "candidate_id": "R043",
+    "topic": "topic-noise-warping",
+    "name": "Infinite-Resolution Integral Noise Warping",
+    "query": "Infinite-Resolution Integral Noise Warping for Diffusion Models",
+    "venue_proposed": "ICLR 2025",
+    "arxiv_id": "2411.01212",
+    "primary_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/7feb98f84ee34f697944333d4faec0bd-Abstract-Conference.html"
+  },
+  {
+    "candidate_id": "R044",
+    "topic": "topic-noise-warping",
+    "name": "EquiVDM",
+    "query": "EquiVDM: Equivariant Video Diffusion Models with Temporally Consistent Noise",
+    "venue_proposed": "arXiv 2025",
+    "arxiv_id": "2504.09789",
+    "primary_url": "https://research.nvidia.com/labs/genair/equivdm/"
+  },
+  {
+    "candidate_id": "R045",
+    "topic": "topic-controlled-generation",
+    "name": "Motion-I2V",
+    "query": "Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling",
+    "venue_proposed": "SIGGRAPH 2024",
+    "arxiv_id": "2401.15977",
+    "primary_url": "https://arxiv.org/abs/2401.15977"
+  },
+  {
+    "candidate_id": "R046",
+    "topic": "topic-controlled-generation",
+    "name": "MotionCraft",
+    "query": "MotionCraft: Physics-Based Zero-Shot Video Generation",
+    "venue_proposed": "NeurIPS 2024",
+    "arxiv_id": "2405.13557",
+    "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/ded49449e9239a47057c33ef8d42c26e-Abstract-Conference.html"
+  },
+  {
+    "candidate_id": "R047",
+    "topic": "topic-controlled-generation",
+    "name": "FloVD",
+    "query": "FloVD: Optical Flow Meets Video Diffusion Model for Enhanced Camera-Controlled Video Synthesis",
+    "venue_proposed": "CVPR 2025",
+    "arxiv_id": "2502.08244",
+    "primary_url": "https://arxiv.org/abs/2502.08244"
+  },
+  {
+    "candidate_id": "R048",
+    "topic": "topic-controlled-generation",
+    "name": "TrajectoryCrafter",
+    "query": "TrajectoryCrafter: Redirecting Camera Trajectory for Monocular Videos via Diffusion Models",
+    "venue_proposed": "ICCV 2025",
+    "arxiv_id": null,
+    "primary_url": "https://www.openaccess.thecvf.com/content/ICCV2025/html/Yu_TrajectoryCrafter_Redirecting_Camera_Trajectory_for_Monocular_Videos_via_Diffusion_Models_ICCV_2025_paper.html"
+  },
+  {
+    "candidate_id": "R049",
+    "topic": "topic-controlled-generation",
+    "name": "Latent-Reframe",
+    "query": "Latent-Reframe: Enabling Camera Control for Video Diffusion Models without Training",
+    "venue_proposed": "ICCV 2025",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_Latent-Reframe_Enabling_Camera_Control_for_Video_Diffusion_Models_without_Training_ICCV_2025_paper.html"
+  },
+  {
+    "candidate_id": "R050",
+    "topic": "topic-controlled-generation",
+    "name": "MotionPro",
+    "query": "MotionPro: A Precise Motion Controller for Image-to-Video Generation",
+    "venue_proposed": "CVPR 2025",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_MotionPro_A_Precise_Motion_Controller_for_Image-to-Video_Generation_CVPR_2025_paper.html"
+  },
+  {
+    "candidate_id": "R051",
+    "topic": "topic-spatial-perception",
+    "name": "CasMVSNet",
+    "query": "Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching",
+    "venue_proposed": "CVPR 2020",
+    "arxiv_id": "1912.06378",
+    "primary_url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Gu_Cascade_Cost_Volume_for_High-Resolution_Multi-View_Stereo_and_Stereo_Matching_CVPR_2020_paper.html"
+  },
+  {
+    "candidate_id": "R052",
+    "topic": "topic-spatial-perception",
+    "name": "DPSNet",
+    "query": "DPSNet: End-to-end Deep Plane Sweep Stereo",
+    "venue_proposed": "ICLR 2019",
+    "arxiv_id": "1905.00538",
+    "primary_url": "https://arxiv.org/abs/1905.00538"
+  },
+  {
+    "candidate_id": "R053",
+    "topic": "topic-spatial-perception",
+    "name": "RAFT-Stereo",
+    "query": "RAFT-Stereo: Multilevel Recurrent Field Transforms for Stereo Matching",
+    "venue_proposed": "3DV 2021",
+    "arxiv_id": "2109.07547",
+    "primary_url": "https://arxiv.org/abs/2109.07547"
+  },
+  {
+    "candidate_id": "R054",
+    "topic": "topic-spatial-perception",
+    "name": "VGGT",
+    "query": "VGGT: Visual Geometry Grounded Transformer",
+    "venue_proposed": "CVPR 2025",
+    "arxiv_id": "2503.11651",
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html"
+  },
+  {
+    "candidate_id": "R055",
+    "topic": "topic-spatial-perception",
+    "name": "FoundationStereo",
+    "query": "FoundationStereo: Zero-Shot Stereo Matching",
+    "venue_proposed": "CVPR 2025",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wen_FoundationStereo_Zero-Shot_Stereo_Matching_CVPR_2025_paper.html"
+  },
+  {
+    "candidate_id": "R056",
+    "topic": "topic-novel-view-synthesis",
+    "name": "SynSin",
+    "query": "SynSin: End-to-End View Synthesis From a Single Image",
+    "venue_proposed": "CVPR 2020",
+    "arxiv_id": "1912.08804",
+    "primary_url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Wiles_SynSin_End-to-End_View_Synthesis_From_a_Single_Image_CVPR_2020_paper.html"
+  },
+  {
+    "candidate_id": "R057",
+    "topic": "topic-novel-view-synthesis",
+    "name": "Pixel-Space Diffusion NVS",
+    "query": "Novel View Synthesis with Pixel-Space Diffusion Models",
+    "venue_proposed": "CVPR 2025",
+    "arxiv_id": "2411.07765",
+    "primary_url": "https://arxiv.org/abs/2411.07765"
+  },
+  {
+    "candidate_id": "R058",
+    "topic": "topic-novel-view-synthesis",
+    "name": "MVSplat",
+    "query": "MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images",
+    "venue_proposed": "ECCV 2024",
+    "arxiv_id": "2403.14627",
+    "primary_url": "https://arxiv.org/abs/2403.14627"
+  },
+  {
+    "candidate_id": "R059",
+    "topic": "topic-novel-view-synthesis",
+    "name": "DepthSplat",
+    "query": "DepthSplat: Connecting Gaussian Splatting and Depth",
+    "venue_proposed": "CVPR 2025",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_DepthSplat_Connecting_Gaussian_Splatting_and_Depth_CVPR_2025_paper.html"
+  },
+  {
+    "candidate_id": "R060",
+    "topic": "topic-novel-view-synthesis",
+    "name": "MultiDiff",
+    "query": "MultiDiff: Consistent Novel View Synthesis from a Single Image",
+    "venue_proposed": "CVPR 2024",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Muller_MultiDiff_Consistent_Novel_View_Synthesis_from_a_Single_Image_CVPR_2024_paper.html"
+  },
+  {
+    "candidate_id": "R061",
+    "topic": "topic-dynamic-3d",
+    "name": "SC-GS",
+    "query": "SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes",
+    "venue_proposed": "CVPR 2024",
+    "arxiv_id": "2312.14937",
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Huang_SC-GS_Sparse-Controlled_Gaussian_Splatting_for_Editable_Dynamic_Scenes_CVPR_2024_paper.html"
+  },
+  {
+    "candidate_id": "R062",
+    "topic": "topic-dynamic-3d",
+    "name": "SceNeRFlow",
+    "query": "SceNeRFlow: Time-Consistent Reconstruction of General Dynamic Scenes",
+    "venue_proposed": "3DV 2024",
+    "arxiv_id": "2308.08258",
+    "primary_url": "https://arxiv.org/abs/2308.08258"
+  },
+  {
+    "candidate_id": "R063",
+    "topic": "topic-dynamic-3d",
+    "name": "MoSca",
+    "query": "MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds",
+    "venue_proposed": "CVPR 2025",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lei_MoSca_Dynamic_Gaussian_Fusion_from_Casual_Videos_via_4D_Motion_CVPR_2025_paper.html"
+  },
+  {
+    "candidate_id": "R064",
+    "topic": "topic-dynamic-3d",
+    "name": "NR-NeRF",
+    "query": "Non-Rigid Neural Radiance Fields: Reconstruction and Novel View Synthesis of a Dynamic Scene From Monocular Video",
+    "venue_proposed": "ICCV 2021",
+    "arxiv_id": "2012.12247",
+    "primary_url": "https://arxiv.org/abs/2012.12247"
+  },
+  {
+    "candidate_id": "R065",
+    "topic": "topic-spatial-reasoning",
+    "name": "Neural Map",
+    "query": "Neural Map: Structured Memory for Deep Reinforcement Learning",
+    "venue_proposed": "ICLR 2018",
+    "arxiv_id": "1702.08360",
+    "primary_url": "https://arxiv.org/abs/1702.08360"
+  },
+  {
+    "candidate_id": "R066",
+    "topic": "topic-spatial-reasoning",
+    "name": "3D-Mem",
+    "query": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
+    "venue_proposed": "CVPR 2025",
+    "arxiv_id": "2411.17735",
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_3D-Mem_3D_Scene_Memory_for_Embodied_Exploration_and_Reasoning_CVPR_2025_paper.html"
+  },
+  {
+    "candidate_id": "R067",
+    "topic": "topic-spatial-reasoning",
+    "name": "GraphEQA",
+    "query": "GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering",
+    "venue_proposed": "CoRL 2025 / PMLR 2025",
+    "arxiv_id": null,
+    "primary_url": "https://proceedings.mlr.press/v305/saxena25a.html"
+  },
+  {
+    "candidate_id": "R068",
+    "topic": "topic-world-models",
+    "name": "DNA / CDNA / STP",
+    "query": "Unsupervised Learning for Physical Interaction through Video Prediction",
+    "venue_proposed": "NeurIPS 2016",
+    "arxiv_id": "1605.07157",
+    "primary_url": "https://papers.nips.cc/paper_files/paper/2016/hash/d9d4f495e875a2e075a1a4a6e1b9770f-Abstract.html"
+  },
+  {
+    "candidate_id": "R069",
+    "topic": "topic-world-models",
+    "name": "Predictive Generative Networks",
+    "query": "Unsupervised Learning of Visual Structure using Predictive Generative Networks",
+    "venue_proposed": "ICLR Workshop 2016",
+    "arxiv_id": "1511.06380",
+    "primary_url": "https://arxiv.org/abs/1511.06380"
+  },
+  {
+    "candidate_id": "R070",
+    "topic": "topic-world-models",
+    "name": "SV2P",
+    "query": "Stochastic Variational Video Prediction",
+    "venue_proposed": "ICLR 2018",
+    "arxiv_id": "1710.11252",
+    "primary_url": "https://openreview.net/forum?id=rk49Mg-CW"
+  },
+  {
+    "candidate_id": "R071",
+    "topic": "topic-interactive-simulation",
+    "name": "Gibson Env",
+    "query": "Gibson Env: Real-World Perception for Embodied Agents",
+    "venue_proposed": "CVPR 2018",
+    "arxiv_id": "1808.10654",
+    "primary_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Xia_Gibson_Env_Real-World_CVPR_2018_paper.html"
+  },
+  {
+    "candidate_id": "R072",
+    "topic": "topic-interactive-simulation",
+    "name": "WorldMem",
+    "query": "WorldMem: Long-term Consistent World Simulation with Memory",
+    "venue_proposed": "NeurIPS 2025",
+    "arxiv_id": "2504.12369",
+    "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/470629a47e2d65ce0606c40055df5d26-Abstract-Conference.html"
+  },
+  {
+    "candidate_id": "R073",
+    "topic": "topic-interactive-simulation",
+    "name": "Spatial Memory World Models",
+    "query": "Video World Models with Long-term Spatial Memory",
+    "venue_proposed": "arXiv 2025",
+    "arxiv_id": "2506.05284",
+    "primary_url": "https://spmem.github.io/"
+  },
+  {
+    "candidate_id": "R074",
+    "topic": "topic-embodied-agents",
+    "name": "Dense Object Nets",
+    "query": "Dense Object Nets: Learning Dense Visual Object Descriptors By and For Robotic Manipulation",
+    "venue_proposed": "CoRL 2018 / PMLR 2018",
+    "arxiv_id": "1806.08756",
+    "primary_url": "https://proceedings.mlr.press/v87/florence18a.html"
+  },
+  {
+    "candidate_id": "R075",
+    "topic": "topic-embodied-agents",
+    "name": "RVT",
+    "query": "RVT: Robotic View Transformer for 3D Object Manipulation",
+    "venue_proposed": "CoRL 2023 / PMLR 2023",
+    "arxiv_id": "2306.14896",
+    "primary_url": "https://proceedings.mlr.press/v229/goyal23a.html"
+  },
+  {
+    "candidate_id": "R076",
+    "topic": "topic-embodied-agents",
+    "name": "FlowBot3D",
+    "query": "FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects",
+    "venue_proposed": "RSS 2022",
+    "arxiv_id": "2205.04382",
+    "primary_url": "https://www.roboticsproceedings.org/rss18/p018.html"
+  },
+  {
+    "candidate_id": "R077",
+    "topic": "topic-embodied-agents",
+    "name": "Autonomous Functional Play",
+    "query": "Autonomous Functional Play with Correspondence-Driven Trajectory Warping",
+    "venue_proposed": "ICLR 2026",
+    "arxiv_id": null,
+    "primary_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b52ffc1e3ab14f7b423acbb14cdbfe8e-Abstract-Conference.html"
+  },
+  {
+    "candidate_id": "R078",
+    "topic": "topic-human-deformation",
+    "name": "ClothFormer",
+    "query": "ClothFormer: Taming Video Virtual Try-On in All Module",
+    "venue_proposed": "CVPR 2022",
+    "arxiv_id": "2204.12151",
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Jiang_ClothFormer_Taming_Video_Virtual_Try-On_in_All_Module_CVPR_2022_paper.html",
+    "skip_citations": true
+  },
+  {
+    "candidate_id": "R079",
+    "topic": "topic-sampling-splatting",
+    "name": "Multi-Frequency Representation (MFR)",
+    "query": "Towards Progressive Multi-Frequency Representation for Image Warping",
+    "venue_proposed": "CVPR 2024",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Xiao_Towards_Progressive_Multi-Frequency_Representation_for_Image_Warping_CVPR_2024_paper.html",
+    "skip_citations": true
+  },
+  {
+    "candidate_id": "R080",
+    "topic": "topic-spatial-reasoning",
+    "name": "EgoMap",
+    "query": "EgoMap: Projective Mapping and Structured Egocentric Memory for Deep RL",
+    "venue_proposed": "ECML PKDD 2020",
+    "arxiv_id": "2002.02286",
+    "primary_url": "https://arxiv.org/abs/2002.02286",
+    "skip_citations": true
+  },
+  {
+    "candidate_id": "R081",
+    "topic": "topic-spatial-reasoning",
+    "name": "MapNet",
+    "query": "MapNet: An Allocentric Spatial Memory for Mapping Environments",
+    "venue_proposed": "CVPR 2018",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Henriques_MapNet_An_Allocentric_CVPR_2018_paper.html",
+    "skip_citations": true
+  },
+  {
+    "candidate_id": "R082",
+    "topic": "topic-spatial-reasoning",
+    "name": "Trans4Map",
+    "query": "Trans4Map: Revisiting Holistic Bird's-Eye-View Mapping From Egocentric Images to Allocentric Semantics With Vision Transformers",
+    "venue_proposed": "WACV 2023",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/WACV2023/html/Chen_Trans4Map_Revisiting_Holistic_Birds-Eye-View_Mapping_From_Egocentric_Images_to_Allocentric_WACV_2023_paper.html",
+    "skip_citations": true
+  },
+  {
+    "candidate_id": "R083",
+    "topic": "topic-novel-view-synthesis",
+    "name": "3D Photography",
+    "query": "3D Photography Using Context-Aware Layered Depth Inpainting",
+    "venue_proposed": "CVPR 2020",
+    "arxiv_id": "2004.04727",
+    "primary_url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Shih_3D_Photography_Using_Context-Aware_Layered_Depth_Inpainting_CVPR_2020_paper.html",
+    "skip_citations": true
+  },
+  {
+    "candidate_id": "R084",
+    "topic": "topic-medical-registration",
+    "name": "Fast Forward",
+    "query": "Fast forward: Rephrasing 3D deformable image registration through density alignment and splatting",
+    "venue_proposed": "MIDL 2025 / PMLR 2026",
+    "arxiv_id": null,
+    "primary_url": "https://proceedings.mlr.press/v301/heinrich26a.html",
+    "skip_citations": true
+  },
+  {
+    "candidate_id": "R085",
+    "topic": "topic-sampling-splatting",
+    "name": "Local Texture Estimator for Warping (LTEW)",
+    "query": "Learning Local Implicit Fourier Representation for Image Warping",
+    "venue_proposed": "ECCV 2022",
+    "arxiv_id": "2207.01831",
+    "primary_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780179.pdf",
+    "skip_citations": true
+  },
+  {
+    "candidate_id": "R086",
+    "topic": "topic-sampling-splatting",
+    "name": "SRWarp",
+    "query": "SRWarp: Generalized Image Super-Resolution under Arbitrary Transformation",
+    "venue_proposed": "CVPR 2021",
+    "arxiv_id": null,
+    "primary_url": "https://openaccess.thecvf.com/content/CVPR2021/html/Son_SRWarp_Generalized_Image_Super-Resolution_Under_Arbitrary_Transformation_CVPR_2021_paper.html",
+    "skip_citations": true
+  }
+]

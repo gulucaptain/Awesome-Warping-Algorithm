@@ -4,6 +4,8 @@
 
 This guide explains the collection's organizing concepts. Both READMEs present method contributions and linked resources; full publication histories, code provenance and limitations remain in the bilingual catalog and detailed Chinese guide. Coverage is representative, with a review cutoff of **2026-10-24**.
 
+The [systematic search record](SYSTEMATIC_SEARCH.md) documents the subsequent review across all 16 topics, including queries, original-source checks, relevance decisions and version relationships. The earlier [expansion audit](EXPANSION_AUDIT.md) remains a historical batch record.
+
 <a id="scope"></a>
 ## Scope and mapping conventions
 
